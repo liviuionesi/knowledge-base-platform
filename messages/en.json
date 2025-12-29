@@ -2,5 +2,12 @@
   "HomePage": {
     "title": "Welcome to Phenix Wiki",
     "description": "Your ultimate guide to the Phenix Alliance."
+  },
+  "Auth": {
+    "title": "Alliance Access",
+    "description": "Please enter the shared alliance password to continue.",
+    "passwordPlaceholder": "Enter password",
+    "submit": "Enter Wiki",
+    "error": "Invalid password"
   }
 }

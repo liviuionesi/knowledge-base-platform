@@ -1,13 +1,18 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --phenix-orange: #FF4500;
+  --phenix-dark: #0F172A;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-phenix-orange: var(--phenix-orange);
+  --color-phenix-dark: var(--phenix-dark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

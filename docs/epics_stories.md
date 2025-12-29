@@ -93,6 +93,7 @@ export const config = {
 ### Task 1.3: Security Middleware
 **Title**: `[TASK] Implement Fixed-Credential Security Middleware`
 **Labels**: `priority:P0-critical`, `type:task`, `scope:security`
+**Status**: `Done`
 
 #### Description
 Protect the wiki content from public access using a shared-password mechanism enforced by Next.js Middleware.
@@ -101,14 +102,14 @@ Protect the wiki content from public access using a shared-password mechanism en
 - **Env Var**: `WIKI_PASSWORD`
 - **Cookie Name**: `phenix_session` (Secure, HttpOnly, SameSite=Lax)
 - **Logic**: 
-  1. Middleware checks for cookie.
+  1. Middleware (proxy.ts) checks for cookie.
   2. If missing and route is protected -> Redirect to `/login`.
   3. Login API route validates password -> Sets cookie.
 
 #### Acceptance Criteria
-- [ ] Protected routes return 307 Redirect to `/login` for unauthenticated requests.
-- [ ] Static assets (images, fonts) are EXCLUDED from auth checks.
-- [ ] Brute-force protection (basic rate limiting) is nice-to-have but not required for v1.
+- [x] Protected routes return 307 Redirect to `/login` for unauthenticated requests.
+- [x] Static assets (images, fonts) are EXCLUDED from auth checks.
+- [x] Brute-force protection (basic rate limiting) is nice-to-have but not required for v1.
 
 ---
 
