@@ -1,174 +1,229 @@
-# Project Specification: Epics & Stories (Filmpire Standard)
+# Project Management Spec: Epics & Stories (Gold Standard)
 
-> **Version:** 2.1.0
-> **Standard:** Filmpire / Enterprise
-> **Date:** December 29, 2025
+> **Version**: 2.0.0 (The "Pehlivanu" Standard)
+> **Date**: 2025-12-29
+> **Status**: Approved
 
-This document serves as the master backlog. All items below must be synchronized with GitHub Issues.
+This document defines the "Gold Standard" requirements for the Phenix Alliance Wiki. All items below correspond to GitHub Issues to be created in the `PhenixWiki` repository and tracked in Project #7.
 
 ---
 
-## [EPIC-1] Foundation & Infrastructure
-**Labels:** `epic`, `P0-critical`, `sprint-0`, `infrastructure`
+## Epic 1: Foundation & Infrastructure
+**Title**: `[EPIC] Foundation & Infrastructure`
+**Labels**: `priority:P0-critical`, `type:epic`, `scope:infrastructure`
 
-### Epic Description
+### Description
 Establish the rock-solid technical foundation required to support a scalable, secure, and maintainable Next.js 16.1.1 application. This epic covers the initialization of the codebase, configuration of the CI/CD pipeline, implementation of the design system foundation, and the enforcement of authentication security policies.
 
 ### Business Value
-Ensures the project starts with best practices, reducing technical debt. guarantees that Alliance credentials handled by the platform are secure from day one and provides a robust, localized platform for our French and English-speaking members.
-
-### User Stories / Child Tasks
-- [ ] Task: Initialize Next.js 16.1.1 Repository
-- [ ] Task: Implement Internationalization (i18n) Architecture
-- [ ] Task: Implement Fixed-Credential Security Middleware
-- [ ] Task: Setup Design System & Phenix Theming
+Ensures the project starts with best practices, minimizing future technical debt. It guarantees that Alliance credentials handled by the platform are secure from day one and provides a robust, localized platform for our French and English-speaking members.
 
 ### Technical Stack
-- **Framework**: Next.js 16.1.1
+- **Framework**: Next.js 16.1.1 (App Router)
 - **Language**: TypeScript 5.x
-- **Build**: pnpm
-- **Localization**: next-intl
+- **Styling**: Tailwind CSS 3.4
+- **Auth**: Middleware + HttpOnly Cookies
+- **i18n**: `next-intl`
 
 ### Definition of Done
-- [ ] CI pipeline builds the project successfully.
+- [ ] CI pipeline builds the project successfully on every PR.
 - [ ] Authentication middleware intercepts all protected routes.
 - [ ] Dark/Light mode toggle works and persists preference.
-- [ ] Documentation updated.
+- [ ] English and French routing is functional.
+
+### Child Tasks
+- `[TASK] Initialize Next.js 16.1.1 Repository`
+- `[TASK] Implement Internationalization (i18n) Architecture`
+- `[TASK] Implement Fixed-Credential Security Middleware`
+- `[TASK] Setup Design System & Phenix Theming`
 
 ---
 
-### [TASK-1.1] Initialize Next.js 16.1.1 Repository
-**Labels:** `task`, `P0-critical`, `sprint-0`, `infrastructure`
+### Task 1.1: Initialize Repository
+**Title**: `[TASK] Initialize Next.js 16.1.1 Repository`
+**Labels**: `priority:P0-critical`, `type:task`, `scope:infrastructure`
 
-#### Task Description
-Initialize the Next.js application using the latest version (16.1.1) to ensure we are on the bleeding edge of React Server Components.
+#### Description
+Initialize the Next.js application using the latest version (16.1.1) to ensure we are on the bleeding edge of React Server Components and Server Actions.
 
-#### Context
-First step in project setup. Establishes the codebase that all subsequent features will depend on.
-
-#### Implementation Details
-1. Run `pnpm create next-app` with specific flags.
-2. Configure `tsconfig.json` for strict type checking.
-3. Set up ESLint with `next/core-web-vitals`.
-4. Configure `@/*` import aliases.
-
-#### Files to Create/Modify
-- `package.json`
-- `tsconfig.json`
-- `next.config.ts`
-- `tailwind.config.ts`
+#### Implementation Checklist
+- [ ] Run `pnpm create next-app` with strict flags.
+- [ ] Configure `tsconfig.json` for strict type checking (`noImplicitAny`, `strictNullChecks`).
+- [ ] Set up ESLint with `next/core-web-vitals` and `prettier`.
+- [ ] Configure `@/*` import alias mapping to `./src/*`.
+- [ ] Commit initial boilerplate to GitHub.
 
 #### Acceptance Criteria
 - [ ] `pnpm dev` starts the server on port 3000.
 - [ ] `pnpm build` produces a valid production build.
-- [ ] No linting errors present.
-
-#### Estimated Time
-**Story Points:** 2
+- [ ] No linting errors present in the initial commit.
 
 ---
 
-### [TASK-1.2] Implement Internationalization (i18n) Architecture
-**Labels:** `task`, `P1-high`, `sprint-0`, `backend`
+### Task 1.2: Internationalization Architecture
+**Title**: `[TASK] Implement Internationalization (i18n) Architecture`
+**Labels**: `priority:P1-high`, `type:task`, `scope:backend`
 
-#### Task Description
-Configure `next-intl` to support English (`en`) and French (`fr`) as first-class citizens.
+#### Description
+Configure `next-intl` to support English (`en`) and French (`fr`) as first-class citizens. This involves setting up the middleware matcher to handle locale routing and creating the dictionary structure.
 
-#### Implementation Details
-1. Install `next-intl`.
-2. Create `src/messages/en.json` and `src/messages/fr.json`.
-3. Implement `src/i18n/request.ts`.
-4. Configure Middleware for `/[locale]` routing.
+#### Technical Specifications
+```typescript
+// middleware.ts
+export default createMiddleware({
+  locales: ['en', 'fr'],
+  defaultLocale: 'en'
+});
+
+export const config = {
+  matcher: ['/', '/(fr|en)/:path*']
+};
+```
 
 #### Acceptance Criteria
 - [ ] Accessing `/` redirects to `/en`.
-- [ ] Accessing `/fr` renders French content.
-- [ ] Locale switching persists via cookie.
-
-#### Estimated Time
-**Story Points:** 3
+- [ ] Accessing `/fr` renders the French version of the landing page.
+- [ ] Dictionary files exist at `/src/messages/{locale}.json`.
+- [ ] Locale switching persists user preference via cookie.
 
 ---
 
-### [TASK-1.3] Implement Fixed-Credential Security Middleware
-**Labels:** `task`, `P0-critical`, `sprint-0`, `security`
+### Task 1.3: Security Middleware
+**Title**: `[TASK] Implement Fixed-Credential Security Middleware`
+**Labels**: `priority:P0-critical`, `type:task`, `scope:security`
 
-#### Task Description
+#### Description
 Protect the wiki content from public access using a shared-password mechanism enforced by Next.js Middleware.
 
 #### Technical Specifications
-- **Cookie Name**: `phenix_session` (Secure, HttpOnly).
-- **Env Var**: `WIKI_PASSWORD`.
-
-#### Implementation Checklist
-- [ ] Create Login Page (`/login`).
-- [ ] Create API Route (`/api/auth/login`).
-- [ ] Update Middleware logic.
+- **Env Var**: `WIKI_PASSWORD`
+- **Cookie Name**: `phenix_session` (Secure, HttpOnly, SameSite=Lax)
+- **Logic**: 
+  1. Middleware checks for cookie.
+  2. If missing and route is protected -> Redirect to `/login`.
+  3. Login API route validates password -> Sets cookie.
 
 #### Acceptance Criteria
 - [ ] Protected routes return 307 Redirect to `/login` for unauthenticated requests.
-- [ ] Static assets are EXCLUDED from auth checks.
-
-#### Estimated Time
-**Story Points:** 5
+- [ ] Static assets (images, fonts) are EXCLUDED from auth checks.
+- [ ] Brute-force protection (basic rate limiting) is nice-to-have but not required for v1.
 
 ---
 
-### [TASK-1.4] Setup Design System & Phenix Theming
-**Labels:** `task`, `P1-high`, `sprint-0`, `frontend`
+### Task 1.4: Design System & Theming
+**Title**: `[TASK] Setup Design System & Phenix Theming`
+**Labels**: `priority:P1-high`, `type:task`, `scope:frontend`
 
-#### Task Description
-Implement the visual identity of the Phenix Alliance using Tailwind CSS and `next-themes`.
+#### Description
+Implement the visual identity of the Phenix Alliance. This includes the centralized "Phenix Bird" background asset, the color palette (Orange/Dark Slate), and the Dark Mode toggler.
 
-#### Implementation Details
-1. Install `next-themes`.
-2. Configure `tailwind.config.ts` with custom colors (`phenix-orange`).
-3. Create `ThemeToggle` component.
-4. Implement "Fire Bird" background.
+#### Implementation Checklist
+- [ ] Install `next-themes`.
+- [ ] Configure `tailwind.config.ts` with custom colors:
+  - `phenix-orange`: `#FF4500`
+  - `phenix-dark`: `#0F172A`
+- [ ] Create `components/ui/ThemeToggle.tsx`.
+- [ ] Create `components/layout/Background.tsx` with the "Fire Bird" graphical asset.
 
 #### Acceptance Criteria
 - [ ] Dark mode is the default state.
-- [ ] Toggling works instantly.
-- [ ] Text is legible against background.
-
-#### Estimated Time
-**Story Points:** 3
+- [ ] Toggling the theme instantly switches CSS variables/classes.
+- [ ] Text is legible WCAG AA against the graphic background.
 
 ---
 
-## [EPIC-2] Core User Interface & Layout
-**Labels:** `epic`, `P1-high`, `sprint-1`, `frontend`
+## Epic 2: Core User Interface
+**Title**: `[EPIC] Core User Interface & Layout`
+**Labels**: `priority:P1-high`, `type:epic`, `scope:frontend`
 
-### Epic Description
-Develop the visual shell of the application (Sidebar, Header, Layout). Mobile-first focus.
+### Description
+Develop the responsive shell of the application. The navigation must be accessible on mobile devices during gameplay (overlay usage or second screen).
 
 ### Business Value
-Critical for usability during gameplay.
-
-### User Stories / Child Tasks
-- [ ] Task: Implement Responsive Sidebar Navigation
+Critical for usability. If members cannot navigate to the "Defense" page during an invasion, the wiki is useless.
 
 ### Definition of Done
-- [ ] Layout is fully responsive (Mobile/Desktop).
-- [ ] Sidebar works smoothly.
+- [ ] Layout is fully responsive (Mobile, Tablet, Desktop).
+- [ ] Sidebar navigation supports 2-level hierarchy.
+- [ ] Animations are smooth (60fps) and do not lag the browser.
+
+### Child Tasks
+- `[TASK] Implement Responsive Sidebar Navigation`
+- `[TASK] Create Reusable UI Components (Card, Button, Badge)`
 
 ---
 
-### [TASK-2.1] Implement Responsive Sidebar Navigation
-**Labels:** `task`, `P1-high`, `sprint-1`, `frontend`
+### Task 2.1: Sidebar Navigation
+**Title**: `[TASK] Implement Responsive Sidebar Navigation`
+**Labels**: `priority:P1-high`, `type:task`, `scope:frontend`
 
-#### Task Description
-Create a collapsible Sidebar component. Permanently visible on Desktop, Drawer on Mobile.
+#### Description
+Create a collapsible Sidebar component. It should be permanently visible on Desktop and a slide-over drawer on Mobile.
 
-#### Implementation Details
-1. Create `Sidebar.tsx`.
-2. Implement Mobile Drawer logic.
-3. Add `SidebarItem` component with active state.
+#### Technical Specifications
+- **Libraries**: `lucide-react` for icons, `clsx` / `tailwind-merge` for class handling.
+- **State**: `useSidebarStore` (Zustand or Context) to manage open/close state.
 
 #### Acceptance Criteria
-- [ ] Hamburger menu visible only on mobile.
+- [ ] Hamburger menu visible only on mobile breakpoints.
 - [ ] Clicking a link on mobile closes the drawer.
 - [ ] Active route is visually highlighted.
 
-#### Estimated Time
-**Story Points:** 5
+---
+
+## Epic 3: Hero Database
+**Title**: `[EPIC] Hero Database Module`
+**Labels**: `priority:P2-medium`, `type:epic`, `scope:feature`
+
+### Description
+A searchable, filterable database of game heroes. Members need to know which heroes to prioritize for the "Fury Lord" events.
+
+### Business Value
+Increases alliance combat power by ensuring members invest in the right meta heroes.
+
+### Child Tasks
+- `[TASK] Define Hero Data Schema (JSON)`
+- `[TASK] Implement Hero Grid & Filters`
+
+---
+
+### Task 3.1: Hero Data Schema
+**Title**: `[TASK] Define Hero Data Schema (JSON)`
+**Labels**: `priority:P2-medium`, `type:task`, `scope:backend`
+
+#### Description
+Define the strictly typed JSON schema for hero data storage and populate it with initial data.
+
+#### Technical Specifications
+```typescript
+type HeroRarity = 'orange' | 'purple' | 'blue';
+type HeroFaction = 'dawn' | 'empire' | 'chaos';
+
+interface Hero {
+  id: string;
+  name: string;
+  rarity: HeroRarity;
+  stats: {
+    attack: number;
+    defense: number;
+  };
+}
+```
+
+#### Acceptance Criteria
+- [ ] `heroes.json` file created in `src/data`.
+- [ ] TypeScript interfaces exported from `src/types`.
+- [ ] At least 10 heroes added for initial testing.
+
+---
+
+### Task 3.2: Hero Grid & Filters
+**Title**: `[TASK] Implement Hero Grid & Filters`
+**Labels**: `priority:P2-medium`, `type:task`, `scope:frontend`
+
+#### Description
+A UI page that parses `heroes.json` and displays them in a responsive grid. Includes client-side filtering logic.
+
+#### Acceptance Criteria
+- [ ] Filters for **Rarity** and **Faction** are functional.
+- [ ] URL State synchronization (e.g., `?faction=dawn`) so links can be shared at specific filter states.
