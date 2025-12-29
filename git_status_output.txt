@@ -1,0 +1,23 @@
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.github/
+	.gitignore
+	.npmrc
+	README.md
+	docs/
+	eslint.config.mjs
+	git_status_output.txt
+	next.config.ts
+	package.json
+	pnpm-lock.yaml
+	pnpm-workspace.yaml
+	postcss.config.mjs
+	public/
+	src/
+	tsconfig.json
+
+nothing added to commit but untracked files present (use "git add" to track)

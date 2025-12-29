@@ -1,0 +1,11 @@
+{
+  "Metadata": {
+    "title": "Phenix Alliance Wiki",
+    "description": "The ultimate guide for Last Z Survival Shooter"
+  },
+  "Auth": {
+    "loginTitle": "Access Restricted",
+    "passwordPlaceholder": "Enter Alliance Password",
+    "submit": "Enter"
+  }
+}

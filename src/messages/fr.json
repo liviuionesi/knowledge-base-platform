@@ -1,0 +1,11 @@
+{
+  "Metadata": {
+    "title": "Wiki de l'Alliance Phenix",
+    "description": "Le guide ultime pour Last Z Survival Shooter"
+  },
+  "Auth": {
+    "loginTitle": "Accès Restreint",
+    "passwordPlaceholder": "Entrez le mot de passe de l'Alliance",
+    "submit": "Entrer"
+  }
+}
