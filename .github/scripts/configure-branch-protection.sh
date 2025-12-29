@@ -20,7 +20,11 @@ configure_branch() {
   "required_status_checks": {
     "strict": true,
     "contexts": [
+<<<<<<< HEAD
       "Build, Lint & Test"
+=======
+      "ci/nextjs"
+>>>>>>> refs/remotes/origin/lost-tail
     ]
   },
   "enforce_admins": false,
@@ -61,3 +65,17 @@ fi
 
 echo ""
 echo "✅ Branch protection configuration complete!"
+<<<<<<< HEAD
+=======
+echo ""
+echo "📋 Protection Summary:"
+echo "  - Required status checks: Backend CI, Frontend CI"
+echo "  - Required approving reviews: 1"
+echo "  - Dismiss stale reviews: enabled"
+echo "  - Require conversation resolution: enabled"
+echo "  - Force push: disabled"
+echo "  - Branch deletion: disabled"
+echo ""
+echo "🔗 View settings: https://github.com/$REPO/settings/branches"
+
+>>>>>>> refs/remotes/origin/lost-tail

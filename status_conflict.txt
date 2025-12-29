@@ -1,0 +1,34 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+	new file:   .cursor/rules/global-rules.mdc
+	new file:   .cursor/rules/nextjs-development.mdc
+	new file:   .cursor/rules/react-native-development.mdc
+	new file:   .cursor/rules/spring-boot-development.mdc
+	new file:   .github/BRANCH_PROTECTION.md
+	new file:   .github/ISSUE_TEMPLATE/bug.md
+	new file:   .github/ISSUE_TEMPLATE/epic.md
+	new file:   .github/ISSUE_TEMPLATE/task.md
+	new file:   .github/ISSUE_TEMPLATE/user-story.md
+	new file:   .github/PULL_REQUEST_TEMPLATE.md
+	new file:   .github/scripts/add-issues.sh
+	new file:   .github/scripts/setup-project.js
+	deleted:    scripts/populate_project.js
+	deleted:    scripts/populate_project_advanced.js
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both added:      .github/scripts/configure-branch-protection.sh
+	both added:      .github/workflows/ci.yml
+	both added:      .github/workflows/project-automation.yml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	lost_hashes.txt
+	status_conflict.txt
+

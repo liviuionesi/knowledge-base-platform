@@ -37,11 +37,16 @@ jobs:
             const labels = new Set();
             
             for (const file of files) {
+              // Core Application
               if (file.filename.startsWith('src/app')) labels.add('frontend');
               if (file.filename.startsWith('src/components')) labels.add('frontend');
-              if (file.filename.startsWith('src/lib')) labels.add('backend');
-              if (file.filename.includes('messages/')) labels.add('documentation');
+              if (file.filename.startsWith('src/lib')) labels.add('backend'); // Utils/Logic
+              
+              // Features
+              if (file.filename.includes('messages/')) labels.add('documentation'); // i18n
               if (file.filename.includes('middleware.ts')) labels.add('security');
+              
+              // Infra
               if (file.filename.startsWith('.github')) labels.add('infrastructure');
               if (file.filename.startsWith('docs')) labels.add('documentation');
             }
