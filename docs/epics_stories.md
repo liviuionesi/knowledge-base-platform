@@ -42,34 +42,36 @@ Ensures the project starts with best practices, minimizing future technical debt
 ### Task 1.1: Initialize Repository
 **Title**: `[TASK] Initialize Next.js 16.1.1 Repository`
 **Labels**: `priority:P0-critical`, `type:task`, `scope:infrastructure`
+**Status**: `Done`
 
 #### Description
 Initialize the Next.js application using the latest version (16.1.1) to ensure we are on the bleeding edge of React Server Components and Server Actions.
 
 #### Implementation Checklist
-- [ ] Run `pnpm create next-app` with strict flags.
-- [ ] Configure `tsconfig.json` for strict type checking (`noImplicitAny`, `strictNullChecks`).
-- [ ] Set up ESLint with `next/core-web-vitals` and `prettier`.
-- [ ] Configure `@/*` import alias mapping to `./src/*`.
-- [ ] Commit initial boilerplate to GitHub.
+- [x] Run `pnpm create next-app` with strict flags.
+- [x] Configure `tsconfig.json` for strict type checking (`noImplicitAny`, `strictNullChecks`).
+- [x] Set up ESLint with `next/core-web-vitals` and `prettier`.
+- [ ] Configure `@/*` import alias mapping to `./src/*` (Skipped per user request).
+- [x] Commit initial boilerplate to GitHub.
 
 #### Acceptance Criteria
-- [ ] `pnpm dev` starts the server on port 3000.
-- [ ] `pnpm build` produces a valid production build.
-- [ ] No linting errors present in the initial commit.
+- [x] `pnpm dev` starts the server on port 3000.
+- [x] `pnpm build` produces a valid production build.
+- [x] No linting errors present in the initial commit.
 
 ---
 
 ### Task 1.2: Internationalization Architecture
 **Title**: `[TASK] Implement Internationalization (i18n) Architecture`
 **Labels**: `priority:P1-high`, `type:task`, `scope:backend`
+**Status**: `Done`
 
 #### Description
 Configure `next-intl` to support English (`en`) and French (`fr`) as first-class citizens. This involves setting up the middleware matcher to handle locale routing and creating the dictionary structure.
 
 #### Technical Specifications
 ```typescript
-// middleware.ts
+// proxy.ts
 export default createMiddleware({
   locales: ['en', 'fr'],
   defaultLocale: 'en'
@@ -81,10 +83,10 @@ export const config = {
 ```
 
 #### Acceptance Criteria
-- [ ] Accessing `/` redirects to `/en`.
-- [ ] Accessing `/fr` renders the French version of the landing page.
-- [ ] Dictionary files exist at `/src/messages/{locale}.json`.
-- [ ] Locale switching persists user preference via cookie.
+- [x] Accessing `/` redirects to `/en`.
+- [x] Accessing `/fr` renders the French version of the landing page.
+- [x] Dictionary files exist at `/messages/{locale}.json`.
+- [x] Locale switching persists user preference via cookie (handled by middleware).
 
 ---
 
