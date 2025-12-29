@@ -7,7 +7,7 @@ const intlMiddleware = createMiddleware({
   defaultLocale: 'en'
 });
 
-export function middleware(request: NextRequest) {
+export default function middleware(request: NextRequest) {
   const path = request.nextUrl.pathname;
   
   // 1. PUBLIC ASSETS & API

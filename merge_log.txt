@@ -1,5 +1,0 @@
-Auto-merging docs/architecture.md
-CONFLICT (add/add): Merge conflict in docs/architecture.md
-Auto-merging docs/epics_stories.md
-CONFLICT (add/add): Merge conflict in docs/epics_stories.md
-Automatic merge failed; fix conflicts and then commit the result.
