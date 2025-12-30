@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment } from "react";
-import { Dialog, Transition } from "@headlessui/react";
+import { Dialog, DialogPanel, Transition, TransitionChild } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -22,9 +22,9 @@ export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProp
   const blankCss = "block w-full py-2 pl-3.5 pr-3 text-base font-semibold leading-7 text-[var(--foreground)] hover:bg-[var(--muted)]/50 rounded-lg transition-colors";
 
   return (
-    <Transition.Root show={isOpen} as={Fragment}>
-      <Dialog as="div" className="relative z-[100]" onClose={onClose}>
-        <Transition.Child
+    <Transition show={isOpen} as={Fragment}>
+      <Dialog as="div" className="relative z-[150]" onClose={onClose}>
+        <TransitionChild
           as={Fragment}
           enter="transition-opacity ease-linear duration-300"
           enterFrom="opacity-0"
@@ -34,10 +34,10 @@ export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProp
           leaveTo="opacity-0"
         >
           <div className="fixed inset-0 bg-black/80 backdrop-blur-sm" />
-        </Transition.Child>
+        </TransitionChild>
 
-        <div className="fixed inset-0 flex">
-          <Transition.Child
+        <div className="fixed inset-0 flex z-[150]">
+          <TransitionChild
             as={Fragment}
             enter="transition ease-in-out duration-300 transform"
             enterFrom="-translate-x-full"
@@ -46,7 +46,7 @@ export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProp
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
-            <Dialog.Panel className="relative mr-16 flex w-full max-w-xs flex-1 transform flex-col bg-[var(--background)] py-6 shadow-2xl ring-1 ring-white/10 transition-all">
+            <DialogPanel className="relative mr-16 flex w-full max-w-xs flex-1 transform flex-col bg-[var(--background)] py-6 shadow-2xl ring-1 ring-white/10 transition-all">
               <div className="absolute left-full top-0 flex w-16 justify-center pt-5">
                 <button type="button" className="-m-2.5 p-2.5" onClick={onClose}>
                   <span className="sr-only">Close sidebar</span>
@@ -92,10 +92,10 @@ export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProp
                   ))}
                 </ul>
               </nav>
-            </Dialog.Panel>
-          </Transition.Child>
+            </DialogPanel>
+          </TransitionChild>
         </div>
       </Dialog>
-    </Transition.Root>
+    </Transition>
   );
 }
