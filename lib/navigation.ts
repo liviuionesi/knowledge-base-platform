@@ -16,32 +16,12 @@ export function getNavigation(locale: string): NavGroup[] {
       ]
     },
     {
-      group: locale === 'fr' ? 'Héros' : 'Heroes',
-      links: [
-        {
-          title: locale === 'fr' ? 'Aperçu' : 'Overview',
-          slug: 'heroes',
-          href: `/${locale}/docs/heroes`
-        }
-      ]
-    },
-    {
       group: locale === 'fr' ? 'Événements' : 'Event Center',
       links: [
         {
           title: locale === 'fr' ? 'Armements globaux' : 'Full Preparedness',
           slug: 'full-preparedness',
           href: `/${locale}/docs/full-preparedness`
-        }
-      ]
-    },
-    {
-      group: locale === 'fr' ? 'Tactiques' : 'Tactics',
-      links: [
-        {
-          title: locale === 'fr' ? 'Capital Clash' : 'Capital Clash',
-          slug: 'capital-clash',
-          href: `/${locale}/docs/capital-clash`
         }
       ]
     }
