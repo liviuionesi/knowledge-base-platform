@@ -40,7 +40,16 @@ export default function LoginPage() {
   };
 
   return (
-    <main className="min-h-screen w-full flex bg-[#0d131f] overflow-hidden">
+    <main className="relative min-h-screen w-full flex bg-[#0d131f] overflow-hidden">
+      
+      {/* Mobile Background: Absolute Phoenix */}
+      <div className="absolute inset-0 lg:hidden flex items-center justify-center z-0 pointer-events-none overflow-hidden">
+        <img 
+          src="/phenix-flying.png" 
+          alt="Phenix Background" 
+          className="w-[150%] max-w-none h-auto object-cover opacity-20"
+        />
+      </div>
       
       {/* Left Section: Static Phoenix */}
       <section className="relative hidden lg:flex flex-1 items-center justify-center bg-[#0d131f]">
@@ -54,7 +63,7 @@ export default function LoginPage() {
       </section>
 
       {/* Right Section: Solid Login Form */}
-      <section className="w-full lg:w-[500px] bg-[#0d131f] flex flex-col justify-center px-12 md:px-20">
+      <section className="relative z-10 w-full lg:w-[500px] bg-transparent lg:bg-[#0d131f] flex flex-col justify-center px-12 md:px-20">
         <div className="w-full">
           <header className="mb-12">
             <h1 className="text-white text-4xl font-extralight tracking-[0.2em] uppercase">
