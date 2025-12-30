@@ -23,12 +23,7 @@ export function WikiShell({ children, navigation, locale }: WikiShellProps) {
 
   return (
     <div className="relative flex w-full flex-col">
-      <MobileNav 
-        navigation={navigation} 
-        locale={locale} 
-        isOpen={mobileMenuOpen} 
-        onClose={() => setMobileMenuOpen(false)} 
-      />
+
 
       {/* Header */}
       <header className="sticky top-0 z-50 flex items-center justify-between px-4 lg:px-8 h-16 border-b border-[var(--border)] bg-[var(--background)] transition-colors duration-300 shadow-sm">
@@ -74,6 +69,12 @@ export function WikiShell({ children, navigation, locale }: WikiShellProps) {
         
         <OnThisPage />
       </div>
+      <MobileNav 
+        navigation={navigation} 
+        locale={locale} 
+        isOpen={mobileMenuOpen} 
+        onClose={() => setMobileMenuOpen(false)} 
+      />
     </div>
   );
 }

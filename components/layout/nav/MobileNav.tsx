@@ -43,12 +43,12 @@ export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProp
     <div className="lg:hidden" role="dialog" aria-modal="true">
       {/* Backdrop */}
       <div 
-        className="fixed inset-0 z-[100] bg-[var(--background)]/80 backdrop-blur-sm transition-opacity" 
+        className="fixed inset-0 z-50 bg-[var(--background)]/80 backdrop-blur-sm transition-opacity" 
         onClick={onClose}
       />
       
       {/* Panel */}
-      <div className="fixed inset-y-0 left-0 z-[100] w-full overflow-y-auto bg-[var(--background)] px-6 py-6 sm:max-w-sm border-r border-[var(--border)] shadow-xl ring-1 ring-gray-900/10 transition-transform duration-300 ease-in-out">
+      <div className="fixed inset-y-0 left-0 z-50 w-full overflow-y-auto bg-[var(--background)] px-6 py-6 sm:max-w-sm border-r border-[var(--border)] shadow-xl ring-1 ring-gray-900/10 transition-transform duration-300 ease-in-out">
         <div className="flex items-center justify-between mb-8">
           <Link href={`/${locale}`} className="-m-1.5 p-1.5 flex items-center gap-2" onClick={onClose}>
             <div className="relative h-8 w-8">
