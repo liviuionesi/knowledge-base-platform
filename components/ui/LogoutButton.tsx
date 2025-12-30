@@ -12,9 +12,15 @@ export function LogoutButton() {
 
   const handleLogout = async () => {
     setIsLoading(true);
-    // Here we would typically call an API to clear cookies/session
-    // For now, we'll just redirect to login
-    router.push("/en/login");
+    try {
+      await fetch("/api/auth/logout", { method: "POST" });
+      router.push("/en/login");
+      router.refresh(); // Ensure middleware re-runs
+    } catch (error) {
+      console.error("Logout failed", error);
+      // Fallback
+      router.push("/en/login");
+    }
   };
 
   return (

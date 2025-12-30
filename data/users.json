@@ -20,6 +20,13 @@
       "displayName": "Player 002",
       "role": "member",
       "active": true
+    },
+    {
+      "username": "Metallica",
+      "password": "TheUnforgiven2",
+      "displayName": "Metallica",
+      "role": "member",
+      "active": true
     }
   ]
 }
