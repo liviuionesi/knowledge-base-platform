@@ -11,5 +11,10 @@
     "submit": "Sign In",
     "error": "Invalid username or password",
     "forgotPassword": "Forgot password? Contact your alliance leader"
+  },
+  "Navigation": {
+    "switchLanguage": "Switch Language",
+    "logout": "Sign out",
+    "theme": "Toggle theme"
   }
 }

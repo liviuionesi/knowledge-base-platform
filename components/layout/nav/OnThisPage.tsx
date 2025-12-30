@@ -38,23 +38,23 @@ export function OnThisPage() {
   if (headings.length === 0) return null;
 
   return (
-    <div className="hidden xl:sticky xl:top-0 xl:block xl:h-screen xl:flex-none xl:overflow-y-auto xl:py-8 xl:pr-6">
-      <nav className="w-56">
-        <h2 className="font-display text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+    <div className="hidden xl:sticky xl:top-0 xl:block xl:h-screen xl:flex-none xl:overflow-y-auto xl:py-8 xl:pr-6 bg-[var(--sidebar-bg)] border-l border-[var(--border)]">
+      <nav className="w-56 pl-6">
+        <h2 className="font-display text-sm font-semibold text-[var(--foreground)]">
           On this page
         </h2>
         <ul className="mt-4 space-y-3 text-sm">
-          {headings.map((heading) => (
+          {headings.map((heading, idx) => (
             <li
-              key={heading.id}
+              key={`${heading.id}-${idx}`}
               className={heading.level === 3 ? "ml-4" : ""}
             >
               <a
                 href={`#${heading.id}`}
                 className={`block ${
                   activeId === heading.id
-                    ? "text-phenix-orange font-semibold"
-                    : "text-zinc-500 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+                    ? "text-[var(--phenix-blue)] font-semibold"
+                    : "text-[var(--foreground)] hover:text-[var(--foreground)] transition-colors"
                 }`}
               >
                 {heading.text}

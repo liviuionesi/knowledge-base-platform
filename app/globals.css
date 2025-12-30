@@ -2,17 +2,32 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --phenix-orange: #FF4500;
-  --phenix-dark: #0F172A;
+  --background: #ffffff; /* Pure White */
+  --foreground: #000000; /* Pure Black */
+  --phenix-orange: #0284c7; /* Sky-700: Replaced Orange with Blue for Light Mode */
+  --phenix-blue: #0284c7; /* Sky-700 */
+  --phenix-dark: #0f172a;
+  
+  /* Semantic variables */
+  --border: #a1a1aa; /* zinc-400: Darker for visible lines */
+  --muted: #e4e4e7; /* zinc-200: Visible light gray bg */
+  --muted-foreground: #52525b; /* zinc-600: Darker gray for readability on white */
+  --accent: #f4f4f5; /* zinc-100 */
+  --sidebar-bg: #eff6ff; /* blue-50: More visible blue tint for sidebars */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-phenix-orange: var(--phenix-orange);
+  --color-phenix-blue: var(--phenix-blue);
   --color-phenix-dark: var(--phenix-dark);
+  
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   
@@ -31,11 +46,17 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0d131f;
+  --foreground: #ededed;
+  --phenix-orange: #38bdf8; /* Sky-400: Replaced Orange with Blue for Dark Mode */
+  --phenix-blue: #38bdf8; /* Sky-400: Lighter blue for dark mode */
+  
+  --border: #27272a; /* zinc-800 */
+  --muted: #27272a; /* zinc-800 */
+  --muted-foreground: #a1a1aa; /* zinc-400 */
+  --accent: #27272a; /* zinc-800 */
+  --sidebar-bg: #0f172a; /* slate-900: Dark gray blue */
 }
 
 body {
@@ -50,7 +71,38 @@ body {
 }
 
 .bg-grid-pattern {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 40px 40px;
 }
+
+/* Typography Customization */
+.prose strong {
+  color: var(--phenix-orange) !important;
+  font-weight: 700;
+}
+
+.prose a {
+  color: var(--phenix-blue) !important;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  color: var(--foreground);
+}
+
+.prose p, .prose ul, .prose ol, .prose li {
+  color: var(--foreground) !important;
+}
+
+/* Specific colored spans for MDX */
+.text-orange { color: var(--phenix-orange) !important; }
+.text-blue { color: #3b82f6 !important; }
+.text-green { color: #22c55e !important; }
+.text-red { color: #ef4444 !important; }

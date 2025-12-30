@@ -9,7 +9,7 @@ export function getNavigation(locale: string): NavGroup[] {
       group: locale === 'fr' ? 'Commencer' : 'Getting Started',
       links: [
         {
-          title: locale === 'fr' ? 'Introduction' : 'Introduction',
+          title: locale === 'fr' ? 'Bienvenue' : 'Welcome',
           slug: 'introduction',
           href: `/${locale}/docs/introduction`
         }
@@ -26,10 +26,10 @@ export function getNavigation(locale: string): NavGroup[] {
       ]
     },
     {
-      group: locale === 'fr' ? 'Événements' : 'Events',
+      group: locale === 'fr' ? 'Événements' : 'Event Center',
       links: [
         {
-          title: locale === 'fr' ? 'Préparation Complète' : 'Full Preparedness',
+          title: locale === 'fr' ? 'Armements globaux' : 'Full Preparedness',
           slug: 'full-preparedness',
           href: `/${locale}/docs/full-preparedness`
         }

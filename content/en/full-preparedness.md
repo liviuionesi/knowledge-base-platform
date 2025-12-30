@@ -1,9 +1,9 @@
 ---
-title: "Full Preparedness Event Guide"
+title: "Full Preparedness"
 description: "Daily event strategy: complete tasks efficiently to earn 2 Orange Fragments and other rewards"
 ---
 
-# Full Preparedness Event Guide
+# Full Preparedness Event
 
 ## Overview
 

@@ -12,20 +12,20 @@ interface LeftNavProps {
 export function LeftNav({ navigation, locale }: LeftNavProps) {
   const pathname = usePathname();
 
-  const selectedCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-phenix-orange before:bg-phenix-orange";
-  const blankCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-zinc-500 before:hidden before:bg-zinc-300 hover:text-zinc-900 dark:hover:text-zinc-100 hover:before:block dark:text-zinc-400";
+  const selectedCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-[var(--phenix-blue)] before:bg-[var(--phenix-blue)] font-semibold";
+  const blankCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full text-[var(--foreground)] hover:text-[var(--foreground)] before:hidden before:bg-[var(--muted)] hover:before:block transition-colors";
 
   return (
-    <div className="hidden lg:relative lg:block lg:flex-none">
-      <div className="sticky top-0 w-64 overflow-y-auto h-screen py-8 pl-0.5">
+    <div className="hidden lg:relative lg:block lg:flex-none bg-[var(--sidebar-bg)] border-r border-[var(--border)]">
+      <div className="sticky top-0 w-64 overflow-y-auto h-screen py-8 pl-4 pr-4">
         <nav className="text-sm">
           <ul className="space-y-9">
             {navigation.map((item) => (
               <li key={item.group}>
-                <h2 className="font-display font-semibold text-zinc-900 dark:text-zinc-100">
+                <h2 className="font-display font-semibold text-[var(--foreground)]">
                   {item.group}
                 </h2>
-                <ul className="mt-4 space-y-4 border-l border-zinc-200 dark:border-zinc-800">
+                <ul className="mt-4 space-y-4 border-l border-[var(--border)]">
                   {item.links.map((child) => (
                     <li className="relative" key={child.slug}>
                       <Link

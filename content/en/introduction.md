@@ -1,15 +1,14 @@
 ---
-title: Introduction
-description: Welcome to the Phenix Alliance Wiki
+title: Welcome
+description: Welcome to the Phenix Alliance!
 ---
 
-# Introduction to Phenix Wiki
+# Welcome to <span className="text-orange">Phenix Alliance!</span>
+This is to the official website of the **Phenix Alliance** in the game **Last Z: Survival Shooter**.
 
-Welcome to the official knowledge base for the Phenix Alliance in Last Z: Survival Shooter.
+## What is this website?
 
-## What is this wiki?
-
-This wiki contains comprehensive guides, strategies, and information to help alliance members succeed in the game.
+This website contains **comprehensive guides**, **strategies**, and information to help newer and older members play better in the game, achieve the **alliance goals** and the most important, <span className="text-orange">respect our rules</span>.
 
 ## Getting Started
 
@@ -21,6 +20,6 @@ Navigate through the sections using the sidebar on the left. Each section contai
 - **Tactics Guide**: Strategies for events like Capital Clash
 - **Alliance Tips**: Best practices for collaboration
 
-## Need Help?
+## Need Help? You have suggestions? Want to get involved?
 
-If you can't find what you're looking for, contact your alliance leaders.
+If you can't find what you're looking for, or if you have any questions, please write a private message to **-IronMaiden-** in the game, the guy that administrates this website.

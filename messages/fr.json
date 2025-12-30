@@ -11,5 +11,10 @@
     "submit": "Se connecter",
     "error": "Nom d'utilisateur ou mot de passe invalide",
     "forgotPassword": "Mot de passe oublié ? Contactez votre chef d'alliance"
+  },
+  "Navigation": {
+    "switchLanguage": "Changer de langue",
+    "logout": "Se déconnecter",
+    "theme": "Changer de thème"
   }
 }
