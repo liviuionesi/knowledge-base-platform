@@ -1,9 +1,10 @@
 "use client";
 
-import { Fragment, useEffect } from "react";
+import { Fragment } from "react";
+import { Dialog, Transition } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { X } from "lucide-react";
 import { NavGroup } from "@/types/content";
 import Image from "next/image";
 
@@ -17,85 +18,84 @@ interface MobileNavProps {
 export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProps) {
   const pathname = usePathname();
 
-  // Prevent scrolling when menu is open
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isOpen]);
-
-  // Close menu on route change
-  useEffect(() => {
-    onClose();
-  }, [pathname, onClose]);
-
-  if (!isOpen) return null;
-
   const selectedCss = "block w-full py-2 pl-3.5 pr-3 text-base font-semibold leading-7 text-[var(--phenix-blue)] bg-[var(--phenix-blue)]/10 rounded-lg";
   const blankCss = "block w-full py-2 pl-3.5 pr-3 text-base font-semibold leading-7 text-[var(--foreground)] hover:bg-[var(--muted)]/50 rounded-lg transition-colors";
 
   return (
-    <div className="lg:hidden" role="dialog" aria-modal="true">
-      {/* Backdrop */}
-      <div 
-        className="fixed inset-0 z-50 bg-[var(--background)]/80 backdrop-blur-sm transition-opacity" 
-        onClick={onClose}
-      />
-      
-      {/* Panel */}
-      <div className="fixed inset-y-0 left-0 z-50 w-full overflow-y-auto bg-[var(--background)] px-6 py-6 sm:max-w-sm border-r border-[var(--border)] shadow-xl ring-1 ring-gray-900/10 transition-transform duration-300 ease-in-out">
-        <div className="flex items-center justify-between mb-8">
-          <Link href={`/${locale}`} className="-m-1.5 p-1.5 flex items-center gap-2" onClick={onClose}>
-            <div className="relative h-8 w-8">
-              <Image 
-                src="/phenix-logo.png" 
-                alt="Phenix Wiki Logo" 
-                fill
-                className="object-contain"
-              />
-            </div>
-            <span className="font-bold text-xl tracking-tight text-[var(--foreground)]">PHENIX</span>
-          </Link>
-          <button
-            type="button"
-            className="-m-2.5 rounded-md p-2.5 text-[var(--foreground)] hover:text-[var(--phenix-blue)] transition-colors"
-            onClick={onClose}
+    <Transition.Root show={isOpen} as={Fragment}>
+      <Dialog as="div" className="relative z-[100]" onClose={onClose}>
+        <Transition.Child
+          as={Fragment}
+          enter="transition-opacity ease-linear duration-300"
+          enterFrom="opacity-0"
+          enterTo="opacity-100"
+          leave="transition-opacity ease-linear duration-300"
+          leaveFrom="opacity-100"
+          leaveTo="opacity-0"
+        >
+          <div className="fixed inset-0 bg-black/80 backdrop-blur-sm" />
+        </Transition.Child>
+
+        <div className="fixed inset-0 flex">
+          <Transition.Child
+            as={Fragment}
+            enter="transition ease-in-out duration-300 transform"
+            enterFrom="-translate-x-full"
+            enterTo="translate-x-0"
+            leave="transition ease-in-out duration-300 transform"
+            leaveFrom="translate-x-0"
+            leaveTo="-translate-x-full"
           >
-            <span className="sr-only">Close menu</span>
-            <X className="h-6 w-6" aria-hidden="true" />
-          </button>
+            <Dialog.Panel className="relative mr-16 flex w-full max-w-xs flex-1 transform flex-col bg-[var(--background)] py-6 shadow-2xl ring-1 ring-white/10 transition-all">
+              <div className="absolute left-full top-0 flex w-16 justify-center pt-5">
+                <button type="button" className="-m-2.5 p-2.5" onClick={onClose}>
+                  <span className="sr-only">Close sidebar</span>
+                  <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                </button>
+              </div>
+
+              {/* Logo */}
+              <div className="flex shrink-0 items-center px-6 gap-2 mb-8">
+                 <div className="relative h-8 w-8">
+                   <Image 
+                     src="/phenix-logo.png" 
+                     alt="Phenix Wiki Logo" 
+                     fill
+                     className="object-contain"
+                   />
+                 </div>
+                 <span className="font-bold text-xl tracking-tight text-[var(--foreground)]">PHENIX</span>
+              </div>
+
+              {/* Navigation Links */}
+              <nav className="flex flex-1 flex-col px-6 overflow-y-auto">
+                <ul role="list" className="flex flex-1 flex-col gap-y-7">
+                  {navigation.map((group) => (
+                    <li key={group.group}>
+                      <div className="text-xs font-semibold leading-6 text-[var(--foreground)]/60 tracking-widest uppercase mb-2">
+                        {group.group}
+                      </div>
+                      <ul role="list" className="-mx-2 space-y-1">
+                        {group.links.map((item) => (
+                          <li key={item.slug}>
+                            <Link
+                              href={item.href}
+                              className={pathname === item.href ? selectedCss : blankCss}
+                              onClick={onClose}
+                            >
+                              {item.title}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </Dialog.Panel>
+          </Transition.Child>
         </div>
-        
-        <div className="mt-6 flow-root">
-          <div className="-my-6 divide-y divide-[var(--border)]">
-            <div className="space-y-2 py-6">
-              {navigation.map((item) => (
-                <div key={item.group} className="py-2">
-                  <h3 className="mb-2 px-3 text-sm font-semibold tracking-wider text-[var(--foreground)]/60 uppercase">
-                    {item.group}
-                  </h3>
-                  <div className="space-y-1">
-                    {item.links.map((child) => (
-                      <Link
-                        key={child.slug}
-                        href={child.href}
-                        className={pathname === child.href ? selectedCss : blankCss}
-                      >
-                        {child.title}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      </Dialog>
+    </Transition.Root>
   );
 }
