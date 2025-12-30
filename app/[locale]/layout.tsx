@@ -7,6 +7,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { FireBirdBackground } from "@/components/layout/FireBirdBackground";
 import "../globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
           >
             <FireBirdBackground />
             {children}
+            <Analytics />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
