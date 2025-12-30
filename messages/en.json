@@ -4,10 +4,12 @@
     "description": "Your ultimate guide to the Phenix Alliance."
   },
   "Auth": {
-    "title": "Alliance Access",
-    "description": "Please enter the shared alliance password to continue.",
-    "passwordPlaceholder": "Enter password",
-    "submit": "Enter Wiki",
-    "error": "Invalid password"
+    "title": "Phenix Alliance Wiki",
+    "description": "Enter your alliance credentials to access the wiki",
+    "usernamePlaceholder": "Player ID",
+    "passwordPlaceholder": "Password",
+    "submit": "Sign In",
+    "error": "Invalid username or password",
+    "forgotPassword": "Forgot password? Contact your alliance leader"
   }
 }

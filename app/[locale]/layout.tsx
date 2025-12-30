@@ -5,6 +5,7 @@ import {routing} from '../../i18n/routing';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { FireBirdBackground } from "@/components/layout/FireBirdBackground";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -51,6 +52,7 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <FireBirdBackground />
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>

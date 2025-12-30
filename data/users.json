@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "username": "-IronMaiden-",
+      "password": "TheTeacherOfPhenix",
+      "displayName": "Alliance Leader",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "username": "player001",
+      "password": "boomer456",
+      "displayName": "Player 001",
+      "role": "member",
+      "active": true
+    },
+    {
+      "username": "player002",
+      "password": "fragment789",
+      "displayName": "Player 002",
+      "role": "member",
+      "active": true
+    }
+  ]
+}

@@ -4,10 +4,12 @@
     "description": "Votre guide ultime pour l'Alliance Phenix."
   },
   "Auth": {
-    "title": "Accès Alliance",
-    "description": "Veuillez entrer le mot de passe partagé de l'alliance pour continuer.",
-    "passwordPlaceholder": "Entrer le mot de passe",
-    "submit": "Entrer dans le Wiki",
-    "error": "Mot de passe invalide"
+    "title": "Wiki de l'Alliance Phenix",
+    "description": "Entrez vos identifiants d'alliance pour accéder au wiki",
+    "usernamePlaceholder": "ID Joueur",
+    "passwordPlaceholder": "Mot de passe",
+    "submit": "Se connecter",
+    "error": "Nom d'utilisateur ou mot de passe invalide",
+    "forgotPassword": "Mot de passe oublié ? Contactez votre chef d'alliance"
   }
 }

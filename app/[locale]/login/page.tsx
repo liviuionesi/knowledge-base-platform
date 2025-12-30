@@ -3,11 +3,11 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
-import { Lock } from "lucide-react";
 
 export default function LoginPage() {
   const t = useTranslations("Auth");
   const router = useRouter();
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -23,11 +23,11 @@ export default function LoginPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ password }),
+        body: JSON.stringify({ username, password }),
       });
 
       if (res.ok) {
-        router.refresh(); // Refresh to update middleware state
+        router.refresh();
         router.push("/");
       } else {
         setError(t("error"));
@@ -40,47 +40,79 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-zinc-950 p-4">
-      <div className="w-full max-w-md overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 shadow-xl border border-zinc-200 dark:border-zinc-800">
-        <div className="flex flex-col items-center p-8 text-center pt-12">
-          <div className="mb-6 rounded-full bg-orange-100 p-3 dark:bg-orange-900/30">
-            <Lock className="h-8 w-8 text-orange-600 dark:text-orange-500" />
-          </div>
-          <h1 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
-            {t("title")}
-          </h1>
-          <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-            {t("description")}
-          </p>
+    <main className="min-h-screen w-full flex bg-[#0d131f] overflow-hidden">
+      
+      {/* Left Section: Static Phoenix */}
+      <section className="relative hidden lg:flex flex-1 items-center justify-center bg-[#0d131f]">
+        <div className="relative w-full h-full flex items-center justify-center">
+          <img 
+            src="/phenix-flying.png" 
+            alt="Phenix Alliance" 
+            className="w-full max-w-4xl scale-110 object-contain select-none"
+          />
         </div>
+      </section>
 
-        <form onSubmit={handleSubmit} className="p-8 pt-0">
-          <div className="space-y-4">
-            <div>
-              <input
+      {/* Right Section: Solid Login Form */}
+      <section className="w-full lg:w-[500px] bg-[#0d131f] flex flex-col justify-center px-12 md:px-20">
+        <div className="w-full">
+          <header className="mb-12">
+            <h1 className="text-white text-4xl font-extralight tracking-[0.2em] uppercase">
+              Phenix
+            </h1>
+            <p className="text-zinc-500 mt-2 text-sm tracking-widest uppercase">
+              {t("description")}
+            </p>
+          </header>
+
+          <form className="space-y-8" onSubmit={handleSubmit}>
+            <div className="group">
+              <label className="block text-zinc-400 text-xs tracking-[0.2em] uppercase mb-3 font-semibold group-focus-within:text-orange-500 transition-colors">
+                {t("usernamePlaceholder")}
+              </label>
+              <input 
+                type="text"
+                required
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                placeholder="PLAYER ID"
+                title="Your player name in the Phenix alliance"
+                className="w-full bg-transparent border-b border-zinc-700 py-3 text-white text-base outline-none focus:border-orange-600 transition-all placeholder:text-zinc-600"
+              />
+            </div>
+
+            <div className="group">
+              <label className="block text-zinc-400 text-xs tracking-[0.2em] uppercase mb-3 font-semibold group-focus-within:text-orange-500 transition-colors">
+                {t("passwordPlaceholder")}
+              </label>
+              <input 
                 type="password"
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder={t("passwordPlaceholder")}
-                className="w-full rounded-lg border border-zinc-300 bg-transparent px-4 py-2 text-sm text-zinc-900 placeholder:text-zinc-500 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500/20 dark:border-zinc-800 dark:text-zinc-50 dark:focus:border-orange-500"
+                placeholder="••••••••"
+                title="Contact -IronMaiden- in the game for your password."
+                className="w-full bg-transparent border-b border-zinc-700 py-3 text-white text-base outline-none focus:border-orange-600 transition-all placeholder:text-zinc-600"
               />
             </div>
+
             {error && (
-              <p className="text-sm font-medium text-red-500 text-center">
+              <p className="text-sm font-medium text-red-400 text-center px-4 py-2 bg-red-500/10 border border-red-500/20 rounded">
                 {error}
               </p>
             )}
-            <button
+
+            <button 
               type="submit"
               disabled={loading}
-              className="w-full rounded-lg bg-orange-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="w-full mt-10 py-4 bg-white text-black font-black text-xs uppercase tracking-[0.3em] hover:bg-orange-600 hover:text-white transition-all duration-500 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? "..." : t("submit")}
             </button>
-          </div>
-        </form>
-      </div>
-    </div>
+          </form>
+        </div>
+      </section>
+    </main>
   );
 }
+

@@ -15,6 +15,20 @@
   --color-phenix-dark: var(--phenix-dark);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Floating animation for phoenix */
+  --animate-float: float 8s ease-in-out infinite;
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+      filter: brightness(0.8);
+    }
+    50% {
+      transform: translateY(-30px);
+      filter: brightness(1.1);
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,4 +42,15 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom utilities */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
