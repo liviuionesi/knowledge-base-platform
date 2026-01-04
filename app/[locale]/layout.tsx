@@ -20,8 +20,47 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Phenix Wiki",
-  description: "Phenix Alliance Wiki",
+  metadataBase: new URL('https://phenix-wiki.vercel.app'),
+  title: {
+    default: "Phenix Wiki",
+    template: "%s | Phenix Wiki"
+  },
+  description: "The official knowledge base for the Phenix Alliance, providing comprehensive guides on state versus state warfare, rapid growth strategies, and alliance events for Last Shelter: Survival.",
+  keywords: ["Phenix Alliance", "Last Shelter Survival", "LSS Guide", "State vs State", "Doomsday", "Eden", "Alliance Duel", "Phenix Wiki"],
+  authors: [{ name: "Phenix Alliance" }],
+  creator: "Phenix Alliance",
+  publisher: "Phenix Alliance",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    title: "Phenix Wiki",
+    description: "The official knowledge base for the Phenix Alliance.",
+    url: 'https://phenix-wiki.vercel.app',
+    siteName: 'Phenix Wiki',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Phenix Wiki',
+    description: 'The official knowledge base for the Phenix Alliance.',
+  },
+  verification: {
+    google: 'SIjR8xIhhhpELdyRKAYO0gr-l_gjpcl79ntBc6si4A8',
+  },
+  icons: {
+    icon: '/theme/phenix-logo.png',
+    apple: '/theme/phenix-logo.png',
+  },
 };
 
 export default async function LocaleLayout({
