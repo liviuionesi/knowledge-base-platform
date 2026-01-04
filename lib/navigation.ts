@@ -28,7 +28,7 @@ export function getNavigation(locale: string): NavGroup[] {
       gettingStarted: 'Per Iniziare',
       welcome: 'Benvenuto',
       eventCenter: 'Centro Eventi',
-      fullPreparedness: 'Piena Preparazione'
+      fullPreparedness: 'Preparazione alla Guerra'
     }
   };
 
