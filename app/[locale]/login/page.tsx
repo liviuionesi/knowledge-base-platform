@@ -18,12 +18,15 @@ export default function LoginPage() {
     setError("");
 
     try {
+      const cleanUsername = username.trim();
+      const cleanPassword = password.trim();
+
       const res = await fetch("/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ username: cleanUsername, password: cleanPassword }),
       });
 
       if (res.ok) {
@@ -81,6 +84,11 @@ export default function LoginPage() {
               </label>
               <input 
                 type="text"
+                name="username"
+                autoComplete="username"
+                autoCapitalize="none"
+                autoCorrect="off"
+                spellCheck={false}
                 required
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
@@ -96,6 +104,11 @@ export default function LoginPage() {
               </label>
               <input 
                 type="password"
+                name="password"
+                autoComplete="current-password"
+                autoCapitalize="none"
+                autoCorrect="off"
+                spellCheck={false}
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
