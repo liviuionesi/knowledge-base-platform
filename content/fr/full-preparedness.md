@@ -17,8 +17,7 @@ L'objectif secondaire est d'ouvrir autant de grands coffres 3 que possible pour 
 
 Le troisième objectif est de se classer plus haut dans l'événement Armaments globaux; cela donne aussi des récompenses, mais certains concurrents dépensent trop ici, ce qui est une utilisation inefficace des accélérateurs ou des ressources.
 
-![Aperçu de l'événement Armaments globaux
-](/full-preparedness-main.jpg)
+![Aperçu de l'événement Armaments globaux](/full-preparedness-main-fr.jpg)
 
 **Rotation des Tâches** (change toutes les 4 heures) :
 1. Cultiver des héros - Consommer de l'EXP de héros
@@ -32,8 +31,7 @@ Le troisième objectif est de se classer plus haut dans l'événement Armaments 
 
 ## 2. Calendrier de l'événement
 
-![Calendrier de l'événement Armaments globaux
-](/full-preparedness-calendar.jpg)
+![Calendrier de l'événement Armaments globaux](/full-preparedness-calendar-fr.jpg)
 
 Le calendrier de l'événement est un tableau à 3 colonnes.
 - La colonne "Date de l'événement" indique le jour actuel de la semaine.

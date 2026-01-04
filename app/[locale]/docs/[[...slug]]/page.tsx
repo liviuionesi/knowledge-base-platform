@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import { components } from "@/components/mdx/MDXComponents";
 
 interface DocsPageProps {
   params: Promise<{
@@ -24,14 +24,10 @@ async function getContent(locale: string, slug: string) {
   const fileContents = fs.readFileSync(contentPath, "utf8");
   const { data, content } = matter(fileContents);
  
-  const processedContent = await remark()
-    .use(html)
-    .process(content);
-  const contentHtml = processedContent.toString();
-
+  // Return raw content for MDXRemote to process
   return {
     metadata: data,
-    content: contentHtml
+    content: content
   };
 }
 
@@ -48,7 +44,7 @@ export default async function DocsPage({ params }: DocsPageProps) {
 
   return (
     <WikiShell navigation={navigation} locale={locale}>
-      <div dangerouslySetInnerHTML={{ __html: pageData.content }} />
+      <MDXRemote source={pageData.content} components={components} />
     </WikiShell>
   );
 }
