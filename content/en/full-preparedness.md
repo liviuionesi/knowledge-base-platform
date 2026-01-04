@@ -9,6 +9,8 @@ description: "Daily event strategy: complete tasks efficiently to earn 2 Orange 
 
 A daily event where you complete the same 6 tasks every 4 hours to earn points and unlock rewards. The primary goal is unlocking all 3 daily medal chests, which contain the most valuable rewards. The secondary goal is to open as many of the bigger chests 3 for each task, up to 18 chests. The third goal is to rank higher in the Full Preparedness event, this gives also some rewards, but some concurent overspend hier which is a ineficient usage of speed-ups or resources.
 
+![Full Preparedness Event Overview](/full-preparedness-main.jpg)
+
 **Task Rotation** (changes every 4 hours):
 1. Hero Initiative - Consume hero XP
 2. Shelter Upgrade - Upgrade buildings + speedups  
@@ -20,6 +22,8 @@ A daily event where you complete the same 6 tasks every 4 hours to earn points a
 ---
 
 ## 2. Event calendar
+
+![Full Preparedness Event Calendar](/full-preparedness-calendar.jpg)
 
 The event calendar is a table with 3 columns. 
 - The column "Event Date" shows the current day of the week

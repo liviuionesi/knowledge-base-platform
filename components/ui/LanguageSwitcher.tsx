@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { useTransition } from "react";
-import { FlagUS, FlagFR } from "@/components/icons/Flags";
+import { FlagUS, FlagFR, FlagDE, FlagIT } from "@/components/icons/Flags";
 
 export function LanguageSwitcher() {
   const t = useTranslations("Navigation");
@@ -13,10 +13,21 @@ export function LanguageSwitcher() {
   const [isPending, startTransition] = useTransition();
 
   const toggleLanguage = () => {
-    const nextLocale = locale === "en" ? "fr" : "en";
+    const locales = ["en", "fr", "de", "it"];
+    const currentIndex = locales.indexOf(locale);
+    const nextLocale = locales[(currentIndex + 1) % locales.length];
     startTransition(() => {
       router.replace(pathname, { locale: nextLocale });
     });
+  };
+
+  const getFlag = () => {
+    switch (locale) {
+      case "fr": return <FlagFR className="w-full h-full object-cover scale-150" />;
+      case "de": return <FlagDE className="w-full h-full object-cover scale-150" />;
+      case "it": return <FlagIT className="w-full h-full object-cover scale-150" />;
+      default: return <FlagUS className="w-full h-full object-cover scale-150" />;
+    }
   };
 
   return (
@@ -28,11 +39,7 @@ export function LanguageSwitcher() {
       title={t("switchLanguage")}
     >
       <div className="h-5 w-5 rounded-full overflow-hidden relative shadow-sm">
-        {locale === "en" ? (
-          <FlagUS className="w-full h-full object-cover scale-150" />
-        ) : (
-          <FlagFR className="w-full h-full object-cover scale-150" />
-        )}
+        {getFlag()}
       </div>
     </button>
   );

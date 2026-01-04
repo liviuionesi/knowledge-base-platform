@@ -9,6 +9,8 @@ description: "Strategia evento giornaliero: completa le attività in modo effici
 
 Un evento giornaliero in cui completi le stesse 6 attività ogni 4 ore per guadagnare punti e sbloccare ricompense. L'obiettivo principale è sbloccare tutte e 3 le casse di medaglie giornaliere, che contengono le ricompense più preziose. L'obiettivo secondario è aprire quante più casse grandi 3 possibile per ogni attività, fino a 18 casse. Il terzo obiettivo è classificarsi più in alto nell'evento Piena Preparazione; questo dà anche delle ricompense, ma alcuni concorrenti spendono troppo qui, il che è un uso inefficiente di acceleratori o risorse.
 
+![Panoramica Evento Piena Preparazione](/full-preparedness-main.jpg)
+
 **Rotazione Attività** (cambia ogni 4 ore):
 1. Iniziativa Eroica - Consuma EXP eroe
 2. Miglioramento del Rifugio - Migliora edifici + acceleratori
@@ -20,6 +22,8 @@ Un evento giornaliero in cui completi le stesse 6 attività ogni 4 ore per guada
 ---
 
 ## 2. Calendario dell'evento
+
+![Calendario Evento Piena Preparazione](/full-preparedness-calendar.jpg)
 
 Il calendario dell'evento è una tabella con 3 colonne.
 - La colonna "Data Evento" mostra il giorno corrente della settimana.

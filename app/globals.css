@@ -106,3 +106,110 @@ body {
 .text-blue { color: #3b82f6 !important; }
 .text-green { color: #22c55e !important; }
 .text-red { color: #ef4444 !important; }
+
+@media print {
+  @page {
+    margin: 20mm 20mm 20mm 20mm; /* Standard margin for comfortable reading */
+    size: auto;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt; /* Slightly smaller for print */
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Hide Navigation, Header, Sidebars */
+  header,
+  aside,
+  nav,
+  button,
+  .lg\:flex-none, /* LeftNav Desktop */
+  .xl\:flex-none, /* OnThisPage Desktop */
+  .lg\:hidden, /* Menu buttons */
+  [role="banner"],
+  [role="navigation"] {
+    display: none !important;
+  }
+
+  /* Layout Resets */
+  .max-w-2xl,
+  .max-w-8xl,
+  .prose {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  /* Main Content Area */
+  article {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  /* Typography for Print */
+  h1 {
+    font-size: 24pt !important;
+    margin-bottom: 24pt !important;
+    text-align: center;
+    page-break-after: avoid;
+  }
+
+  /* New Page for Main Sections */
+  h2 {
+    break-before: page;
+    page-break-before: always;
+    margin-top: 0 !important; /* Reset margin since it's a new page */
+    padding-top: 0 !important;
+    margin-bottom: 16pt !important;
+    font-size: 18pt !important;
+    border-bottom: 2px solid #000 !important; /* Visual separator for main sections */
+    padding-bottom: 8pt !important;
+  }
+  
+  /* Avoid breaking right after a header */
+  h2, h3, h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  
+  /* Paragraph spacing */
+  p {
+    margin-bottom: 12pt !important;
+    line-height: 1.5;
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Lists */
+  ul, ol {
+    margin-bottom: 12pt !important;
+    padding-left: 20pt !important;
+  }
+  
+  li {
+    margin-bottom: 4pt !important;
+  }
+
+  /* Hide interactive elements/decorations */
+  .shadow-sm,
+  .border,
+  .border-b,
+  .border-l,
+  .border-r,
+  .bg-\[var\(--sidebar-bg\)\] {
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+  }
+  
+  /* Force dark text */
+  * {
+    color: black !important;
+    text-shadow: none !important;
+  }
+}

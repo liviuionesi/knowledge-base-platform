@@ -1,0 +1,20 @@
+{
+  "HomePage": {
+    "title": "Willkommen im Phenix Wiki",
+    "description": "Ihr ultimativer Leitfaden zur Phenix Allianz."
+  },
+  "Auth": {
+    "title": "Phenix Allianz Wiki",
+    "description": "Geben Sie Ihre Allianz-Anmeldedaten ein, um auf das Wiki zuzugreifen",
+    "usernamePlaceholder": "Spieler-ID",
+    "passwordPlaceholder": "Passwort",
+    "submit": "Anmelden",
+    "error": "Ungültiger Benutzername oder Passwort",
+    "forgotPassword": "Passwort vergessen? Kontaktieren Sie Ihren Allianzleiter"
+  },
+  "Navigation": {
+    "switchLanguage": "Sprache wechseln",
+    "logout": "Abmelden",
+    "theme": "Thema wechseln"
+  }
+}

@@ -9,6 +9,8 @@ description: "Tägliche Event-Strategie: Erledige Aufgaben effizient, um 2 Orang
 
 Ein tägliches Event, bei dem du alle 4 Stunden die gleichen 6 Aufgaben erledigst, um Punkte zu sammeln und Belohnungen freizuschalten. Das Hauptziel ist das Freischalten aller 3 täglichen Medaillen-Truhen, die die wertvollsten Belohnungen enthalten. Das sekundäre Ziel ist es, so viele der größeren Truhen 3 für jede Aufgabe wie möglich zu öffnen, bis zu 18 Truhen. Das dritte Ziel ist es, im Event Volle Bereitschaft einen höheren Rang zu erreichen; dies gibt auch einige Belohnungen, aber einige Konkurrenten geben hier zu viel aus, was eine ineffiziente Nutzung von Beschleunigern oder Ressourcen ist.
 
+![Übersicht Volle Bereitschaft Event](/full-preparedness-main.jpg)
+
 **Aufgaben-Rotation** (wechselt alle 4 Stunden):
 1. Helden-Initiative - Helden-EP verbrauchen
 2. Unterschlupf-Upgrade - Gebäude verbessern + Beschleuniger
@@ -20,6 +22,8 @@ Ein tägliches Event, bei dem du alle 4 Stunden die gleichen 6 Aufgaben erledigs
 ---
 
 ## 2. Event-Kalender
+
+![Veranstaltungskalender Volle Bereitschaft](/full-preparedness-calendar.jpg)
 
 Der Event-Kalender ist eine Tabelle mit 3 Spalten.
 - Die Spalte "Event Date" zeigt den aktuellen Wochentag.

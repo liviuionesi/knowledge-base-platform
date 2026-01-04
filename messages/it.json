@@ -1,0 +1,20 @@
+{
+  "HomePage": {
+    "title": "Benvenuto su Phenix Wiki",
+    "description": "La tua guida definitiva all'Alleanza Phenix."
+  },
+  "Auth": {
+    "title": "Phenix Alliance Wiki",
+    "description": "Inserisci le tue credenziali dell'alleanza per accedere al wiki",
+    "usernamePlaceholder": "ID Giocatore",
+    "passwordPlaceholder": "Password",
+    "submit": "Accedi",
+    "error": "Nome utente o password non validi",
+    "forgotPassword": "Password dimenticata? Contatta il capo della tua alleanza"
+  },
+  "Navigation": {
+    "switchLanguage": "Cambia lingua",
+    "logout": "Disconnetti",
+    "theme": "Cambia tema"
+  }
+}
