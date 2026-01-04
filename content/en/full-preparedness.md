@@ -52,8 +52,8 @@ Unlock all 3 those small chests to get:
 
 For one single task you can unlock all 3 bigger chests to get:
 - 1 + 2 + 3 = 6 Preparedness Medals (you need to get 18 medals to unlock all 3 daily chests, the maximum for a day is 36 medals)
-- 15 + 60 = 75 Minutes Research Speedup
-- 30 Minutes Construction Speedup
+- Minutes Research Speedup
+- Minutes Construction Speedup
 - 30 Blue Skill Book
 - 50 Purple Skill Book
 - 100 Orange Skill Book
@@ -64,8 +64,8 @@ For one single task you can unlock all 3 bigger chests to get:
 
 ### 3.3 The total maximum rewards for a day (if you do all 6 tasks)
 - 18 Preparedness Medals
-- 75 x 6 = 450 Minutes Research Speedup
-- 30 x 6 = 180 Minutes Construction Speedup
+- 12 hours of Research Speedup
+- 12 hours of Construction Speedup
 - 30 x 6 = 180 Blue Skill Book
 - 50 x 6 = 300 Purple Skill Book
 - 100 x 6 = 600 Orange Skill Book
@@ -129,9 +129,11 @@ Lower places rewards are not as good as the top 3, but they are 300 Modification
 - You can't get enough points if you have only one constructor, the top players have all 4 constructors running almost 24/7, my farm has 2 constructors 
 - Wait for alliance help before using speedups (reduces total needed). in my case 40 memeber can press the help button, and it amount 4h:54m total free speedup time
 - Apply for the position of Secretary of Construction at the Capital for another 1h of construction time reduction 
-- Upgrade low-level buildings (Training Ground, Smelting Plant, Warehouse, Lumberyard, Residence Farmhouse, Wind Turbine) instead of expensive buildings (you need less Speedupsm aim for less than 24h)
+- Upgrade low-level buildings (Training Ground, Smelting Plant, Warehouse, Lumberyard, Residence Farmhouse, Wind Turbine) instead of expensive buildings (you need less Speedups, aim for less than 24h)
 - Keep 1 or 2 constructors free for these daily upgrades, have the other 2, or 3 on the time consuming upgrades
 - Get and upgrade the 3rd skill of Sophia to get more free construction Time
+- Get the orange refugee Diplomat for the Villa
+- Upgrade the Villa building to get more free construction time
 
 ---
 
@@ -152,6 +154,9 @@ Lower places rewards are not as good as the top 3, but they are 300 Modification
 - Top players use two labs to get the most points, it can be done with one lab, but harder and requires even more speedups
 - Finish your current research for 2 tasks that require the least amount of speedups, start a 3rd research if needed and use speedups to get the needed points
 - You need 13-15 hours of speedups (I buy speedups mostly using the Glory Medals in the Glory Shop (1h = 500 Glory Medals), and for having the most Glory Medals I use the Hero Battlefield Strategy)
+- Get and upgrade the 3rd skill of Emilia to get more free research time
+- Get the orange refugee Scientist for the Bookstore
+- Upgrade the Bookstore building to get more free research time
 
 **Avoid**: 
 - After opening the second or third chest, DO NOT USE a single minute of speedup more, it is a waste
@@ -188,5 +193,5 @@ Lower places rewards are not as good as the top 3, but they are 300 Modification
 ❌ Completing full research/construction when you only need partial points, after you got the last chest  
 ❌ Chasing ranking when far behind (resource waste)  
 ❌ Using Prime Recruits for Hero Initiative  
-❌ Killing Creeps for Mod Vehicle points  
+❌ Killing Saga Zombies (Survival Saga Event) for Mod Vehicle points  
 

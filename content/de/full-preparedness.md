@@ -1,36 +1,36 @@
 ---
-title: "Volle Bereitschaft"
-description: "Tägliche Event-Strategie: Erledige Aufgaben effizient, um 2 Orange Fragmente und andere Belohnungen zu erhalten"
+title: "Totale Bewaffnung"
+description: "Tägliche Event-Strategie: Erledige Aufgaben effizient, um 2 Universellen orangen Helden-Fragmente und andere Belohnungen zu erhalten"
 ---
 
-# Volle Bereitschaft
+# Totale Bewaffnung
 
 ## 1. Überblick
 
-Ein tägliches Event, bei dem du alle 4 Stunden die gleichen 6 Aufgaben erledigst, um Punkte zu sammeln und Belohnungen freizuschalten. Das Hauptziel ist das Freischalten aller 3 täglichen Medaillen-Truhen, die die wertvollsten Belohnungen enthalten. Das sekundäre Ziel ist es, so viele der größeren Truhen 3 für jede Aufgabe wie möglich zu öffnen, bis zu 18 Truhen. Das dritte Ziel ist es, im Event Volle Bereitschaft einen höheren Rang zu erreichen; dies gibt auch einige Belohnungen, aber einige Konkurrenten geben hier zu viel aus, was eine ineffiziente Nutzung von Beschleunigern oder Ressourcen ist.
+Ein tägliches Event, bei dem du alle 4 Stunden die gleichen 6 Aufgaben erledigst, um Punkte zu sammeln und Belohnungen freizuschalten. Das Hauptziel ist das Freischalten aller 3 kleineren heutigen  Medaillen-Truhen, die die wertvollsten Belohnungen enthalten. Das sekundäre Ziel ist es, so viele der größeren Truhen 3 für jede Aufgabe wie möglich zu öffnen, bis zu 18 Truhen. Das dritte Ziel ist es, im Event Totale Bewaffnung einen höheren Rang zu erreichen; dies gibt auch einige Belohnungen, aber einige Konkurrenten geben hier zu viel aus, was eine ineffiziente Nutzung von Beschleunigern oder Ressourcen ist.
 
-![Übersicht Volle Bereitschaft Event](/full-preparedness-main.jpg)
+![Übersicht Totale Bewaffnung Event](/full-preparedness-main.jpg)
 
 **Aufgaben-Rotation** (wechselt alle 4 Stunden):
-1. Helden-Initiative - Helden-EP verbrauchen
-2. Unterschlupf-Upgrade - Gebäude verbessern + Beschleuniger
-3. Armee-Erweiterung - Truppen ausbilden + Beschleuniger
-4. Zeitalter der Wissenschaft - Forschung + Beschleuniger
-5. Mod-Fahrzeug-Boost - Fahrzeug verbessern oder Boomer töten
-6. Die letzte Aufgabe ist immer die gleiche wie die dritte, und es ist die Aufgabe, die an diesem Tag im Allianz-Duell-Event erledigt werden muss.
+1. Entwicklung von Helden - Helden-EP verbrauchen
+2. Bau des Unterschlupfs - Gebäude verbessern + Beschleuniger
+3. Expansion der Armee - Truppen ausbilden + Beschleuniger
+4. Forschung der Technologie - Forschung + Beschleuniger
+5. Modifizierungsfahrzeug-Verstärkung - Fahrzeug verbessern oder Boomer töten
+6. Die letzte Aufgabe ist immer die gleiche wie die dritte, und es ist die Aufgabe, die an diesem Tag im Allianz-Duell erledigt werden muss.
 
 ---
 
 ## 2. Event-Kalender
 
-![Veranstaltungskalender Volle Bereitschaft](/full-preparedness-calendar.jpg)
+![Veranstaltungskalender Totale Bewaffnung](/full-preparedness-calendar.jpg)
 
 Der Event-Kalender ist eine Tabelle mit 3 Spalten.
-- Die Spalte "Event Date" zeigt den aktuellen Wochentag.
-- Die zweite Spalte hat einen blauen Button mit zwei Pfeilen, mit dem du zwischen Apocalypse Time und Local Time wechseln kannst.
-- Local Time zeigt die an deine Zeitzone angepasste Zeit, wann jede Aufgabe an jedem Tag beginnt.
-- Apocalypse Time zeigt die Zeit im Spiel in der Server-Zeitzone, welche UTC+2 ist.
-- Die dritte Spalte "Event Theme" zeigt den Namen der Aufgaben.
+- Die Spalte "Event-Datum" zeigt den aktuellen Wochentag.
+- Die zweite Spalte hat einen blauen Button mit zwei Pfeilen, mit dem du zwischen Weltuntergangszeit und Lokale Zeit wechseln kannst.
+- Lokale Zeit zeigt die an deine Zeitzone angepasste Zeit, wann jede Aufgabe an jedem Tag beginnt.
+- Weltuntergangszeit zeigt die Zeit im Spiel in der Server-Zeitzone, welche UTC+2 ist.
+- Die dritte Spalte "Event-Thema" zeigt den Namen der Aufgaben.
 
 Wir empfehlen, die Lokale Zeit zu verwenden, um deine Strategie zu planen, und den Kalender zu nutzen, um zu wissen, was jetzt, oder als nächstes heute, oder für morgen zu tun ist, oder was du vergessen hast zu tun 🤪.
 
@@ -40,102 +40,106 @@ Auf der Hauptseite des Events gibt es ein Medaillen-Icon, das die Punkte anzeigt
 
 ## 3. Belohnungen
 
-### 3.1 Tägliche Medaillen-Truhen (Deine 1. Priorität)
+### 3.1 Heutige Medaillen-Truhen (Deine 1. Priorität)
 Schalte alle 3 dieser kleinen Truhen frei, um zu erhalten:
-- **2 Universelle Orange Helden-Fragmente** (Hauptbelohnung)
-- 2 + 5 = 7 Lila Helden-Fragmente
-- 1 + 2 + 3 = 6 Prime-Rekrutierungstickets
-- 2 + 5 + 10 = 17 Lv.1 Zufällige Außenmodul-Truhen (für den Panzer)
+- **2 Universelles oranges Heldenfragmente** (Hauptbelohnung)
+- 2 + 5 = 7 Lila Heldenfragmente
+- 1 + 2 + 3 = 6 Fort. Rekrutierungstickets
+- 2 + 5 + 10 = 17 Lv.1 Außenmodul-Zufallstruhen (für den Panzer)
 - 30 + 100 + 200 = 350 Diamanten
 
 ### 3.2 Die Truhen der aktuellen Aufgabe (Deine 2. Priorität)
 
 Für eine einzelne Aufgabe kannst du alle 3 größeren Truhen freischalten, um zu erhalten:
-- 1 + 2 + 3 = 6 Bereitschaftsmedaillen (du brauchst 18 Medaillen, um alle 3 täglichen Truhen freizuschalten, das Maximum für einen Tag ist 36 Medaillen)
-- 15 + 60 = 75 Minuten Forschungs-Beschleuniger
-- 30 Minuten Bau-Beschleuniger
-- 30 Blaue Fertigkeitenbücher
-- 50 Lila Fertigkeitenbücher
-- 100 Orange Fertigkeitenbücher
-- 3 Blaue Holz-Level-Truhen (für Level 24 HQ sind das 216.000)
-- 3 Blaue Nahrungs-Level-Truhen (für Level 24 HQ sind das 216.000)
-- 3 Blaue Elektrizitäts-Level-Truhen (für Level 24 HQ sind das 216.000)
-- 2 Blaue Zentrum-Level-Truhen (für Level 24 HQ sind das 144.000)
+- 1 + 2 + 3 = 6 Bewaffnungsmedallien (du brauchst 18 Medaillen, um alle 3 täglichen Truhen freizuschalten, das Maximum für einen Tag ist 36 Medaillen)
+- Minuten Forschungs-Beschleuniger
+- Minuten Bau-Beschleuniger
+- Training Beschleuniger
+- 30 Blaue Fähigkeitsbücher
+- 50 Lila Fähigkeitsbücher
+- 100 Orange Fähigkeitsbücher
+- 3 Blaue Holz-Leveltruhen (für Level 24 HQ sind das 216.000)
+- 3 Blaue Lebensmittels-Leveltruhen (für Level 24 HQ sind das 216.000)
+- 3 Blaue Strom-Leveltruhen (für Level 24 HQ sind das 216.000)
+- 2 Blaue Leveltruhe der Z-Münzen  (für Level 24 HQ sind das 144.000)
 
 ### 3.3 Die maximalen Gesamtbelohnungen für einen Tag (wenn du alle 6 Aufgaben erledigst)
-- 18 Bereitschaftsmedaillen
-- 75 x 6 = 450 Minuten Forschungs-Beschleuniger
-- 30 x 6 = 180 Minuten Bau-Beschleuniger
-- 30 x 6 = 180 Blaue Fertigkeitenbücher
-- 50 x 6 = 300 Lila Fertigkeitenbücher
-- 100 x 6 = 600 Orange Fertigkeitenbücher
-- 3 x 6 = 18 Blaue Holz-Level-Truhen (für Level 24 HQ sind das 3.888.000)
-- 3 x 6 = 18 Blaue Nahrungs-Level-Truhen (für Level 24 HQ sind das 3.888.000)
-- 3 x 6 = 18 Blaue Elektrizitäts-Level-Truhen (für Level 24 HQ sind das 3.888.000)
-- 2 x 6 = 12 Blaue Zentrum-Level-Truhen (für Level 24 HQ sind das 1.728.000)
+- 18 Bewaffnungsmedallien
+- 12 Stunde Forschungs-Beschleuniger
+- 12 Stunde Bau-Beschleuniger
+- 12 Stunde Training Beschleuniger
+- 30 x 6 = 180 Blaue Fähigkeitsbücher
+- 50 x 6 = 300 Lila Fähigkeitsbücher
+- 100 x 6 = 600 Orange Fähigkeitsbücher
+- 3 x 6 = 18 Blaue Holz-Leveltruhen (für Level 24 HQ sind das 3.888.000)
+- 3 x 6 = 18 Blaue Lebensmittel-Leveltruhen (für Level 24 HQ sind das 3.888.000)
+- 3 x 6 = 18 Blaue Strom-Leveltruhen (für Level 24 HQ sind das 3.888.000)
+- 2 x 6 = 12 Blaue Leveltruhe der Z-Münzen  (für Level 24 HQ sind das 1.728.000)
 
 ### 3.4 Ranglisten-Boni (Wenn du am Ende des Tages in den Top 3 bist)
 
-- 1 Lila Dekorations-Truhe (Nr. 1 und 2), oder eine Blaue Dekorations-Truhe (Nr. 3)
-- 1 Universelles Orange Helden-Fragment (Nr. 1)
-- 600 (Nr. 3), 800 (Nr. 2), oder 1000 (Nr. 1) Modifikations-Blaupausen
-- 24 Holz, 24 Nahrung, 24 Elektrizität Level-Truhen für 1.728.000 (bei HQ Level 24)
-- 24 Holz für 1.728.000, 18 Nahrung für 1.296.000, 18 Elektrizität für den zweiten Platz
-- 24 Nahrungs-Level-Truhen für 1.728.000 und 12 Nahrung und 12 Elektrizität Level-Truhen für 864.000 für den dritten Platz
+- 1 Lila Dekorationsgegnstand-Truhe (Nr. 1 und 2), oder eine Blaue Dekorationsgegnstand-Truhe (Nr. 3)
+- 1 Universelles oranges Heldenfragment (Nr. 1)
+- 600 (Nr. 3), 800 (Nr. 2), oder 1000 (Nr. 1) Modifizierungs-Baupläne
+- 24 Holz, 24 Lebensmittel, 24 Strom Level-Truhen für 1.728.000 (bei HQ Level 24)
+- 24 Holz für 1.728.000, 18 Lebensmittel für 1.296.000, 18 Strom für den zweiten Platz
+- 24 Holz-Leveltruhen für 1.728.000 und 12 Lebensmittel und 12 Strom Level-Truhen für 864.000 für den dritten Platz
  
 Du erhältst die gleiche Anzahl an Ressourcen-Truhen, aber die Belohnungen sind höher oder niedriger, abhängig von deinem HQ-Level.
 
-Die Belohnungen für die unteren Plätze sind nicht so gut wie die Top 3, aber sie betragen 300 Modifikations-Blaupausen und 3 Holz, 3 Nahrung, 3 Elektrizität Level-Truhen für 216.000 (bei HQ Level 24)
+Die Belohnungen für die unteren Plätze sind nicht so gut wie die Top 3, aber sie betragen 300 Modifizierungs-Baupläne und 3 Holz, 3 Lebensmittel, 3 Strom Level-Truhen für 216.000 (bei HQ Level 24)
 
 ---
 
 ## 4. Aufgaben-Leitfaden
 
-### 4.1 Helden-Initiative (Am einfachsten)
-**Wie**: Verbrauche 24 Millionen Erfahrungs-Punkte, um alle 3 Truhen zu öffnen, oder mehr, um dich höher in den Top für die Ranglisten-Boni zu platzieren.
+### 4.1 Entwicklung von Helden (Am einfachsten)
+**Wie**: Verbrauche 24 Millionen Helden-Exp Punkte, um alle 3 Truhen zu öffnen, oder mehr, um dich höher in den Top für die Ranglisten-Boni zu platzieren.
 
-**Strategie**: Verwende **24M EP**, um die benötigten Punkte zu erreichen (alle 3 Truhen). EP ist reichlich vorhanden durch tägliche Aktivitäten wie Radar-Events, als Belohnungen in der Arena, oder kann im Minen-Nahkampf abgebaut werden (der meistgenutzte Weg, um EP für die Helden zu bekommen). Ich benutze meine EP-Punkte, die ich am Vortag gesammelt habe, um 60k oder sogar viel mehr Punkte zu bekommen.
+**Strategie**: Verwende **24M Helden-Exp**, um die benötigten Punkte zu erreichen (alle 3 Truhen). Helden-Exp ist reichlich vorhanden durch tägliche Aktivitäten wie Radar-Events, als Belohnungen in der Arena, oder kann im Minen-Event abgebaut werden (der meistgenutzte Weg, um Helden-Exp für die Helden zu bekommen). Ich benutze meine Helden-Exp-Punkte, die ich am Vortag gesammelt habe, alle Truhen zu öffnen, oder sogar viel mehr Punkte zu bekommen.
 
-**Vermeiden**: 30 Prime-Rekruten ausgeben (braucht 30 Tickets für alle 3 Truhen - zu teuer, und bringt dir am Donnerstag im Allianz-Duell-Event nichts ein)
+**Vermeiden**: 30 Fort.Rekrutierungstickets ausgeben (braucht 30 Tickets für alle 3 Truhen - zu teuer, und bringt dir am Donnerstag im Allianz-Duell-Event nichts ein)
 
 ---
 
-### 4.2 Mod-Fahrzeug-Boost (Einfach)
+### 4.2 Modifizierungsfahrzeug-Verstärkung (Einfach)
 **Wie**: 
-- Töte 12 Boomer-Zombies in der Welt, um alle 3 Truhen zu öffnen
+- Töte 12 Riesen-Zombies in der Welt, um alle 3 Truhen zu öffnen
 
 **Strategie**: 
-- Töte **12 Boomer** (12 x 16 = 192 Treibstoff) - das machst du bereits für Danger Lurks
-- Boomer Level 8 geben 130 Modifikations-Blaupausen, 60.000 x 12 = 720.000 EP, 30.400 x 12 = 364.800 Holz, Nahrung und Elektrizität
-- Boomer Level 9 geben 140 Modifikations-Blaupausen, 78.000 x 12 = 936.000 EP, 35.200 x 12 = 422.400 Holz, Nahrung und Elektrizität
-- Boomer Level 10 geben 150 Modifikations-Blaupausen, 100.000 x 12 = 1.200.000 EP, 40.000 x 12 = 480.000 Holz, Nahrung und Elektrizität
+- Töte **12 Riesen-Zombies** (12 x 16 = 192 Treibstoff) - das machst du bereits für Danger Lurks
+- Riesen-Zombie Level 8 geben 130 Modifizierungs-Baupläne, 60.000 x 12 = 720.000 EP, 30.400 x 12 = 364.800 Holz, Lebensmittel und Elektrizität
+- Riesen-Zombie Level 9 geben 140 Modifizierungs-Baupläne, 78.000 x 12 = 936.000 EP, 35.200 x 12 = 422.400 Holz, Lebensmittel und Elektrizität
+- Riesen-Zombie Level 10 geben 150 Modifizierungs-Baupläne, 100.000 x 12 = 1.200.000 EP, 40.000 x 12 = 480.000 Holz, Lebensmittel und Elektrizität
 
 
 **Achtung**: 
-- Verwende Blaupausen (4 Punkte jede) nur am Montag im Allianz-Duell-Event, oder wenn dir die Zeit ausgeht, um die Boomer zu töten
-- Verwende Schraubenschlüssel (80 Punkte jeder - selten, nur am Montag im Allianz-Duell-Event, vorzugsweise um 11 Uhr)
+- Verwende Modifizierungs-Baupläne (4 Punkte jede) nur am Montag im Allianz-Duell-Event, oder wenn dir die Zeit ausgeht, um die Boomer zu töten
+- Verwende Goldenen Schraubenschlüssel (80 Punkte jeder - selten, nur am Montag im Allianz-Duell-Event, vorzugsweise um 11 Uhr)
 
 
 **Vermeiden**: Reguläre Zombies töten (ineffizient, es sei denn, du machst das Zombie-Jäger-Event)
 
 ---
 
-### 4.3 Unterschlupf-Upgrade (Mäßig)
+### 4.3 Bau des Unterschlupfs (Mäßig)
 **Wie**: 
-- Punkte durch gewonnene Bau-Macht + verbrauchte Beschleuniger-Minuten
-- Ich verbessere zwei Gebäude, die während dieses Events am schnellsten fertig werden, nachdem ich zum Bau-Sekretär ernannt wurde und alle 40 Spieler den Hilfe-Button für dieses Gebäude gedrückt haben
+- Punkte durch gewonnene Bau-Kraft + verbrauchte Beschleuniger-Minuten
+- Ich verbessere zwei Gebäude, die während dieses Events am schnellsten fertig werden, nachdem ich zum Bauminister ernannt wurde und alle 40 Spieler den Hilfe-Button für dieses Gebäude gedrückt haben
 
 **Strategie**:
 - Du kannst nicht genug Punkte bekommen, wenn du nur einen Bauarbeiter hast, die Top-Spieler haben alle 4 Bauarbeiter fast 24/7 laufen, meine Farm hat 2 Bauarbeiter
 - Warte auf Allianz-Hilfe, bevor du Beschleuniger verwendest (reduziert die insgesamt benötigten). In meinem Fall können 40 Mitglieder den Hilfe-Button drücken, und das summiert sich auf 4h:54m gesamte kostenlose Beschleunigungszeit
-- Bewirb dich für die Position des Bau-Sekretärs im Kapitol für eine weitere Reduzierung der Bauzeit um 1h
-- Verbessere Gebäude mit niedrigem Level (Trainingsgelände, Schmelzanlage, Lager, Sägewerk, Wohnhaus, Windturbine) anstelle von teuren Gebäuden (du brauchst weniger Beschleuniger, ziele auf weniger als 24h)
+- Bewirb dich für die Position des Bauministers im Hauptstadt für eine weitere Reduzierung der Bauzeit um 1h
+- Verbessere Gebäude mit niedrigem Level (Übungsplatz, Schmelzwerke, Lagerhaus, Holzfällerei, Wohnung, Windkraftwerk) anstelle von teuren Gebäuden (du brauchst weniger Beschleuniger, ziele auf weniger als 24h)
 - Halte 1 oder 2 Bauarbeiter frei für diese täglichen Upgrades, habe die anderen 2 oder 3 bei den zeitaufwändigen Upgrades
 - Besorge und verbessere die 3. Fähigkeit von Sophia, um mehr kostenlose Bauzeit zu erhalten
+- Hol dir den orangen Flüchtling Verwalter für das Villa
+- Verbessere das Villa, um mehr kostenlose Bauzeit zu erhalten
 
 ---
 
-### 4.4 Armee-Erweiterung (Mäßig - 3/5)
+### 4.4 Expansion der Armee (Mäßig - 3/5)
 **Wie**: 
 - Diese Strategie erfordert, dass du deine Truppen von einem Level unter deinem Max-Level auf das Max-Level verbesserst, wobei du Trainings-Beschleuniger nur bei Bedarf verwendest
 - Auf diese Weise hast du die maximale Anzahl an Beschleunigern für Freitag im Allianz-Duell-Event gespart
@@ -147,11 +151,14 @@ Die Belohnungen für die unteren Plätze sind nicht so gut wie die Top 3, aber s
 
 ---
 
-### 4.5 Zeitalter der Wissenschaft (Mäßig - 3/5)
+### 4.5 Forschung der Technologie (Mäßig - 3/5)
 **Wie**: 
 - Top-Spieler nutzen zwei Labore, um die meisten Punkte zu bekommen, es kann mit einem Labor gemacht werden, aber schwerer und erfordert noch mehr Beschleuniger
 - Beende deine aktuelle Forschung für 2 Aufgaben, die die geringste Menge an Beschleunigern erfordern, starte eine 3. Forschung falls nötig und verwende Beschleuniger, um die benötigten Punkte zu bekommen
 - Du brauchst 13-15 Stunden an Beschleunigern (ich kaufe Beschleuniger meistens mit den Ruhm-Medaillen im Ruhm-Shop (1h = 500 Ruhm-Medaillen), und um die meisten Ruhm-Medaillen zu haben, benutze ich die Helden-Schlachtfeld-Strategie)
+- Erhalte und verbessere die 3. Fähigkeit von Emilia, um mehr kostenlose Forschungszeit zu erhalten
+- Hol dir den orangen Flüchtling Forscher für die Buchladen
+- Verbessere die Buchladen, um mehr kostenlose Forschungszeit zu erhalten
 
 **Vermeiden**: 
 - Nachdem du die zweite oder dritte Truhe geöffnet hast, VERWENDE KEINE einzige Minute an Beschleuniger mehr, es ist Verschwendung
@@ -161,15 +168,15 @@ Die Belohnungen für die unteren Plätze sind nicht so gut wie die Top 3, aber s
 ## 5. Empfehlungen
 
 ### 5.1 Goldene Stunde (Golden Hour)
-**Was**: Wenn Volle Bereitschaft und Allianz-Duell gleichzeitig die gleiche Aufgabe haben (prüfe den Zeitplan)
+**Was**: Wenn Totale Bewaffnung und Allianz-Duell gleichzeitig die gleiche Aufgabe haben (prüfe den Zeitplan)
 
-**Wann**: Einmal pro Tag (zweimal pro Tag, wenn das Allianz-Duell-Event die gleiche Mission wie Volle Bereitschaft hat)
+**Wann**: Einmal pro Tag (zweimal pro Tag, wenn das Allianz-Duell-Event die gleiche Mission wie Totale Bewaffnung hat)
 
 **Vorteil**: Deine Aktionen zählen für Punkte in BEIDEN Events
 
-**Aktion**: Spare und gib Beschleuniger/Ressourcen für beide Goldene Stunde-Aufgaben aus, um alle 3 Medaillen-Truhen in Volle Bereitschaft und so viele Truhen wie möglich im Allianz-Duell-Event des Tages zu erhalten.
+**Aktion**: Spare und gib Beschleuniger/Ressourcen für beide Goldene Stunde-Aufgaben aus, um alle 3 Medaillen-Truhen in Totale Bewaffnung und so viele Truhen wie möglich im Allianz-Duell-Event des Tages zu erhalten.
 
-**Zum Beispiel**: Ich verwende die meisten der Prime-Rekrutierungstickets für das Allianz-Duell am Donnerstag, wenn Volle Bereitschaft zum ersten Mal die Aufgabe Helden-Initiative hat, und verwende die Hälfte der EP für Volle Bereitschaft. Ich behalte vielleicht 20 Tickets für 23 Uhr, wenn Volle Bereitschaft zum zweiten Mal die Aufgabe Helden-Initiative hat. Und verwende die zweite Hälfte der EP-Punkte.
+**Zum Beispiel**: Ich verwende die meisten der Fort.-Rekrutierungstickets für das Allianz-Duell am Donnerstag, wenn Totale Bewaffnung zum ersten Mal die Aufgabe Entwicklung von Helden hat, und verwende die Hälfte der Helden-Exp Punkte für Totale Bewaffnung. Ich behalte vielleicht 20 Tickets für 23 Uhr, wenn Totale Bewaffnung zum zweiten Mal die Aufgabe Entwicklung von Helden hat. Und verwende die zweite Hälfte der Helden-Exp Punkte.
  
 ### 5.2 Profi-Tipps
 
@@ -187,5 +194,5 @@ Die Belohnungen für die unteren Plätze sind nicht so gut wie die Top 3, aber s
 ❌ Alle Beschleuniger für die aktuelle Aufgabe verwenden  
 ❌ Volle Forschung/Bau abschließen, wenn du nur Teilpunkte brauchst, nachdem du die letzte Truhe bekommen hast  
 ❌ Dem Ranking hinterherjagen, wenn man weit zurückliegt (Ressourcenverschwendung)  
-❌ Prime-Rekruten für Helden-Initiative verwenden  
-❌ Monster (Creeps) für Mod-Fahrzeug-Punkte töten  
+❌ Prime-Rekruten für Entwicklung von Helden verwenden  
+❌ Probezombies (Überlebenprobe - Event) für Mod-Fahrzeug-Punkte töten  

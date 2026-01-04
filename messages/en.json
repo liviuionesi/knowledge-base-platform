@@ -15,6 +15,7 @@
   "Navigation": {
     "switchLanguage": "Switch Language",
     "logout": "Sign out",
-    "theme": "Toggle theme"
+    "theme": "Toggle theme",
+    "onThisPage": "On this page"
   }
 }

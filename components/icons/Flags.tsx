@@ -1,38 +1,13 @@
 import React from 'react';
 
-export function FlagUS({ className }: { className?: string }) {
+export function FlagGB({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 640 480" className={className} xmlns="http://www.w3.org/2000/svg">
-      <path fill="#bd3d44" d="M0 0h640v480H0"/>
-      <path stroke="#fff" strokeWidth="37" d="M0 55.3h640M0 129h640M0 202.8h640M0 276.5h640M0 350.2h640M0 424h640"/>
-      <path fill="#192f5d" d="M0 0h296.2v258.5H0"/>
-      <g fill="#fff">
-        <g id="s18">
-          <g id="s9">
-            <g id="s5">
-              <g id="s4">
-                <path id="s" d="M24.8 14.6l12.8-4.3-8.8-11.5L24.8 14.6z"/>
-                <use href="#s" x="49.2"/>
-                <use href="#s" x="98.4"/>
-                <use href="#s" x="147.6"/>
-              </g>
-              <use href="#s" x="49.2"/>
-            </g>
-            <use href="#s" x="98.4"/>
-            <use href="#s" x="147.6"/>
-            <use href="#s" x="196.8"/>
-          </g>
-          <use href="#s9" y="36.9"/>
-        </g>
-        <use href="#s18" y="73.8"/>
-        <use href="#s18" y="147.6"/>
-        <use href="#s18" y="221.4"/>
-        <use href="#s9" y="295.2"/>
-        <use href="#s4" y="36.9" x="24.6"/>
-        <use href="#s4" y="110.7" x="24.6"/>
-        <use href="#s4" y="184.5" x="24.6"/>
-        <use href="#s4" y="258.3" x="24.6"/>
-      </g>
+      <path fill="#012169" d="M0 0h640v480H0z"/>
+      <path fill="#fff" d="M75 0l244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z"/>
+      <path fill="#c8102e" d="M424 281l216 159v40L369 281h55zm-184 20l6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z"/>
+      <path fill="#fff" d="M241 0v480h160V0H241zM0 160v160h640V160H0z"/>
+      <path fill="#c8102e" d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z"/>
     </svg>
   );
 }

@@ -15,6 +15,7 @@
   "Navigation": {
     "switchLanguage": "Sprache wechseln",
     "logout": "Abmelden",
-    "theme": "Thema wechseln"
+    "theme": "Thema wechseln",
+    "onThisPage": "Auf dieser Seite"
   }
 }

@@ -3,7 +3,10 @@
 import { useEffect, useState } from "react";
 import { TableOfContentsItem } from "@/types/content";
 
+import { useTranslations } from "next-intl";
+
 export function OnThisPage() {
+  const t = useTranslations("Navigation");
   const [headings, setHeadings] = useState<TableOfContentsItem[]>([]);
   const [activeId, setActiveId] = useState<string>("");
 
@@ -41,7 +44,7 @@ export function OnThisPage() {
     <div className="hidden xl:sticky xl:top-0 xl:block xl:h-screen xl:flex-none xl:overflow-y-auto xl:py-8 xl:pr-6 bg-[var(--sidebar-bg)] border-l border-[var(--border)]">
       <nav className="w-56 pl-6">
         <h2 className="font-display text-sm font-semibold text-[var(--foreground)]">
-          On this page
+          {t('onThisPage')}
         </h2>
         <ul className="mt-4 space-y-3 text-sm">
           {headings.map((heading, idx) => (

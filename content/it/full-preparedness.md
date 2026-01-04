@@ -132,6 +132,8 @@ Le ricompense per i posti inferiori non sono buone come la top 3, ma sono 300 Pr
 - Migliora edifici di basso livello (Campo di Addestramento, Impianto di Fusione, Magazzino, Segheria, Cascina Residenziale, Turbina Eolica) invece di edifici costosi (hai bisogno di meno acceleratori, punta a meno di 24h)
 - Tieni 1 o 2 costruttori liberi per questi aggiornamenti giornalieri, tieni gli altri 2 o 3 sugli aggiornamenti che richiedono tempo
 - Ottieni e migliora la 3a abilità di Sophia per ottenere più Tempo di costruzione gratuito
+- Ottieni la rifugiata arancione Governante per il Maniero
+- Migliora l'edificio Maniero per ottenere più tempo di costruzione gratuito
 
 ---
 
@@ -152,6 +154,9 @@ Le ricompense per i posti inferiori non sono buone come la top 3, ma sono 300 Pr
 - I migliori giocatori usano due laboratori per ottenere il maggior numero di punti, può essere fatto con un laboratorio, ma è più difficile e richiede ancora più acceleratori
 - Termina la tua ricerca corrente per 2 attività che richiedono la minor quantità di acceleratori, inizia una 3a ricerca se necessario e usa acceleratori per ottenere i punti necessari
 - Hai bisogno di 13-15 ore di acceleratori (compro acceleratori principalmente usando le Medaglie Gloria nel Negozio Gloria (1h = 500 Medaglie Gloria), e per avere il maggior numero di Medaglie Gloria uso la strategia del Campo di Battaglia degli Eroi)
+- Ottieni e migliora la 3a abilità di Emilia per ottenere più tempo di ricerca gratuito
+- Ottieni il rifugiato arancione Scienziato per la Biblioteca
+- Migliora l'edificio Biblioteca per ottenere più tempo di ricerca gratuito
 
 **Evitare**: 
 - Dopo aver aperto la seconda o terza cassa, NON USARE un solo minuto di acceleratore in più, è uno spreco

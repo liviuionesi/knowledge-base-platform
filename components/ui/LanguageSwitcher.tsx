@@ -3,7 +3,7 @@
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { useTransition } from "react";
-import { FlagUS, FlagFR, FlagDE, FlagIT } from "@/components/icons/Flags";
+import { FlagGB, FlagFR, FlagDE, FlagIT } from "@/components/icons/Flags";
 
 export function LanguageSwitcher() {
   const t = useTranslations("Navigation");
@@ -26,7 +26,7 @@ export function LanguageSwitcher() {
       case "fr": return <FlagFR className="w-full h-full object-cover scale-150" />;
       case "de": return <FlagDE className="w-full h-full object-cover scale-150" />;
       case "it": return <FlagIT className="w-full h-full object-cover scale-150" />;
-      default: return <FlagUS className="w-full h-full object-cover scale-150" />;
+      default: return <FlagGB className="w-full h-full object-cover scale-150" />;
     }
   };
 
