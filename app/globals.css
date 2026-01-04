@@ -109,16 +109,20 @@ body {
 
 @media print {
   @page {
-    margin: 20mm 20mm 20mm 20mm; /* Standard margin for comfortable reading */
-    size: auto;
+    margin: 10mm; /* Standard 1cm margin on all sides */
+    size: A4;
   }
 
-  body {
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important; /* Remove padding to avoid double margins */
     background: white !important;
-    color: black !important;
-    font-size: 11pt; /* Slightly smaller for print */
+    font-size: 11pt;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+    overflow: visible !important;
+    height: auto !important;
+    width: 100% !important; 
   }
 
   /* Hide Navigation, Header, Sidebars */
@@ -126,20 +130,23 @@ body {
   aside,
   nav,
   button,
-  .lg\:flex-none, /* LeftNav Desktop */
-  .xl\:flex-none, /* OnThisPage Desktop */
-  .lg\:hidden, /* Menu buttons */
+  .lg\:flex-none,
+  .xl\:flex-none,
+  .lg\:hidden,
   [role="banner"],
-  [role="navigation"] {
+  [role="navigation"],
+  /* Hide shadows/backgrounds */
+  .fixed,
+  .absolute {
     display: none !important;
   }
 
-  /* Layout Resets */
+  /* Layout Resets - Ensure content flows naturally */
   .max-w-2xl,
   .max-w-8xl,
   .prose {
-    max-width: 100% !important;
-    width: 100% !important;
+    max-width: none !important;
+    width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
     border: none !important;
@@ -151,43 +158,69 @@ body {
     width: 100% !important;
   }
 
-  /* Typography for Print */
-  h1 {
-    font-size: 24pt !important;
-    margin-bottom: 24pt !important;
-    text-align: center;
-    page-break-after: avoid;
+  /* Images */
+  img {
+    max-height: 140mm !important; /* Approx half A4 page height (297mm / 2) */
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    display: block;
+    margin: 10pt auto; /* Center images */
   }
 
-  /* New Page for Main Sections */
-  h2 {
-    break-before: page;
-    page-break-before: always;
-    margin-top: 0 !important; /* Reset margin since it's a new page */
-    padding-top: 0 !important;
+  /* Typography */
+  h1 {
+    font-size: 24pt !important;
     margin-bottom: 16pt !important;
-    font-size: 18pt !important;
-    border-bottom: 2px solid #000 !important; /* Visual separator for main sections */
-    padding-bottom: 8pt !important;
-  }
-  
-  /* Avoid breaking right after a header */
-  h2, h3, h4 {
-    break-after: avoid;
+    text-align: center;
     page-break-after: avoid;
+    break-after: avoid;
+    color: black !important; /* Keep main title black for clarity */
+  }
+
+  h2 {
+    font-size: 18pt !important;
+    margin-top: 24pt !important;
+    margin-bottom: 12pt !important;
+    border-bottom: 2px solid #e5e5e5 !important;
+    padding-bottom: 4pt !important;
+    page-break-after: avoid;
+    break-after: avoid;
+    /* Remove forced page break before H2 which was separating it from H1 */
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h3, h4 {
+    margin-top: 16pt !important;
+    margin-bottom: 8pt !important;
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Keep colors for text highlights (blue/orange) */
+  .prose strong {
+    color: #0284c7 !important; /* Phenix Blue */
   }
   
-  /* Paragraph spacing */
-  p {
-    margin-bottom: 12pt !important;
-    line-height: 1.5;
+  .prose a {
+    color: #0284c7 !important; /* Phenix Blue */
+    text-decoration: none;
+  }
+
+  /* Normal text usually black/dark grey */
+  p, li {
+    color: #000000 !important;
     orphans: 3;
     widows: 3;
   }
 
   /* Lists */
   ul, ol {
-    margin-bottom: 12pt !important;
+    margin-bottom: 10pt !important;
     padding-left: 20pt !important;
   }
   
@@ -195,21 +228,7 @@ body {
     margin-bottom: 4pt !important;
   }
 
-  /* Hide interactive elements/decorations */
-  .shadow-sm,
-  .border,
-  .border-b,
-  .border-l,
-  .border-r,
-  .bg-\[var\(--sidebar-bg\)\] {
-    box-shadow: none !important;
-    border: none !important;
-    background: transparent !important;
-  }
-  
-  /* Force dark text */
-  * {
-    color: black !important;
-    text-shadow: none !important;
-  }
+  /* Specific color overrides from global vars if needed, forcing them to print correctly */
+  .text-orange { color: #0284c7 !important; } /* Map orange to blue if preferred or keep orange: #ea580c */
+  .text-blue { color: #0284c7 !important; }
 }
