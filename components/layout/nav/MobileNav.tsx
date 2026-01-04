@@ -58,7 +58,7 @@ export function MobileNav({ navigation, locale, isOpen, onClose }: MobileNavProp
               <div className="flex shrink-0 items-center px-6 gap-2 mb-8">
                  <div className="relative h-8 w-8">
                    <Image 
-                     src="/phenix-logo.png" 
+                     src="/theme/phenix-logo.png" 
                      alt="Phenix Wiki Logo" 
                      fill
                      className="object-contain"

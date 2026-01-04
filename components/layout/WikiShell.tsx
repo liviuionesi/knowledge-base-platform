@@ -40,7 +40,7 @@ export function WikiShell({ children, navigation, locale }: WikiShellProps) {
           <Link href={`/${locale}`} className="font-semibold text-lg flex items-center gap-2 text-[var(--foreground)]">
             <div className="relative h-8 w-8">
                <Image 
-                 src="/phenix-logo.png" 
+                 src="/theme/phenix-logo.png" 
                  alt="Phenix Wiki Logo" 
                  fill
                  className="object-contain"

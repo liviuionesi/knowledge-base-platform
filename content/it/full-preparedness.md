@@ -9,7 +9,7 @@ description: "Strategia evento giornaliero: completa le attività in modo effici
 
 Un evento giornaliero in cui completi le stesse 6 attività ogni 4 ore per guadagnare punti e sbloccare ricompense. L'obiettivo principale è sbloccare tutte e 3 le casse di Medaglie odierna, che contengono le ricompense più preziose. L'obiettivo secondario è aprire quante più casse grandi 3 possibile per ogni attività, fino a 18 casse. Il terzo obiettivo è classificarsi più in alto nell'evento Preparazione alla Guerra; questo dà anche delle ricompense, ma alcuni concorrenti spendono troppo qui, il che è un uso inefficiente di acceleratori o risorse.
 
-![Panoramica Evento Preparazione alla Guerra](/full-preparedness-main.jpg)
+![Panoramica Evento Preparazione alla Guerra](/full-preparedness/full-preparedness-main-it.jpg)
 
 **Rotazione Attività** (cambia ogni 4 ore):
 1. Coltiva eroi - Consuma EXP eroe
@@ -23,7 +23,7 @@ Un evento giornaliero in cui completi le stesse 6 attività ogni 4 ore per guada
 
 ## 2. Calendario dell'evento
 
-![Calendario Evento Preparazione alla Guerra](/full-preparedness-calendar.jpg)
+![Calendario Evento Preparazione alla Guerra](/full-preparedness/full-preparedness-calendar-it.jpg)
 
 Il calendario dell'evento è una tabella con 3 colonne.
 - La colonna "Data dell'evento" mostra il giorno corrente della settimana.

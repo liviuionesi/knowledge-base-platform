@@ -3,13 +3,10 @@ import Image from 'next/image';
 
 export const components = {
   img: (props: any) => (
-    <Image
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
       {...props}
-      width={0}
-      height={0}
-      sizes="100vw"
-      className="w-full h-auto rounded-lg shadow-md my-8"
-      style={{ width: '100%', height: 'auto' }}
+      className="max-w-full w-auto h-auto rounded-lg shadow-md my-8"
       loading="lazy"
     />
   ),

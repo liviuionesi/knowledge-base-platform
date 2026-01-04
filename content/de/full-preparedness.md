@@ -9,7 +9,7 @@ description: "Tägliche Event-Strategie: Erledige Aufgaben effizient, um 2 Unive
 
 Ein tägliches Event, bei dem du alle 4 Stunden die gleichen 6 Aufgaben erledigst, um Punkte zu sammeln und Belohnungen freizuschalten. Das Hauptziel ist das Freischalten aller 3 kleineren heutigen  Medaillen-Truhen, die die wertvollsten Belohnungen enthalten. Das sekundäre Ziel ist es, so viele der größeren Truhen 3 für jede Aufgabe wie möglich zu öffnen, bis zu 18 Truhen. Das dritte Ziel ist es, im Event Totale Bewaffnung einen höheren Rang zu erreichen; dies gibt auch einige Belohnungen, aber einige Konkurrenten geben hier zu viel aus, was eine ineffiziente Nutzung von Beschleunigern oder Ressourcen ist.
 
-![Übersicht Totale Bewaffnung Event](/full-preparedness-main.jpg)
+![Übersicht Totale Bewaffnung Event](/full-preparedness/full-preparedness-main-de.jpg)
 
 **Aufgaben-Rotation** (wechselt alle 4 Stunden):
 1. Entwicklung von Helden - Helden-EP verbrauchen
@@ -23,7 +23,7 @@ Ein tägliches Event, bei dem du alle 4 Stunden die gleichen 6 Aufgaben erledigs
 
 ## 2. Event-Kalender
 
-![Veranstaltungskalender Totale Bewaffnung](/full-preparedness-calendar.jpg)
+![Veranstaltungskalender Totale Bewaffnung](/full-preparedness/full-preparedness-calendar-de.jpg)
 
 Der Event-Kalender ist eine Tabelle mit 3 Spalten.
 - Die Spalte "Event-Datum" zeigt den aktuellen Wochentag.

@@ -50,7 +50,7 @@ export default function LoginPage() {
       {/* Mobile Background: Absolute Phoenix */}
       <div className="absolute inset-0 lg:hidden flex items-center justify-center z-0 pointer-events-none overflow-hidden">
         <img 
-          src="/phenix-flying.png" 
+          src="/login/phenix-flying.png" 
           alt="Phenix Background" 
           className="w-[150%] max-w-none h-auto object-cover opacity-20"
         />
@@ -60,7 +60,7 @@ export default function LoginPage() {
       <section className="relative hidden lg:flex flex-1 items-center justify-center bg-[#0d131f]">
         <div className="relative w-full h-full flex items-center justify-center">
           <img 
-            src="/phenix-flying.png" 
+            src="/login/phenix-flying.png" 
             alt="Phenix Alliance" 
             className="w-full max-w-4xl scale-110 object-contain select-none"
           />
