@@ -3,11 +3,11 @@ title: "Full Preparedness"
 description: "Daily event strategy: complete tasks efficiently to earn 2 Orange Fragments and other rewards"
 ---
 
-# Full Preparedness Event
+# Full Preparedness
 
-## Overview
+## 1. Overview
 
-A daily event where you complete rotating tasks every 4 hours to earn points and unlock rewards. The primary goal is unlocking all 3 daily medal chests, which contain the most valuable rewards. Ranking bonuses are secondary.
+A daily event where you complete the same 6 tasks every 4 hours to earn points and unlock rewards. The primary goal is unlocking all 3 daily medal chests, which contain the most valuable rewards. The secondary goal is to open as many of the bigger chests 3 for each task, up to 18 chests. The third goal is to rank higher in the Full Preparedness event, this gives also some rewards, but some concurent overspend hier which is a ineficient usage of speed-ups or resources.
 
 **Task Rotation** (changes every 4 hours):
 1. Hero Initiative - Consume hero XP
@@ -15,115 +15,148 @@ A daily event where you complete rotating tasks every 4 hours to earn points and
 3. Army Expansion - Train troops + speedups
 4. Age of Science - Research + speedups
 5. Mod Vehicle Boost - Upgrade vehicle or kill Boomers
+6. The last task is always the same as the third one, and it is the task that must be done in the Alliance Duel event on that day.
 
 ---
 
-## Rewards
+## 2. Event calendar
 
-### Daily Medal Chests (Your Priority)
+The event calendar is a table with 3 columns. 
+- The column "Event Date" shows the current day of the week
+- The second column has a blue button with two arrows that allows you to switch between Apocalypse Time and Local Time 
+- Local Time shows the time adjusted to your timezone when each task starts during each day.
+- Apocalypse Time shows the time in the game in the server timezone, which is UTC+2.
+- The third column "Event Theme" shows the name of the tasks.
+
+We recommend to use Local Time to plan your strategy, and use the Calendar to know what to do now, or next today, or for tomorrow, or what you forgot doing 🤪. 
+
+On the main page of the event there is a Medal icon that shows points you scored fo the current task, and a small clock icon, that shows how much time is left until the next task starts.
+
+---
+
+## 3. Rewards
+
+### 3.1 Daily Medal Chests (Your 1st priority)
 Unlock all 3 those small chests to get:
 - **2 Universal Orange Hero Fragments** (main reward)
-- 7 Purple Hero Fragments
-- 6 Prime Recruitment Tickets
-- 17 Lv.1 Random Exterior Module Chests (for the Tank)
-- 350 Diamonds
-- 100 Orange Skill Books
+- 2 + 5 = 7 Purple Hero Fragments
+- 1 + 2 + 3 = 6 Prime Recruitment Tickets
+- 2 + 5 + 10 = 17 Lv.1 Random Exterior Module Chests (for the Tank)
+- 30 + 100 +200 = 350 Diamonds
 
-### Ranking Bonuses (Top 3 at reset)
-- 1 Purple Decoration Chest, or a Blue Decoration Chest if you are nr 3 
+### 3.2 The Current Task Chests (Your 2nd priority)
+
+For one single task you can unlock all 3 bigger chests to get:
+- 1 + 2 + 3 = 6 Preparedness Medals (you need to get 18 medals to unlock all 3 daily chests, the maximum for a day is 36 medals)
+- 15 + 60 = 75 Minutes Research Speedup
+- 30 Minutes Construction Speedup
+- 30 Blue Skill Book
+- 50 Purple Skill Book
+- 100 Orange Skill Book
+- 3 Blue Wood Level Chests (for level 24 HQ that is 216.000)
+- 3 Blue Food Level Chests (for level 24 HQ that is 216.000)
+- 3 Blue Electricity Level Chests (for level 24 HQ that is 216.000)
+- 2 Blue Zentrum Level Chests (for level 24 HQ that is 144.000)
+
+### 3.3 The total maximum rewards for a day (if you do all 6 tasks)
+- 18 Preparedness Medals
+- 75 x 6 = 450 Minutes Research Speedup
+- 30 x 6 = 180 Minutes Construction Speedup
+- 30 x 6 = 180 Blue Skill Book
+- 50 x 6 = 300 Purple Skill Book
+- 100 x 6 = 600 Orange Skill Book
+- 3 x 6 = 18 Blue Wood Level Chests (for level 24 HQ that is 3.888.000)
+- 3 x 6 = 18 Blue Food Level Chests (for level 24 HQ that is 3.888.000)
+- 3 x 6 = 18 Blue Electricity Level Chests (for level 24 HQ that is 3.888.000)
+- 2 x 6 = 12 Blue Zentrum Level Chests (for level 24 HQ that is 1.728.000)
+
+### 3.4 Ranking Bonuses (If you are in the Top 3 at the day end)
+
+- 1 Purple Decoration Chest (nr. 1 and 2), or a Blue Decoration Chest (nr. 3) 
 - 1 Universal Orange Hero Fragment (nr. 1)
-- 1000, 800, or 600 Modification Blueprints
-- 24 Wood Level Chests = 2-4M each, depending on your HQ level
-- 24, 18 or 12 Food and Electricity Level Chests = 1 - 4M each, depending on your  HQ level, depending if you are nr 1, 2 or 3
+- 600 (nr. 3), 800 (nr. 2), or 1000 (nr. 1) Modification Blueprints
+- 24 Wood, 24 Food, 24 Electricity Level Chests for 1.728.000 (at HQ level 24)
+- 24 Wood for 1.728.000, 18 Food for 1296000, 18 Electricity for the second place
+- 24 Food Level Chests for 1.728.000 and 12 Food and 12 Electricity Level Chests for 864.000 for the third  place
+ 
+You get the same number of Resources Chests but the rewards are higher or lower if depending on your HQ level.
+
+Lower places rewards are not as good as the top 3, but they are 300 Modification Blueprints and 3 Wood, 3 Food, 3 Electricity Level Chests for 216.000 (at HQ level 24)
 
 ---
 
-## How the System Works
+## 4. Task Guide
 
-### Points & Chests
-Each task cycle has 3 unlockable chests:
-- **Chest 1**: 8,000 points → 1 medal
-- **Chest 2**: 20,000 points → 2 medals  
-- **Chest 3**: 60,000 points → 3 medals
+### 4.1 Hero Initiative (Easiest)
+**How**: Consume 24 Miilion Experienc points to open all 3 chests, ot more to place yourself higher in the top for the ranking bonuses
 
-**Key Insight**: Chest 3 costs 3 times as many points (60,000 more) as Chest 2 (only 20,000 more).
-
-### Daily Goal
-You need **18 medals** total to unlock all 3 daily chests.
-
-**Best Strategy**: 
-- Unlock all 3 chests for **3 easy tasks** (3+3+3 + 3+3+3 = 18 medals)
-- Recommended: Hero Initiative, Mod Vehicle, + one more
-
-**Alternative Strategy** (if resources tight):
-- Unlock all 3 chests for **2 tasks** (6+6 = 12 medals)
-- Unlock first 2 chests for **2 other tasks** (2+2 + 2+2 = 6 medals)
-- Total: 18 medals at lower cost
-
----
-
-## Task Guide
-
-### ⭐ Hero Initiative (Easiest - 5/5)
-**How**: Consume 2,000 EXP = 5 points
-
-**Strategy**: Use **24M EXP** to reach 60,000 points (all 3 chests). XP is abundant from daily activities like radar events, arena, mine melee. I use my EXP points gathered from the previous day to get 60k or even a lot more points.
+**Strategy**: Use **24M EXP** to reach the needed points (all 3 chests). XP is abundant from daily activities like radar events, as rewards in the arena, or can mined in the Mine Melee(the most used way to get EXP for the heros). I use my EXP points gathered from the previous day to get 60k or even a lot more points.
 
 **Avoid**: Spending 30 Prime Recruits (need 30 tickets for all 3 chests - too expensive, and makes you score nothing on Thursday in the Alliance Duel event)
 
 ---
 
-### ⭐ Mod Vehicle Boost (Easy - 5/5)  
+### 4.2 Mod Vehicle Boost (Easy)  
 **How**: 
-- Kill Boomers (800-1,000 points per lvl 9-10)
-- Use Blueprints (4 points each)
-- Use Wrenches (80 points each - rare, save for VS events)
+- Kill 12 Boomer zombies in the World to open all 3 chests
 
 **Strategy**: 
-- Kill **12-15 level 8-10 Boomers** (~200 gas) - you already do this for Danger Lurks
-- Top off with blueprints if needed, but better save them for Monday in the Alliance Duel event
-- Boomer levels 8 give 130 Modification Blueprints, 60000 EXP, 30400 Wood, Food and Electricity
-- Boomer levels 9 give 140 Modification Blueprints, 78000 EXP, 35200 Wood, Food and Electricity
-- Boomer levels 10 give 150 Modification Blueprints, 100000 EXP, 40000 Wood, Food and Electricity
+- Kill **12 Boomers** (12 x 16 = 192 Fuel) - you already do this for Danger Lurks
+- Boomer levels 8 give 130 Modification Blueprints, 60.000 x 12 = 720.000 EXP, 30.400 x 12 = 364.800 Wood, Food and Electricity
+- Boomer levels 9 give 140 Modification Blueprints, 78.000 x 12 = 936.000 EXP, 35.200 x 12 = 422.400 Wood, Food and Electricity
+- Boomer levels 10 give 150 Modification Blueprints, 100.000 x 12 = 1.200.000 EXP, 40.000 x 12 = 480.000 Wood, Food and Electricity
+
+
+**Atention**: 
+- Use Blueprints (4 points each) only on Monday in the Alliance Duel event, or when you run out of time to kill the Boomers
+- Use Wrenches (80 points each - rare, only on Monday in the Alliance Duel event, at 11 am preferably)
 
 
 **Avoid**: Killing regular Zombies (not efficient unless doing Zombie Hunter event)
 
 ---
 
-### 🟡 Shelter Upgrade (Moderate - 3/5)
-**How**: Points from building power gained + speedup minutes consumed
+### 4.3 Shelter Upgrade (Moderate)
+**How**: 
+- Points from building power gained + speedup minutes consumed
+- I upgrade two buildings that finsih the fastest during this event after I get named Secretary of Construction and all the 40 players have pressed the help button for that building
 
 **Strategy**:
-- Wait for alliance helpers before using speedups (reduces total needed). I have 40 helpers, and it amount 4h:54m total help time
-- Apply for the position of Secretary of Construction  at the Capital for another 1h of construction time reduction 
-- Upgrade low-level buildings (Training Ground, Smelting Plant, Warehouse, Lumberyard, Residence Farmhouse, Wind Turbine) instead of expensive buildings (cheaper, faster)
+- You can't get enough points if you have only one constructor, the top players have all 4 constructors running almost 24/7, my farm has 2 constructors 
+- Wait for alliance help before using speedups (reduces total needed). in my case 40 memeber can press the help button, and it amount 4h:54m total free speedup time
+- Apply for the position of Secretary of Construction at the Capital for another 1h of construction time reduction 
+- Upgrade low-level buildings (Training Ground, Smelting Plant, Warehouse, Lumberyard, Residence Farmhouse, Wind Turbine) instead of expensive buildings (you need less Speedupsm aim for less than 24h)
 - Keep 1 or 2 constructors free for these daily upgrades, have the other 2, or 3 on the time consuming upgrades
+- Get and upgrade the 3rd skill of Sophia to get more free construction Time
 
 ---
 
-### 🟡 Army Expansion (Moderate - 3/5)
-**How**: 1 minute training speedup = 66 points (+ points per unit trained)
-
+### 4.4 Army Expansion (Moderate - 3/5)
+**How**: 
+- This strategy requires that you upgrade your troops form one level below your max level to the max level, using traing speedups only if necessary
+- This way you have the maximum number of speeedups saved for Friday in the Alliance Duel event 
+  
 **Strategy**:
-- Calculate exact speedups needed before using
-- Wait until final minutes before task changes to use speedups (saves for next day)
+- The second most efficient strategy is to train troops at level 1, and promote after this task ends to the max level (I need 20-23 minutes for troops to level one). I use this strategy when I forget to prepare, or have just 20 minutes left to get the chests 
+- You can also upgrade your troops from a lower level to the max level (from 4 to 8), or train toops to the max level directly (level 8). All work and give points, but the most efficient way is to upgrade your troops from one level below your max level to the max level
+- This most efficient strategy requires that you prepare it in advance, because otherwise you can only train troops at level 1, and promote them later. 
 
 ---
 
-### 🟡 Age of Science (Moderate - 3/5)
-**How**: 1 minute research speedup = 10 points (+ power gained)
+### 4.5 Age of Science (Moderate - 3/5)
+**How**: 
+- Top players use two labs to get the most points, it can be done with one lab, but harder and requires even more speedups
+- Finish your current research for 2 tasks that require the least amount of speedups, start a 3rd research if needed and use speedups to get the needed points
+- You need 13-15 hours of speedups (I buy speedups mostly using the Glory Medals in the Glory Shop (1h = 500 Glory Medals), and for having the most Glory Medals I use the Hero Battlefield Strategy)
 
-**Strategy**:
-- **Example**: 8,000 points needs 800 minutes (13.3 hours) of speedups
-- Don't complete the full research if you only need points
-- Use exact amount required, save the rest
+**Avoid**: 
+- After opening the second or third chest, DO NOT USE a single minute of speedup more, it is a waste
 
 ---
 
-## Advanced Strategies
+## 5. Recommendations
 
-### Golden Hour
+### 5.1 Golden Hour
 **What**: When Full Prep and Alliance Duel have the same task simultaneously (check schedule)
 
 **When**: Once per day ( twice per day when the Alliance Duel event has the same mission as Full Preparedness)
@@ -134,60 +167,22 @@ You need **18 medals** total to unlock all 3 daily chests.
 
 **For example**: I use most of the Prime Recruitment Tickets for the Alliance Duel on Thursday, when the Full Preparedness has the Hero Initiative task for the first time and use half of the EXP for the Full Preparedness. I keep maybe 20 tickets for 11PM, when the Full Preparedness has the Hero Initiative task for the second time. And use the second half of the EXP points. 
  
----
-
-### Resource Spending Limits
-
-**F2P Daily Budget** (to unlock 18 medals):
-- 24M EXP (Hero Initiative)
-- ~200 gas (12-15 Boomers for Mod Vehicle)
-- 13-15 hours of speedups (one additional task)
-
-**When to Chase Top 3**:
-✅ You're within 12k points in the last 30 minutes  
-✅ You have surplus blueprints/wrenches (3,000+)  
-✅ It's the last task rotation before reset
-
-**When to Stop Chasing Top 3**:
-❌ Need more than 7 hours of speedups  
-❌ Need more than 100 gas  
-❌ You're far behind the leader (>20% gap)
-
-**Key Rule**: Winning by 1 point = Winning by 100k points. Use minimum resources needed.
-
----
-
-## Pro Tips
+### 5.2 Pro Tips
 
 1. **Plan with Schedule**: The task at reset repeats just before next day's reset - save resources to double down
 2. **Don't Rush First Task**: If a task repeats later, save excess resources for the second occurrence
 3. **Alliance Helps First**: Always wait for helpers before using construction speedups
-4. **Calculate Minimums**: Need 8k points? Use 13.3 hours speedups, not 20 hours
+4. **Calculate Minimums**: Need points? Use 13.3 hours speedups, not 20 hours
 5. **Last-Second Sniping**: When competing for #1, wait until final minutes to use your resources (opponent can't counter)
 6. **Stop at 18 Medals**: Unless cost-effective to chase ranking, stop after hitting daily goal
 
 ---
 
-## Common Mistakes
+### 5.3 Common Mistakes
 
-❌ Using all speedups on first task rotation  
-❌ Completing full research/construction when you only need partial points  
+❌ Using all speedups on the current task  
+❌ Completing full research/construction when you only need partial points, after you got the last chest  
 ❌ Chasing ranking when far behind (resource waste)  
 ❌ Using Prime Recruits for Hero Initiative  
 ❌ Killing Creeps for Mod Vehicle points  
-❌ Showing your hand early when sniping for #1
 
----
-
-## Quick Daily Checklist
-
-**Morning** (at reset):
-- [ ] Check schedule for Golden Hour timing
-- [ ] Identify your 3 target tasks for the day
-
-**During Tasks**:
-- [ ] Hero Initiative: Use 24M EXP → 12k points
-- [ ] Mod Vehicle: Kill 12-15 Boomers → 12k points  
-- [ ] Third task: Use minimum speedups → 8k points (2 chests)
-
-**Result**: 18 medals → All 3 daily chests unlocked → 2 Orange Fragments ⭐

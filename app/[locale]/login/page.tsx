@@ -3,12 +3,14 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { Eye, EyeOff } from "lucide-react";
 
 export default function LoginPage() {
   const t = useTranslations("Auth");
   const router = useRouter();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
@@ -102,20 +104,30 @@ export default function LoginPage() {
               <label className="block text-zinc-400 text-xs tracking-[0.2em] uppercase mb-3 font-semibold group-focus-within:text-orange-500 transition-colors">
                 {t("passwordPlaceholder")}
               </label>
-              <input 
-                type="password"
-                name="password"
-                autoComplete="current-password"
-                autoCapitalize="none"
-                autoCorrect="off"
-                spellCheck={false}
-                required
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                placeholder="••••••••"
-                title="Contact -IronMaiden- in the game for your password."
-                className="w-full bg-transparent border-b border-zinc-700 py-3 text-white text-base outline-none focus:border-orange-600 transition-all placeholder:text-zinc-600"
-              />
+              <div className="relative">
+                <input 
+                  type={showPassword ? "text" : "password"}
+                  name="password"
+                  autoComplete="current-password"
+                  autoCapitalize="none"
+                  autoCorrect="off"
+                  spellCheck={false}
+                  required
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="••••••••"
+                  title="Contact -IronMaiden- in the game for your password."
+                  className="w-full bg-transparent border-b border-zinc-700 py-3 pr-10 text-white text-base outline-none focus:border-orange-600 transition-all placeholder:text-zinc-600"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-0 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-white transition-colors"
+                  tabIndex={-1}
+                >
+                  {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+                </button>
+              </div>
             </div>
 
             {error && (
