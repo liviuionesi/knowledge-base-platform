@@ -16,6 +16,26 @@
     "switchLanguage": "Sprache wechseln",
     "logout": "Abmelden",
     "theme": "Thema wechseln",
-    "onThisPage": "Auf dieser Seite"
+    "onThisPage": "Auf dieser Seite",
+    "allianceDuel": "Allianz-Duell",
+    "report": "Bericht"
+  },
+  "AllianceDuel": {
+    "reportTitle": "Allianz-Duell",
+    "reportSub": "Bericht",
+    "description": "Detaillierte Leistungsübersicht für die Phenix-Allianz.",
+    "historicalRecord": "Historischer Datensatz",
+    "awaitingIntelligence": "Warten auf Aufklärung",
+    "awaitingDescription": "Ranglistendaten werden synchronisiert. Schauen Sie bald wieder vorbei, um die neuesten Leistungskennzahlen der Allianz zu sehen.",
+    "weekOf": "Woche vom {date}",
+    "rank": "Rang",
+    "operative": "Agent",
+    "pointsSecured": "Gesicherte Punkte",
+    "trajectory": "Verlauf",
+    "stable": "Stabil",
+    "newEntrant": "Neuer Teilnehmer",
+    "ranksAdvanced": "{count} Ränge Aufgestiegen",
+    "ranksLost": "{count} Ränge Abgestiegen",
+    "phenixAlliance": "Phenix Allianz"
   }
 }

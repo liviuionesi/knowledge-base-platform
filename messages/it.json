@@ -16,6 +16,26 @@
     "switchLanguage": "Cambia lingua",
     "logout": "Disconnetti",
     "theme": "Cambia tema",
-    "onThisPage": "In questa pagina"
+    "onThisPage": "In questa pagina",
+    "allianceDuel": "Duello dell'Alleanza",
+    "report": "Rapporto"
+  },
+  "AllianceDuel": {
+    "reportTitle": "Duello dell'Alleanza",
+    "reportSub": "Rapporto",
+    "description": "Analisi dettagliata delle prestazioni per l'Alleanza Phenix.",
+    "historicalRecord": "Record Storico",
+    "awaitingIntelligence": "In attesa di Intelligence",
+    "awaitingDescription": "I dati della classifica sono in fase di sincronizzazione. Torna presto per le ultime metriche sulle prestazioni dell'alleanza.",
+    "weekOf": "Settimana del {date}",
+    "rank": "Rango",
+    "operative": "Operativo",
+    "pointsSecured": "Punti Assicurati",
+    "trajectory": "Traiettoria",
+    "stable": "Stabile",
+    "newEntrant": "Nuovo Entrato",
+    "ranksAdvanced": "{count} Ranghi Avanzati",
+    "ranksLost": "{count} Ranghi Persi",
+    "phenixAlliance": "Alleanza Phenix"
   }
 }

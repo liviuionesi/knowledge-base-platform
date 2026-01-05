@@ -10,25 +10,33 @@ export function getNavigation(locale: string): NavGroup[] {
       gettingStarted: 'Getting Started',
       welcome: 'Welcome',
       eventCenter: 'Event Center',
-      fullPreparedness: 'Full Preparedness'
+      fullPreparedness: 'Full Preparedness',
+      allianceDuel: 'Alliance Duel',
+      report: 'Report'
     },
     fr: {
       gettingStarted: 'Commencer',
       welcome: 'Bienvenue',
       eventCenter: 'Événements',
-      fullPreparedness: 'Armements globaux'
+      fullPreparedness: 'Armements globaux',
+      allianceDuel: "Duel d'Alliance",
+      report: 'Rapport'
     },
     de: {
       gettingStarted: 'Erste Schritte',
       welcome: 'Willkommen',
       eventCenter: 'Eventzentrum',
-      fullPreparedness: 'Totale Bewaffnung'
+      fullPreparedness: 'Totale Bewaffnung',
+      allianceDuel: 'Allianz-Duell',
+      report: 'Bericht'
     },
     it: {
       gettingStarted: 'Per Iniziare',
       welcome: 'Benvenuto',
       eventCenter: 'Centro Eventi',
-      fullPreparedness: 'Preparazione alla Guerra'
+      fullPreparedness: 'Preparazione alla Guerra',
+      allianceDuel: "Duello dell'Alleanza",
+      report: 'Rapporto'
     }
   };
 
@@ -52,6 +60,16 @@ export function getNavigation(locale: string): NavGroup[] {
           title: t.fullPreparedness,
           slug: 'full-preparedness',
           href: `/${locale}/docs/full-preparedness`
+        }
+      ]
+    },
+    {
+      group: t.allianceDuel,
+      links: [
+        {
+          title: t.report,
+          slug: 'alliance-duel',
+          href: `/${locale}/alliance-duel`
         }
       ]
     }

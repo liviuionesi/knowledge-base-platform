@@ -16,6 +16,26 @@
     "switchLanguage": "Switch Language",
     "logout": "Sign out",
     "theme": "Toggle theme",
-    "onThisPage": "On this page"
+    "onThisPage": "On this page",
+    "allianceDuel": "Alliance Duel",
+    "report": "Report"
+  },
+  "AllianceDuel": {
+    "reportTitle": "Alliance Duel",
+    "reportSub": "Report",
+    "description": "Detailed performance breakdown for the Phenix Alliance.",
+    "historicalRecord": "Historical Record",
+    "awaitingIntelligence": "Awaiting Intelligence",
+    "awaitingDescription": "Leaderboard data is being synchronized. Check back shortly for the latest alliance performance metrics.",
+    "weekOf": "Week of {date}",
+    "rank": "Rank",
+    "operative": "Operative",
+    "pointsSecured": "Points Secured",
+    "trajectory": "Trajectory",
+    "stable": "Stable",
+    "newEntrant": "New Entrant",
+    "ranksAdvanced": "{count} Ranks Advanced",
+    "ranksLost": "{count} Ranks Lost",
+    "phenixAlliance": "Phenix Alliance"
   }
 }

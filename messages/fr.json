@@ -16,6 +16,26 @@
     "switchLanguage": "Changer de langue",
     "logout": "Se déconnecter",
     "theme": "Changer de thème",
-    "onThisPage": "Sur cette page"
+    "onThisPage": "Sur cette page",
+    "allianceDuel": "Duel d'Alliance",
+    "report": "Rapport"
+  },
+  "AllianceDuel": {
+    "reportTitle": "Duel d'Alliance",
+    "reportSub": "Rapport",
+    "description": "Analyse détaillée des performances de l'Alliance Phenix.",
+    "historicalRecord": "Archive Historique",
+    "awaitingIntelligence": "En attente d'Intelligence",
+    "awaitingDescription": "Les données du classement sont en cours de synchronisation. Revenez bientôt pour les dernières mesures de performance de l'alliance.",
+    "weekOf": "Semaine du {date}",
+    "rank": "Rang",
+    "operative": "Opératif",
+    "pointsSecured": "Points Sécurisés",
+    "trajectory": "Trajectoire",
+    "stable": "Stable",
+    "newEntrant": "Nouvel Entrant",
+    "ranksAdvanced": "{count} Rangs Gagnés",
+    "ranksLost": "{count} Rangs Perdus",
+    "phenixAlliance": "Alliance Phenix"
   }
 }
