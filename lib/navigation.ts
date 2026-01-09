@@ -45,7 +45,7 @@ export function getNavigation(locale: string): NavGroup[] {
   // Custom hero faction names (not translated yet for simplicity, or add to translations)
   const heroTranslations = {
     en: { heroes: 'Heroes', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
-    fr: { heroes: 'Héros', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
+    fr: { heroes: 'Héros', bloodRose: 'Paradis du chaos', wingsOfDawn: "Ailes de l'aube", guardOfOrder: 'Volonté de la liberté' },
     de: { heroes: 'Helden', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
     it: { heroes: 'Eroi', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' }
   };

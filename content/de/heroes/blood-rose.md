@@ -5,8 +5,8 @@ description: Detaillierte Informationen über die Helden der Blood Rose Fraktion
 
 # Blood Rose Helden
 
-Die Helden der Blood Rose Fraktion werden von den meisten Spielern im Team 1 verwendet.
-Es gibt eine Synergie zwischen den Helden (Selena & Oliveira) der Blood Rose Fraktion und den Angreifer-Truppen. Wenn Sie also Helden des Teams S1 (Selena & Oliveira) haben, erhalten Sie stärkere Truppen der Angreifer-Fraktion.
+Die Helden der Blood Rose Fraktion werden von den meisten Spielern im Team 1 eingesetzt.
+Es gibt eine Synergie zwischen den Helden (Selena & Oliveira) der Blood Rose Fraktion und den Assaulter-Truppen. Wenn Sie also Helden der Saison S1 (Selena & Oliveira) haben, erhalten Sie stärkere Truppen der Assaulter-Fraktion.
 
 ### Fraktionsbeziehungen
 

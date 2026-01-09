@@ -3,50 +3,50 @@
     "name": "Katrina",
     "type": "S",
     "rarity": "0.16%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/katrina.jpeg",
     "role_description": "Ce héros excelle en DEF solide lors des combats",
     "skills": [
       {
-        "name": "Balle Explosive",
-        "type": "Boost d'Attaque Normale",
-        "description": "Le facteur de dégâts des attaques normales augmente à 1083(->1103).",
+        "name": "Balles explosives",
+        "type": "Attaque normale boostée",
+        "description": "Coefficient de dégâts 'Attaques normales' augmenté à 1083(->1103).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
-        "name": "Assaut Total",
-        "type": "Compétence Active",
-        "description": "Ordonne à la troupe d'élite de déchaîner toute sa puissance de feu (Facteur de Dégâts : 1686(->1727)), pendant 6 secondes.",
+        "name": "Assaut de total",
+        "type": "Compétence active",
+        "description": "Ordonne aux troupes d'élite d'utiliser toute leur puissance de feu, coefficient de dégâts: 1686(->1727), durée 6 secondes.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
-          "2": "Augmente la durée de 1 sec.",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
-          "4": "Quantité de troupes de soutien +2.",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "1": "Coefficient de dégâts +150",
+          "2": "Durée +1 sec.",
+          "3": "Coefficient de dégâts +150",
+          "4": "Renfort +2.",
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
-        "name": "Génie de l'Exploration",
-        "type": "Effet Global",
-        "description": "L'EXP inactif dans les étapes d'exploration augmente de 33,1(->33,8)%.",
+        "name": "Génie de l'Eexploration",
+        "type": "Valable dans toutes les batailles",
+        "description": "Expérience d'inactivité dans les niveaux d'aventure 33,1(->33,8)%.",
         "star_effects": {
-          "1": "Obtenez 100 carburant gratuitement par jour.",
-          "2": "EXP inactif +5%",
-          "3": "EXP inactif +5%",
-          "4": "Vitesse de restauration du carburant +10%",
-          "5": "EXP inactif +10%"
+          "1": "100 combustible gratuit par jour.",
+          "2": "EXP 'Jeu automatique' +5%",
+          "3": "EXP 'Jeu automatique' +5%",
+          "4": "Vitesse de récupération du carburant +10%",
+          "5": "EXP 'Jeu automatique' +10%"
         }
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
-        "description": "Booste sa propre attaque de 10%, sa défense de 10% et la capacité des troupes de 5%.",
+        "type": "Talent exclusif",
+        "description": "Attaque du héros +10%, défense du héros +10%, Capacité de la troupe +5%.",
         "star_effects": {}
       }
     ]
@@ -55,38 +55,38 @@
     "name": "Oliveira",
     "type": "S",
     "rarity": "payant",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "season": "Saison 1",
     "image": "/heroes/blood-rose/oliveira.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Coup Fatal",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
         "name": "Tempête de Lames",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Place une lame rotative à l'endroit désigné, causant des dégâts aux ennemis à portée (Facteur de Dégâts : 1479(->1520)), pendant 4 secondes.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
-          "2": "Augmente la durée de 1 sec.",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "1": "Coefficient de dégâts +150",
+          "2": "Durée +1 sec.",
+          "3": "Coefficient de dégâts +150",
           "4": "Inflige un effet de saignement supplémentaire.",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
         "name": "Fille Douée",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Augmente la vitesse d'entraînement du camp des Assaillants de 54,5(->55,5)%.",
         "star_effects": {
           "1": "Vitesse d'entraînement +20%",
@@ -98,8 +98,8 @@
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
-        "description": "Pour chaque héros Blood Rose déployé, l'ATK et la DEF des troupes augmentent de 5%. En déployant 5 héros Blood Rose, la capacité des troupes augmente de 10% supplémentaires.",
+        "type": "Talent exclusif",
+        "description": "Pour chaque héros Paradis du chaos déployé, l'ATK et la DEF des troupes augmentent de 5%. En déployant 5 héros Paradis du chaos, la capacité des troupes augmente de 10",
         "star_effects": {}
       }
     ]
@@ -108,33 +108,33 @@
     "name": "Selena",
     "type": "S",
     "rarity": "payant",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "season": "Saison 1",
     "image": "/heroes/blood-rose/selena.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Blessure Déchirée",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
         "name": "Invocation Sauvage",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Ordonne à l'ours de guerre de bondir et mordre, puis de frapper le sol en rencontrant un ennemi pour causer des dégâts de zone (Facteur de Dégâts : 1479(->1520)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "1": "Coefficient de dégâts +150",
           "2": "Augmente la portée des dégâts de 30%.",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "3": "Coefficient de dégâts +150",
           "4": "Nombre de frappes au sol +2",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
@@ -151,7 +151,7 @@
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "Que Selena soit déployée ou non, les dégâts de toutes les unités Assaillant augmentent de 10%.",
         "star_effects": {}
       }
@@ -161,38 +161,38 @@
     "name": "Sophia",
     "type": "S",
     "rarity": "0.16%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/sophia.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Chasseur de Destin",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
         "name": "Fureur de l'Apocalypse",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Appelle une troupe mobile en soutien, lançant un assaut féroce sur la zone cible (Facteur de Dégâts : 1479(->1520)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
-          "2": "Quantité de troupes de soutien +2.",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
-          "4": "Quantité de troupes de soutien +3.",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "1": "Coefficient de dégâts +150",
+          "2": "Renfort +2.",
+          "3": "Coefficient de dégâts +150",
+          "4": "Renfort +3.",
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
         "name": "Cadeau de la Princesse",
-        "type": "Effet Global",
-        "description": "Augmente la durée de construction gratuite de 90 min et la vitesse de construction de 29,7(->30,3)%.",
+        "type": "Valable dans toutes les batailles",
+        "description": "Durée +construction gratuite de 90 min et la vitesse de construction de 29,7(->30,3)%.",
         "star_effects": {
           "1": "Durée de construction gratuite +15 min.",
           "2": "Vitesse de construction +10%.",
@@ -203,7 +203,7 @@
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "Booste sa propre attaque de 10%, sa défense de 10% et la capacité des troupes de 5%.",
         "star_effects": {}
       }
@@ -213,49 +213,49 @@
     "name": "Vivian",
     "type": "A",
     "rarity": "0.50%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/vivian.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Cartes Magiques",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 656(->667).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
         }
       },
       {
         "name": "Tour de Cartes",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Contrôle les cartes pour attaquer les ennemis dans une zone circulaire (Facteur de Dégâts : 1093(->1114)), pendant 3 secondes.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
           "3": "Augmente la portée des dégâts de 30%.",
-          "4": "Augmente le facteur de dégâts de 200 supplémentaires.",
-          "5": "Augmente la durée de 1 sec."
+          "4": "Coefficient de dégâts +200",
+          "5": "Durée +1 sec."
         }
       },
       {
         "name": "Né du Feu",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "En combattant des créatures, les dégâts infligés par la troupe menée augmentent de 30%.",
         "star_effects": {
           "1": "Coût en carburant -1",
           "2": "Coût en carburant -1",
-          "3": "Le coût en carburant pour défier les Boomers est réduit de 2 supplémentaires.",
+          "3": "Le coût en carburant pour défier les Boomers est réduit de 2",
           "4": "Dégâts infligés +10%",
           "5": "L'effet s'applique à toute la formation indépendamment du déploiement de Vivian."
         }
       },
       {
         "name": "Spécialiste de Terrain",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "Plusieurs troupes peuvent attaquer la même créature.",
         "star_effects": {}
       }
@@ -265,37 +265,37 @@
     "name": "Audrey",
     "type": "B",
     "rarity": "1.50%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/audrey.jpeg",
     "role_description": "Ce héros excelle en DEF solide lors des combats",
     "skills": [
       {
         "name": "Fureur des Poings",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 368(->375).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 40 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 70 supplémentaires."
+          "1": "Coefficient de dégâts +30",
+          "2": "Coefficient de dégâts +30",
+          "3": "Coefficient de dégâts +30",
+          "4": "Coefficient de dégâts +40",
+          "5": "Coefficient de dégâts +70"
         }
       },
       {
         "name": "Boxe Thaï",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Sort son arme pour attaquer les ennemis (Facteur de Dégâts : 724(->737)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 80 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 140 supplémentaires."
+          "1": "Coefficient de dégâts +60",
+          "2": "Coefficient de dégâts +60",
+          "3": "Coefficient de dégâts +60",
+          "4": "Coefficient de dégâts +80",
+          "5": "Coefficient de dégâts +140"
         }
       },
       {
         "name": "Bon Entraînement",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Vitesse d'entraînement des unités +30%.",
         "star_effects": {
           "1": "Vitesse d'entraînement des unités +2%",
@@ -307,8 +307,8 @@
       },
       {
         "name": "Défense de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente la DEF des héros de la faction Blood Rose de 5%.",
+        "type": "Talent exclusif",
+        "description": "Augmente la DEF des héros de la faction Paradis du chaos de 5%.",
         "star_effects": {}
       }
     ]
@@ -317,37 +317,37 @@
     "name": "Ava",
     "type": "A",
     "rarity": "0.50%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/ava.jpeg",
     "role_description": "Ce héros excelle à accorder des Buffs Puissants en combat",
     "skills": [
       {
         "name": "Réaction Chimique",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 501(->512).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
         }
       },
       {
         "name": "Potion Périlleuse",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Lance des produits chimiques dangereux dans une zone spécifique, causant des dégâts massifs aux ennemis (Facteur de Dégâts : 803(->824)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "A des chances de causer des dégâts de poison supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 220 supplémentaires.",
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "A des chances de causer des dégâts de poison",
+          "4": "Coefficient de dégâts +220",
           "5": "Améliore l'effet de poison."
         }
       },
       {
         "name": "Expert en Attaque",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Sa propre ATK augmente de 1400.",
         "star_effects": {
           "1": "ATK +50",
@@ -359,8 +359,8 @@
       },
       {
         "name": "Attaque de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente l'Attaque des Héros de la faction Blood Rose de 10%.",
+        "type": "Talent exclusif",
+        "description": "Augmente l'Attaque des Héros de la faction Paradis du chaos de 10%.",
         "star_effects": {}
       }
     ]
@@ -369,37 +369,37 @@
     "name": "Giselle",
     "type": "B",
     "rarity": "1.50%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/giselle.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Pied-de-biche en Alliage",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 403(->410).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 40 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 70 supplémentaires."
+          "1": "Coefficient de dégâts +30",
+          "2": "Coefficient de dégâts +30",
+          "3": "Coefficient de dégâts +30",
+          "4": "Coefficient de dégâts +40",
+          "5": "Coefficient de dégâts +70"
         }
       },
       {
         "name": "Impact du Pied-de-biche",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Balance l'arme, infligeant des dégâts aux ennemis dans une zone en forme d'éventail devant (Facteur de Dégâts : 793(->806)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 80 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 140 supplémentaires."
+          "1": "Coefficient de dégâts +60",
+          "2": "Coefficient de dégâts +60",
+          "3": "Coefficient de dégâts +60",
+          "4": "Coefficient de dégâts +80",
+          "5": "Coefficient de dégâts +140"
         }
       },
       {
         "name": "Maître de la Récolte : Bois",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Augmente la vitesse de récolte du Bois de 45% et le rendement en Bois de 30%.",
         "star_effects": {
           "1": "Vitesse de récolte du Bois +3%",
@@ -411,8 +411,8 @@
       },
       {
         "name": "Attaque de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente l'ATK des Héros de la faction Blood Rose de 5%.",
+        "type": "Talent exclusif",
+        "description": "Augmente l'ATK des Héros de la faction Paradis du chaos de 5%.",
         "star_effects": {}
       }
     ]
@@ -421,37 +421,37 @@
     "name": "Miranda",
     "type": "A",
     "rarity": "0.50%",
-    "faction": "Blood Rose",
+    "faction": "Paradis du chaos",
     "image": "/heroes/blood-rose/miranda.jpeg",
     "role_description": "Ce héros excelle en DEF solide lors des combats",
     "skills": [
       {
         "name": "Balles Pénétrantes",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 605(->615).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
         }
       },
       {
         "name": "Tir Rapide",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Tire sauvagement sur les ennemis devant (Facteur de Dégâts : 970(->991)), avec des chances d'étourdir les cibles.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
           "3": "Augmente les chances d'étourdissement.",
-          "4": "Augmente le facteur de dégâts de 200 supplémentaires.",
-          "5": "Augmente la durée de l'étourdissement de 1 sec."
+          "4": "Coefficient de dégâts +200",
+          "5": "Durée +l'étourdissement de 1 sec."
         }
       },
       {
         "name": "Expert en Défense",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Augmente la Défense de toutes les unités.",
         "star_effects": {
           "1": "Défense +50",
@@ -463,8 +463,8 @@
       },
       {
         "name": "Défense de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente la Défense des Héros de la faction Blood Rose de 10%.",
+        "type": "Talent exclusif",
+        "description": "Augmente la Défense des Héros de la faction Paradis du chaos de 10%.",
         "star_effects": {}
       }
     ]
@@ -473,38 +473,38 @@
     "name": "Amelia",
     "type": "S",
     "rarity": "0.16%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/amelia.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Focus d'Assassin",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
         "name": "Soutien de Précision",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Marque 3 cibles au hasard, infligeant des dégâts explosifs aux cibles et aux ennemis à proximité (Facteur de Dégâts : 1479(->1520)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "1": "Coefficient de dégâts +150",
           "2": "L'explosion inflige un effet de brûlure supplémentaire.",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "3": "Coefficient de dégâts +150",
           "4": "Double le nombre de marques et réduit les dégâts de 30.",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
         "name": "Scientifique",
-        "type": "Effet Global",
-        "description": "Augmente la durée de recherche gratuite de 90 min et la vitesse de recherche de 29,7(->30,3)%.",
+        "type": "Valable dans toutes les batailles",
+        "description": "Durée +recherche gratuite de 90 min et la vitesse de recherche de 29,7(->30,3)%.",
         "star_effects": {
           "1": "Durée de recherche gratuite +15 min",
           "2": "Vitesse de recherche +10%",
@@ -515,7 +515,7 @@
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "Booste sa propre attaque de 10%, sa défense de 10% et la capacité des troupes de 5%.",
         "star_effects": {}
       }
@@ -525,37 +525,37 @@
     "name": "Laura",
     "type": "S",
     "rarity": "0.16%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/laura.jpeg",
     "role_description": "Ce héros excelle en DEF solide lors des combats.",
     "skills": [
       {
         "name": "Instinct de Chasseur",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
         "name": "Pluie de Flèches",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Charge et tire de nombreuses flèches explosives vers l'avant (Facteur de Dégâts : 1479(->1520)), pendant 3 secondes.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "1": "Coefficient de dégâts +150",
           "2": "Augmente la portée des dégâts de 30%.",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "3": "Coefficient de dégâts +150",
           "4": "L'explosion inflige un effet de brûlure supplémentaire.",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
         "name": "Cadeau de Chasseur",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Reçoit 10 événements radar gratuitement chaque jour, et les rendements d'EXP du radar +39,7(->40,3)%.",
         "star_effects": {
           "1": "Nombre de missions gratuites +5",
@@ -567,7 +567,7 @@
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "Booste sa propre attaque de 10%, sa défense de 10% et la capacité des troupes de 5%.",
         "star_effects": {}
       }
@@ -577,36 +577,36 @@
     "name": "Isabella",
     "type": "A",
     "rarity": "0.50%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/isabella.jpeg",
     "role_description": "Ce héros excelle en DEF solide lors des combats.",
     "skills": [
       {
         "name": "Balles Améliorées",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 491(->501).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
         }
       },
       {
         "name": "Frappe à Double Pistolet",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Tire avec ses deux pistolets simultanément, infligeant des dégâts massifs aux ennemis (Facteur de Dégâts : 762(->783)).",
         "star_effects": {
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Coefficient de dégâts +90",
           "3": "Augmente les chances d'immobilisation.",
-          "4": "Augmente le facteur de dégâts de 200 supplémentaires.",
+          "4": "Coefficient de dégâts +200",
           "5": "Augmente la durée d'immobilisation d'une seconde."
         }
       },
       {
         "name": "Expert en Attaque",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Augmente sa propre DEF de 986,2(->1003,4).",
         "star_effects": {
           "1": "DEF +50",
@@ -618,8 +618,8 @@
       },
       {
         "name": "Défense de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente la DEF des héros de la faction Wings of Dawn de 10%.",
+        "type": "Talent exclusif",
+        "description": "Augmente la DEF des héros de la faction Ailes de l'aube de 10%.",
         "star_effects": {}
       }
     ]
@@ -628,37 +628,37 @@
     "name": "Fiona",
     "type": "A",
     "rarity": "0.50%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/fiona.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Amélioration de Flamme",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 543(->553).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
         }
       },
       {
         "name": "Jet de Flamme",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Pulvérise une grande quantité de flammes à haute pression dans une zone en forme d'éventail à l'avant (Facteur de Dégâts : 886(->906)), pendant 3 secondes.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 100 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 100 supplémentaires.",
+          "1": "Coefficient de dégâts +100",
+          "2": "Coefficient de dégâts +100",
           "3": "Augmente la portée des dégâts de 30%.",
-          "4": "Augmente le facteur de dégâts de 200 supplémentaires.",
-          "5": "Augmente la durée de 2 secondes."
+          "4": "Coefficient de dégâts +200",
+          "5": "Durée +2 secondes."
         }
       },
       {
         "name": "Expert en Attaque",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Son propre ATK augmente de 1089,7(->1106,9).",
         "star_effects": {
           "1": "ATK +50",
@@ -670,8 +670,8 @@
       },
       {
         "name": "Attaque de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente l'ATK des héros de la faction Wings of Dawn de 10%.",
+        "type": "Talent exclusif",
+        "description": "Augmente l'ATK des héros de la faction Ailes de l'aube de 10%.",
         "star_effects": {}
       }
     ]
@@ -680,37 +680,37 @@
     "name": "Christina",
     "type": "A",
     "rarity": "0.50%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/christina.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Chevalier du Jugement",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 396(->407).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
         }
       },
       {
         "name": "Tempête de Flammes",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Fait tourner le fouet pour créer une tornade de feu (Facteur de Dégâts : 782(->803)), pendant 2 secondes.",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
           "3": "A des chances de causer en plus un effet de brûlure.",
-          "4": "Augmente le facteur de dégâts de 220 supplémentaires.",
+          "4": "Coefficient de dégâts +220",
           "5": "Améliore l'effet de brûlure."
         }
       },
       {
         "name": "Expert en Siège",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Lors de l'attaque de villes neutres, le temps de démolition de la durabilité est réduit de 43,4(->44,1) secondes.",
         "star_effects": {
           "1": "Coût en carburant -2",
@@ -722,7 +722,7 @@
       },
       {
         "name": "Spécialiste du Siège",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "L'effet [Expert en Siège] s'applique à l'ensemble de la formation, quel que soit le déploiement de Christina.",
         "star_effects": {}
       }
@@ -732,33 +732,33 @@
     "name": "Nyx",
     "type": "S",
     "rarity": "0.16%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "season": "Season 1",
     "image": "/heroes/wings-of-dawn/nyx.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Attaque de Sorcellerie",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 472(->493).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
         }
       },
       {
         "name": "Poupée Spirituelle",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Contrôle 1 marionnettes autodestructrices qui traquent et attaquent les ennemis (Facteur de Dégâts : 915(->956)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "1": "Coefficient de dégâts +150",
           "2": "Quantité de marionnettes +1",
-          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "3": "Coefficient de dégâts +150",
           "4": "Quantité de marionnettes +2",
-          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+          "5": "Coefficient de dégâts +300"
         }
       },
       {
@@ -775,7 +775,7 @@
       },
       {
         "name": "Potentiel Libéré",
-        "type": "Talent Exclusif",
+        "type": "Talent exclusif",
         "description": "Quel que soit le déploiement de Nyx, les dégâts de toutes les unités Tireurs augmentent de 10%.",
         "star_effects": {}
       }
@@ -785,37 +785,37 @@
     "name": "Angelina",
     "type": "B",
     "rarity": "1.50%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/angelina.jpeg",
     "role_description": "Ce héros excelle en une défense forte en combat.",
     "skills": [
       {
         "name": "Injection de Toxine",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 403(->410).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 40 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 70 supplémentaires."
+          "1": "Coefficient de dégâts +30",
+          "2": "Coefficient de dégâts +30",
+          "3": "Coefficient de dégâts +30",
+          "4": "Coefficient de dégâts +40",
+          "5": "Coefficient de dégâts +70"
         }
       },
       {
         "name": "Grenade à Sérum",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Lance une grenade à sérum sur l'ennemi (Facteur de Dégâts : 875(->889)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 80 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 140 supplémentaires."
+          "1": "Coefficient de dégâts +60",
+          "2": "Coefficient de dégâts +60",
+          "3": "Coefficient de dégâts +60",
+          "4": "Coefficient de dégâts +80",
+          "5": "Coefficient de dégâts +140"
         }
       },
       {
         "name": "Entraînement Efficace",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Vitesse d'entraînement des unités +30%.",
         "star_effects": {
           "1": "Vitesse d'entraînement des unités +2%",
@@ -827,8 +827,8 @@
       },
       {
         "name": "Défense de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente la DEF des héros de la faction Wings of Dawn de 5%.",
+        "type": "Talent exclusif",
+        "description": "Augmente la DEF des héros de la faction Ailes de l'aube de 5%.",
         "star_effects": {}
       }
     ]
@@ -837,37 +837,37 @@
     "name": "Natalie",
     "type": "B",
     "rarity": "1.50%",
-    "faction": "Wings of Dawn",
+    "faction": "Ailes de l'aube",
     "image": "/heroes/wings-of-dawn/natalie.jpeg",
     "role_description": "Ce héros excelle en DPS puissant.",
     "skills": [
       {
         "name": "Arbalète Améliorée",
-        "type": "Boost d'Attaque Normale",
+        "type": "Attaque normale boostée",
         "description": "Le facteur de dégâts des attaques normales augmente à 368(->375).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 30 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 40 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 70 supplémentaires."
+          "1": "Coefficient de dégâts +30",
+          "2": "Coefficient de dégâts +30",
+          "3": "Coefficient de dégâts +30",
+          "4": "Coefficient de dégâts +40",
+          "5": "Coefficient de dégâts +70"
         }
       },
       {
         "name": "Tir à l'Arbalète",
-        "type": "Compétence Active",
+        "type": "Compétence active",
         "description": "Se charge et tire de multiples flèches à haute intensité (Facteur de Dégâts : 724(->737)).",
         "star_effects": {
-          "1": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "2": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "3": "Augmente le facteur de dégâts de 60 supplémentaires.",
-          "4": "Augmente le facteur de dégâts de 80 supplémentaires.",
-          "5": "Augmente le facteur de dégâts de 140 supplémentaires."
+          "1": "Coefficient de dégâts +60",
+          "2": "Coefficient de dégâts +60",
+          "3": "Coefficient de dégâts +60",
+          "4": "Coefficient de dégâts +80",
+          "5": "Coefficient de dégâts +140"
         }
       },
       {
         "name": "Maître de la Récolte : Nourriture",
-        "type": "Effet Global",
+        "type": "Valable dans toutes les batailles",
         "description": "Augmente la vitesse de récolte de la nourriture de 45% et la production de nourriture de 30%.",
         "star_effects": {
           "1": "Vitesse de récolte nourriture +3%",
@@ -879,8 +879,8 @@
       },
       {
         "name": "Attaque de Faction",
-        "type": "Talent Exclusif",
-        "description": "Augmente l'ATK des héros de la faction Wings of Dawn de 5%.",
+        "type": "Talent exclusif",
+        "description": "Augmente l'ATK des héros de la faction Ailes de l'aube de 5%.",
         "star_effects": {}
       }
     ]

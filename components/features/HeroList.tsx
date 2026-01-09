@@ -116,14 +116,32 @@ export function HeroList({ faction }: HeroListProps) {
     }
   })();
 
-  // Map prop faction slugs to JSON faction names
-  const factionMap: Record<string, string> = {
-    'blood-rose': 'Blood Rose',
-    'wings-of-dawn': 'Wings of Dawn',
-    'guard-of-order': 'Guard of Order',
+  // Map prop faction slugs to localized JSON faction names
+  const factionMap: Record<string, Record<string, string>> = {
+    en: {
+      'blood-rose': 'Blood Rose',
+      'wings-of-dawn': 'Wings of Dawn',
+      'guard-of-order': 'Guard of Order',
+    },
+    fr: {
+      'blood-rose': 'Paradis du chaos',
+      'wings-of-dawn': "Ailes de l'aube",
+      'guard-of-order': 'Volonté de la liberté',
+    },
+    de: {
+      'blood-rose': 'Blood Rose', // Keep English for now or update if requested
+      'wings-of-dawn': 'Wings of Dawn',
+      'guard-of-order': 'Guard of Order',
+    },
+    it: {
+      'blood-rose': 'Blood Rose',
+      'wings-of-dawn': 'Wings of Dawn',
+      'guard-of-order': 'Guard of Order',
+    }
   };
 
-  const targetFactionName = factionMap[faction] || faction;
+  const currentFactionMap = factionMap[locale as keyof typeof factionMap] || factionMap.en;
+  const targetFactionName = currentFactionMap[faction] || faction;
 
   // Filter and Sort heroes
   const heroes = (currentHeroData as unknown as Hero[])

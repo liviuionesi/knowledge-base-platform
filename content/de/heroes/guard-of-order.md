@@ -5,11 +5,13 @@ description: Detaillierte Informationen über die Helden der Guard of Order Frak
 
 # Guard of Order Helden
 
-Die Guard of Order Fraktion bietet Helden, die anfällig für die Blood Rose Fraktion sind, aber für sich genommen mächtig sind.
+Die Guard of Order Fraktion ist die am wenigsten genutzte Fraktion für ein Team 1, aber sie ist die beste Fraktion für ein Team 2 oder 3.
+Die Top-Spieler haben alle 3 Teams mit ähnlicher Stärke und gewinnen das Turnier mit diesem Setup.
 
 ### Fraktionsbeziehungen
-- **Strategische Schwäche**: Guard of Order Helden werden von der **Blood Rose** Fraktion gekontert.
 
-Bei gleicher Stärke bietet der Fraktionstyp einen signifikanten Vorteil im Kampf.
+Bei gleicher Teamstärke:
+- **Konter-Vorteil**: Guard of Order Helden kontern die **Wings of Dawn** Fraktion.
+- **Strategische Schwäche**: Guard of Order Helden werden von der **Blood Rose** Fraktion gekontert.
 
 <HeroList faction="guard-of-order" />
