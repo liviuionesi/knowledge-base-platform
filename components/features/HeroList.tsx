@@ -6,10 +6,10 @@ import Image from 'next/image';
 import { useLocale } from 'next-intl';
 
 // Import localized data
-import bloodRoseDataEn from '@/data/heroes_blood_rose.json';
-import bloodRoseDataFr from '@/data/heroes_blood_rose_fr.json';
-import bloodRoseDataDe from '@/data/heroes_blood_rose_de.json';
-import bloodRoseDataIt from '@/data/heroes_blood_rose_it.json';
+import bloodRoseDataEn from '@/data/heroes.json';
+import bloodRoseDataFr from '@/data/heroes_fr.json';
+import bloodRoseDataDe from '@/data/heroes_de.json';
+import bloodRoseDataIt from '@/data/heroes_it.json';
 
 import { useRef } from 'react';
 
