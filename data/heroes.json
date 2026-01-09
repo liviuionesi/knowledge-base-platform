@@ -468,5 +468,421 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Amelia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/amelia.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Assassin Focus",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 859(->880).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Precision Blast",
+        "type": "Active Skill",
+        "description": "Marks 3 targets at random, dealing explosive damage to the targets and nearby enemies (Damage Factor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Explosion inflicts additional burning effect.",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Doubles the number of marks, and reduces damage by 30.",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Scientist",
+        "type": "Global Effect",
+        "description": "Increases free research duration by 90 mins and research speed by 29.7(->30.3)%.",
+        "star_effects": {
+          "1": "Free research duration +15 min",
+          "2": "Research speed +10%",
+          "3": "Free research duration +60 min",
+          "4": "Basic resource cost in research -5%",
+          "5": "Basic resource cost in research -10%"
+    }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "Boosts self attack by 10%, defense by 10%, and troop capacity by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Laura",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/laura.jpeg",
+    "role_description": "This hero excels in strong DEF in combats.",
+    "skills": [
+      {
+        "name": "Hunter's Instinct",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 859(->880).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Arrow Shower",
+        "type": "Active Skill",
+        "description": "Charges up and shoots numerous explosive arrows forward (Damage Factor: 1479(->1520)), lasting for 3 seconds.",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Increases the damage range by 30%.",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Explosion inflicts additional burning effect.",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Hunter's Gift",
+        "type": "Global Effect",
+        "description": "Receives 10 radar events for free daily, and EXP yields from radar +39.7(->40.3)%.",
+        "star_effects": {
+          "1": "Free mission count +5",
+          "2": "EXP yields from radar +10%",
+          "3": "EXP yields from radar +10%",
+          "4": "Free mission count +10",
+          "5": "Clear radar events to earn an extra exploration chest (Max 10 daily)."
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "Boosts self attack by 10%, defense by 10%, and troop capacity by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Isabella",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/isabella.jpeg",
+    "role_description": "This hero excels in strong DEF in combats.",
+    "skills": [
+      {
+        "name": "Enhanced Bullets",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 491(->501).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 45.",
+          "2": "Increases damage factor by an additional 45.",
+          "3": "Increases damage factor by an additional 45.",
+          "4": "Increases damage factor by an additional 60.",
+          "5": "Increases damage factor by an additional 105."
+        }
+      },
+      {
+        "name": "Dual Gun Strike",
+        "type": "Active Skill",
+        "description": "Fires both guns simultaneously, dealing massive damage to enemies (Damage Factor: 762(->783)).",
+        "star_effects": {
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases the immobilization chance.",
+          "4": "Increases damage factor by an additional 200.",
+          "5": "Increases the immobilization duration by 1 seconds."
+        }
+      },
+      {
+        "name": "Attack Expert",
+        "type": "Global Effect",
+        "description": "Self DEF increases by 986.2(->1003.4).",
+        "star_effects": {
+          "1": "DEF +50",
+          "2": "DEF +50",
+          "3": "DEF +100",
+          "4": "DEF +200",
+          "5": "DEF +300"
+        }
+      },
+      {
+        "name": "Faction Defense",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero DEF of faction Wings of Dawn by 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Fiona",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/fiona.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Flame Enhancement",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 543(->553).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 45.",
+          "2": "Increases damage factor by an additional 45.",
+          "3": "Increases damage factor by an additional 45.",
+          "4": "Increases damage factor by an additional 60.",
+          "5": "Increases damage factor by an additional 105."
+        }
+      },
+      {
+        "name": "Flame Jet",
+        "type": "Active Skill",
+        "description": "Sprays a large amount of high-pressure flames into a fan-shaped area at front (Damage Factor: 886(->906)), lasting for 3 seconds.",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 100.",
+          "2": "Increases damage factor by an additional 100.",
+          "3": "Increases the damage range by 30%.",
+          "4": "Increases damage factor by an additional 200.",
+          "5": "Increases the duration by 2 sec."
+        }
+      },
+      {
+        "name": "Attack Expert",
+        "type": "Global Effect",
+        "description": "Self ATK increases by 1089.7(->1106.9).",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Faction Attack",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero ATK of faction Wings of Dawn by 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Christina",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/christina.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Judgement Knight",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 396(->407).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 45.",
+          "2": "Increases damage factor by an additional 45.",
+          "3": "Increases damage factor by an additional 45.",
+          "4": "Increases damage factor by an additional 60.",
+          "5": "Increases damage factor by an additional 105."
+        }
+      },
+      {
+        "name": "Flame Storm",
+        "type": "Active Skill",
+        "description": "Spins the whip to create a fiery tornado (Damage Factor: 782(->803)), lasting for 2 seconds.",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Has chances to additionally cause burning effect.",
+          "4": "Increases damage factor by an additional 220.",
+          "5": "Enhances the burning effect."
+        }
+      },
+      {
+        "name": "Siege Expert",
+        "type": "Global Effect",
+        "description": "When attacking neutral cities, durability demolition time reduces by 43.4(->44.1) seconds.",
+        "star_effects": {
+          "1": "Fuel cost -2",
+          "2": "Demolition time -15 seconds",
+          "3": "Fuel cost -2",
+          "4": "Demolition time -15 seconds",
+          "5": "Demolition time -30 seconds"
+        }
+      },
+      {
+        "name": "Siege Specialist",
+        "type": "Exclusive Talent",
+        "description": "The [Siege Expert] effect applies to the entire formation regardless of Christina's deployment.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Nyx",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "season": "Season 1",
+    "image": "/heroes/wings-of-dawn/nyx.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Witchcraft Attack",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 472(->493).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Spirit Doll",
+        "type": "Active Skill",
+        "description": "Controls 1 self-destructing puppets that track and attack enemies (Damage Factor: 915(->956)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Puppet quantity +1",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Puppet quantity +2",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Mind Control",
+        "type": "Valid Upon March",
+        "description": "Defense of Shooters in the troop-led increases by 19.1(->20.2)%.",
+        "star_effects": {
+          "1": "Shooter ATK +5%",
+          "2": "Shooter ATK +5%",
+          "3": "Shooter ATK +10%",
+          "4": "Shooter ATK +10%",
+          "5": "Shooter ATK +15%"
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "Regardless of whether Nyx is deployed, all Shooter units' damage increases by 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Angelina",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/angelina.jpeg",
+    "role_description": "This hero excels in strong DEF in combats.",
+    "skills": [
+      {
+        "name": "Toxin Injection",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 403(->410).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 30.",
+          "2": "Increases damage factor by an additional 30.",
+          "3": "Increases damage factor by an additional 30.",
+          "4": "Increases damage factor by an additional 40.",
+          "5": "Increases damage factor by an additional 70."
+        }
+      },
+      {
+        "name": "Serum Grenade",
+        "type": "Active Skill",
+        "description": "Throws a serum grenade at the enemy (Damage Factor: 875(->889)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 60.",
+          "2": "Increases damage factor by an additional 60.",
+          "3": "Increases damage factor by an additional 60.",
+          "4": "Increases damage factor by an additional 80.",
+          "5": "Increases damage factor by an additional 140."
+        }
+      },
+      {
+        "name": "Well Training",
+        "type": "Global Effect",
+        "description": "Unit training speed +30%.",
+        "star_effects": {
+          "1": "Unit training speed +2%",
+          "2": "Unit training speed +2%",
+          "3": "Unit training speed +3%",
+          "4": "Unit training speed +3%",
+          "5": "Unit training speed +5%"
+        }
+      },
+      {
+        "name": "Faction Defense",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero DEF of faction Wings of Dawn by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Natalie",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/natalie.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Enhanced Crossbow",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 368(->375).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 30.",
+          "2": "Increases damage factor by an additional 30.",
+          "3": "Increases damage factor by an additional 30.",
+          "4": "Increases damage factor by an additional 40.",
+          "5": "Increases damage factor by an additional 70."
+        }
+      },
+      {
+        "name": "Crossbow Shooting",
+        "type": "Active Skill",
+        "description": "Charges up and shoots multiple high-intensity arrows (Damage Factor: 724(->737)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 60.",
+          "2": "Increases damage factor by an additional 60.",
+          "3": "Increases damage factor by an additional 60.",
+          "4": "Increases damage factor by an additional 80.",
+          "5": "Increases damage factor by an additional 140."
+        }
+      },
+      {
+        "name": "Gathering Master: Food",
+        "type": "Global Effect",
+        "description": "Increases Food gathering speed by 45% and Food yield by 30%.",
+        "star_effects": {
+          "1": "Food gathering speed +3%",
+          "2": "Food output +15%",
+          "3": "Food gathering speed +6%",
+          "4": "Resource output +20%",
+          "5": "Gathering speed +15%"
+        }
+      },
+      {
+        "name": "Faction Attack",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero ATK of faction Wings of Dawn by 5%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

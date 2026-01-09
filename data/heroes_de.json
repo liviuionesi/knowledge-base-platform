@@ -468,5 +468,421 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Amelia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/amelia.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Assassinen-Fokus",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Präzisionsknall",
+        "type": "Aktive Fähigkeit",
+        "description": "Markiert zufällig 3 Ziele und verursacht explosiven Schaden an den Zielen und Gegnern in der Nähe (Schadensfaktor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Explosion verursacht zusätzlichen Verbrennungseffekt.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Verdoppelt die Anzahl der Markierungen und reduziert den Schaden um 30.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Wissenschaftler",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die kostenlose Forschungsdauer um 90 Min. und die Forschungsgeschwindigkeit um 29,7(->30,3)%.",
+        "star_effects": {
+          "1": "Kostenlose Forschungsdauer +15 Min.",
+          "2": "Forschungsgeschwindigkeit +10%",
+          "3": "Kostenlose Forschungsdauer +60 Min.",
+          "4": "Basis-Ressourcenkosten in der Forschung -5%",
+          "5": "Basis-Ressourcenkosten in der Forschung -10%"
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den eigenen Angriff um 10%, die Verteidigung um 10% und die Truppenkapazität um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Laura",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/laura.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke DEF in Kämpfen aus.",
+    "skills": [
+      {
+        "name": "Instinkt des Jägers",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Pfeilregen",
+        "type": "Aktive Fähigkeit",
+        "description": "Lädt auf und schießt zahlreiche explosive Pfeile nach vorne (Schadensfaktor: 1479(->1520)), hält 3 Sekunden an.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Schadensreichweite um 30%.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Explosion verursacht zusätzlichen Verbrennungseffekt.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Geschenk des Jägers",
+        "type": "Globaler Effekt",
+        "description": "Erhält täglich 10 Radarereignisse kostenlos und EXP-Erträge vom Radar +39,7(->40,3)%.",
+        "star_effects": {
+          "1": "Kostenlose Missionsanzahl +5",
+          "2": "EXP-Erträge vom Radar +10%",
+          "3": "EXP-Erträge vom Radar +10%",
+          "4": "Kostenlose Missionsanzahl +10",
+          "5": "Radarereignisse abschließen, um eine zusätzliche Erforschungstruhe zu verdienen (Max. 10 täglich)."
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den eigenen Angriff um 10%, die Verteidigung um 10% und die Truppenkapazität um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Isabella",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/isabella.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke DEF in Kämpfen aus.",
+    "skills": [
+      {
+        "name": "Verbesserte Kugeln",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 491(->501).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Doppelter Pistolenschlag",
+        "type": "Aktive Fähigkeit",
+        "description": "Feuert beide Pistolen gleichzeitig ab und verursacht massiven Schaden an Gegnern (Schadensfaktor: 762(->783)).",
+        "star_effects": {
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht die Immobilisierungschance.",
+          "4": "Erhöht den Schadensfaktor um weitere 200.",
+          "5": "Erhöht die Immobilisierungsdauer um 1 Sekunde."
+        }
+      },
+      {
+        "name": "Angriffsexperte",
+        "type": "Globaler Effekt",
+        "description": "Eigene DEF erhöht sich um 986,2(->1003,4).",
+        "star_effects": {
+          "1": "DEF +50",
+          "2": "DEF +50",
+          "3": "DEF +100",
+          "4": "DEF +200",
+          "5": "DEF +300"
+        }
+      },
+      {
+        "name": "Fraktionsverteidigung",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Hero-DEF der Fraktion Wings of Dawn um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Fiona",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/fiona.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Flammenverbesserung",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 543(->553).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Flammenstrahl",
+        "type": "Aktive Fähigkeit",
+        "description": "Versprüht eine große Menge an Hochdruckflammen in einem fächerförmigen Bereich nach vorne (Schadensfaktor: 886(->906)), hält 3 Sekunden an.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 100.",
+          "2": "Erhöht den Schadensfaktor um weitere 100.",
+          "3": "Erhöht die Schadensreichweite um 30%.",
+          "4": "Erhöht den Schadensfaktor um weitere 200.",
+          "5": "Erhöht die Dauer um 2 Sek."
+        }
+      },
+      {
+        "name": "Angriffsexperte",
+        "type": "Globaler Effekt",
+        "description": "Eigener ATK erhöht sich um 1089,7(->1106,9).",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Fraktionsangriff",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den Hero-ATK der Fraktion Wings of Dawn um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Christina",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/christina.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Ritter des Urteils",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 396(->407).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Flammensturm",
+        "type": "Aktive Fähigkeit",
+        "description": "Schwingt die Peitsche, um einen feurigen Tornado zu erzeugen (Schadensfaktor: 782(->803)), hält 2 Sekunden an.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Hat die Chance, zusätzlich einen Verbrennungseffekt zu verursachen.",
+          "4": "Erhöht den Schadensfaktor um weitere 220.",
+          "5": "Verstärkt den Verbrennungseffekt."
+        }
+      },
+      {
+        "name": "Belagerungsexperte",
+        "type": "Globaler Effekt",
+        "description": "Beim Angriff auf neutrale Städte reduziert sich die Zeit zum Abriss der Haltbarkeit um 43,4(->44,1) Sekunden.",
+        "star_effects": {
+          "1": "Treibstoffkosten -2",
+          "2": "Abrisszeit -15 Sekunden",
+          "3": "Treibstoffkosten -2",
+          "4": "Abrisszeit -15 Sekunden",
+          "5": "Abrisszeit -30 Sekunden"
+        }
+      },
+      {
+        "name": "Belagerungsspezialist",
+        "type": "Exklusives Talent",
+        "description": "Der Effekt [Belagerungsexperte] gilt für die gesamte Formation, unabhängig von Christinas Einsatz.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Nyx",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "season": "Season 1",
+    "image": "/heroes/wings-of-dawn/nyx.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Hexerei-Angriff",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 472(->493).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Geisterpuppe",
+        "type": "Aktive Fähigkeit",
+        "description": "Steuert 1 selbstzerstörende Puppen, die Feinde verfolgen und angreifen (Schadensfaktor: 915(->956)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Puppenanzahl +1",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Puppenanzahl +2",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Gedankenkontrolle",
+        "type": "Gültig beim Marsch",
+        "description": "Die Verteidigung von Schützen in der geführten Truppe erhöht sich um 19,1(->20,2)%.",
+        "star_effects": {
+          "1": "Schützen-ATK +5%",
+          "2": "Schützen-ATK +5%",
+          "3": "Schützen-ATK +10%",
+          "4": "Schützen-ATK +10%",
+          "5": "Schützen-ATK +15%"
+        }
+      },
+      {
+        "name": "Entfesseltes Potenzial",
+        "type": "Exklusives Talent",
+        "description": "Unabhängig davon, ob Nyx eingesetzt wird, erhöht sich der Schaden aller Schützeneinheiten um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Angelina",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/angelina.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke Verteidigung im Kampf aus.",
+    "skills": [
+      {
+        "name": "Toxin-Injektion",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 403(->410).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 30.",
+          "2": "Erhöht den Schadensfaktor um weitere 30.",
+          "3": "Erhöht den Schadensfaktor um weitere 30.",
+          "4": "Erhöht den Schadensfaktor um weitere 40.",
+          "5": "Erhöht den Schadensfaktor um weitere 70."
+        }
+      },
+      {
+        "name": "Serums-Granate",
+        "type": "Aktive Fähigkeit",
+        "description": "Wirft eine Serums-Granate auf den Gegner (Schadensfaktor: 875(->889)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 60.",
+          "2": "Erhöht den Schadensfaktor um weitere 60.",
+          "3": "Erhöht den Schadensfaktor um weitere 60.",
+          "4": "Erhöht den Schadensfaktor um weitere 80.",
+          "5": "Erhöht den Schadensfaktor um weitere 140."
+        }
+      },
+      {
+        "name": "Gutes Training",
+        "type": "Globaler Effekt",
+        "description": "Einheitsausbildungsgeschwindigkeit +30%.",
+        "star_effects": {
+          "1": "Einheitsausbildungsgeschwindigkeit +2%",
+          "2": "Einheitsausbildungsgeschwindigkeit +2%",
+          "3": "Einheitsausbildungsgeschwindigkeit +3%",
+          "4": "Einheitsausbildungsgeschwindigkeit +3%",
+          "5": "Einheitsausbildungsgeschwindigkeit +5%"
+        }
+      },
+      {
+        "name": "Fraktionsverteidigung",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Hero-DEF der Fraktion Wings of Dawn um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Natalie",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/natalie.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Verbesserte Armbrust",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 368(->375).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 30.",
+          "2": "Erhöht den Schadensfaktor um weitere 30.",
+          "3": "Erhöht den Schadensfaktor um weitere 30.",
+          "4": "Erhöht den Schadensfaktor um weitere 40.",
+          "5": "Erhöht den Schadensfaktor um weitere 70."
+        }
+      },
+      {
+        "name": "Armbrustschießen",
+        "type": "Aktive Fähigkeit",
+        "description": "Lädt auf und schießt mehrere hochintensive Pfeile (Schadensfaktor: 724(->737)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 60.",
+          "2": "Erhöht den Schadensfaktor um weitere 60.",
+          "3": "Erhöht den Schadensfaktor um weitere 60.",
+          "4": "Erhöht den Schadensfaktor um weitere 80.",
+          "5": "Erhöht den Schadensfaktor um weitere 140."
+        }
+      },
+      {
+        "name": "Sammelmeister: Nahrung",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die Sammelgeschwindigkeit von Nahrung um 45% und den Nahrungsertrag um 30%.",
+        "star_effects": {
+          "1": "Nahrungssammelgeschwindigkeit +3%",
+          "2": "Nahrungsergebnis +15%",
+          "3": "Nahrungssammelgeschwindigkeit +6%",
+          "4": "Ressourcenergebniss +20%",
+          "5": "Sammelgeschwindigkeit +15%"
+        }
+      },
+      {
+        "name": "Fraktionsangriff",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den Hero-ATK der Fraktion Wings of Dawn um 5%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

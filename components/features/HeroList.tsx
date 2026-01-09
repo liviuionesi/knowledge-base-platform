@@ -6,10 +6,10 @@ import Image from 'next/image';
 import { useLocale } from 'next-intl';
 
 // Import localized data
-import bloodRoseDataEn from '@/data/heroes.json';
-import bloodRoseDataFr from '@/data/heroes_fr.json';
-import bloodRoseDataDe from '@/data/heroes_de.json';
-import bloodRoseDataIt from '@/data/heroes_it.json';
+import heroDataEn from '@/data/heroes.json';
+import heroDataFr from '@/data/heroes_fr.json';
+import heroDataDe from '@/data/heroes_de.json';
+import heroDataIt from '@/data/heroes_it.json';
 
 import { useRef } from 'react';
 
@@ -107,28 +107,44 @@ export function HeroList({ faction }: HeroListProps) {
   const locale = useLocale();
 
   // Select localized data
-  const currentBloodRoseData = (() => {
+  const currentHeroData = (() => {
     switch (locale) {
-      case 'fr': return bloodRoseDataFr;
-      case 'de': return bloodRoseDataDe;
-      case 'it': return bloodRoseDataIt;
-      default: return bloodRoseDataEn;
+      case 'fr': return heroDataFr;
+      case 'de': return heroDataDe;
+      case 'it': return heroDataIt;
+      default: return heroDataEn;
     }
   })();
 
-  // Mapping of faction names to their data
-  const factionData: Record<string, Hero[]> = {
-    'blood-rose': currentBloodRoseData as unknown as Hero[],
-     // 'wings-of-dawn': wingsOfDawnData as Hero[],
-     // 'guard-of-order': guardOfOrderData as Hero[],
+  // Map prop faction slugs to JSON faction names
+  const factionMap: Record<string, string> = {
+    'blood-rose': 'Blood Rose',
+    'wings-of-dawn': 'Wings of Dawn',
+    'guard-of-order': 'Guard of Order',
   };
 
-  const heroes = factionData[faction] || [];
+  const targetFactionName = factionMap[faction] || faction;
+
+  // Filter and Sort heroes
+  const heroes = (currentHeroData as unknown as Hero[])
+    .filter(hero => hero.faction === targetFactionName)
+    .sort((a, b) => {
+      const getPriority = (h: Hero) => {
+        if (h.type === 'S') {
+          return h.season === 'Season 1' ? 1 : 0;
+        }
+        if (h.type === 'A') return 2;
+        if (h.type === 'B') return 3;
+        return 4;
+      };
+      
+      return getPriority(a) - getPriority(b);
+    });
 
   if (heroes.length === 0) {
     return (
       <div className="p-8 text-center border-2 border-dashed border-[var(--border)] rounded-xl my-8">
-        <p className="text-[var(--muted-foreground)] text-lg">No hero data found for faction: <span className="font-bold text-[var(--foreground)]">{faction}</span></p>
+        <p className="text-[var(--muted-foreground)] text-lg">No hero data found for faction: <span className="font-bold text-[var(--foreground)]">{targetFactionName}</span></p>
       </div>
     );
   }

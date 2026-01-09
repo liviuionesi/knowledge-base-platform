@@ -468,5 +468,421 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Amelia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/amelia.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Focus dell'Assassino",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 859(->880).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Esplosione di Precisione",
+        "type": "Abilità Attiva",
+        "description": "Marca 3 bersagli a caso, infliggendo danni esplosivi ai bersagli e ai nemici vicini (Fattore di Danno: 1479(->1520)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "L'esplosione infligge un effetto di bruciatura aggiuntivo.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Raddoppia il numero di marchi e riduce il danno di 30.",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Scienziato",
+        "type": "Effetto Globale",
+        "description": "Aumenta la durata della ricerca gratuita di 90 min e la velocità di ricerca del 29,7(->30,3)%.",
+        "star_effects": {
+          "1": "Durata ricerca gratuita +15 min",
+          "2": "Velocità di ricerca +10%",
+          "3": "Durata ricerca gratuita +60 min",
+          "4": "Costo risorse base nella ricerca -5%",
+          "5": "Costo risorse base nella ricerca -10%"
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta il proprio attacco del 10%, la difesa del 10% e la capacità delle truppe del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Laura",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/laura.jpeg",
+    "role_description": "Questo eroe eccelle in una forte DIF in combattimento.",
+    "skills": [
+      {
+        "name": "Istinto del Cacciatore",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 859(->880).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Pioggia di Frecce",
+        "type": "Abilità Attiva",
+        "description": "Carica e spara numerose frecce esplosive in avanti (Fattore di Danno: 1479(->1520)), per 3 secondi.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Aumenta il raggio di danno del 30%.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "L'esplosione infligge un effetto di bruciatura aggiuntivo.",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Dono del Cacciatore",
+        "type": "Effetto Globale",
+        "description": "Riceve 10 eventi radar gratis ogni giorno e la resa di EXP dal radar +39,7(->40,3)%.",
+        "star_effects": {
+          "1": "Conteggio missioni gratis +5",
+          "2": "Resa EXP dal radar +10%",
+          "3": "Resa EXP dal radar +10%",
+          "4": "Conteggio missioni gratis +10",
+          "5": "Completa gli eventi radar per guadagnare un forziere di esplorazione extra (Max 10 al giorno)."
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta il proprio attacco del 10%, la difesa del 10% e la capacità delle truppe del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Isabella",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/isabella.jpeg",
+    "role_description": "Questo eroe eccelle in una forte DIF in combattimento.",
+    "skills": [
+      {
+        "name": "Proiettili Potenziati",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 491(->501).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 45.",
+          "2": "Aumenta il fattore di danno di ulteriori 45.",
+          "3": "Aumenta il fattore di danno di ulteriori 45.",
+          "4": "Aumenta il fattore di danno di ulteriori 60.",
+          "5": "Aumenta il fattore di danno di ulteriori 105."
+        }
+      },
+      {
+        "name": "Colpo di Doppia Pistola",
+        "type": "Abilità Attiva",
+        "description": "Spara con entrambe le pistole contemporaneamente, infliggendo danni enormi ai nemici (Fattore di Danno: 762(->783)).",
+        "star_effects": {
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta la probabilità di immobilizzazione.",
+          "4": "Aumenta il fattore di danno di ulteriori 200.",
+          "5": "Aumenta la durata dell'immobilizzazione di 1 secondo."
+        }
+      },
+      {
+        "name": "Esperto di Attacchi",
+        "type": "Effetto Globale",
+        "description": "La propria DIF aumenta di 986,2(->1003,4).",
+        "star_effects": {
+          "1": "DIF +50",
+          "2": "DIF +50",
+          "3": "DIF +100",
+          "4": "DIF +200",
+          "5": "DIF +300"
+        }
+      },
+      {
+        "name": "Difesa di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta la DIF degli eroi della fazione Wings of Dawn del 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Fiona",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/fiona.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Potenziamento Fiamma",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 543(->553).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 45.",
+          "2": "Aumenta il fattore di danno di ulteriori 45.",
+          "3": "Aumenta il fattore di danno di ulteriori 45.",
+          "4": "Aumenta il fattore di danno di ulteriori 60.",
+          "5": "Aumenta il fattore di danno di ulteriori 105."
+        }
+      },
+      {
+        "name": "Getto di Fiamma",
+        "type": "Abilità Attiva",
+        "description": "Spruzza una grande quantità di fiamme ad alta pressione in un'area a ventaglio frontale (Fattore di Danno: 886(->906)), per 3 secondi.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 100.",
+          "2": "Aumenta il fattore di danno di ulteriori 100.",
+          "3": "Aumenta il raggio di danno del 30%.",
+          "4": "Aumenta il fattore di danno di ulteriori 200.",
+          "5": "Aumenta la durata di 2 secondi."
+        }
+      },
+      {
+        "name": "Esperto di Attacchi",
+        "type": "Effetto Globale",
+        "description": "Il proprio ATK aumenta di 1089,7(->1106,9).",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Attacco di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta l'ATK degli eroi della fazione Wings of Dawn del 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Christina",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/christina.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Cavaliere del Giudizio",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 396(->407).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 45.",
+          "2": "Aumenta il fattore di danno di ulteriori 45.",
+          "3": "Aumenta il fattore di danno di ulteriori 45.",
+          "4": "Aumenta il fattore di danno di ulteriori 60.",
+          "5": "Aumenta il fattore di danno di ulteriori 105."
+        }
+      },
+      {
+        "name": "Tempesta di Fiamme",
+        "type": "Abilità Attiva",
+        "description": "Ruota la frusta per creare un tornado infuocato (Fattore di Danno: 782(->803)), per 2 secondi.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Ha possibilità di causare inoltre l'effetto bruciatura.",
+          "4": "Aumenta il fattore di danno di ulteriori 220.",
+          "5": "Migliora l'effetto bruciatura."
+        }
+      },
+      {
+        "name": "Esperto di Assedio",
+        "type": "Effetto Globale",
+        "description": "Quando si attaccano città neutrali, il tempo di demolizione della durabilità si riduce di 43,4(->44,1) secondi.",
+        "star_effects": {
+          "1": "Costo carburante -2",
+          "2": "Tempo di demolizione -15 secondi",
+          "3": "Costo carburante -2",
+          "4": "Tempo di demolizione -15 secondi",
+          "5": "Tempo di demolizione -30 secondi"
+        }
+      },
+      {
+        "name": "Specialista d'Assedio",
+        "type": "Talento Esclusivo",
+        "description": "L'effetto [Esperto d'Assedio] si applica all'intera formazione indipendentemente dallo schieramento di Christina.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Nyx",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "season": "Season 1",
+    "image": "/heroes/wings-of-dawn/nyx.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Attacco di Stregoneria",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 472(->493).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Bambola dello Spirito",
+        "type": "Abilità Attiva",
+        "description": "Controlla 1 marionette autodistruttive che tracciano e attaccano i nemici (Fattore di Danno: 915(->956)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Quantità di marionette +1",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Quantità di marionette +2",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Controllo Mentale",
+        "type": "Valido in Marcia",
+        "description": "La difesa dei Tiratori nelle truppe guidate aumenta del 19,1(->20,2)%.",
+        "star_effects": {
+          "1": "ATK Tiratore +5%",
+          "2": "ATK Tiratore +5%",
+          "3": "ATK Tiratore +10%",
+          "4": "ATK Tiratore +10%",
+          "5": "ATK Tiratore +15%"
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Indipendentemente dal fatto che Nyx sia schierata, il danno di tutte le unità Tiratore aumenta del 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Angelina",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/angelina.jpeg",
+    "role_description": "Questo eroe eccelle in una forte DIF in combattimento.",
+    "skills": [
+      {
+        "name": "Iniezione di Tossina",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 403(->410).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 30.",
+          "2": "Aumenta il fattore di danno di ulteriori 30.",
+          "3": "Aumenta il fattore di danno di ulteriori 30.",
+          "4": "Aumenta il fattore di danno di ulteriori 40.",
+          "5": "Aumenta il fattore di danno di ulteriori 70."
+        }
+      },
+      {
+        "name": "Granata di Siero",
+        "type": "Abilità Attiva",
+        "description": "Lancia una granata di siero al nemico (Fattore di Danno: 875(->889)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 60.",
+          "2": "Aumenta il fattore di danno di ulteriori 60.",
+          "3": "Aumenta il fattore di danno di ulteriori 60.",
+          "4": "Aumenta il fattore di danno di ulteriori 80.",
+          "5": "Aumenta il fattore di danno di ulteriori 140."
+        }
+      },
+      {
+        "name": "Allenamento Efficace",
+        "type": "Effetto Globale",
+        "description": "Velocità di addestramento unità +30%.",
+        "star_effects": {
+          "1": "Velocità addestramento unità +2%",
+          "2": "Velocità addestramento unità +2%",
+          "3": "Velocità addestramento unità +3%",
+          "4": "Velocità addestramento unità +3%",
+          "5": "Velocità addestramento unità +5%"
+        }
+      },
+      {
+        "name": "Difesa di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta la DIF degli eroi della fazione Wings of Dawn del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Natalie",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/natalie.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Balestra Potenziata",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 368(->375).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 30.",
+          "2": "Aumenta il fattore di danno di ulteriori 30.",
+          "3": "Aumenta il fattore di danno di ulteriori 30.",
+          "4": "Aumenta il fattore di danno di ulteriori 40.",
+          "5": "Aumenta il fattore di danno di ulteriori 70."
+        }
+      },
+      {
+        "name": "Tiro con la Balestra",
+        "type": "Abilità Attiva",
+        "description": "Si carica e scaglia molteplici frecce ad alta intensità (Fattore di Danno: 724(->737)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 60.",
+          "2": "Aumenta il fattore di danno di ulteriori 60.",
+          "3": "Aumenta il fattore di danno di ulteriori 60.",
+          "4": "Aumenta il fattore di danno di ulteriori 80.",
+          "5": "Aumenta il fattore di danno di ulteriori 140."
+        }
+      },
+      {
+        "name": "Esperto di Raccolta: Cibo",
+        "type": "Effetto Globale",
+        "description": "Aumenta la velocità di raccolta del cibo del 45% e la produzione di cibo del 30%.",
+        "star_effects": {
+          "1": "Velocità raccolta cibo +3%",
+          "2": "Produzione cibo +15%",
+          "3": "Velocità raccolta cibo +6%",
+          "4": "Produzione risorse +20%",
+          "5": "Velocità raccolta +15%"
+        }
+      },
+      {
+        "name": "Attacco di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta l'ATK degli eroi della fazione Wings of Dawn del 5%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]
