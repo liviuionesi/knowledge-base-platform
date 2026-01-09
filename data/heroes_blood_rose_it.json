@@ -1,0 +1,472 @@
+[
+  {
+    "name": "Katrina",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/katrina.jpeg",
+    "role_description": "Questo eroe eccelle in una forte DIF in combattimento",
+    "skills": [
+      {
+        "name": "Proiettile Esplosivo",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 1083(->1103).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Assalto Totale",
+        "type": "Abilità Attiva",
+        "description": "Comanda alla truppa d'élite di scatenare tutta la potenza di fuoco (Fattore di Danno: 1686(->1727)), per 6 secondi.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Aumenta la durata di 1 sec.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Quantità truppe di supporto +2.",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Genio dell'Esplorazione",
+        "type": "Effetto Globale",
+        "description": "L'EXP inattiva nelle fasi di esplorazione aumenta del 33,1(->33,8)%.",
+        "star_effects": {
+          "1": "Ottieni 100 carburante gratis al giorno.",
+          "2": "EXP inattiva +5%",
+          "3": "EXP inattiva +5%",
+          "4": "Velocità ripristino carburante +10%",
+          "5": "EXP inattiva +10%"
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta il proprio attacco del 10%, la difesa del 10% e la capacità delle truppe del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Oliveira",
+    "type": "S",
+    "rarity": "a pagamento",
+    "faction": "Blood Rose",
+    "season": "Stagione 1",
+    "image": "/heroes/blood-rose/oliveira.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Colpo Fatale",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 859(->880).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Tempesta di Lame",
+        "type": "Abilità Attiva",
+        "description": "Posiziona una lama rotante nel luogo designato, causando danni ai nemici nel raggio (Fattore di Danno: 1479(->1520)), per 4 secondi.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Aumenta la durata di 1 sec.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Infligge un effetto sanguinamento aggiuntivo.",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Ragazza Dotata",
+        "type": "Effetto Globale",
+        "description": "Aumenta la velocità di addestramento del campo Assaltatori del 54,5(->55,5)%.",
+        "star_effects": {
+          "1": "Velocità di addestramento +20%",
+          "2": "DIF Assaltatore +10%",
+          "3": "Consumo risorse addestramento Assaltatore -5%",
+          "4": "ATT Assaltatore +10%",
+          "5": "Gli effetti di aumento attacco e difesa si applicano a tutti i tipi di unità."
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Per ogni 1 eroe Blood Rose schierato, l'ATT e la DIF delle truppe aumentano del 5%. Schierando 5 eroi Blood Rose, la capacità delle truppe aumenta di un ulteriore 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Selena",
+    "type": "S",
+    "rarity": "a pagamento",
+    "faction": "Blood Rose",
+    "season": "Stagione 1",
+    "image": "/heroes/blood-rose/selena.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Ferita Lacerata",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 859(->880).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Evocazione Selvaggia",
+        "type": "Abilità Attiva",
+        "description": "Comanda all'orso da guerra di lanciarsi in avanti e mordere, poi di colpire il terreno quando incontra un nemico per causare danni ad area (Fattore di Danno: 1479(->1520)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Aumenta il raggio di danno del 30%.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Conteggio colpi a terra +2",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Potere della Natura",
+        "type": "Valido in Marcia",
+        "description": "La difesa degli Assaltatori nella truppa guidata aumenta del 29,5(->30,5)%.",
+        "star_effects": {
+          "1": "ATT Assaltatore +5%",
+          "2": "ATT Assaltatore +5%",
+          "3": "ATT Assaltatore +10%",
+          "4": "ATT Assaltatore +10%",
+          "5": "ATT Assaltatore +15%"
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Indipendentemente dal fatto che Selena sia schierata, il danno di tutte le unità Assaltatore aumenta del 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Sophia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/sophia.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Cacciatore del Destino",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 859(->880).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Furia dell'Apocalisse",
+        "type": "Abilità Attiva",
+        "description": "Chiama una truppa mobile di supporto, lanciando un feroce assalto sull'area bersaglio (Fattore di Danno: 1479(->1520)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Quantità truppe di supporto +2.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Quantità truppe di supporto +3.",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Dono della Principessa",
+        "type": "Effetto Globale",
+        "description": "Aumenta la durata di costruzione gratuita di 90 min e la velocità di costruzione del 29,7(->30,3)%.",
+        "star_effects": {
+          "1": "Durata costruzione gratuita +15 min.",
+          "2": "Velocità di costruzione +10%.",
+          "3": "Durata costruzione gratuita +60 min.",
+          "4": "Costo risorse edifici -5%.",
+          "5": "Costo risorse edifici -10%."
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta il proprio attacco del 10%, la difesa del 10% e la capacità delle truppe del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Vivian",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/vivian.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Carte Magiche",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 656(->667).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 45.",
+          "2": "Aumenta il fattore di danno di ulteriori 45.",
+          "3": "Aumenta il fattore di danno di ulteriori 45.",
+          "4": "Aumenta il fattore di danno di ulteriori 60.",
+          "5": "Aumenta il fattore di danno di ulteriori 105."
+        }
+      },
+      {
+        "name": "Trucco di Carte",
+        "type": "Abilità Attiva",
+        "description": "Controlla le carte per attaccare i nemici in un'area circolare (Fattore di Danno: 1093(->1114)), per 3 secondi.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il raggio di danno del 30%.",
+          "4": "Aumenta il fattore di danno di ulteriori 200.",
+          "5": "Aumenta la durata di 1 sec."
+        }
+      },
+      {
+        "name": "Nato dal Fuoco",
+        "type": "Effetto Globale",
+        "description": "Quando si combattono i creep, il danno inflitto dalla truppa guidata aumenta del 30%.",
+        "star_effects": {
+          "1": "Costo carburante -1",
+          "2": "Costo carburante -1",
+          "3": "Costo carburante per sfidare i Boomer si riduce ulteriormente di 2.",
+          "4": "Danno inflitto +10%",
+          "5": "L'effetto si applica all'intera formazione indipendentemente dallo schieramento di Vivian."
+        }
+      },
+      {
+        "name": "Specialista di Campo",
+        "type": "Talento Esclusivo",
+        "description": "Più truppe possono attaccare lo stesso creep.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Audrey",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/audrey.jpeg",
+    "role_description": "Questo eroe eccelle in una forte DIF in combattimento",
+    "skills": [
+      {
+        "name": "Furia dei Pugni",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 368(->375).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 30.",
+          "2": "Aumenta il fattore di danno di ulteriori 30.",
+          "3": "Aumenta il fattore di danno di ulteriori 30.",
+          "4": "Aumenta il fattore di danno di ulteriori 40.",
+          "5": "Aumenta il fattore di danno di ulteriori 70."
+        }
+      },
+      {
+        "name": "Boxe Thai",
+        "type": "Abilità Attiva",
+        "description": "Estrae l'arma per attaccare i nemici (Fattore di Danno: 724(->737)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 60.",
+          "2": "Aumenta il fattore di danno di ulteriori 60.",
+          "3": "Aumenta il fattore di danno di ulteriori 60.",
+          "4": "Aumenta il fattore di danno di ulteriori 80.",
+          "5": "Aumenta il fattore di danno di ulteriori 140."
+        }
+      },
+      {
+        "name": "Buon Addestramento",
+        "type": "Effetto Globale",
+        "description": "Velocità addestramento unità +30%.",
+        "star_effects": {
+          "1": "Velocità addestramento unità +2%",
+          "2": "Velocità addestramento unità +2%",
+          "3": "Velocità addestramento unità +3%",
+          "4": "Velocità addestramento unità +3%",
+          "5": "Velocità addestramento unità +5%"
+        }
+      },
+      {
+        "name": "Difesa di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta la DIF degli eroi della fazione Blood Rose del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Ava",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/ava.jpeg",
+    "role_description": "Questo eroe eccelle nel garantire Potenti Buff in combattimento",
+    "skills": [
+      {
+        "name": "Reazione Chimica",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 501(->512).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 45.",
+          "2": "Aumenta il fattore di danno di ulteriori 45.",
+          "3": "Aumenta il fattore di danno di ulteriori 45.",
+          "4": "Aumenta il fattore di danno di ulteriori 60.",
+          "5": "Aumenta il fattore di danno di ulteriori 105."
+        }
+      },
+      {
+        "name": "Pozione Pericolosa",
+        "type": "Abilità Attiva",
+        "description": "Lancia sostanze chimiche pericolose su un'area specifica, causando danni enormi ai nemici (Fattore di Danno: 803(->824)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Ha probabilità di causare danni da veleno aggiuntivi.",
+          "4": "Aumenta il fattore di danno di ulteriori 220.",
+          "5": "Migliora l'effetto del veleno."
+        }
+      },
+      {
+        "name": "Esperto in Attacco",
+        "type": "Effetto Globale",
+        "description": "L'ATT personale aumenta di 1400.",
+        "star_effects": {
+          "1": "ATT +50",
+          "2": "ATT +50",
+          "3": "ATT +100",
+          "4": "ATT +200",
+          "5": "ATT +300"
+        }
+      },
+      {
+        "name": "Attacco di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta l'Attacco degli Eroi della fazione Blood Rose del 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Giselle",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/giselle.jpeg",
+    "role_description": "Questo eroe eccelle in un forte DPS.",
+    "skills": [
+      {
+        "name": "Piede di Porco in Lega",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 403(->410).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 30.",
+          "2": "Aumenta il fattore di danno di ulteriori 30.",
+          "3": "Aumenta il fattore di danno di ulteriori 30.",
+          "4": "Aumenta il fattore di danno di ulteriori 40.",
+          "5": "Aumenta il fattore di danno di ulteriori 70."
+        }
+      },
+      {
+        "name": "Impatto del Piede di Porco",
+        "type": "Abilità Attiva",
+        "description": "Brandisce l'arma, infliggendo danni ai nemici in un'area a ventaglio di fronte (Fattore di Danno: 793(->806)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 60.",
+          "2": "Aumenta il fattore di danno di ulteriori 60.",
+          "3": "Aumenta il fattore di danno di ulteriori 60.",
+          "4": "Aumenta il fattore di danno di ulteriori 80.",
+          "5": "Aumenta il fattore di danno di ulteriori 140."
+        }
+      },
+      {
+        "name": "Maestro della Raccolta: Legno",
+        "type": "Effetto Globale",
+        "description": "Aumenta la velocità di raccolta del Legno del 45% e la resa in Legno del 30%.",
+        "star_effects": {
+          "1": "Velocità raccolta Legno +3%",
+          "2": "Resa Legno +15%",
+          "3": "Velocità raccolta Legno +6%",
+          "4": "Resa risorse +20%",
+          "5": "Velocità raccolta +15%"
+        }
+      },
+      {
+        "name": "Attacco di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta l'ATT degli Eroi della fazione Blood Rose del 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Miranda",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/miranda.jpeg",
+    "role_description": "Questo eroe eccelle in una forte DIF in combattimento",
+    "skills": [
+      {
+        "name": "Proiettili Penetranti",
+        "type": "Aumento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 605(->615).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 45.",
+          "2": "Aumenta il fattore di danno di ulteriori 45.",
+          "3": "Aumenta il fattore di danno di ulteriori 45.",
+          "4": "Aumenta il fattore di danno di ulteriori 60.",
+          "5": "Aumenta il fattore di danno di ulteriori 105."
+        }
+      },
+      {
+        "name": "Tiro Rapido",
+        "type": "Abilità Attiva",
+        "description": "Spara selvaggiamente sui nemici di fronte (Fattore di Danno: 970(->991)), con possibilità di stordire i bersagli.",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta la possibilità di stordimento.",
+          "4": "Aumenta il fattore di danno di ulteriori 200.",
+          "5": "Aumenta la durata dello stordimento di 1 sec."
+        }
+      },
+      {
+        "name": "Esperto in Difesa",
+        "type": "Effetto Globale",
+        "description": "Aumenta la Difesa per tutte le unità.",
+        "star_effects": {
+          "1": "Difesa +50",
+          "2": "Difesa +50",
+          "3": "Difesa +100",
+          "4": "Difesa +200",
+          "5": "Difesa +300"
+        }
+      },
+      {
+        "name": "Difesa di Fazione",
+        "type": "Talento Esclusivo",
+        "description": "Aumenta la Difesa degli Eroi della fazione Blood Rose del 10%.",
+        "star_effects": {}
+      }
+    ]
+  }
+]

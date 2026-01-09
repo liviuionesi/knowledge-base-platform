@@ -1,0 +1,472 @@
+[
+  {
+    "name": "Katrina",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/katrina.jpeg",
+    "role_description": "Ce héros excelle en DEF solide lors des combats",
+    "skills": [
+      {
+        "name": "Balle Explosive",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 1083(->1103).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+        }
+      },
+      {
+        "name": "Assaut Total",
+        "type": "Compétence Active",
+        "description": "Ordonne à la troupe d'élite de déchaîner toute sa puissance de feu (Facteur de Dégâts : 1686(->1727)), pendant 6 secondes.",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "2": "Augmente la durée de 1 sec.",
+          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "4": "Quantité de troupes de soutien +2.",
+          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+        }
+      },
+      {
+        "name": "Génie de l'Exploration",
+        "type": "Effet Global",
+        "description": "L'EXP inactif dans les étapes d'exploration augmente de 33,1(->33,8)%.",
+        "star_effects": {
+          "1": "Obtenez 100 carburant gratuitement par jour.",
+          "2": "EXP inactif +5%",
+          "3": "EXP inactif +5%",
+          "4": "Vitesse de restauration du carburant +10%",
+          "5": "EXP inactif +10%"
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent Exclusif",
+        "description": "Booste sa propre attaque de 10%, sa défense de 10% et la capacité des troupes de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Oliveira",
+    "type": "S",
+    "rarity": "payant",
+    "faction": "Blood Rose",
+    "season": "Saison 1",
+    "image": "/heroes/blood-rose/oliveira.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Coup Fatal",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+        }
+      },
+      {
+        "name": "Tempête de Lames",
+        "type": "Compétence Active",
+        "description": "Place une lame rotative à l'endroit désigné, causant des dégâts aux ennemis à portée (Facteur de Dégâts : 1479(->1520)), pendant 4 secondes.",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "2": "Augmente la durée de 1 sec.",
+          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "4": "Inflige un effet de saignement supplémentaire.",
+          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+        }
+      },
+      {
+        "name": "Fille Douée",
+        "type": "Effet Global",
+        "description": "Augmente la vitesse d'entraînement du camp des Assaillants de 54,5(->55,5)%.",
+        "star_effects": {
+          "1": "Vitesse d'entraînement +20%",
+          "2": "DEF Assaillant +10%",
+          "3": "Consommation de ressources d'entraînement Assaillant -5%",
+          "4": "ATK Assaillant +10%",
+          "5": "Les effets de boost d'attaque et de défense s'appliquent à tous les types d'unités."
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent Exclusif",
+        "description": "Pour chaque héros Blood Rose déployé, l'ATK et la DEF des troupes augmentent de 5%. En déployant 5 héros Blood Rose, la capacité des troupes augmente de 10% supplémentaires.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Selena",
+    "type": "S",
+    "rarity": "payant",
+    "faction": "Blood Rose",
+    "season": "Saison 1",
+    "image": "/heroes/blood-rose/selena.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Blessure Déchirée",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+        }
+      },
+      {
+        "name": "Invocation Sauvage",
+        "type": "Compétence Active",
+        "description": "Ordonne à l'ours de guerre de bondir et mordre, puis de frapper le sol en rencontrant un ennemi pour causer des dégâts de zone (Facteur de Dégâts : 1479(->1520)).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "2": "Augmente la portée des dégâts de 30%.",
+          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "4": "Nombre de frappes au sol +2",
+          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+        }
+      },
+      {
+        "name": "Puissance de la Nature",
+        "type": "Valide Lors de la Marche",
+        "description": "La défense des Assaillants dans la troupe menée augmente de 29,5(->30,5)%.",
+        "star_effects": {
+          "1": "ATK Assaillant +5%",
+          "2": "ATK Assaillant +5%",
+          "3": "ATK Assaillant +10%",
+          "4": "ATK Assaillant +10%",
+          "5": "ATK Assaillant +15%"
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent Exclusif",
+        "description": "Que Selena soit déployée ou non, les dégâts de toutes les unités Assaillant augmentent de 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Sophia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/sophia.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Chasseur de Destin",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 120 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 210 supplémentaires."
+        }
+      },
+      {
+        "name": "Fureur de l'Apocalypse",
+        "type": "Compétence Active",
+        "description": "Appelle une troupe mobile en soutien, lançant un assaut féroce sur la zone cible (Facteur de Dégâts : 1479(->1520)).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "2": "Quantité de troupes de soutien +2.",
+          "3": "Augmente le facteur de dégâts de 150 supplémentaires.",
+          "4": "Quantité de troupes de soutien +3.",
+          "5": "Augmente le facteur de dégâts de 300 supplémentaires."
+        }
+      },
+      {
+        "name": "Cadeau de la Princesse",
+        "type": "Effet Global",
+        "description": "Augmente la durée de construction gratuite de 90 min et la vitesse de construction de 29,7(->30,3)%.",
+        "star_effects": {
+          "1": "Durée de construction gratuite +15 min.",
+          "2": "Vitesse de construction +10%.",
+          "3": "Durée de construction gratuite +60 min.",
+          "4": "Coût en ressources des bâtiments -5%.",
+          "5": "Coût en ressources des bâtiments -10%."
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent Exclusif",
+        "description": "Booste sa propre attaque de 10%, sa défense de 10% et la capacité des troupes de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Vivian",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/vivian.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Cartes Magiques",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 656(->667).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+        }
+      },
+      {
+        "name": "Tour de Cartes",
+        "type": "Compétence Active",
+        "description": "Contrôle les cartes pour attaquer les ennemis dans une zone circulaire (Facteur de Dégâts : 1093(->1114)), pendant 3 secondes.",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "Augmente la portée des dégâts de 30%.",
+          "4": "Augmente le facteur de dégâts de 200 supplémentaires.",
+          "5": "Augmente la durée de 1 sec."
+        }
+      },
+      {
+        "name": "Né du Feu",
+        "type": "Effet Global",
+        "description": "En combattant des créatures, les dégâts infligés par la troupe menée augmentent de 30%.",
+        "star_effects": {
+          "1": "Coût en carburant -1",
+          "2": "Coût en carburant -1",
+          "3": "Le coût en carburant pour défier les Boomers est réduit de 2 supplémentaires.",
+          "4": "Dégâts infligés +10%",
+          "5": "L'effet s'applique à toute la formation indépendamment du déploiement de Vivian."
+        }
+      },
+      {
+        "name": "Spécialiste de Terrain",
+        "type": "Talent Exclusif",
+        "description": "Plusieurs troupes peuvent attaquer la même créature.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Audrey",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/audrey.jpeg",
+    "role_description": "Ce héros excelle en DEF solide lors des combats",
+    "skills": [
+      {
+        "name": "Fureur des Poings",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 368(->375).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 30 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 30 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 30 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 40 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 70 supplémentaires."
+        }
+      },
+      {
+        "name": "Boxe Thaï",
+        "type": "Compétence Active",
+        "description": "Sort son arme pour attaquer les ennemis (Facteur de Dégâts : 724(->737)).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 80 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 140 supplémentaires."
+        }
+      },
+      {
+        "name": "Bon Entraînement",
+        "type": "Effet Global",
+        "description": "Vitesse d'entraînement des unités +30%.",
+        "star_effects": {
+          "1": "Vitesse d'entraînement des unités +2%",
+          "2": "Vitesse d'entraînement des unités +2%",
+          "3": "Vitesse d'entraînement des unités +3%",
+          "4": "Vitesse d'entraînement des unités +3%",
+          "5": "Vitesse d'entraînement des unités +5%"
+        }
+      },
+      {
+        "name": "Défense de Faction",
+        "type": "Talent Exclusif",
+        "description": "Augmente la DEF des héros de la faction Blood Rose de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Ava",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/ava.jpeg",
+    "role_description": "Ce héros excelle à accorder des Buffs Puissants en combat",
+    "skills": [
+      {
+        "name": "Réaction Chimique",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 501(->512).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+        }
+      },
+      {
+        "name": "Potion Périlleuse",
+        "type": "Compétence Active",
+        "description": "Lance des produits chimiques dangereux dans une zone spécifique, causant des dégâts massifs aux ennemis (Facteur de Dégâts : 803(->824)).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "A des chances de causer des dégâts de poison supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 220 supplémentaires.",
+          "5": "Améliore l'effet de poison."
+        }
+      },
+      {
+        "name": "Expert en Attaque",
+        "type": "Effet Global",
+        "description": "Sa propre ATK augmente de 1400.",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Attaque de Faction",
+        "type": "Talent Exclusif",
+        "description": "Augmente l'Attaque des Héros de la faction Blood Rose de 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Giselle",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/giselle.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Pied-de-biche en Alliage",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 403(->410).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 30 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 30 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 30 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 40 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 70 supplémentaires."
+        }
+      },
+      {
+        "name": "Impact du Pied-de-biche",
+        "type": "Compétence Active",
+        "description": "Balance l'arme, infligeant des dégâts aux ennemis dans une zone en forme d'éventail devant (Facteur de Dégâts : 793(->806)).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 80 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 140 supplémentaires."
+        }
+      },
+      {
+        "name": "Maître de la Récolte : Bois",
+        "type": "Effet Global",
+        "description": "Augmente la vitesse de récolte du Bois de 45% et le rendement en Bois de 30%.",
+        "star_effects": {
+          "1": "Vitesse de récolte du Bois +3%",
+          "2": "Production de Bois +15%",
+          "3": "Vitesse de récolte du Bois +6%",
+          "4": "Production de ressources +20%",
+          "5": "Vitesse de récolte +15%"
+        }
+      },
+      {
+        "name": "Attaque de Faction",
+        "type": "Talent Exclusif",
+        "description": "Augmente l'ATK des Héros de la faction Blood Rose de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Miranda",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/miranda.jpeg",
+    "role_description": "Ce héros excelle en DEF solide lors des combats",
+    "skills": [
+      {
+        "name": "Balles Pénétrantes",
+        "type": "Boost d'Attaque Normale",
+        "description": "Le facteur de dégâts des attaques normales augmente à 605(->615).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "3": "Augmente le facteur de dégâts de 45 supplémentaires.",
+          "4": "Augmente le facteur de dégâts de 60 supplémentaires.",
+          "5": "Augmente le facteur de dégâts de 105 supplémentaires."
+        }
+      },
+      {
+        "name": "Tir Rapide",
+        "type": "Compétence Active",
+        "description": "Tire sauvagement sur les ennemis devant (Facteur de Dégâts : 970(->991)), avec des chances d'étourdir les cibles.",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "2": "Augmente le facteur de dégâts de 90 supplémentaires.",
+          "3": "Augmente les chances d'étourdissement.",
+          "4": "Augmente le facteur de dégâts de 200 supplémentaires.",
+          "5": "Augmente la durée de l'étourdissement de 1 sec."
+        }
+      },
+      {
+        "name": "Expert en Défense",
+        "type": "Effet Global",
+        "description": "Augmente la Défense de toutes les unités.",
+        "star_effects": {
+          "1": "Défense +50",
+          "2": "Défense +50",
+          "3": "Défense +100",
+          "4": "Défense +200",
+          "5": "Défense +300"
+        }
+      },
+      {
+        "name": "Défense de Faction",
+        "type": "Talent Exclusif",
+        "description": "Augmente la Défense des Héros de la faction Blood Rose de 10%.",
+        "star_effects": {}
+      }
+    ]
+  }
+]

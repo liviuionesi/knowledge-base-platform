@@ -1,0 +1,472 @@
+[
+  {
+    "name": "Katrina",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/katrina.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke DEF im Kampf aus",
+    "skills": [
+      {
+        "name": "Explosives Geschoss",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 1083(->1103).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Generalangriff",
+        "type": "Aktive Fähigkeit",
+        "description": "Befiehlt der Elitetruppe, volle Feuerkraft zu entfesseln (Schadensfaktor: 1686(->1727)), hält 6 Sekunden an.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Dauer um 1 Sek.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Anzahl der Unterstützungstruppen +2.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Erforschungsgenie",
+        "type": "Globaler Effekt",
+        "description": "Untätige EXP in Erforschungsphasen erhöhen sich um 33,1(->33,8)%.",
+        "star_effects": {
+          "1": "Erhalte 100 Treibstoff kostenlos pro Tag.",
+          "2": "Untätige EXP +5%",
+          "3": "Untätige EXP +5%",
+          "4": "Treibstoff-Wiederherstellungsgeschwindigkeit +10%",
+          "5": "Untätige EXP +10%"
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den eigenen Angriff um 10%, die Verteidigung um 10% und die Truppenkapazität um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Oliveira",
+    "type": "S",
+    "rarity": "bezahlt",
+    "faction": "Blood Rose",
+    "season": "Saison 1",
+    "image": "/heroes/blood-rose/oliveira.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Tödlicher Schlag",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Klingensturm",
+        "type": "Aktive Fähigkeit",
+        "description": "Platziert eine rotierende Klinge am Zielort, die Gegnern im Bereich Schaden zufügt (Schadensfaktor: 1479(->1520)), hält 4 Sekunden an.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Dauer um 1 Sek.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Verursacht zusätzlichen Blutungseffekt.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Begabtes Mädchen",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die Ausbildungsgeschwindigkeit des Angreifer-Lagers um 54,5(->55,5)%.",
+        "star_effects": {
+          "1": "Ausbildungsgeschwindigkeit +20%",
+          "2": "Angreifer DEF +10%",
+          "3": "Ressourcenverbrauch für Angreifer-Ausbildung -5%",
+          "4": "Angreifer ATK +10%",
+          "5": "Die Angriffs- und Verteidigungsboost-Effekte gelten für alle Einheitentypen."
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Für jeden eingesetzten Blood Rose Helden erhöhen sich ATK & DEF der Truppe um 5%. Bei Einsatz von 5 Blood Rose Helden erhöht sich die Truppenkapazität um weitere 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Selena",
+    "type": "S",
+    "rarity": "bezahlt",
+    "faction": "Blood Rose",
+    "season": "Saison 1",
+    "image": "/heroes/blood-rose/selena.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Zerrissene Wunde",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Wilde Beschwörung",
+        "type": "Aktive Fähigkeit",
+        "description": "Befiehlt dem Kriegsbären, nach vorne zu springen und zu beißen, dann auf den Boden zu schlagen, wenn er auf einen Feind trifft, um Flächenschaden zu verursachen (Schadensfaktor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Schadensreichweite um 30%.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Bodenschlag-Anzahl +2",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Kraft der Natur",
+        "type": "Gültig beim Marsch",
+        "description": "Verteidigung von Angreifern in der geführten Truppe erhöht sich um 29,5(->30,5)%.",
+        "star_effects": {
+          "1": "Angreifer ATK +5%",
+          "2": "Angreifer ATK +5%",
+          "3": "Angreifer ATK +10%",
+          "4": "Angreifer ATK +10%",
+          "5": "Angreifer ATK +15%"
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Unabhängig davon, ob Selena eingesetzt wird, erhöht sich der Schaden aller Angreifer-Einheiten um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Sophia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/sophia.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Schicksalsjäger",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Apokalypse-Wut",
+        "type": "Aktive Fähigkeit",
+        "description": "Ruft eine mobile Truppe zur Unterstützung und startet einen heftigen Angriff auf das Zielgebiet (Schadensfaktor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Anzahl der Unterstützungstruppen +2.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Anzahl der Unterstützungstruppen +3.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Geschenk der Prinzessin",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die kostenlose Baudauer um 90 Min. und die Baugeschwindigkeit um 29,7(->30,3)%.",
+        "star_effects": {
+          "1": "Kostenlose Baudauer +15 Min.",
+          "2": "Baugeschwindigkeit +10%.",
+          "3": "Kostenlose Baudauer +60 Min.",
+          "4": "Ressourcenkosten in Gebäuden -5%.",
+          "5": "Ressourcenkosten in Gebäuden -10%."
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den eigenen Angriff um 10%, die Verteidigung um 10% und die Truppenkapazität um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Vivian",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/vivian.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Magische Karten",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 656(->667).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Kartentrick",
+        "type": "Aktive Fähigkeit",
+        "description": "Kontrolliert die Karten, um Feinde in einem kreisförmigen Bereich anzugreifen (Schadensfaktor: 1093(->1114)), hält 3 Sekunden an.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht die Schadensreichweite um 30%.",
+          "4": "Erhöht den Schadensfaktor um weitere 200.",
+          "5": "Erhöht die Dauer um 1 Sek."
+        }
+      },
+      {
+        "name": "Aus dem Feuer Geboren",
+        "type": "Globaler Effekt",
+        "description": "Beim Kampf gegen Creeps erhöht sich der Schaden der geführten Truppe um 30%.",
+        "star_effects": {
+          "1": "Treibstoffkosten -1",
+          "2": "Treibstoffkosten -1",
+          "3": "Treibstoffkosten für das Herausfordern von Boomern reduzieren sich um weitere 2.",
+          "4": "Zugefügter Schaden +10%",
+          "5": "Der Effekt gilt für die gesamte Formation unabhängig von Vivians Einsatz."
+        }
+      },
+      {
+        "name": "Feldspezialist",
+        "type": "Exklusives Talent",
+        "description": "Mehrere Truppen können denselben Creep angreifen.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Audrey",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/audrey.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke DEF im Kampf aus",
+    "skills": [
+      {
+        "name": "Faustwut",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 368(->375).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 30.",
+          "2": "Erhöht den Schadensfaktor um weitere 30.",
+          "3": "Erhöht den Schadensfaktor um weitere 30.",
+          "4": "Erhöht den Schadensfaktor um weitere 40.",
+          "5": "Erhöht den Schadensfaktor um weitere 70."
+        }
+      },
+      {
+        "name": "Thaiboxen",
+        "type": "Aktive Fähigkeit",
+        "description": "Zieht die Waffe, um Feinde anzugreifen (Schadensfaktor: 724(->737)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 60.",
+          "2": "Erhöht den Schadensfaktor um weitere 60.",
+          "3": "Erhöht den Schadensfaktor um weitere 60.",
+          "4": "Erhöht den Schadensfaktor um weitere 80.",
+          "5": "Erhöht den Schadensfaktor um weitere 140."
+        }
+      },
+      {
+        "name": "Gutes Training",
+        "type": "Globaler Effekt",
+        "description": "Einheiten-Ausbildungsgeschwindigkeit +30%.",
+        "star_effects": {
+          "1": "Einheiten-Ausbildungsgeschwindigkeit +2%",
+          "2": "Einheiten-Ausbildungsgeschwindigkeit +2%",
+          "3": "Einheiten-Ausbildungsgeschwindigkeit +3%",
+          "4": "Einheiten-Ausbildungsgeschwindigkeit +3%",
+          "5": "Einheiten-Ausbildungsgeschwindigkeit +5%"
+        }
+      },
+      {
+        "name": "Fraktionsverteidigung",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-DEF der Fraktion Blood Rose um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Ava",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/ava.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch mächtige Buffs im Kampf aus",
+    "skills": [
+      {
+        "name": "Chemische Reaktion",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 501(->512).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Gefährlicher Trank",
+        "type": "Aktive Fähigkeit",
+        "description": "Wirft gefährliche Chemikalien auf einen bestimmten Bereich und verursacht massiven Schaden bei Feinden (Schadensfaktor: 803(->824)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Hat Chancen, zusätzlich Giftschaden zu verursachen.",
+          "4": "Erhöht den Schadensfaktor um weitere 220.",
+          "5": "Verstärkt den Gifteffekt."
+        }
+      },
+      {
+        "name": "Angriffsexperte",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die eigene ATK um 1400.",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Fraktionsangriff",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den Helden-Angriff der Blood Rose Fraktion um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Giselle",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/giselle.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Legiertes Brecheisen",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 403(->410).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 30.",
+          "2": "Erhöht den Schadensfaktor um weitere 30.",
+          "3": "Erhöht den Schadensfaktor um weitere 30.",
+          "4": "Erhöht den Schadensfaktor um weitere 40.",
+          "5": "Erhöht den Schadensfaktor um weitere 70."
+        }
+      },
+      {
+        "name": "Brecheisen-Einschlag",
+        "type": "Aktive Fähigkeit",
+        "description": "Schwingt die Waffe und fügt Feinden in einem fächerförmigen Bereich davor Schaden zu (Schadensfaktor: 793(->806)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 60.",
+          "2": "Erhöht den Schadensfaktor um weitere 60.",
+          "3": "Erhöht den Schadensfaktor um weitere 60.",
+          "4": "Erhöht den Schadensfaktor um weitere 80.",
+          "5": "Erhöht den Schadensfaktor um weitere 140."
+        }
+      },
+      {
+        "name": "Sammelmeister: Holz",
+        "type": "Globaler Effekt",
+        "description": "Erhöht Holz-Sammelgeschwindigkeit um 45% und Holz-Ertrag um 30%.",
+        "star_effects": {
+          "1": "Holz-Sammelgeschwindigkeit +3%",
+          "2": "Holz-Ertrag +15%",
+          "3": "Holz-Sammelgeschwindigkeit +6%",
+          "4": "Ressourcen-Ertrag +20%",
+          "5": "Sammelgeschwindigkeit +15%"
+        }
+      },
+      {
+        "name": "Fraktionsangriff",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-ATK der Blood Rose Fraktion um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Miranda",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Blood Rose",
+    "image": "/heroes/blood-rose/miranda.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke DEF im Kampf aus",
+    "skills": [
+      {
+        "name": "Durchdringende Kugeln",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 605(->615).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Schnellfeuer",
+        "type": "Aktive Fähigkeit",
+        "description": "Sprüht wild auf Feinde davor (Schadensfaktor: 970(->991)), mit Chancen, die Ziele zu betäuben.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht Betäubungschance.",
+          "4": "Erhöht den Schadensfaktor um weitere 200.",
+          "5": "Erhöht Betäubungsdauer um 1 Sek."
+        }
+      },
+      {
+        "name": "Verteidigungsexperte",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die Verteidigung für alle Einheiten.",
+        "star_effects": {
+          "1": "Verteidigung +50",
+          "2": "Verteidigung +50",
+          "3": "Verteidigung +100",
+          "4": "Verteidigung +200",
+          "5": "Verteidigung +300"
+        }
+      },
+      {
+        "name": "Fraktionsverteidigung",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-Verteidigung der Blood Rose Fraktion um 10%.",
+        "star_effects": {}
+      }
+    ]
+  }
+]

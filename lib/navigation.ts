@@ -41,6 +41,15 @@ export function getNavigation(locale: string): NavGroup[] {
   };
 
   const t = translations[locale as keyof typeof translations] || translations.en;
+  
+  // Custom hero faction names (not translated yet for simplicity, or add to translations)
+  const heroTranslations = {
+    en: { heroes: 'Heroes', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
+    fr: { heroes: 'Héros', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
+    de: { heroes: 'Helden', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
+    it: { heroes: 'Eroi', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' }
+  };
+  const ht = heroTranslations[locale as keyof typeof heroTranslations] || heroTranslations.en;
 
   return [
     {
@@ -50,6 +59,26 @@ export function getNavigation(locale: string): NavGroup[] {
           title: t.welcome,
           slug: 'introduction',
           href: `/${locale}/docs/introduction`
+        }
+      ]
+    },
+    {
+      group: ht.heroes,
+      links: [
+        {
+          title: ht.bloodRose,
+          slug: 'heroes/blood-rose',
+          href: `/${locale}/docs/heroes/blood-rose`
+        },
+        {
+          title: ht.wingsOfDawn,
+          slug: 'heroes/wings-of-dawn',
+          href: `/${locale}/docs/heroes/wings-of-dawn`
+        },
+        {
+          title: ht.guardOfOrder,
+          slug: 'heroes/guard-of-order',
+          href: `/${locale}/docs/heroes/guard-of-order`
         }
       ]
     },

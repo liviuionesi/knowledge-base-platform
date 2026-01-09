@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import { HeroList } from '@/components/features/HeroList';
 
 export const components = {
   img: (props: any) => (
@@ -10,4 +11,5 @@ export const components = {
       loading="lazy"
     />
   ),
+  HeroList,
 };
