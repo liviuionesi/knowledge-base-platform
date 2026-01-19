@@ -16,7 +16,7 @@ This document outlines the complete architecture for the **Phenix Alliance Wiki*
 ## Table of Contents
 
 1. [Technology Stack](#technology-stack)
-2. [System Architecture](#system-architecture)
+2. [System Architecture](#system-architecture)  
 3. [Module Design](#module-design)
 4. [Data Strategy](#data-strategy)
 5. [Security Architecture](#security-architecture)

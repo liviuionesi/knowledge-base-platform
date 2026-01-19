@@ -9,6 +9,7 @@ export function getNavigation(locale: string): NavGroup[] {
     en: {
       gettingStarted: 'Getting Started',
       welcome: 'Welcome',
+      dailyGuide: 'Daily Guide',
       eventCenter: 'Event Center',
       fullPreparedness: 'Full Preparedness',
       allianceDuel: 'Alliance Duel',
@@ -17,6 +18,7 @@ export function getNavigation(locale: string): NavGroup[] {
     fr: {
       gettingStarted: 'Commencer',
       welcome: 'Bienvenue',
+      dailyGuide: 'Guide quotidien',
       eventCenter: 'Événements',
       fullPreparedness: 'Armements globaux',
       allianceDuel: "Duel d'Alliance",
@@ -25,6 +27,7 @@ export function getNavigation(locale: string): NavGroup[] {
     de: {
       gettingStarted: 'Erste Schritte',
       welcome: 'Willkommen',
+      dailyGuide: 'Täglicher Leitfaden',
       eventCenter: 'Eventzentrum',
       fullPreparedness: 'Totale Bewaffnung',
       allianceDuel: 'Allianz-Duell',
@@ -33,6 +36,7 @@ export function getNavigation(locale: string): NavGroup[] {
     it: {
       gettingStarted: 'Per Iniziare',
       welcome: 'Benvenuto',
+      dailyGuide: 'Guida Giornaliera',
       eventCenter: 'Centro Eventi',
       fullPreparedness: 'Preparazione alla Guerra',
       allianceDuel: "Duello dell'Alleanza",
@@ -59,6 +63,11 @@ export function getNavigation(locale: string): NavGroup[] {
           title: t.welcome,
           slug: 'introduction',
           href: `/${locale}/docs/introduction`
+        },
+        {
+          title: t.dailyGuide,
+          slug: 'daily-guide',
+          href: `/${locale}/docs/daily-guide`
         }
       ]
     },
