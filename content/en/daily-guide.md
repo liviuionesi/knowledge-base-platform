@@ -1,13 +1,13 @@
 ---
-title: Basic rules
+title: Rules
 description: Essential daily activities and alliance etiquette for Last Z.
 ---
 
-# Basic rules for the Phenix Alliance
+# Rules for the Phenix Alliance
 
-To grow fast and keep the alliance strong, every member of **Phenix Alliance** must follow these daily routines and community rules.
+To grow fast and keep the alliance strong, every member of **Phenix Alliance** must follow these rules and understand our strategy.
 
-## Alliance Decalog
+## Main Rules
 
 ### 1. Pressing Help
 **Always press the Help** button (the shaking hands icon) whenever you see it. This reduces the time for your allies' buildings and research. In return, they will help you!
@@ -50,9 +50,9 @@ Use the **Prime Mining Zone** bonus in the **Mines Melee**.
 - Focus on Crystal mines as they give you Hero XP points.
 - Zent mining is used for Research in the Laboratory.
 - Use the free detection to find a free mine, or beat a team from other server to their mined resources.
-- If you atack a mined occupied form a player of the server 347 you are going to beattacked by them later! Repeat this offense and you can find a new alliance to join.
+- If you atack a mined occupied form a player of the server 347 you are going to be attacked by them later! Repeat this offense and you will be zeroed, or can find a new alliance to join.
 - This happened already!
-- 
+  
 - **Etiquette**: Try to occupy empty mines. **Do not steal** missions from other players of server 347, from any alliance!
 
 
@@ -67,7 +67,7 @@ Use the **Prime Mining Zone** bonus in the **Mines Melee**.
 
 - **Do NOT hit Trade Trucks** belonging to players from our home server (**347**). 
 - We maintain a Non-Aggression Pact (NAP) with our neighbors; attacking their trucks will cause you to be atacked by them as repay, on multiple offenses, you the second offense you will be attacked until your base explodes and you loose all your troops and resources.
-- - **Steal!** trucks from other players of rival server. This is announced every Monday morning or Sunday evening. You steal their cargo by finding a orange truck form that server number. Or by searching the number of that server. Steal all 4 trucks, every day! 
+- **Steal!** trucks from other players of rival server. This is announced every Monday morning or Sunday evening. You steal their cargo by finding a orange truck form that server number. Or by searching the number of that server. Steal all 4 trucks, every day! 
 
 ### 9. Bounty missions
 
@@ -96,4 +96,21 @@ This is why you read this wiki.
 
 We need to get as many of us to level 27+. That way we can be a force in Saturday and Wednesday duels. Update the minimum necessary to get the HQ at 27, and then update the troops at level 9. After that you can rest, but as you are resting, you can update the rest of the buildings.
 
+# The Non Aggression Pact
+
+If every top alliance destroys it's rivals on this server, the next Saturday we all get defeated. That is why we have the Non Aggression Pact. 
+We can't attack players from the following alliances:
+1. Zero
+2. 2NW
+3. Funn
+4. ADFB
+
+On Wednesday though we have the Purge day, where we can attack any player from any alliance. 
+And also get attacked by anyone. If you leave ressouces on your base, you are inviting a raid. Be extremely careful, many gave up playing because of this mistake. If your "forget" we might raid you Tuesday night before you make our rivals stronger by your carelessness. No harsh feelings here, mistakes are part of the game, but we expect you to be responsible.
+
+Use a 24h shield and another 8h shield on Wednesday, or have absolutely nothing to show on a scout report! 
+
+Saturday is the day it is guaranteed you are going to be raided. You must use a shield anytime you are offline. MUST!
+
+Shileding is your responsibility, not ours. Have the shields ready, do not use every last diamond you got. And if you burn, don't cry! You are responsible for your own actions. 
 

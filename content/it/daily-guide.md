@@ -1,13 +1,13 @@
 ---
-title: Regole di base
+title: Regole
 description: Attività quotidiane essenziali ed etichetta dell'alleanza per Last Z.
 ---
 
-# Regole di base per l'Alleanza Phenix
+# Regole per l'Alleanza Phenix
 
-Per crescere velocemente e mantenere forte l'alleanza, ogni membro dell'**Alleanza Phenix** deve seguire queste routine quotidiane e regole della comunità.
+Per crescere velocemente e mantenere forte l'alleanza, ogni membro dell'**Alleanza Phenix** deve seguire queste regole e comprendere la nostra strategia.
 
-## Decalogo dell'Alleanza
+## Regole principali
 
 ### 1. Premere Aiuto
 **Premi sempre il pulsante Aiuto** (l'icona delle mani che si stringono) ogni volta che lo vedi. Questo riduce il tempo per gli edifici e le ricerche dei tuoi alleati. In cambio, loro aiuteranno te!
@@ -49,9 +49,9 @@ Usa il bonus **Zona di Estrazione Prime** nella **Mischia delle Miniere**.
 - Concentrati sulle miniere di Cristallo poiché ti danno punti XP Eroe.
 - L'estrazione di Zent viene utilizzata per la ricerca nel Laboratorio.
 - Usa il rilevamento gratuito per trovare una miniera libera, o batti una squadra di un altro server per le loro risorse estratte.
-- Se attacchi una miniera occupata da un giocatore del server 347, verrai attaccato da loro più tardi! Ripeti questa offesa e potrai trovare una nuova alleanza a cui unirti.
+- Se attacchi una miniera occupata da un giocatore del server 347, verrai attaccato da loro più tardi! Ripeti questa offesa e verrai azzerato (zeroed), o potrai cercare una nuova alleanza a cui unirti.
 - È già successo!
-- 
+  
 - **Etichetta**: Prova a occupare miniere vuote. **Non rubare** missioni ad altri giocatori del server 347, di qualsiasi alleanza!
 
 ### 7. Regole del tesoro
@@ -91,3 +91,21 @@ Questo è il motivo per cui leggi questa wiki.
 # La strategia dell'Alleanza Phenix
 
 Dobbiamo portare il maggior numero possibile di noi al livello 27+. In questo modo possiamo essere una forza nei duelli di sabato e mercoledì. Aggiorna il minimo necessario per avere il QG a 27, e poi aggiorna le truppe al livello 9. Dopodiché puoi riposare, ma mentre ti riposi, puoi aggiornare il resto degli edifici.
+
+# Il Patto di Non Aggressione (NAP)
+
+Se ogni alleanza di alto livello distrugge i propri rivali su questo server, il sabato successivo verremo tutti sconfitti. Ecco perché abbiamo il Patto di Non Aggressione.
+Non possiamo attaccare i giocatori delle seguenti alleanze:
+1. Zero
+2. 2NW
+3. Funn
+4. ADFB
+
+Il mercoledì però abbiamo il Giorno della Purga, in cui possiamo attaccare qualsiasi giocatore di qualsiasi alleanza.
+E anche essere attaccati da chiunque. Se lasci risorse sulla tua base, stai invitando un raid. Sii estremamente attento, molti hanno smesso di giocare a causa di questo errore. Se ti "dimentichi", potremmo razzarti il martedì sera prima che tu renda i nostri rivali più forti con la tua negligenza. Nessun rancore, gli errori fanno parte del gioco, ma ci aspettiamo che tu sia responsabile.
+
+Usa uno scudo da 24 ore e un altro da 8 ore il mercoledì, o non avere assolutamente nulla da mostrare in un rapporto di ricognizione!
+
+Il sabato è il giorno in cui è garantito che verrai razziato. Devi usare uno scudo ogni volta che sei offline. DEVI!
+
+Proteggersi è una tua responsabilità, non nostra. Tieni gli scudi pronti, non usare fino all'ultimo diamante che hai. E se bruci, non piangere! Sei responsabile delle tue azioni.

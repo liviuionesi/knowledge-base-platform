@@ -1,13 +1,13 @@
 ---
-title: Règles de base
+title: Règles
 description: Activités quotidiennes essentielles et étiquette d'alliance pour Last Z.
 ---
 
-# Règles de base de l'Alliance Phenix
+# Règles de l'Alliance Phenix
 
-Pour croître rapidement et maintenir l'alliance forte, chaque membre de l'**Alliance Phenix** doit suivre ces routines quotidiennes et règles communautaires.
+Pour croître rapidement et maintenir l'alliance forte, chaque membre de l'**Alliance Phenix** doit suivre ces règles et comprendre notre stratégie.
 
-## Le Décalogue de l'Alliance
+## Règles principales
 
 ### 1. Appuyer sur "Aide"
 **Appuyez toujours sur le bouton Aide** (l'icône des mains qui se serrent) dès que vous le voyez. Cela réduit le temps de construction et de recherche de vos alliés. En retour, ils vous aideront !
@@ -49,9 +49,9 @@ Utilisez le bonus de la **Zone d'Extraction de Prime** dans la **Mêlée des Min
 - Concentrez-vous sur les mines de Cristal car elles vous donnent des points d'XP de Héros.
 - L'extraction de Zent est utilisée pour la Recherche au Laboratoire.
 - Utilisez la détection gratuite pour trouver une mine libre, ou battez une équipe d'un autre serveur pour récupérer leurs ressources extraites.
-- Si vous attaquez une mine occupée par un joueur du serveur 347, vous serez attaqué par eux plus tard ! Répétez cette offense et vous pourrez trouver une nouvelle alliance à rejoindre.
+- Si vous attaquez une mine occupée par un joueur du serveur 347, vous serez attaqué par eux plus tard ! Répétez cette offense et vous serez mis à zéro (zeroed), ou vous pourrez chercher une nouvelle alliance à rejoindre.
 - C'est déjà arrivé !
-- 
+  
 - **Étiquette** : Essayez d'occuper des mines vides. **Ne volez pas** les missions des autres joueurs du serveur 347, de n'importe quelle alliance !
 
 ### 7. Règles du trésor
@@ -91,3 +91,21 @@ C'est pourquoi vous lisez ce wiki.
 # La stratégie de l'Alliance Phenix
 
 Nous devons amener le plus grand nombre d'entre nous au niveau 27+. De cette façon, nous pourrons être une force dans les duels du samedi et du mercredi. Mettez à jour le minimum nécessaire pour obtenir le QG au niveau 27, puis mettez à jour les troupes au niveau 9. Après cela, vous pourrez vous reposer, mais pendant que vous vous reposez, vous pouvez mettre à jour le reste des bâtiments.
+
+# Le Pacte de Non-Agression (NAP)
+
+Si chaque alliance de premier plan détruit ses rivaux sur ce serveur, le samedi suivant, nous serons tous vaincus. C'est pourquoi nous avons le Pacte de Non-Agression.
+Nous ne pouvons pas attaquer les joueurs des alliances suivantes :
+1. Zero
+2. 2NW
+3. Funn
+4. ADFB
+
+Le mercredi cependant, nous avons le jour de la Purge, où nous pouvons attaquer n'importe quel joueur de n'importe quelle alliance.
+Et aussi être attaqué par n'importe qui. Si vous laissez des ressources sur votre base, vous invitez un raid. Soyez extrêmement prudent, beaucoup ont abandonné le jeu à cause de cette erreur. Si vous "oubliez", nous pourrions vous raider le mardi soir avant que vous ne rendiez nos rivaux plus forts par votre insouciance. Pas de rancune ici, les erreurs font partie du jeu, mais nous attendons de vous que vous soyez responsable.
+
+Utilisez un bouclier de 24h et un autre de 8h le mercredi, ou n'ayez absolument rien à montrer sur un rapport de reconnaissance !
+
+Le samedi est le jour où il est garanti que vous serez attaqué. Vous devez utiliser un bouclier dès que vous êtes hors ligne. OBLIGATOIRE !
+
+Le bouclier est votre responsabilité, pas la nôtre. Ayez les boucliers prêts, n'utilisez pas jusqu'au dernier diamant que vous avez. Et si vous brûlez, ne pleurez pas ! Vous êtes responsable de vos propres actions.

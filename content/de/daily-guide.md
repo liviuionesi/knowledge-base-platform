@@ -1,13 +1,13 @@
 ---
-title: Grundregeln
+title: Regeln
 description: Wichtige tägliche Aktivitäten und Allianzetikette für Last Z.
 ---
 
-# Grundregeln für die Phenix-Allianz
+# Regeln für die Phenix-Allianz
 
-Um schnell zu wachsen und die Allianz stark zu halten, muss jedes Mitglied der **Phenix-Allianz** diese täglichen Routinen und Gemeinschaftsregeln befolgen.
+Um schnell zu wachsen und die Allianz stark zu halten, muss jedes Mitglied der **Phenix-Allianz** diese Regeln befolgen und unsere Strategie verstehen.
 
-## Allianz-Dekalog
+## Hauptregeln
 
 ### 1. Hilfe drücken
 **Drücken Sie immer den Hilfe-Button** (das Symbol mit den schüttelnden Händen), wann immer Sie es sehen. Dies reduziert die Zeit für die Gebäude und Forschungen Ihrer Verbündeten. Im Gegenzug werden sie Ihnen helfen!
@@ -49,9 +49,9 @@ Nutzen Sie den **Prime Mining Zone** Bonus in der **Mines Melee**.
 - Konzentrieren Sie sich auf Kristallminen, da diese Helden-XP-Punkte geben.
 - Zent-Bergbau wird für die Forschung im Labor verwendet.
 - Nutzen Sie die kostenlose Erkennung, um eine freie Mine zu finden oder ein Team von einem anderen Server um seine abgebauten Ressourcen zu schlagen.
-- Wenn Sie eine besetzte Mine eines Spielers von Server 347 angreifen, werden Sie später von ihm angegriffen! Wiederholen Sie dieses Vergehen und Sie können sich eine neue Allianz suchen.
+- Wenn Sie eine besetzte Mine eines Spielers von Server 347 angreifen, werden Sie später von ihm angegriffen! Wiederholen Sie dieses Vergehen und Sie werden genullt (zeroed) oder können sich eine neue Allianz suchen.
 - Das ist bereits passiert!
-- 
+  
 - **Etikette**: Versuchen Sie, leere Minen zu besetzen. **Stehlen Sie keine** Missionen von anderen Spielern des Servers 347, egal aus welcher Allianz!
 
 ### 7. Schatzregeln
@@ -91,3 +91,21 @@ Deshalb lesen Sie dieses Wiki.
 # Die Strategie der Phenix-Allianz
 
 Wir müssen so viele wie möglich von uns auf Level 27+ bringen. Auf diese Weise können wir in den Duellen am Samstag und Mittwoch eine ernstzunehmende Kraft sein. Aktualisieren Sie das Nötigste, um das HQ auf 27 zu bringen, und aktualisieren Sie dann die Truppen auf Level 9. Danach können Sie sich ausruhen, aber während Sie sich ausruhen, können Sie den Rest der Gebäude aktualisieren.
+
+# Der Nichtangriffspakt (NAP)
+
+Wenn jede Top-Allianz ihre Rivalen auf diesem Server zerstört, werden wir nächsten Samstag alle besiegt. Deshalb haben wir den Nichtangriffspakt.
+Wir können keine Spieler aus den folgenden Allianzen angreifen:
+1. Zero
+2. 2NW
+3. Funn
+4. ADFB
+
+Am Mittwoch haben wir jedoch den Purge-Tag, an dem wir jeden Spieler jeder Allianz angreifen können.
+Und auch von jedem angegriffen werden können. Wenn du Ressourcen in deiner Basis lässt, lädst du zu einem Raubzug ein. Sei extrem vorsichtig, viele haben das Spiel wegen dieses Fehlers aufgegeben. Wenn du es "vergisst", könnten wir dich am Dienstagabend überfallen, bevor du unsere Rivalen durch deine Unachtsamkeit stärker machst. Keine harten Gefühle hier, Fehler gehören zum Spiel, aber wir erwarten von dir, dass du verantwortungsbewusst bist.
+
+Benutze am Mittwoch ein 24-Stunden-Schild und ein weiteres 8-Stunden-Schild, oder habe absolut nichts in einem Spionagebericht vorzuweisen!
+
+Samstag ist der Tag, an dem garantiert wird, dass du überfallen wirst. Du MUSST ein Schild benutzen, wann immer du offline bist. MUSST!
+
+Das Schildern liegt in deiner Verantwortung, nicht in unserer. Habe die Schilde bereit, verbrauche nicht jeden letzten Diamanten, den du hast. Und wenn du brennst, weine nicht! Du bist für dein eigenes Handeln verantwortlich.
