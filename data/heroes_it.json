@@ -884,5 +884,58 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Scarlett",
+    "type": "S",
+    "season": "Season 1",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/scarlett.jpeg",
+    "role_description": "Questo eroe eccelle nel danno elevato (DPS) e nell'addestramento del campo.",
+    "skills": [
+      {
+        "name": "Assalto d'Ombra",
+        "type": "Potenziamento Attacco Normale",
+        "description": "Il fattore di danno degli attacchi normali aumenta a 472(->493).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 90.",
+          "2": "Aumenta il fattore di danno di ulteriori 90.",
+          "3": "Aumenta il fattore di danno di ulteriori 90.",
+          "4": "Aumenta il fattore di danno di ulteriori 120.",
+          "5": "Aumenta il fattore di danno di ulteriori 210."
+        }
+      },
+      {
+        "name": "Impulso EM",
+        "type": "Abilità Attiva",
+        "description": "Energizza l'arma, rilasciando un potente impulso di energia in avanti (Fattore di danno: 915(->956)).",
+        "star_effects": {
+          "1": "Aumenta il fattore di danno di ulteriori 150.",
+          "2": "Divide l'impulso di energia in 2 parti, riducendo il danno del 30%.",
+          "3": "Aumenta il fattore di danno di ulteriori 150.",
+          "4": "Aumenta il numero di impulsi di energia di 1.",
+          "5": "Aumenta il fattore di danno di ulteriori 300."
+        }
+      },
+      {
+        "name": "Potere del Dominio",
+        "type": "Effetto Globale",
+        "description": "Aumenta la velocità di addestramento del campo dei tiratori del 44,1(->45,2)%.",
+        "star_effects": {
+          "1": "Velocità di addestramento +20%",
+          "2": "DEF Tiratore +10%",
+          "3": "Consumo risorse addestramento tiratori -5%",
+          "4": "ATK Tiratore +10%",
+          "5": "Gli effetti di potenziamento dell'attacco e della difesa si applicano a tutti i tipi di unità."
+        }
+      },
+      {
+        "name": "Potenziale Scatenato",
+        "type": "Talento Esclusivo",
+        "description": "Per ogni eroe Wings of Dawn schierato, l'ATK e la DEF delle truppe aumentano del 5%. Schierando 5 eroi Wings of Dawn, la capacità delle truppe aumenta di un ulteriore 10%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

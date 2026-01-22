@@ -6,6 +6,7 @@ import path from "path";
 import matter from "gray-matter";
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { components } from "@/components/mdx/MDXComponents";
+import remarkGfm from 'remark-gfm';
 
 interface DocsPageProps {
   params: Promise<{
@@ -23,8 +24,7 @@ async function getContent(locale: string, slug: string) {
 
   const fileContents = fs.readFileSync(contentPath, "utf8");
   const { data, content } = matter(fileContents);
- 
-  // Return raw content for MDXRemote to process
+  
   return {
     metadata: data,
     content: content
@@ -44,7 +44,15 @@ export default async function DocsPage({ params }: DocsPageProps) {
 
   return (
     <WikiShell navigation={navigation} locale={locale}>
-      <MDXRemote source={pageData.content} components={components} />
+      <MDXRemote 
+        source={pageData.content} 
+        components={components} 
+        options={{
+          mdxOptions: {
+            remarkPlugins: [remarkGfm],
+          }
+        }}
+      />
     </WikiShell>
   );
 }

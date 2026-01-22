@@ -884,5 +884,58 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Scarlett",
+    "type": "S",
+    "season": "Season 1",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/scarlett.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS und Lager-Training aus.",
+    "skills": [
+      {
+        "name": "Schattengriff",
+        "type": "Normaler Angriffs-Boost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 472(->493).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "EM-Impuls",
+        "type": "Aktive Fähigkeit",
+        "description": "Energetisiert die Waffe und setzt einen starken Energieimpuls nach vorne frei (Schadensfaktor: 915(->956)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Teilt den Energieimpuls in 2 Teile auf und reduziert den Schaden um 30%.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Erhöht die Anzahl der Energieimpulse um 1.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Macht der Dominanz",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die Ausbildungsgeschwindigkeit des Schützenlagers um 44,1(->45,2)%.",
+        "star_effects": {
+          "1": "Ausbildungsgeschwindigkeit +20%",
+          "2": "Schützen-DEF +10%",
+          "3": "Ressourcenverbrauch beim Schützentraining -5%",
+          "4": "Schützen-ATK +10%",
+          "5": "Die Angriffs- und Verteidigungs-Boost-Effekte gelten für alle Einheitentypen."
+        }
+      },
+      {
+        "name": "Entfesseltes Potenzial",
+        "type": "Exklusives Talent",
+        "description": "Für jeden eingesetzten Wings of Dawn Helden erhöhen sich ATK & DEF der Truppe um 5%. Beim Einsatz von 5 Wings of Dawn Helden erhöht sich die Truppenkapazität um zusätzliche 10%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

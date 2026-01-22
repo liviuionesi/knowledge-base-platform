@@ -48,10 +48,10 @@ export function getNavigation(locale: string): NavGroup[] {
   
   // Custom hero faction names (not translated yet for simplicity, or add to translations)
   const heroTranslations = {
-    en: { heroes: 'Heroes', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
-    fr: { heroes: 'Héros', bloodRose: 'Paradis du chaos', wingsOfDawn: "Ailes de l'aube", guardOfOrder: 'Volonté de la liberté' },
-    de: { heroes: 'Helden', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
-    it: { heroes: 'Eroi', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' }
+    en: { heroes: 'Heroes', upgrading: 'Upgrading Heroes', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
+    fr: { heroes: 'Héros', upgrading: 'Amélioration des Héros', bloodRose: 'Paradis du chaos', wingsOfDawn: "Ailes de l'aube", guardOfOrder: 'Volonté de la liberté' },
+    de: { heroes: 'Helden', upgrading: 'Helden aufwerten', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' },
+    it: { heroes: 'Eroi', upgrading: 'Potenziamento Eroi', bloodRose: 'Blood Rose', wingsOfDawn: 'Wings of Dawn', guardOfOrder: 'Guard of Order' }
   };
   const ht = heroTranslations[locale as keyof typeof heroTranslations] || heroTranslations.en;
 
@@ -74,6 +74,11 @@ export function getNavigation(locale: string): NavGroup[] {
     {
       group: ht.heroes,
       links: [
+        {
+          title: ht.upgrading,
+          slug: 'heroes/upgrading-heroes',
+          href: `/${locale}/docs/heroes/upgrading-heroes`
+        },
         {
           title: ht.bloodRose,
           slug: 'heroes/blood-rose',

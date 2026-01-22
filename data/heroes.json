@@ -884,5 +884,58 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Scarlett",
+    "type": "S",
+    "season": "Season 1",
+    "rarity": "0.16%",
+    "faction": "Wings of Dawn",
+    "image": "/heroes/wings-of-dawn/scarlett.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Shadow Assault",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 472(->493).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "EM Pulse",
+        "type": "Active Skill",
+        "description": "Energizes the weapon, releasing a powerful energy pulse forward (Damage Factor: 915(->956)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Splits the energy pulse into 2 pieces, reducing damage by 30%.",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Increases the number of energy pulse by 1.",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Power of Dominance",
+        "type": "Global Effect",
+        "description": "Increases Shooter Camp's training speed by 44.1(->45.2)%.",
+        "star_effects": {
+          "1": "Training speed +20%",
+          "2": "Shooter DEF +10%",
+          "3": "Shooter training resource consumption -5%",
+          "4": "Shooter ATK +10%",
+          "5": "The attack and defense boost effects apply to all unit types."
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "For every 1 Wings of Dawn heroes deployed, the troop's ATK & DEF increase by 5%. When deploying 5 Wings of Dawn heroes, the troop capacity increases by an additional 10%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

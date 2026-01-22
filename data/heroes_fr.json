@@ -884,5 +884,58 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Scarlett",
+    "type": "S",
+    "season": "Season 1",
+    "rarity": "0.16%",
+    "faction": "Ailes de l'aube",
+    "image": "/heroes/wings-of-dawn/scarlett.jpeg",
+    "role_description": "Ce héros excelle dans les dégâts élevés (DPS) et l'entraînement du camp.",
+    "skills": [
+      {
+        "name": "Assaut de l'ombre",
+        "type": "Boost d'attaque normale",
+        "description": "Le facteur de dégâts des attaques normales passe à 472(->493).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts d'un montant supplémentaire de 90.",
+          "2": "Augmente le facteur de dégâts d'un montant supplémentaire de 90.",
+          "3": "Augmente le facteur de dégâts d'un montant supplémentaire de 90.",
+          "4": "Augmente le facteur de dégâts d'un montant supplémentaire de 120.",
+          "5": "Augmente le facteur de dégâts d'un montant supplémentaire de 210."
+        }
+      },
+      {
+        "name": "Impulsion EM",
+        "type": "Compétence active",
+        "description": "Énergise l'arme, libérant une puissante impulsion d'énergie vers l'avant (Facteur de dégâts : 915(->956)).",
+        "star_effects": {
+          "1": "Augmente le facteur de dégâts d'un montant supplémentaire de 150.",
+          "2": "Divise l'impulsion d'énergie en 2 parties, réduisant les dégâts de 30%.",
+          "3": "Augmente le facteur de dégâts d'un montant supplémentaire de 150.",
+          "4": "Augmente le nombre d'impulsions d'énergie de 1.",
+          "5": "Augmente le facteur de dégâts d'un montant supplémentaire de 300."
+        }
+      },
+      {
+        "name": "Pouvoir de dominance",
+        "type": "Effet global",
+        "description": "Augmente la vitesse d'entraînement du camp de tireurs de 44.1(->45.2)%.",
+        "star_effects": {
+          "1": "Vitesse d'entraînement +20%",
+          "2": "DEF Tireur +10%",
+          "3": "Consommation de ressources d'entraînement des tireurs -5%",
+          "4": "ATK Tireur +10%",
+          "5": "Les effets de boost d'attaque et de défense s'appliquent à tous les types d'unités."
+        }
+      },
+      {
+        "name": "Potentiel libéré",
+        "type": "Talent exclusif",
+        "description": "Pour chaque héros Ailes de l'aube déployé, l'ATK et la DEF des troupes augmentent de 5 %. Lors du déploiement de 5 héros Ailes de l'aube, la capacité de la troupe augmente de 10 % supplémentaires.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

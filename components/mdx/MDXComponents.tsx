@@ -1,6 +1,6 @@
-
 import Image from 'next/image';
 import { HeroList } from '@/components/features/HeroList';
+import { HeroUpgradeTable } from '@/components/features/HeroUpgradeTable';
 
 export const components = {
   img: (props: any) => (
@@ -12,4 +12,5 @@ export const components = {
     />
   ),
   HeroList,
+  HeroUpgradeTable,
 };
