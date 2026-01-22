@@ -16,9 +16,10 @@ interface WikiShellProps {
   children: ReactNode;
   navigation: NavGroup[];
   locale: string;
+  isAuthenticated?: boolean;
 }
 
-export function WikiShell({ children, navigation, locale }: WikiShellProps) {
+export function WikiShell({ children, navigation, locale, isAuthenticated = false }: WikiShellProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -53,7 +54,7 @@ export function WikiShell({ children, navigation, locale }: WikiShellProps) {
           <div className="h-6 w-px bg-[var(--border)]" />
           <ThemeToggle />
           <div className="h-6 w-px bg-[var(--border)]" />
-          <LogoutButton />
+          <LogoutButton isAuthenticated={isAuthenticated} locale={locale} />
         </div>
       </header>
 

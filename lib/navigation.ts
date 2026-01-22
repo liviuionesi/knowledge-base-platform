@@ -1,7 +1,7 @@
 import { NavGroup } from "@/types/content";
 
 // Sample navigation structure - will be generated from content later
-export function getNavigation(locale: string): NavGroup[] {
+export function getNavigation(locale: string, isAuthenticated: boolean = false): NavGroup[] {
   // For now, return static navigation
   // TODO: Generate this from content directory
   
@@ -59,26 +59,37 @@ export function getNavigation(locale: string): NavGroup[] {
   };
   const ht = heroTranslations[locale as keyof typeof heroTranslations] || heroTranslations.en;
 
-  return [
+  const gettingStartedLinks = [
+    {
+      title: t.welcome,
+      slug: 'introduction',
+      href: `/${locale}/docs/introduction`
+    },
+    // Daily Guide (Rules) is protected
+    ...(isAuthenticated ? [{
+      title: t.dailyGuide,
+      slug: 'daily-guide',
+      href: `/${locale}/docs/daily-guide`
+    }] : []),
+    {
+      title: t.autoClicker,
+      slug: 'autoclicker',
+      href: `/${locale}/docs/autoclicker`
+    }
+  ];
+
+  const allianceDuelLinks = isAuthenticated ? [
+    {
+      title: t.report,
+      slug: 'alliance-duel',
+      href: `/${locale}/alliance-duel`
+    }
+  ] : [];
+
+  const navGroups: NavGroup[] = [
     {
       group: t.gettingStarted,
-      links: [
-        {
-          title: t.welcome,
-          slug: 'introduction',
-          href: `/${locale}/docs/introduction`
-        },
-        {
-          title: t.dailyGuide,
-          slug: 'daily-guide',
-          href: `/${locale}/docs/daily-guide`
-        },
-        {
-          title: t.autoClicker,
-          slug: 'autoclicker',
-          href: `/${locale}/docs/autoclicker`
-        }
-      ]
+      links: gettingStartedLinks
     },
     {
       group: ht.heroes,
@@ -114,16 +125,15 @@ export function getNavigation(locale: string): NavGroup[] {
           href: `/${locale}/docs/full-preparedness`
         }
       ]
-    },
-    {
-      group: t.allianceDuel,
-      links: [
-        {
-          title: t.report,
-          slug: 'alliance-duel',
-          href: `/${locale}/alliance-duel`
-        }
-      ]
     }
   ];
+
+  if (allianceDuelLinks.length > 0) {
+    navGroups.push({
+      group: t.allianceDuel,
+      links: allianceDuelLinks
+    });
+  }
+
+  return navGroups;
 }

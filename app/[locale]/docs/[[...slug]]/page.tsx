@@ -31,11 +31,16 @@ async function getContent(locale: string, slug: string) {
   };
 }
 
+import { cookies } from "next/headers";
+
 export default async function DocsPage({ params }: DocsPageProps) {
   const { locale, slug } = await params;
   const slugPath = slug ? slug.join("/") : "introduction";
   
-  const navigation = getNavigation(locale);
+  const cookieStore = await cookies();
+  const isAuthenticated = cookieStore.has('phenix_session');
+  
+  const navigation = getNavigation(locale, isAuthenticated);
   const pageData = await getContent(locale, slugPath);
 
   if (!pageData) {
@@ -43,7 +48,7 @@ export default async function DocsPage({ params }: DocsPageProps) {
   }
 
   return (
-    <WikiShell navigation={navigation} locale={locale}>
+    <WikiShell navigation={navigation} locale={locale} isAuthenticated={isAuthenticated}>
       <MDXRemote 
         source={pageData.content} 
         components={components} 

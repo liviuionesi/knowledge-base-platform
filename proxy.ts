@@ -7,7 +7,17 @@ const handleI18nRouting = createMiddleware(routing);
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Check authentication
+  // 1. Handle "Load Welcome Page by Default"
+  if (pathname === '/') {
+     return NextResponse.redirect(new URL(`/${routing.defaultLocale}/docs/introduction`, request.url));
+  }
+  
+  const isLocaleRoot = routing.locales.some(locale => pathname === `/${locale}`);
+  if (isLocaleRoot) {
+     return NextResponse.redirect(new URL(`${pathname}/docs/introduction`, request.url));
+  }
+
+  // 2. Authentication Logic
   const isAuthenticated = request.cookies.has('phenix_session');
   
   // Identify if we are on the login page
@@ -15,22 +25,23 @@ export default function middleware(request: NextRequest) {
     (locale) => pathname === `/${locale}/login`
   );
 
-  // Identify public pages
-  const isHeroesPage = pathname.includes('/docs/heroes');
-  const isWelcomePage = pathname.includes('/docs/introduction');
+  // Identify Protected Pages
+  // Spec: "Authenticated page... is the alliance report and the rules page"
+  // Rules = daily-guide
+  // Alliance Report = alliance-duel
+  const isRulesPage = pathname.includes('/docs/daily-guide');
+  const isReportPage = pathname.includes('/alliance-duel');
+  const isProtectedPage = isRulesPage || isReportPage;
 
-  // Allow access if:
-  // 1. User is authenticated
-  // 2. User is ensuring explicit access to Login page
-  // 3. User is on Root '/' (Let i18n handle redirect to locale, then we catch it)
-  // 4. Page is explicitly public (Heroes or Welcome/Introduction)
-  if (!isAuthenticated && !isLoginPage && pathname !== '/' && !isHeroesPage && !isWelcomePage) {
+  // Logic: 
+  // If not authenticated AND trying to access a protected page
+  // Redirect to login
+  if (!isAuthenticated && !isLoginPage && isProtectedPage) {
     // Extract locale to preserve it in the redirect
-    // Pathname matches /(en|fr)/... so split[1] is the locale
     const segments = pathname.split('/');
     const locale = segments[1];
     
-    // Safety check: if for some reason locale is not in our list (shouldn't happen due to matcher), default to en
+    // Safety check
     const targetLocale = (routing.locales as readonly string[]).includes(locale) 
       ? locale 
       : routing.defaultLocale;

@@ -1,27 +1,53 @@
 "use client";
 
-import { LogOut } from "lucide-react";
+import { LogOut, LogIn } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export function LogoutButton() {
+interface LogoutButtonProps {
+  isAuthenticated: boolean;
+  locale: string;
+}
+
+export function LogoutButton({ isAuthenticated, locale }: LogoutButtonProps) {
   const router = useRouter();
-  const t = useTranslations("Navigation");
+  // Using "Navigation" namespace as before, ensure keys exist or use falback
+  const t = useTranslations("Navigation"); 
   const [isLoading, setIsLoading] = useState(false);
 
   const handleLogout = async () => {
     setIsLoading(true);
     try {
       await fetch("/api/auth/logout", { method: "POST" });
-      router.push("/en/login");
-      router.refresh(); // Ensure middleware re-runs
+      // Redirect to login or home after logout
+      router.push(`/${locale}/login`);
+      router.refresh(); 
     } catch (error) {
       console.error("Logout failed", error);
-      // Fallback
-      router.push("/en/login");
+      router.push(`/${locale}/login`);
     }
   };
+
+  const handleLogin = () => {
+    router.push(`/${locale}/login`);
+  };
+
+  if (!isAuthenticated) {
+    return (
+      <button
+        onClick={handleLogin}
+        disabled={isLoading}
+        className="rounded-md p-2 text-[var(--foreground)] hover:bg-[var(--accent)] transition-colors"
+        aria-label="Sign In"
+        title="Sign In"
+      >
+        <div className="h-5 w-5 flex items-center justify-center">
+          <LogIn className="h-5 w-5" />
+        </div>
+      </button>
+    );
+  }
 
   return (
     <button
