@@ -937,5 +937,475 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Athena",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/athena.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Kugel-Upgrade",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 396(->403).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 30.",
+          "2": "Erhöht den Schadensfaktor um weitere 30.",
+          "3": "Erhöht den Schadensfaktor um weitere 30.",
+          "4": "Erhöht den Schadensfaktor um weitere 40.",
+          "5": "Erhöht den Schadensfaktor um weitere 70."
+        }
+      },
+      {
+        "name": "Pistolenschießen",
+        "type": "Aktive Fähigkeit",
+        "description": "Schießt Kugeln aus der Pistole, um Gegner anzugreifen (Schadensfaktor: 793(->806)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 60.",
+          "2": "Erhöht den Schadensfaktor um weitere 60.",
+          "3": "Erhöht den Schadensfaktor um weitere 60.",
+          "4": "Erhöht den Schadensfaktor um weitere 80.",
+          "5": "Erhöht den Schadensfaktor um weitere 140."
+        }
+      },
+      {
+        "name": "Sammelmeister: Elektrizität",
+        "type": "Globaler Effekt",
+        "description": "Erhöht Elektrizitäts-Sammelgeschwindigkeit um 45% und Elektrizitäts-Ertrag um 30%.",
+        "star_effects": {
+          "1": "Elektrizitäts-Sammelgeschwindigkeit +3%",
+          "2": "Nahrung-Ertrag +15%",
+          "3": "Elektrizitäts-Sammelgeschwindigkeit +6%",
+          "4": "Ressourcen-Ertrag +20%",
+          "5": "Sammelgeschwindigkeit +15%"
+        }
+      },
+      {
+        "name": "Fraktionsangriff",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-ATK der Guard of Order Fraktion um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "William",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/william.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke DEF im Kampf aus",
+    "skills": [
+      {
+        "name": "Verbesserte Kugeln",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 396(->403).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 30.",
+          "2": "Erhöht den Schadensfaktor um weitere 30.",
+          "3": "Erhöht den Schadensfaktor um weitere 30.",
+          "4": "Erhöht den Schadensfaktor um weitere 40.",
+          "5": "Erhöht den Schadensfaktor um weitere 70."
+        }
+      },
+      {
+        "name": "Explosivgranate",
+        "type": "Aktive Fähigkeit",
+        "description": "Wirft Granaten in die angegebene Richtung und verursacht Schaden bei Gegnern innerhalb des Explosionsbereichs (Schadensfaktor: 793(->806)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 60.",
+          "2": "Erhöht den Schadensfaktor um weitere 60.",
+          "3": "Erhöht den Schadensfaktor um weitere 60.",
+          "4": "Erhöht den Schadensfaktor um weitere 80.",
+          "5": "Erhöht den Schadensfaktor um weitere 140."
+        }
+      },
+      {
+        "name": "Gutes Training",
+        "type": "Globaler Effekt",
+        "description": "Einheiten-Ausbildungsgeschwindigkeit +30%.",
+        "star_effects": {
+          "1": "Einheiten-Ausbildungsgeschwindigkeit +2%",
+          "2": "Einheiten-Ausbildungsgeschwindigkeit +2%",
+          "3": "Einheiten-Ausbildungsgeschwindigkeit +3%",
+          "4": "Einheiten-Ausbildungsgeschwindigkeit +3%",
+          "5": "Einheiten-Ausbildungsgeschwindigkeit +5%"
+        }
+      },
+      {
+        "name": "Fraktionsverteidigung",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-DEF der Guard of Order Fraktion um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Sakura",
+    "type": "S",
+    "rarity": "0.16%",
+    "season": "Saison 1",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/sakura.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Mech-Modifikation",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 472(->493).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Motorrad-Rausch",
+        "type": "Aktive Fähigkeit",
+        "description": "Feuert 1 fahrzeugmontierte Raketen ab, um den Feind kontinuierlich zu bombardieren (Schadensfaktor: 915(->956)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Raketenanzahl +1",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Raketenanzahl +2",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Blitzschnell",
+        "type": "Gültig beim Marsch",
+        "description": "Verteidigung von Fahrern in der geführten Truppe erhöht sich um 19,1(->20,2)%.",
+        "star_effects": {
+          "1": "Fahrer ATK +5%",
+          "2": "Fahrer ATK +5%",
+          "3": "Fahrer ATK +10%",
+          "4": "Fahrer ATK +10%",
+          "5": "Fahrer ATK +15%"
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Unabhängig davon, ob Sakura eingesetzt wird, erhöht sich der Schaden aller Fahrer-Einheiten um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "type": "S",
+    "rarity": "0.16%",
+    "season": "Saison 1",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/evelyn.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Schwerer Rüstungssoldat",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 472(->493).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Sperrfeuer",
+        "type": "Aktive Fähigkeit",
+        "description": "Feuert 3 Raketen ab, die Gegnern innerhalb des Explosionsbereichs Schaden zufügen (Schadensfaktor: 915(->956)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Anzahl der Raketen um 3.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Erhöht die Anzahl der Raketen um 5.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Befehle der Königin",
+        "type": "Globaler Effekt",
+        "description": "Erhöht die Ausbildungsgeschwindigkeit des Fahrer-Lagers um 44,1(->45,2)%.",
+        "star_effects": {
+          "1": "Ausbildungsgeschwindigkeit +20%",
+          "2": "Fahrer DEF +10%",
+          "3": "Ressourcenverbrauch Fahrer-Ausbildung -5%",
+          "4": "Fahrer ATK +10%",
+          "5": "Die Angriffs- und Verteidigungsboost-Effekte gelten für alle Einheitentypen."
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Für jeden eingesetzten Guard of Order Helden erhöhen sich ATK & DEF der Truppe um 5%. Bei Einsatz von 5 Guard of Order Helden erhöht sich die Truppenkapazität um weitere 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Elizabeth",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/elizabeth.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke Verteidigung im Kampf aus",
+    "skills": [
+      {
+        "name": "Böses Omen",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 491(->501).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Streuschuss",
+        "type": "Aktive Fähigkeit",
+        "description": "Schießt schnell auf die hereinströmenden Zombies vor sich (Schadensfaktor: 782(->803)) und hat Chancen, die Ziele zu immobilisieren.",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht die Immobilisierungschance.",
+          "4": "Erhöht den Schadensfaktor um weitere 220.",
+          "5": "Erhöht die Immobilisierungsdauer um 1 Sekunde."
+        }
+      },
+      {
+        "name": "Verteidigungsexperte",
+        "type": "Globaler Effekt",
+        "description": "Eigene DEF erhöht sich um 969(->986,2).",
+        "star_effects": {
+          "1": "DEF +50",
+          "2": "DEF +50",
+          "3": "DEF +100",
+          "4": "DEF +200",
+          "5": "DEF +300"
+        }
+      },
+      {
+        "name": "Fraktionsverteidigung",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-DEF der Guard of Order Fraktion um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Leah",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/leah.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starke ATK im Kampf aus",
+    "skills": [
+      {
+        "name": "Präzisionsschuss",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 491(->501).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Pfeil der Stille",
+        "type": "Aktive Fähigkeit",
+        "description": "Feuert kontinuierlich Pfeile ab, um einen Pfeilregen zu bilden, während Gegner in Reichweite angegriffen werden (Schadensfaktor: 782(->803)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht die Dauer um 1 Sekunde.",
+          "4": "Erhöht den Schadensfaktor um weitere 220.",
+          "5": "Hat Chancen, zusätzlich einen Verbrennungseffekt zu verursachen."
+        }
+      },
+      {
+        "name": "Angriffsexperte",
+        "type": "Globaler Effekt",
+        "description": "Eigene ATK erhöht sich um 969(->986,2).",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Fraktionsangriff",
+        "type": "Exklusives Talent",
+        "description": "Erhöht die Helden-ATK der Guard of Order Fraktion um 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Maria",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/maria.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Hammerschlag",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 491(->501).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 45.",
+          "2": "Erhöht den Schadensfaktor um weitere 45.",
+          "3": "Erhöht den Schadensfaktor um weitere 45.",
+          "4": "Erhöht den Schadensfaktor um weitere 60.",
+          "5": "Erhöht den Schadensfaktor um weitere 105."
+        }
+      },
+      {
+        "name": "Urteil des Verderbens",
+        "type": "Aktive Fähigkeit",
+        "description": "Schlägt mit dem schweren Hammer auf den Boden und verursacht Schaden bei Gegnern in Reichweite (Schadensfaktor: 782(->803)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Hat Chancen, zusätzlich einen Rückstoßeffekt zu verursachen.",
+          "4": "Erhöht den Schadensfaktor um weitere 220.",
+          "5": "Verstärkt den Rückstoßeffekt."
+        }
+      },
+      {
+        "name": "Ausbildungsexperte",
+        "type": "Globaler Effekt",
+        "description": "Einheiten-Ausbildungsgeschwindigkeit erhöht sich um 39,7(->40,2)%.",
+        "star_effects": {
+          "1": "Einheiten-Ausbildungsgeschwindigkeit +5%",
+          "2": "Ausbildungsressourcenverbrauch -2%",
+          "3": "Einheiten-Ausbildungsgeschwindigkeit +10%",
+          "4": "Einheiten-Ausbildungsgeschwindigkeit +10%",
+          "5": "Ausbildungsressourcenverbrauch -3%"
+        }
+      },
+      {
+        "name": "Fraktionskommandant",
+        "type": "Exklusives Talent",
+        "description": "Truppenkapazität erhöht sich um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Mia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/mia.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS und Fahrzeugmodifikationen aus.",
+    "skills": [
+      {
+        "name": "Elektro-Verstärkung",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Blitzverbindung",
+        "type": "Aktive Fähigkeit",
+        "description": "Feuert einen Blitz ab, der zwischen Monstern abprallen kann (Schadensfaktor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Anzahl der Abpraller.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Erhöht die Anzahl der Abpraller.",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Modifikationsexperte",
+        "type": "Globaler Effekt",
+        "description": "Erhalte täglich kostenlos 500 Modifikations-Entwürfe und erhöhe die EP-Erträge durch Mod-Fahrzeug-Upgrades um 14,8(->15,2)%.",
+        "star_effects": {
+          "1": "Kostenlose Modifikations-Entwürfe +100",
+          "2": "EP-Erträge aus Upgrades +5%",
+          "3": "Kostenlose Modifikations-Entwürfe +200",
+          "4": "EP-Erträge aus Upgrades +10%",
+          "5": "Mod-Fahrzeug-Fähigkeitsschaden +200%"
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den eigenen Angriff um 10%, die Verteidigung um 10% und die Truppenkapazität um 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Chinatsu",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/chinatsu.jpeg",
+    "role_description": "Dieser Held zeichnet sich durch starken DPS aus.",
+    "skills": [
+      {
+        "name": "Iaido-Schnitt",
+        "type": "Normaler Angriffsboost",
+        "description": "Der Schadensfaktor normaler Angriffe erhöht sich auf 859(->880).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 90.",
+          "2": "Erhöht den Schadensfaktor um weitere 90.",
+          "3": "Erhöht den Schadensfaktor um weitere 90.",
+          "4": "Erhöht den Schadensfaktor um weitere 120.",
+          "5": "Erhöht den Schadensfaktor um weitere 210."
+        }
+      },
+      {
+        "name": "Spiral-Schwertenergie",
+        "type": "Aktive Fähigkeit",
+        "description": "Schwingt die Klinge schnell, um einen mächtigen Energiesturm zu entfesseln (Schadensfaktor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Erhöht den Schadensfaktor um weitere 150.",
+          "2": "Erhöht die Schadensreichweite um 30%.",
+          "3": "Erhöht den Schadensfaktor um weitere 150.",
+          "4": "Energie-Wirbelsturm bewegt sich vorwärts",
+          "5": "Erhöht den Schadensfaktor um weitere 300."
+        }
+      },
+      {
+        "name": "Samurai-Geist",
+        "type": "Globaler Effekt",
+        "description": "Allianz-Duell-Punkte erhöhen sich um 17,8(->18,2)%.",
+        "star_effects": {
+          "1": "Allianz-Duell-Punkte +2%",
+          "2": "Allianz-Duell-Punkte +3%",
+          "3": "Allianz-Duell-Punkte +3%",
+          "4": "Allianz-Duell-Punkte +5%",
+          "5": "Allianz-Duell-Punkte +7%"
+        }
+      },
+      {
+        "name": "Potenzial Entfesselt",
+        "type": "Exklusives Talent",
+        "description": "Erhöht den eigenen Angriff um 10%, die Verteidigung um 10% und die Truppenkapazität um 5%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

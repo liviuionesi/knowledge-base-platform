@@ -937,5 +937,475 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Athena",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/athena.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Amélioration des Balles",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 396(->403).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +30",
+          "2": "Coefficient de dégâts +30",
+          "3": "Coefficient de dégâts +30",
+          "4": "Coefficient de dégâts +40",
+          "5": "Coefficient de dégâts +70"
+        }
+      },
+      {
+        "name": "Tir au Pistolet",
+        "type": "Compétence active",
+        "description": "Tire des balles avec le pistolet pour attaquer les ennemis (Facteur de Dégâts : 793(->806)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +60",
+          "2": "Coefficient de dégâts +60",
+          "3": "Coefficient de dégâts +60",
+          "4": "Coefficient de dégâts +80",
+          "5": "Coefficient de dégâts +140"
+        }
+      },
+      {
+        "name": "Maître de la Récolte : Électricité",
+        "type": "Valable dans toutes les batailles",
+        "description": "Augmente la vitesse de récolte de l'Électricité de 45% et le rendement en Électricité de 30%.",
+        "star_effects": {
+          "1": "Vitesse de récolte de l'Électricité +3%",
+          "2": "Production de Nourriture +15%",
+          "3": "Vitesse de récolte de l'Électricité +6%",
+          "4": "Production de ressources +20%",
+          "5": "Vitesse de récolte +15%"
+        }
+      },
+      {
+        "name": "Attaque de Faction",
+        "type": "Talent exclusif",
+        "description": "Augmente l'ATK des héros de la faction Volonté de la liberté de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "William",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/william.jpeg",
+    "role_description": "Ce héros excelle en DEF solide lors des combats",
+    "skills": [
+      {
+        "name": "Balles Améliorées",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 396(->403).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +30",
+          "2": "Coefficient de dégâts +30",
+          "3": "Coefficient de dégâts +30",
+          "4": "Coefficient de dégâts +40",
+          "5": "Coefficient de dégâts +70"
+        }
+      },
+      {
+        "name": "Grenade Explosive",
+        "type": "Compétence active",
+        "description": "Lance des grenades dans la direction indiquée, infligeant des dégâts aux ennemis dans la zone d'explosion (Facteur de Dégâts : 793(->806)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +60",
+          "2": "Coefficient de dégâts +60",
+          "3": "Coefficient de dégâts +60",
+          "4": "Coefficient de dégâts +80",
+          "5": "Coefficient de dégâts +140"
+        }
+      },
+      {
+        "name": "Bon Entraînement",
+        "type": "Valable dans toutes les batailles",
+        "description": "Vitesse d'entraînement des unités +30%.",
+        "star_effects": {
+          "1": "Vitesse d'entraînement des unités +2%",
+          "2": "Vitesse d'entraînement des unités +2%",
+          "3": "Vitesse d'entraînement des unités +3%",
+          "4": "Vitesse d'entraînement des unités +3%",
+          "5": "Vitesse d'entraînement des unités +5%"
+        }
+      },
+      {
+        "name": "Défense de Faction",
+        "type": "Talent exclusif",
+        "description": "Augmente la DEF des héros de la faction Volonté de la liberté de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Sakura",
+    "type": "S",
+    "rarity": "0.16%",
+    "season": "Saison 1",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/sakura.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Modification de Mech",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 472(->493).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
+        }
+      },
+      {
+        "name": "Frénésie de Moto",
+        "type": "Compétence active",
+        "description": "Lance 1 missile monté sur véhicule pour bombarder continuellement l'ennemi (Facteur de Dégâts : 915(->956)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +150",
+          "2": "Nombre de missiles +1",
+          "3": "Coefficient de dégâts +150",
+          "4": "Nombre de missiles +2",
+          "5": "Coefficient de dégâts +300"
+        }
+      },
+      {
+        "name": "Vitesse Éclair",
+        "type": "Valide Lors de la Marche",
+        "description": "La défense des Motards dans la troupe menée augmente de 19,1(->20,2)%.",
+        "star_effects": {
+          "1": "ATK Motard +5%",
+          "2": "ATK Motard +5%",
+          "3": "ATK Motard +10%",
+          "4": "ATK Motard +10%",
+          "5": "ATK Motard +15%"
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent exclusif",
+        "description": "Que Sakura soit déployée ou non, les dégâts de toutes les unités Motard augmentent de 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "type": "S",
+    "rarity": "0.16%",
+    "season": "Saison 1",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/evelyn.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Soldat en Armure Lourde",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 472(->493).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
+        }
+      },
+      {
+        "name": "Tir de Suppression",
+        "type": "Compétence active",
+        "description": "Lance 3 roquettes, infligeant des dégâts aux ennemis dans la zone d'explosion (Facteur de Dégâts : 915(->956)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +150",
+          "2": "Augmente le nombre de roquettes de 3.",
+          "3": "Coefficient de dégâts +150",
+          "4": "Augmente le nombre de roquettes de 5.",
+          "5": "Coefficient de dégâts +300"
+        }
+      },
+      {
+        "name": "Ordres de la Reine",
+        "type": "Valable dans toutes les batailles",
+        "description": "Augmente la vitesse d'entraînement du camp des Motards de 44,1(->45,2)%.",
+        "star_effects": {
+          "1": "Vitesse d'entraînement +20%",
+          "2": "DEF Motard +10%",
+          "3": "Consommation de ressources d'entraînement Motard -5%",
+          "4": "ATK Motard +10%",
+          "5": "Les effets de boost d'attaque et de défense s'appliquent à tous les types d'unités."
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent exclusif",
+        "description": "Pour chaque héros Volonté de la liberté déployé, l'ATK et la DEF des troupes augmentent de 5%. En déployant 5 héros Volonté de la liberté, la capacité des troupes augmente de 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Elizabeth",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/elizabeth.jpeg",
+    "role_description": "Ce héros excelle en une défense forte en combat",
+    "skills": [
+      {
+        "name": "Mauvais Présage",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 491(->501).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
+        }
+      },
+      {
+        "name": "Tir Éparpillé",
+        "type": "Compétence active",
+        "description": "Tire rapidement sur les zombies qui arrivent en face (Facteur de Dégâts : 782(->803)), et a des chances d'immobiliser les cibles.",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Augmente les chances d'immobilisation.",
+          "4": "Coefficient de dégâts +220",
+          "5": "Augmente la durée d'immobilisation de 1 seconde."
+        }
+      },
+      {
+        "name": "Expert en Défense",
+        "type": "Valable dans toutes les batailles",
+        "description": "Sa propre DEF augmente de 969(->986,2).",
+        "star_effects": {
+          "1": "DEF +50",
+          "2": "DEF +50",
+          "3": "DEF +100",
+          "4": "DEF +200",
+          "5": "DEF +300"
+        }
+      },
+      {
+        "name": "Défense de Faction",
+        "type": "Talent exclusif",
+        "description": "Augmente la DEF des héros de la faction Volonté de la liberté de 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Leah",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/leah.jpeg",
+    "role_description": "Ce héros excelle en une forte ATK en combat",
+    "skills": [
+      {
+        "name": "Tir d'Élite",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 491(->501).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
+        }
+      },
+      {
+        "name": "Flèche du Silence",
+        "type": "Compétence active",
+        "description": "Tire des flèches en continu pour former une pluie de flèches, tout en attaquant les ennemis à portée (Facteur de Dégâts : 782(->803)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Augmente la durée de 1 seconde.",
+          "4": "Coefficient de dégâts +220",
+          "5": "A des chances de causer en plus un effet de brûlure."
+        }
+      },
+      {
+        "name": "Expert en Attaque",
+        "type": "Valable dans toutes les batailles",
+        "description": "Sa propre ATK augmente de 969(->986,2).",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Attaque de Faction",
+        "type": "Talent exclusif",
+        "description": "Augmente l'ATK des héros de la faction Volonté de la liberté de 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Maria",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/maria.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Coup de Marteau",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 491(->501).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +45",
+          "2": "Coefficient de dégâts +45",
+          "3": "Coefficient de dégâts +45",
+          "4": "Coefficient de dégâts +60",
+          "5": "Coefficient de dégâts +105"
+        }
+      },
+      {
+        "name": "Jugement Dernier",
+        "type": "Compétence active",
+        "description": "Frappe le sol avec le marteau lourd, infligeant des dégâts aux ennemis à portée (Facteur de Dégâts : 782(->803)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "A des chances de causer en plus un effet de recul.",
+          "4": "Coefficient de dégâts +220",
+          "5": "Renforce l'effet de recul."
+        }
+      },
+      {
+        "name": "Expert en Entraînement",
+        "type": "Valable dans toutes les batailles",
+        "description": "La vitesse d'entraînement des unités augmente de 39,7(->40,2)%.",
+        "star_effects": {
+          "1": "Vitesse d'entraînement des unités +5%",
+          "2": "Consommation de ressources d'entraînement -2%",
+          "3": "Vitesse d'entraînement des unités +10%",
+          "4": "Vitesse d'entraînement des unités +10%",
+          "5": "Consommation de ressources d'entraînement -3%"
+        }
+      },
+      {
+        "name": "Commandant de Faction",
+        "type": "Talent exclusif",
+        "description": "La capacité des troupes augmente de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Mia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/mia.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant et en modifications de véhicules.",
+    "skills": [
+      {
+        "name": "Amplification Électro",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
+        }
+      },
+      {
+        "name": "Lien de Foudre",
+        "type": "Compétence active",
+        "description": "Relâche un éclair qui peut rebondir entre les monstres (Facteur de Dégâts : 1479(->1520)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +150",
+          "2": "Augmente le nombre de rebonds.",
+          "3": "Coefficient de dégâts +150",
+          "4": "Augmente le nombre de rebonds.",
+          "5": "Coefficient de dégâts +300"
+        }
+      },
+      {
+        "name": "Expert en Modification",
+        "type": "Valable dans toutes les batailles",
+        "description": "Obtenez 500 Plans de Modification gratuitement chaque jour et augmentez les gains d'EXP via les améliorations de véhicules mod de 14,8(->15,2)%.",
+        "star_effects": {
+          "1": "Plans de modification gratuits +100",
+          "2": "Gains d'EXP via améliorations +5%",
+          "3": "Plans de modification gratuits +200",
+          "4": "Gains d'EXP via améliorations +10%",
+          "5": "Dégâts de compétence du véhicule mod +200%"
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent exclusif",
+        "description": "Augmente l'attaque personnelle de 10%, la défense de 10% et la capacité des troupes de 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Chinatsu",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Volonté de la liberté",
+    "image": "/heroes/guard-of-order/chinatsu.jpeg",
+    "role_description": "Ce héros excelle en DPS puissant.",
+    "skills": [
+      {
+        "name": "Taille Iaido",
+        "type": "Attaque normale boostée",
+        "description": "Le facteur de dégâts des attaques normales augmente à 859(->880).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +90",
+          "2": "Coefficient de dégâts +90",
+          "3": "Coefficient de dégâts +90",
+          "4": "Coefficient de dégâts +120",
+          "5": "Coefficient de dégâts +210"
+        }
+      },
+      {
+        "name": "Énergie de l'Épée en Spirale",
+        "type": "Compétence active",
+        "description": "Balance rapidement la lame pour libérer une puissante tempête d'énergie (Facteur de Dégâts : 1479(->1520)).",
+        "star_effects": {
+          "1": "Coefficient de dégâts +150",
+          "2": "Augmente la portée des dégâts de 30%.",
+          "3": "Coefficient de dégâts +150",
+          "4": "Le tourbillon d'énergie avance",
+          "5": "Coefficient de dégâts +300"
+        }
+      },
+      {
+        "name": "Esprit Samouraï",
+        "type": "Valable dans toutes les batailles",
+        "description": "Les points de Duel d'Alliance augmentent de 17,8(->18,2)%.",
+        "star_effects": {
+          "1": "Points de Duel d'Alliance +2%",
+          "2": "Points de Duel d'Alliance +3%",
+          "3": "Points de Duel d'Alliance +3%",
+          "4": "Points de Duel d'Alliance +5%",
+          "5": "Points de Duel d'Alliance +7%"
+        }
+      },
+      {
+        "name": "Potentiel Libéré",
+        "type": "Talent exclusif",
+        "description": "Augmente l'attaque personnelle de 10%, la défense de 10% et la capacité des troupes de 5%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]

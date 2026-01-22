@@ -11,16 +11,20 @@ export function OnThisPage() {
   const [activeId, setActiveId] = useState<string>("");
 
   useEffect(() => {
-    // Extract headings from the page
-    const elements = Array.from(document.querySelectorAll("article h2, article h3"));
-    const items: TableOfContentsItem[] = elements
-      .map((element, index) => ({
-        id: element.id || `heading-${index}`,
-        text: element.textContent || "",
-        level: parseInt(element.tagName.charAt(1))
-      }))
-      .filter((item) => item.text.trim().length > 0 && item.id);
-    setHeadings(items);
+    const updateHeadings = () => {
+      const elements = Array.from(document.querySelectorAll("article h2, article h3"));
+      const items: TableOfContentsItem[] = elements
+        .map((element, index) => ({
+          id: element.id || `heading-${index}`,
+          text: element.textContent || "",
+          level: parseInt(element.tagName.charAt(1))
+        }))
+        .filter((item) => item.text.trim().length > 0 && item.id);
+      setHeadings(items);
+      return elements;
+    };
+
+    const initialElements = updateHeadings();
 
     // Intersection observer for active heading
     const observer = new IntersectionObserver(
@@ -34,7 +38,23 @@ export function OnThisPage() {
       { rootMargin: "0% 0% -80% 0%" }
     );
 
-    elements.forEach((element) => observer.observe(element));
+    initialElements.forEach((element) => observer.observe(element));
+
+    // Mutation observer to handle dynamic content (e.g., HeroList)
+    const targetNode = document.querySelector("article");
+    if (targetNode) {
+      const mutationObserver = new MutationObserver(() => {
+        const newElements = updateHeadings();
+        newElements.forEach((element) => observer.observe(element));
+      });
+      mutationObserver.observe(targetNode, { childList: true, subtree: true });
+      
+      return () => {
+        observer.disconnect();
+        mutationObserver.disconnect();
+      };
+    }
+
     return () => observer.disconnect();
   }, []);
 

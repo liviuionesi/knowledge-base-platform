@@ -937,5 +937,475 @@
         "star_effects": {}
       }
     ]
+  },
+  {
+    "name": "Athena",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/athena.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Bullet Upgrade",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 396(->403).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 30.",
+          "2": "Increases damage factor by an additional 30.",
+          "3": "Increases damage factor by an additional 30.",
+          "4": "Increases damage factor by an additional 40.",
+          "5": "Increases damage factor by an additional 70."
+        }
+      },
+      {
+        "name": "Pistol Shooting",
+        "type": "Active Skill",
+        "description": "Shoot bullets from the pistol to attack enemies (Damage Factor: 793(->806)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 60.",
+          "2": "Increases damage factor by an additional 60.",
+          "3": "Increases damage factor by an additional 60.",
+          "4": "Increases damage factor by an additional 80.",
+          "5": "Increases damage factor by an additional 140."
+        }
+      },
+      {
+        "name": "Gathering Master: Electricity",
+        "type": "Global Effect",
+        "description": "Increases Electricity gathering speed by 45% and Electricity yield by 30%.",
+        "star_effects": {
+          "1": "Electricity gathering speed +3%",
+          "2": "Food output +15%",
+          "3": "Electricity gathering speed +6%",
+          "4": "Resource output +20%",
+          "5": "Gathering speed +15%"
+        }
+      },
+      {
+        "name": "Faction Attack",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero ATK of faction Guard of Order by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "William",
+    "type": "B",
+    "rarity": "1.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/william.jpeg",
+    "role_description": "This hero excels in strong DEF in combat",
+    "skills": [
+      {
+        "name": "Enhanced Bullets",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 396(->403).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 30.",
+          "2": "Increases damage factor by an additional 30.",
+          "3": "Increases damage factor by an additional 30.",
+          "4": "Increases damage factor by an additional 40.",
+          "5": "Increases damage factor by an additional 70."
+        }
+      },
+      {
+        "name": "Explosive Grenade",
+        "type": "Active Skill",
+        "description": "Throws grenades in the designated direction, dealing damage to enemies within the explosive range (Damage Factor: 793(->806)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 60.",
+          "2": "Increases damage factor by an additional 60.",
+          "3": "Increases damage factor by an additional 60.",
+          "4": "Increases damage factor by an additional 80.",
+          "5": "Increases damage factor by an additional 140."
+        }
+      },
+      {
+        "name": "Well Training",
+        "type": "Global Effect",
+        "description": "Unit training speed +30%.",
+        "star_effects": {
+          "1": "Unit training speed +2%",
+          "2": "Unit training speed +2%",
+          "3": "Unit training speed +3%",
+          "4": "Unit training speed +3%",
+          "5": "Unit training speed +5%"
+        }
+      },
+      {
+        "name": "Faction Defense",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero DEF of faction Guard of Order by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Sakura",
+    "type": "S",
+    "rarity": "0.16%",
+    "season": "Season 1",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/sakura.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Mech Modification",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 472(->493).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Motorcycle Frenzy",
+        "type": "Active Skill",
+        "description": "Launches 1 vehicle-mounted missiles to continuously bomb the enemy (Damage Factor: 915(->956)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Missile quantity +1",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Missile quantity +2",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Blazing Fast",
+        "type": "Valid Upon March",
+        "description": "Defense of Riders in the troop-led increases by 19.1(->20.2)%.",
+        "star_effects": {
+          "1": "Rider ATK +5%",
+          "2": "Rider ATK +5%",
+          "3": "Rider ATK +10%",
+          "4": "Rider ATK +10%",
+          "5": "Rider ATK +15%"
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "Regardless of whether Sakura is deployed, all Rider units' damage increases by 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Evelyn",
+    "type": "S",
+    "rarity": "0.16%",
+    "season": "Season 1",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/evelyn.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Heavy Armor Soldier",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 472(->493).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Fire Suppression",
+        "type": "Active Skill",
+        "description": "Launches 3 rockets, dealing damage to enemies within the blast range (Damage Factor: 915(->956)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Increases the number of rockets by 3.",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Increases the number of rockets by 5.",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Queen's Orders",
+        "type": "Global Effect",
+        "description": "Increases Rider Camp's training speed by 44.1(->45.2)%.",
+        "star_effects": {
+          "1": "Training speed +20%",
+          "2": "Rider DEF +10%",
+          "3": "Rider training resource cost -5%",
+          "4": "Rider ATK +10%",
+          "5": "The attack and defense boost effects apply to all unit types."
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "For every 1 Guard of Order heroes deployed, the troop's ATK & DEF increase by 5%. When deploying 5 Guard of Order heroes, the troop capacity increases by an additional 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Elizabeth",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/elizabeth.jpeg",
+    "role_description": "This hero excels in strong DEF in combats.",
+    "skills": [
+      {
+        "name": "Bad Omen",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 491(->501).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 45.",
+          "2": "Increases damage factor by an additional 45.",
+          "3": "Increases damage factor by an additional 45.",
+          "4": "Increases damage factor by an additional 60.",
+          "5": "Increases damage factor by an additional 105."
+        }
+      },
+      {
+        "name": "Scatter Shot",
+        "type": "Active Skill",
+        "description": "Quickly shoots at the pouring-in zombies in front (Damage Factor: 782(->803)), and has chances to immobilize the targets.",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases the immobilization chance.",
+          "4": "Increases damage factor by an additional 220.",
+          "5": "Increases the immobilization duration by 1 seconds."
+        }
+      },
+      {
+        "name": "Defense Expert",
+        "type": "Global Effect",
+        "description": "Self DEF increases by 969(->986.2).",
+        "star_effects": {
+          "1": "DEF +50",
+          "2": "DEF +50",
+          "3": "DEF +100",
+          "4": "DEF +200",
+          "5": "DEF +300"
+        }
+      },
+      {
+        "name": "Faction Defense",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero DEF of faction Guard of Order by 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Leah",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/leah.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Crack Shot",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 491(->501).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 45.",
+          "2": "Increases damage factor by an additional 45.",
+          "3": "Increases damage factor by an additional 45.",
+          "4": "Increases damage factor by an additional 60.",
+          "5": "Increases damage factor by an additional 105."
+        }
+      },
+      {
+        "name": "Arrow of Silence",
+        "type": "Active Skill",
+        "description": "Shoots arrows continuously to form an arrow rain, keeping attacking enemies within the range (Damage Factor: 782(->803)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases the duration by 1 sec.",
+          "4": "Increases damage factor by an additional 220.",
+          "5": "Has chances to additionally cause burning effect."
+        }
+      },
+      {
+        "name": "Attack Expert",
+        "type": "Global Effect",
+        "description": "Self ATK increases by 969(->986.2).",
+        "star_effects": {
+          "1": "ATK +50",
+          "2": "ATK +50",
+          "3": "ATK +100",
+          "4": "ATK +200",
+          "5": "ATK +300"
+        }
+      },
+      {
+        "name": "Faction Attack",
+        "type": "Exclusive Talent",
+        "description": "Increases Hero ATK of faction Guard of Order by 10%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Maria",
+    "type": "A",
+    "rarity": "0.50%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/maria.jpeg",
+    "role_description": "This hero excels in granting Powerfull Buffs in combats.",
+    "skills": [
+      {
+        "name": "Hammer Strike",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 491(->501).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 45.",
+          "2": "Increases damage factor by an additional 45.",
+          "3": "Increases damage factor by an additional 45.",
+          "4": "Increases damage factor by an additional 60.",
+          "5": "Increases damage factor by an additional 105."
+        }
+      },
+      {
+        "name": "Doom Judgement",
+        "type": "Active Skill",
+        "description": "Smashes the ground with the heavy hammer, dealing damage to enemies within the range (Damage Factor: 782(->803)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Has chances to additionally cause knockback effect.",
+          "4": "Increases damage factor by an additional 220.",
+          "5": "Enhances the knockback effect."
+        }
+      },
+      {
+        "name": "Training Expert",
+        "type": "Global Effect",
+        "description": "Unit training speed increases by 39.7(->40.2)%.",
+        "star_effects": {
+          "1": "Unit training speed +5%",
+          "2": "Training resource consumption -2%",
+          "3": "Unit training speed +10%",
+          "4": "Unit training speed +10%",
+          "5": "Training resource consumption -3%"
+        }
+      },
+      {
+        "name": "Faction Commander",
+        "type": "Exclusive Talent",
+        "description": "Troop capacity increases by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Mia",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/mia.jpeg",
+    "role_description": "This hero excels in strong DEF in combats",
+    "skills": [
+      {
+        "name": "Electro Amplification",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 859(->880).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Lightning Link",
+        "type": "Active Skill",
+        "description": "Releases a lightning bolt that can bounce between monsters (Damage Factor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Increases the number of bounces.",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Increases the number of bounces.",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Modification Expert",
+        "type": "Global Effect",
+        "description": "Obtain 500 Modification Blueprints for free daily, and increase EXP yields via mod vehicle upgrades by 14.8(->15.2)%.",
+        "star_effects": {
+          "1": "Free modification blueprints +100",
+          "2": "EXP yields from upgrades +5%",
+          "3": "Free modification blueprints +200",
+          "4": "EXP yields from upgrades +10%",
+          "5": "Mod Vehicle Skill Damage +200%"
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "Boosts self attack by 10%, defense by 10%, and troop capacity by 5%.",
+        "star_effects": {}
+      }
+    ]
+  },
+  {
+    "name": "Chinatsu",
+    "type": "S",
+    "rarity": "0.16%",
+    "faction": "Guard of Order",
+    "image": "/heroes/guard-of-order/chinatsu.jpeg",
+    "role_description": "This hero excels in strong DPS.",
+    "skills": [
+      {
+        "name": "Iaido Slash",
+        "type": "Normal Attack Boost",
+        "description": "Normal attacks' damage factor increases to 859(->880).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 90.",
+          "2": "Increases damage factor by an additional 90.",
+          "3": "Increases damage factor by an additional 90.",
+          "4": "Increases damage factor by an additional 120.",
+          "5": "Increases damage factor by an additional 210."
+        }
+      },
+      {
+        "name": "Spiral Sword Energy",
+        "type": "Active Skill",
+        "description": "Swiftly swings the blade to unleash a powerful energy storm (Damage Factor: 1479(->1520)).",
+        "star_effects": {
+          "1": "Increases damage factor by an additional 150.",
+          "2": "Increases the damage range by 30%.",
+          "3": "Increases damage factor by an additional 150.",
+          "4": "Energy whirlwind moves forward",
+          "5": "Increases damage factor by an additional 300."
+        }
+      },
+      {
+        "name": "Samurai Spirit",
+        "type": "Global Effect",
+        "description": "Alliance Duel points increases by 17.8(->18.2)%.",
+        "star_effects": {
+          "1": "Alliance Duel points +2%",
+          "2": "Alliance Duel points +3%",
+          "3": "Alliance Duel points +3%",
+          "4": "Alliance Duel points +5%",
+          "5": "Alliance Duel points +7%"
+        }
+      },
+      {
+        "name": "Potential Unleashed",
+        "type": "Exclusive Talent",
+        "description": "Boosts self attack by 10%, defense by 10%, and troop capacity by 5%.",
+        "star_effects": {}
+      }
+    ]
   }
 ]
