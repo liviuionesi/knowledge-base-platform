@@ -11,17 +11,20 @@ export default function middleware(request: NextRequest) {
   const isAuthenticated = request.cookies.has('phenix_session');
   
   // Identify if we are on the login page
-  // The matcher ensures we are typically on / or /:locale/...
   const isLoginPage = routing.locales.some(
     (locale) => pathname === `/${locale}/login`
   );
+
+  // Identify public pages
+  const isHeroesPage = pathname.includes('/docs/heroes');
+  const isWelcomePage = pathname.includes('/docs/introduction');
 
   // Allow access if:
   // 1. User is authenticated
   // 2. User is ensuring explicit access to Login page
   // 3. User is on Root '/' (Let i18n handle redirect to locale, then we catch it)
-  // 4. It's a public assets request (though matcher likely excludes this, explicit safety is good)
-  if (!isAuthenticated && !isLoginPage && pathname !== '/') {
+  // 4. Page is explicitly public (Heroes or Welcome/Introduction)
+  if (!isAuthenticated && !isLoginPage && pathname !== '/' && !isHeroesPage && !isWelcomePage) {
     // Extract locale to preserve it in the redirect
     // Pathname matches /(en|fr)/... so split[1] is the locale
     const segments = pathname.split('/');

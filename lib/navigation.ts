@@ -13,7 +13,8 @@ export function getNavigation(locale: string): NavGroup[] {
       eventCenter: 'Event Center',
       fullPreparedness: 'Full Preparedness',
       allianceDuel: 'Alliance Duel',
-      report: 'Report'
+      report: 'Report',
+      autoClicker: 'AutoClicker Setup'
     },
     fr: {
       gettingStarted: 'Commencer',
@@ -22,7 +23,8 @@ export function getNavigation(locale: string): NavGroup[] {
       eventCenter: 'Événements',
       fullPreparedness: 'Armements globaux',
       allianceDuel: "Duel d'Alliance",
-      report: 'Rapport'
+      report: 'Rapport',
+      autoClicker: 'Config. AutoClicker'
     },
     de: {
       gettingStarted: 'Erste Schritte',
@@ -31,7 +33,8 @@ export function getNavigation(locale: string): NavGroup[] {
       eventCenter: 'Eventzentrum',
       fullPreparedness: 'Totale Bewaffnung',
       allianceDuel: 'Allianz-Duell',
-      report: 'Bericht'
+      report: 'Bericht',
+      autoClicker: 'AutoClicker Einr.'
     },
     it: {
       gettingStarted: 'Per Iniziare',
@@ -40,7 +43,8 @@ export function getNavigation(locale: string): NavGroup[] {
       eventCenter: 'Centro Eventi',
       fullPreparedness: 'Preparazione alla Guerra',
       allianceDuel: "Duello dell'Alleanza",
-      report: 'Rapporto'
+      report: 'Rapporto',
+      autoClicker: 'Config. AutoClicker'
     }
   };
 
@@ -68,6 +72,11 @@ export function getNavigation(locale: string): NavGroup[] {
           title: t.dailyGuide,
           slug: 'daily-guide',
           href: `/${locale}/docs/daily-guide`
+        },
+        {
+          title: t.autoClicker,
+          slug: 'autoclicker',
+          href: `/${locale}/docs/autoclicker`
         }
       ]
     },

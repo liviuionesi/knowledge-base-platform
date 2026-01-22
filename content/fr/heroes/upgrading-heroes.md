@@ -1,49 +1,54 @@
 ---
 title: Guide d'Amélioration des Héros
-description: Un guide complet sur l'optimisation des améliorations de héros, des livres de compétences et des niveaux d'étoiles.
+description: Un guide complet pour optimiser l'amélioration des héros, les livres de compétences et les niveaux d'étoiles.
 ---
 
 # Guide d'Amélioration des Héros
 
-Pour obtenir des résultats optimaux au combat, il est crucial d'améliorer vos héros efficacement. Ce guide couvre les meilleures stratégies pour gérer les compétences, les niveaux d'étoiles et les ressources en fonction de la rareté et de la faction du héros.
+Pour obtenir des résultats maximaux dans le jeu, l'amélioration efficace de vos héros est cruciale. Ce guide couvre les meilleures stratégies pour gérer les compétences, le niveau d'étoiles et les ressources en fonction de la couleur du héros et de sa faction.
 
 ## 1. Amélioration des Compétences
 
-L'amélioration de l'ensemble des compétences d'un héros est fondamentale pour augmenter sa puissance. La principale source de livres de compétences est les **Missions de Prime (Bounty Missions)**.
+L'amélioration des compétences d'un héros est fondamentale pour augmenter sa puissance. La principale source de livres de compétences est les **Missions de Primes**. La seconde source est l'événement **Armements Globaux**.
 
-### Comment obtenir des livres de compétences
-Le moyen le plus efficace d'obtenir des livres de compétences lors des missions de prime est d'utiliser :
-*   **1 Héros Bleu**
-*   **Le reste en Héros Oranges et Violets**
+### Comment obtenir des Livres de Compétences
+Le moyen le plus efficace d'obtenir des livres de compétences via les Missions de Primes est d'utiliser :
+*   **Envoyer d'abord les Missions Oranges et Violettes existantes** jusqu'à ce qu'il ne reste que les **Missions Bleues**.
+*   **Utiliser un ticket de rafraîchissement** pour obtenir des Missions **Oranges** ou **Violettes** et les lancer.
+*   **La dernière mission peut être bleue**, cela prend beaucoup de tickets de rafraîchissement pour obtenir une couleur différente pour la dernière.
+*   **Le mardi et le samedi** sont les jours où vous devez faire uniquement des missions de primes oranges !
 
-Cette combinaison est le "moyen parfait" de garantir les livres nécessaires pour l'amélioration de vos compétences.
+Cette combinaison est la "méthode parfaite" pour sécuriser les livres nécessaires à l'amélioration de vos compétences.
 
-### Timing pour les livres de compétences
-- **Livres Bleus et Violets** : Peuvent être utilisés **à tout moment**, car ils ne rapportent pas de points pour des événements spécifiques.
-- **Livres Oranges** : Doivent être utilisés **EXCLUSIVEMENT le jeudi** pour maximiser les points d'événement.
+### Consommation des Livres de Compétences
+- **Livres Bleus et Violets** : Peuvent être consommés **n'importe quand**, car ils ne rapportent pas de points pour des événements spécifiques.
+- **Livres Oranges** : Doivent être consommés **EXCLUSIVEMENT le jeudi** pour capitaliser sur l'Initiative des Héros dans le Duel d'Alliance.
 
-### Priorisation des compétences
-*   **Pour les Héros Violets et Bleus** : Concentrez-vous d'abord sur l'amélioration au maximum des **3ème et 4ème compétences** une fois qu'ils ont atteint 5 étoiles.
-*   **Développement de l'équipe** : Une fois que les 3ème et 4ème compétences des héros violets de votre équipe principale sont au maximum, commencez à améliorer leurs **1ère et 2ème compétences** une par une.
+### Priorisation des Compétences
+*   **Pour les Héros Violets et Bleus** : Concentrez-vous d'abord sur la maximisation de la **3ème compétence**, une fois qu'ils atteignent 4 étoiles, la 4ème compétence est maxée.
+*   **Développement de l'Équipe** : Une fois que les héros violets de votre équipe 1 ont leurs 3ème et 4ème compétences maxées, commencez à maxer leurs **1ère et 2ème compétences** une par une.
+*   Répétez le même processus pour la deuxième et troisième équipe, d'abord maxer la 3ème compétence puis les 1ère et 2ème compétences.
+* **Pour les Héros Oranges** : concentrez-vous sur la maximisation de toutes les compétences car elles sont toutes importantes. J'ai rarement assez de fragments de héros pour améliorer le niveau d'étoiles de plus d'un héros orange et les livres de compétences sont abondants pour maxer chaque compétence immédiatement le jeudi.
 
 ## 2. Niveaux d'Étoiles et Fragments
 
-Les niveaux d'étoiles (4★, 5★ et au-delà) augmentent considérablement les attributs de base. Cela nécessite des Fragments de Héros.
+Le niveau d'étoiles (4★, 5★ et le Panthéon) augmente considérablement les attributs de base. Cela nécessite des Fragments de Héros.
 
-### Timing pour les fragments
-- **Jeudi uniquement** : Les fragments doivent être utilisés **uniquement le jeudi** et conservés tous les autres jours de la semaine pour maximiser les récompenses d'événement.
+### Utilisation des Fragments
+- **Jeudi Uniquement** : Les fragments de chaque couleur doivent être utilisés **uniquement le jeudi** et économisés tous les autres jours de la semaine pour maximiser les récompenses d'événement.
 
 ### Où obtenir des fragments
-- **Boutique VIP & Boutique à temps limité** : Le moyen le plus simple d'obtenir des fragments violets et bleus.
-- **Événements Radar & Armements globaux** : Ces événements récompensent régulièrement à la fois des livres de compétences et des fragments.
-- **Offrir des roses** : Offrir des roses à d'autres joueurs vous donne **6 fragments oranges**.
-- **Saga Zombie & Boutique de Camilla** : Vous pouvez acheter des fragments supplémentaires ici en utilisant des **pièces tachées (Stained Coins)**.
+- **Boutique VIP & Boutique à durée limitée** : Le moyen le plus simple d'obtenir des fragments Violets et Bleus à prix réduit.
+- **Radar & Événements d'Armements Globaux** : Ces événements récompensent régulièrement avec des livres de compétences et des fragments.
+- **Offrir des Roses** : Offrir des roses à d'autres joueurs vous donne **6 Fragments Oranges**.
+- **Saga Zombie** : Vous pouvez obtenir de nombreux fragments de cet événement, de chaque couleur.
+- **Boutique de Camilla** : Vous pouvez acheter des fragments supplémentaires ici en utilisant des **Pièces Tachées**.
 
 ## 3. Tableaux de Recommandation des Héros
 
-Basé sur leurs 3ème et 4ème compétences (Effets globaux et Talents exclusifs), voici les héros recommandés à améliorer.
+Basé sur leurs 3ème et 4ème compétences (Effets Globaux et Talents Exclusifs), voici les héros recommandés à améliorer.
 
-### 3.1 Héros Bleus (Collecte & Entraînement de base)
+### 3.1 Héros Bleus (Collecte & Entraînement)
 
 <HeroUpgradeTable category="blue" />
 
@@ -55,24 +60,43 @@ Basé sur leurs 3ème et 4ème compétences (Effets globaux et Talents exclusifs
 
 <HeroUpgradeTable category="orange-utility" />
 
-### 3.4 Héros Oranges de Combat (Boosts de niveau de troupes)
+### 3.4 Héros Oranges de Combat (Buffs de Niveau de Troupe)
 
 <HeroUpgradeTable category="orange-combat" />
 
 
-## 4. Stratégie d'Optimisation
+## 4. Parcours Stratégique d'Amélioration
 
-Le chemin de progression le plus efficace pour la plupart des joueurs suit ces étapes :
+Améliorer les héros dans le bon ordre peut accélérer considérablement la progression de votre base et votre efficacité au combat. De plus, les héros sont rendus disponibles par le jeu dans un certain ordre et les héros de la saison 1 et 2 doivent être achetés, il est donc important d'améliorer ceux que vous avez disponibles. Voici le parcours recommandé :
 
-1.  **Phase 1 : Maxer les Violets et Bleus** : L'objectif est d'avoir tous les héros violets et bleus à **5 étoiles** avec leurs **3ème et 4ème compétences au maximum**.
-2.  **Phase 2 : Affiner l'Équipe Principale** : Améliorez progressivement les **1ère et 2ème compétences** des héros violets de votre formation principale.
-3.  **Phase 3 : Transition vers l'Orange** : Tout en utilisant votre équipe de violets au maximum, développez régulièrement vos **Héros Oranges** en arrière-plan. Une fois qu'ils sont suffisamment améliorés, ils devraient remplacer les héros violets dans chaque équipe pour une puissance ultime.
+### Phase 1 : Fondation des Ressources & Entraînement (Début de Partie)
+Votre première priorité est de stabiliser votre économie et la production de troupes.
+1.  **Héros Bleus** : Maxez **Audrey**, **Angelina** et **William** à 5★ en premier. Leurs bonus combinés de vitesse d'entraînement sont essentiels pour construire une grande armée tôt dans le jeu.
+2.  **Bleus de Collecte** : Améliorez **Natalie** (Nourriture), **Giselle** (Bois) et **Athena** (Électricité) selon les besoins lorsque les ressources deviennent un goulot d'étranglement.
+3.  **Katrina (Orange)** : Maxez-la pour maximiser l'EXP d'exploration et le carburant, assurant que vos héros montent de niveau plus rapidement.
+4.  **Laura (Orange)** : Maximisez l'efficacité du radar pour des ressources supplémentaires et des coffres d'exploration.
+5.  **Maxer les 1ère & 2ème Compétences** : Ce n'est qu'après avoir maxé vos principaux effets utilitaires et globaux que vous devriez vous concentrer sur les compétences de combat individuelles (1ère et 2ème) pour votre équipe principale.
+6.  **Vivian (Violet)** : Maxez-la à 5★ pour débloquer le buff de dégâts globaux contre les créatures. Cela rend le farming de ressources beaucoup plus efficace. Elle obtient le plus de fragments en début de partie donc tout le monde peut la maxer.
 
-## 5. Spécificités des Factions
+### Phase 2 : Puissance Économique (Focus Utilitaire)
+Une fois votre économie de base en place, concentrez-vous sur les héros qui réduisent les coûts et augmentent la vitesse de développement.
+1.  **Sophia (Orange)** : Sa vitesse de construction et sa réduction de ressources sont la plus haute priorité.
+2.  **Amelia (Orange)** : Suivez de près avec la vitesse de recherche pour garder votre technologie compétitive.
+3.  **Chinatsu (Orange)** : Essentielle pour le Duel d'Alliance. La maximiser augmentera considérablement les récompenses que vous obtenez des événements hebdomadaires.
 
-N'oubliez jamais de maintenir un équilibre entre vos équipes :
-- **Paradis du chaos (Blood Rose)** : Idéal pour l'Équipe 1 (synergie des Assaillants).
-- **Ailes de l'aube (Wings of Dawn)** : Contre puissant pour Blood Rose.
-- **Volonté de la liberté (Guard of Order)** : Idéal pour les Équipes 2 et 3, contrant Wings of Dawn.
+### Phase 3 : Suprématie sur le Champ de Bataille (Soutien au Combat)
+Une fois votre économie forte, concentrez-vous sur les buffs de combat spécialisés.
+1.  **Christina (Violet)** : UN MUST pour les Guerre de Cité. Sa réduction du temps de démolition est critique pour des sièges réussis.
+2.  **Maria (Violet)** : Excellent hybride pour la capacité des troupes et la vitesse d'entraînement.
+3.  **Miranda (Violet)** : Fournit une défense globale qui aide dans tous les scénarios de combat.
+4.  Tous les héros violets et bleus peuvent atteindre 5 étoiles au moment où vous atteignez le niveau de QG 25.
 
-En suivant cette feuille de route, vous vous assurez que vos ressources sont dépensées judicieusement et que votre puissance augmente de manière constante à travers toutes les factions.
+### Phase 4 : Héros Oranges de Combat.
+Concentrez-vous sur le héros qui correspond à votre type de troupe principal :
+    *   **Selena/Oliveira** pour les Assaillants.
+    *   **Nyx/Scarlett** pour les Tireurs.
+    *   **Sakura/Evelyn** pour les Motards.
+*   Lorsque vous atteignez environ le niveau 26 du QG, vous devez progressivement éliminer l'utilisation des héros violets dans vos équipes et ne garder que des héros oranges pour vos deux équipes principales. La plupart des héros oranges auront 4 étoiles dans l'équipe 1, et l'équipement orange sera complet pour l'équipe 1.
+
+### Phase 5 : Héros Oranges de Saison 2
+Cette phase consiste à avoir chaque équipe comme un 5 sur 5 d'oranges et de la même faction. Vous obtenez alors le buff optimal des héros oranges. Aucun héros violet ne doit être utilisé dans cette phase.
