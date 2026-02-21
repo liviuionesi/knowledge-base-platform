@@ -8,7 +8,7 @@ description: Istruzioni per l'installazione dell'applicazione Evelyn su Windows.
 L'installazione dell'applicazione **Evelyn** su un PC Windows è molto semplice poiché abbiamo già creato la versione standalone. Ecco i passaggi:
 
 ## 1. Scarica l'applicazione
-[Fai clic qui per scaricare l'installer ZIP di Evelyn](/downloads/EvelynBot-Windows.zip).
+[Fai clic qui per scaricare l'installer ZIP di Evelyn](https://github.com/pehlivanu/last_z_automation/releases/latest/download/EvelynBot-Windows.zip).
 
 ## 2. "Installa" (Estrai)
 1. Sul tuo PC Windows, individua il file ZIP scaricato.
