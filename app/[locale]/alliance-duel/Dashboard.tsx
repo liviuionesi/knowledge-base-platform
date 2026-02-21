@@ -10,6 +10,12 @@ interface DuelDashboardProps {
   allData: WeeklyDuelData[];
 }
 
+const getHeroRank = (score: number, r2: number, r3: number) => {
+  if (score >= r3) return { label: 'R3', tier: 3, className: 'text-orange-500 border-orange-500/30 bg-orange-500/10 shadow-[0_0_8px_-4px_rgba(249,115,22,0.5)]' };
+  if (score >= r2) return { label: 'R2', tier: 2, className: 'text-purple-400 border-purple-400/30 bg-purple-400/10 shadow-[0_0_8px_-4px_rgba(192,132,252,0.5)]' };
+  return { label: 'R1', tier: 1, className: 'text-blue-400 border-blue-400/30 bg-blue-400/10 shadow-[0_0_8px_-4px_rgba(96,165,250,0.5)]' };
+};
+
 export default function DuelDashboard({ allData }: DuelDashboardProps) {
   const t = useTranslations('AllianceDuel');
   // Sort data descending by date just in case
@@ -39,20 +45,34 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
     const prevMap = new Map<string, DuelResult>();
     previousWeekData.results.forEach((r: DuelResult) => prevMap.set(r.name, r));
 
-    const evo: Record<string, { rankDiff: number, scoreDiff: number }> = {};
+    const evo: Record<string, { rankDiff: number, scoreDiff: number, tierDiff: number }> = {};
     
+    // Thresholds for previous week
+    const prevR2 = previousWeekData.r2Threshold ?? 2000000;
+    const prevR3 = previousWeekData.r3Threshold ?? 5000000;
+
+    // Thresholds for current week
+    const currR2 = currentWeekData.r2Threshold ?? 2000000;
+    const currR3 = currentWeekData.r3Threshold ?? 5000000;
+
     currentWeekData.results.forEach((curr: DuelResult) => {
         const prev = prevMap.get(curr.name);
+        
+        // Calculate current tier
+        const currTier = getHeroRank(curr.score, currR2, currR3).tier;
+        
         if (prev) {
-            // Rank diff: Positive means we went UP in rank (lower number), so prev - curr
-            // e.g. Prev Rank 10, Curr Rank 5. Diff = 5 (Improved)
-            // e.g. Prev Rank 1, Curr Rank 3. Diff = -2 (Declined)
+            // Calculate prev tier
+            const prevTier = getHeroRank(prev.score, prevR2, prevR3).tier;
+
             const rankDiff = prev.rank - curr.rank;
             const scoreDiff = curr.score - prev.score;
-            evo[curr.name] = { rankDiff, scoreDiff };
+            const tierDiff = currTier - prevTier;
+
+            evo[curr.name] = { rankDiff, scoreDiff, tierDiff };
         } else {
              // New entrant
-             evo[curr.name] = { rankDiff: 999, scoreDiff: curr.score };
+             evo[curr.name] = { rankDiff: 999, scoreDiff: curr.score, tierDiff: 0 };
         }
     });
     return evo;
@@ -101,7 +121,7 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="bg-[var(--muted)]/50 text-[var(--muted-foreground)] uppercase text-[10px] tracking-[0.25em] font-black italic">
+                <tr className="bg-zinc-100 dark:bg-zinc-900/50 text-zinc-500 dark:text-zinc-400 uppercase text-[10px] tracking-[0.25em] font-black italic border-b border-zinc-200 dark:border-zinc-800">
                   <th className="px-8 py-6">{t('rank')}</th>
                   <th className="px-8 py-6">{t('operative')}</th>
                   <th className="px-8 py-6 text-right">{t('pointsSecured')}</th>
@@ -140,6 +160,39 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                                player.rank === 2 ? 'bg-[var(--foreground)]/50' : 'bg-[var(--phenix-orange)]/70'
                              }`} />
                            )}
+                           
+                           {/* Hero Rank Badge */}
+                           {(() => {
+                             const r2 = currentWeekData?.r2Threshold ?? 2000000;
+                             const r3 = currentWeekData?.r3Threshold ?? 5000000;
+                             const rank = getHeroRank(player.score, r2, r3);
+                             const tierChange = evo?.tierDiff ?? 0;
+                             
+                             return (
+                               <div className="flex items-center gap-1">
+                                 <div className={`
+                                   flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-black tracking-wider border uppercase
+                                   ${rank.className}
+                                 `}>
+                                   {rank.label}
+                                 </div>
+                                 
+                                 {tierChange > 0 && (
+                                   <div className="flex items-center text-[10px] font-bold text-green-500 animate-pulse ml-1" title="Promoted">
+                                      <ArrowUpIcon className="w-3 h-3 mr-0.5" />
+                                      Up
+                                   </div>
+                                 )}
+                                 {tierChange < 0 && (
+                                   <div className="flex items-center text-[10px] font-bold text-red-500 ml-1" title="Demoted">
+                                      <ArrowDownIcon className="w-3 h-3 mr-0.5" />
+                                      Down
+                                   </div>
+                                 )}
+                               </div>
+                             );
+                           })()}
+
                            <div className="flex flex-col">
                             <span className={`text-base font-bold tracking-tight ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)] group-hover/row:text-[var(--foreground)]'} transition-colors`}>
                               {player.name}

@@ -101,6 +101,32 @@ body {
   color: var(--foreground) !important;
 }
 
+/* Inline code blocks - ensure they are readable in all themes */
+:not(pre) > code {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  color: #0284c7 !important; /* Dedicated blue for light mode */
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 0.375rem !important;
+  font-weight: 600 !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-size: 0.9em !important;
+}
+
+.dark :not(pre) > code {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: #7dd3fc !important; /* Sky-300 for dark mode */
+}
+
+.prose code::before,
+.prose code::after {
+  content: "" !important;
+}
+
+.prose pre {
+  background-color: var(--phenix-dark) !important;
+  color: #f8fafc !important;
+}
+
 /* Specific colored spans for MDX */
 .text-orange { color: var(--phenix-orange) !important; }
 .text-blue { color: #3b82f6 !important; }

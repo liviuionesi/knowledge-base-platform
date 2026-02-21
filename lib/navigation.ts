@@ -14,7 +14,8 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       fullPreparedness: 'Full Preparedness',
       allianceDuel: 'Alliance Duel',
       report: 'Report',
-      autoClicker: 'AutoClicker Setup'
+      autoClicker: 'AutoClicker Setup',
+      automationApp: 'Evelyn'
     },
     fr: {
       gettingStarted: 'Commencer',
@@ -24,7 +25,8 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       fullPreparedness: 'Armements globaux',
       allianceDuel: "Duel d'Alliance",
       report: 'Rapport',
-      autoClicker: 'Config. AutoClicker'
+      autoClicker: 'Config. AutoClicker',
+      automationApp: 'Evelyn'
     },
     de: {
       gettingStarted: 'Erste Schritte',
@@ -34,7 +36,8 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       fullPreparedness: 'Totale Bewaffnung',
       allianceDuel: 'Allianz-Duell',
       report: 'Bericht',
-      autoClicker: 'AutoClicker Einr.'
+      autoClicker: 'AutoClicker Einr.',
+      automationApp: 'Evelyn'
     },
     it: {
       gettingStarted: 'Per Iniziare',
@@ -44,7 +47,8 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       fullPreparedness: 'Preparazione alla Guerra',
       allianceDuel: "Duello dell'Alleanza",
       report: 'Rapporto',
-      autoClicker: 'Config. AutoClicker'
+      autoClicker: 'Config. AutoClicker',
+      automationApp: 'Evelyn'
     }
   };
 
@@ -66,11 +70,18 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       href: `/${locale}/docs/introduction`
     },
     // Daily Guide (Rules) is protected
-    ...(isAuthenticated ? [{
-      title: t.dailyGuide,
-      slug: 'daily-guide',
-      href: `/${locale}/docs/daily-guide`
-    }] : []),
+    ...(isAuthenticated ? [
+      {
+        title: t.dailyGuide,
+        slug: 'daily-guide',
+        href: `/${locale}/docs/daily-guide`
+      },
+      {
+        title: t.automationApp,
+        slug: 'automation-app',
+        href: `/${locale}/docs/automation-app`
+      }
+    ] : []),
     {
       title: t.autoClicker,
       slug: 'autoclicker',

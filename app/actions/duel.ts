@@ -15,6 +15,8 @@ export interface DuelResult {
 export interface WeeklyDuelData {
   id: string; // ISO date string or similar unique ID
   weekDate: string;
+  r2Threshold?: number;
+  r3Threshold?: number;
   results: DuelResult[];
 }
 
