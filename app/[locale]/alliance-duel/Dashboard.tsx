@@ -79,6 +79,31 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
 
   }, [currentWeekData, previousWeekData]);
 
+  const stats = useMemo(() => {
+    if (!currentWeekData) return { totalScore: 0, r3Score: 0, r2Score: 0, r1Score: 0, r3Pct: '0.0', r2Pct: '0.0', r1Pct: '0.0' };
+    
+    const r2Threshold = currentWeekData.r2Threshold ?? 2000000;
+    const r3Threshold = currentWeekData.r3Threshold ?? 5000000;
+    
+    let totalScore = 0;
+    let r3Score = 0;
+    let r2Score = 0;
+    let r1Score = 0;
+
+    currentWeekData.results.forEach(player => {
+      totalScore += player.score;
+      if (player.score >= r3Threshold) r3Score += player.score;
+      else if (player.score >= r2Threshold) r2Score += player.score;
+      else r1Score += player.score;
+    });
+
+    const r3Pct = totalScore ? ((r3Score / totalScore) * 100).toFixed(1) : '0.0';
+    const r2Pct = totalScore ? ((r2Score / totalScore) * 100).toFixed(1) : '0.0';
+    const r1Pct = totalScore ? ((r1Score / totalScore) * 100).toFixed(1) : '0.0';
+
+    return { totalScore, r3Score, r2Score, r1Score, r3Pct, r2Pct, r1Pct };
+  }, [currentWeekData]);
+
   if (sortedData.length === 0) {
     return (
       <div className="text-center py-20 bg-[var(--muted)]/40 rounded-3xl border border-[var(--border)]/50 backdrop-blur-xl">
@@ -116,24 +141,9 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
       {currentWeekData && (
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
           {(() => {
-            const r2Threshold = currentWeekData.r2Threshold ?? 6000000;
-            const r3Threshold = currentWeekData.r3Threshold ?? 12000000;
-            
-            let totalScore = 0;
-            let r3Score = 0;
-            let r2Score = 0;
-            let r1Score = 0;
-
-            currentWeekData.results.forEach(player => {
-              totalScore += player.score;
-              if (player.score >= r3Threshold) r3Score += player.score;
-              else if (player.score >= r2Threshold) r2Score += player.score;
-              else r1Score += player.score;
-            });
-
-            const r3Pct = totalScore ? ((r3Score / totalScore) * 100).toFixed(1) : '0.0';
-            const r2Pct = totalScore ? ((r2Score / totalScore) * 100).toFixed(1) : '0.0';
-            const r1Pct = totalScore ? ((r1Score / totalScore) * 100).toFixed(1) : '0.0';
+            const r2Threshold = currentWeekData.r2Threshold ?? 2000000;
+            const r3Threshold = currentWeekData.r3Threshold ?? 5000000;
+            const { totalScore, r3Score, r2Score, r1Score, r3Pct, r2Pct, r1Pct } = stats;
 
             return (
               <>
@@ -210,6 +220,7 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                 {currentWeekData?.results.map((player: DuelResult) => {
                    const evo = evolution[player.name];
                    const isTop3 = player.rank <= 3;
+                   const { totalScore } = stats;
                    
                    return (
                     <tr key={player.rank} className="group/row hover:bg-[var(--foreground)]/[0.02] transition-colors relative">
@@ -280,9 +291,17 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                         </div>
                       </td>
                       <td className="px-2 py-3 sm:px-4 md:px-8 md:py-6 text-right font-mono align-middle">
-                        <span className={`text-xs sm:text-sm md:text-lg font-bold whitespace-nowrap ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)]'} group-hover/row:text-[var(--foreground)] transition-colors`}>
-                          {player.score.toLocaleString()}
-                        </span>
+                        <div className="flex flex-col items-end gap-0.5 sm:gap-1">
+                          <span className={`text-xs sm:text-sm md:text-lg font-bold whitespace-nowrap ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)]'} group-hover/row:text-[var(--foreground)] transition-colors`}>
+                            {player.score.toLocaleString()}
+                          </span>
+                          <span className="text-[8px] sm:text-[10px] text-[var(--muted-foreground)]/60 font-black tracking-widest hidden sm:block">
+                            {totalScore > 0 ? ((player.score / totalScore) * 100).toFixed(2) : '0.00'}%
+                          </span>
+                          <span className="text-[8px] text-[var(--muted-foreground)]/60 font-black tracking-widest sm:hidden">
+                            {totalScore > 0 ? ((player.score / totalScore) * 100).toFixed(1) : '0.0'}%
+                          </span>
+                        </div>
                       </td>
                        {previousWeekData && (
                           <td className="px-2 py-3 sm:px-4 md:px-8 md:py-6 text-right align-middle">
