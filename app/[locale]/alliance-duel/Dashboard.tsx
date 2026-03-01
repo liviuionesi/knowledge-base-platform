@@ -112,6 +112,84 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
         </div>
       </div>
 
+      {/* Statistics Header */}
+      {currentWeekData && (
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+          {(() => {
+            const r2Threshold = currentWeekData.r2Threshold ?? 6000000;
+            const r3Threshold = currentWeekData.r3Threshold ?? 12000000;
+            
+            let totalScore = 0;
+            let r3Score = 0;
+            let r2Score = 0;
+            let r1Score = 0;
+
+            currentWeekData.results.forEach(player => {
+              totalScore += player.score;
+              if (player.score >= r3Threshold) r3Score += player.score;
+              else if (player.score >= r2Threshold) r2Score += player.score;
+              else r1Score += player.score;
+            });
+
+            const r3Pct = totalScore ? ((r3Score / totalScore) * 100).toFixed(1) : '0.0';
+            const r2Pct = totalScore ? ((r2Score / totalScore) * 100).toFixed(1) : '0.0';
+            const r1Pct = totalScore ? ((r1Score / totalScore) * 100).toFixed(1) : '0.0';
+
+            return (
+              <>
+                {/* Total Alliance Score */}
+                <div className="bg-[var(--background)]/80 backdrop-blur-xl border border-[var(--border)] rounded-2xl p-6 relative overflow-hidden group/stat">
+                  <div className="absolute -inset-1 bg-gradient-to-br from-[var(--phenix-orange)]/10 to-transparent opacity-0 group-hover/stat:opacity-100 transition-opacity duration-500 rounded-2xl blur-xl"></div>
+                  <div className="relative">
+                     <h3 className="text-[10px] tracking-[0.25em] text-[var(--muted-foreground)] uppercase font-black mb-2">Total Alliance Score</h3>
+                     <p className="text-3xl font-extrabold text-[var(--foreground)] tracking-tighter tabular-nums">{totalScore.toLocaleString()}</p>
+                  </div>
+                </div>
+
+                {/* R3 Contribution */}
+                <div className="bg-orange-500/10 border border-orange-500/20 backdrop-blur-xl rounded-2xl p-6 relative overflow-hidden group/stat">
+                  <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent opacity-50 relative pointer-events-none"></div>
+                  <div className="flex flex-col relative">
+                     <div className="flex justify-between items-start mb-2">
+                       <h3 className="text-[10px] tracking-[0.25em] text-orange-400 uppercase font-black">R3 Tier ({r3Threshold.toLocaleString()}+)</h3>
+                       <span className="text-xs font-bold text-orange-500 bg-orange-500/10 px-2 py-0.5 rounded">{r3Pct}%</span>
+                     </div>
+                     <p className="text-2xl font-bold text-orange-400/90 tracking-tight tabular-nums mt-1">{r3Score.toLocaleString()}</p>
+                     <p className="text-[10px] text-orange-500/60 font-bold uppercase tracking-widest mt-2 border-t border-orange-500/10 pt-2">Points Contributed</p>
+                  </div>
+                </div>
+
+                {/* R2 Contribution */}
+                <div className="bg-purple-400/10 border border-purple-400/20 backdrop-blur-xl rounded-2xl p-6 relative overflow-hidden group/stat">
+                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400/10 to-transparent opacity-50 relative pointer-events-none"></div>
+                  <div className="flex flex-col relative">
+                     <div className="flex justify-between items-start mb-2">
+                       <h3 className="text-[10px] tracking-[0.25em] text-purple-400 uppercase font-black">R2 Tier ({r2Threshold.toLocaleString()}+)</h3>
+                       <span className="text-xs font-bold text-purple-400 bg-purple-400/10 px-2 py-0.5 rounded">{r2Pct}%</span>
+                     </div>
+                     <p className="text-2xl font-bold text-purple-400/90 tracking-tight tabular-nums mt-1">{r2Score.toLocaleString()}</p>
+                     <p className="text-[10px] text-purple-400/60 font-bold uppercase tracking-widest mt-2 border-t border-purple-400/10 pt-2">Points Contributed</p>
+                  </div>
+                </div>
+
+                {/* R1 Contribution */}
+                <div className="bg-blue-400/10 border border-blue-400/20 backdrop-blur-xl rounded-2xl p-6 relative overflow-hidden group/stat">
+                   <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-50 relative pointer-events-none"></div>
+                  <div className="flex flex-col relative">
+                     <div className="flex justify-between items-start mb-2">
+                       <h3 className="text-[10px] tracking-[0.25em] text-blue-400 uppercase font-black">R1 Tier</h3>
+                       <span className="text-xs font-bold text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded">{r1Pct}%</span>
+                     </div>
+                     <p className="text-2xl font-bold text-blue-400/90 tracking-tight tabular-nums mt-1">{r1Score.toLocaleString()}</p>
+                     <p className="text-[10px] text-blue-400/60 font-bold uppercase tracking-widest mt-2 border-t border-blue-400/10 pt-2">Points Contributed</p>
+                  </div>
+                </div>
+              </>
+            );
+          })()}
+        </div>
+      )}
+
       {/* Main Table Container */}
       <div className="relative group">
         {/* Decorative elements */}
