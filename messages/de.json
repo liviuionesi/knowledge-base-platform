@@ -36,6 +36,11 @@
     "newEntrant": "Neuer Teilnehmer",
     "ranksAdvanced": "{count} Ränge Aufgestiegen",
     "ranksLost": "{count} Ränge Abgestiegen",
-    "phenixAlliance": "Phenix Allianz"
+    "phenixAlliance": "Phenix Allianz",
+    "totalAllianceScore": "Gesamte Allianz-Punktzahl",
+    "r3Tier": "R3 Stufe",
+    "r2Tier": "R2 Stufe",
+    "r1Tier": "R1 Stufe",
+    "pointsContributed": "Beigetragene Punkte"
   }
 }

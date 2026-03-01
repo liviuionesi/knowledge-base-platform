@@ -36,6 +36,11 @@
     "newEntrant": "Nuovo Entrato",
     "ranksAdvanced": "{count} Ranghi Avanzati",
     "ranksLost": "{count} Ranghi Persi",
-    "phenixAlliance": "Alleanza Phenix"
+    "phenixAlliance": "Alleanza Phenix",
+    "totalAllianceScore": "Punteggio Totale dell'Alleanza",
+    "r3Tier": "Livello R3",
+    "r2Tier": "Livello R2",
+    "r1Tier": "Livello R1",
+    "pointsContributed": "Punti Contribuiti"
   }
 }

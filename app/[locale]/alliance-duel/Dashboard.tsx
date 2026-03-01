@@ -141,7 +141,7 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                 <div className="bg-[var(--background)]/80 backdrop-blur-xl border border-[var(--border)] rounded-2xl p-6 relative overflow-hidden group/stat">
                   <div className="absolute -inset-1 bg-gradient-to-br from-[var(--phenix-orange)]/10 to-transparent opacity-0 group-hover/stat:opacity-100 transition-opacity duration-500 rounded-2xl blur-xl"></div>
                   <div className="relative">
-                     <h3 className="text-[10px] tracking-[0.25em] text-[var(--muted-foreground)] uppercase font-black mb-2">Total Alliance Score</h3>
+                     <h3 className="text-[10px] tracking-[0.25em] text-[var(--muted-foreground)] uppercase font-black mb-2">{t('totalAllianceScore')}</h3>
                      <p className="text-3xl font-extrabold text-[var(--foreground)] tracking-tighter tabular-nums">{totalScore.toLocaleString()}</p>
                   </div>
                 </div>
@@ -151,11 +151,11 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                   <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent opacity-50 relative pointer-events-none"></div>
                   <div className="flex flex-col relative">
                      <div className="flex justify-between items-start mb-2">
-                       <h3 className="text-[10px] tracking-[0.25em] text-orange-400 uppercase font-black">R3 Tier ({r3Threshold.toLocaleString()}+)</h3>
+                       <h3 className="text-[10px] tracking-[0.25em] text-orange-400 uppercase font-black">{t('r3Tier')} ({r3Threshold.toLocaleString()}+)</h3>
                        <span className="text-xs font-bold text-orange-500 bg-orange-500/10 px-2 py-0.5 rounded">{r3Pct}%</span>
                      </div>
                      <p className="text-2xl font-bold text-orange-400/90 tracking-tight tabular-nums mt-1">{r3Score.toLocaleString()}</p>
-                     <p className="text-[10px] text-orange-500/60 font-bold uppercase tracking-widest mt-2 border-t border-orange-500/10 pt-2">Points Contributed</p>
+                     <p className="text-[10px] text-orange-500/60 font-bold uppercase tracking-widest mt-2 border-t border-orange-500/10 pt-2">{t('pointsContributed')}</p>
                   </div>
                 </div>
 
@@ -164,11 +164,11 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                  <div className="absolute inset-0 bg-gradient-to-br from-purple-400/10 to-transparent opacity-50 relative pointer-events-none"></div>
                   <div className="flex flex-col relative">
                      <div className="flex justify-between items-start mb-2">
-                       <h3 className="text-[10px] tracking-[0.25em] text-purple-400 uppercase font-black">R2 Tier ({r2Threshold.toLocaleString()}+)</h3>
+                       <h3 className="text-[10px] tracking-[0.25em] text-purple-400 uppercase font-black">{t('r2Tier')} ({r2Threshold.toLocaleString()}+)</h3>
                        <span className="text-xs font-bold text-purple-400 bg-purple-400/10 px-2 py-0.5 rounded">{r2Pct}%</span>
                      </div>
                      <p className="text-2xl font-bold text-purple-400/90 tracking-tight tabular-nums mt-1">{r2Score.toLocaleString()}</p>
-                     <p className="text-[10px] text-purple-400/60 font-bold uppercase tracking-widest mt-2 border-t border-purple-400/10 pt-2">Points Contributed</p>
+                     <p className="text-[10px] text-purple-400/60 font-bold uppercase tracking-widest mt-2 border-t border-purple-400/10 pt-2">{t('pointsContributed')}</p>
                   </div>
                 </div>
 
@@ -177,11 +177,11 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                    <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-50 relative pointer-events-none"></div>
                   <div className="flex flex-col relative">
                      <div className="flex justify-between items-start mb-2">
-                       <h3 className="text-[10px] tracking-[0.25em] text-blue-400 uppercase font-black">R1 Tier</h3>
+                       <h3 className="text-[10px] tracking-[0.25em] text-blue-400 uppercase font-black">{t('r1Tier')}</h3>
                        <span className="text-xs font-bold text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded">{r1Pct}%</span>
                      </div>
                      <p className="text-2xl font-bold text-blue-400/90 tracking-tight tabular-nums mt-1">{r1Score.toLocaleString()}</p>
-                     <p className="text-[10px] text-blue-400/60 font-bold uppercase tracking-widest mt-2 border-t border-blue-400/10 pt-2">Points Contributed</p>
+                     <p className="text-[10px] text-blue-400/60 font-bold uppercase tracking-widest mt-2 border-t border-blue-400/10 pt-2">{t('pointsContributed')}</p>
                   </div>
                 </div>
               </>

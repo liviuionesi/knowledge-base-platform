@@ -36,6 +36,11 @@
     "newEntrant": "New Entrant",
     "ranksAdvanced": "{count} Ranks Advanced",
     "ranksLost": "{count} Ranks Lost",
-    "phenixAlliance": "Phenix Alliance"
+    "phenixAlliance": "Phenix Alliance",
+    "totalAllianceScore": "Total Alliance Score",
+    "r3Tier": "R3 Tier",
+    "r2Tier": "R2 Tier",
+    "r1Tier": "R1 Tier",
+    "pointsContributed": "Points Contributed"
   }
 }
