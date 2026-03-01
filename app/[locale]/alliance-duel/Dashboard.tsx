@@ -196,27 +196,27 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
         <div className="absolute -inset-0.5 bg-gradient-to-r from-[var(--phenix-orange)]/20 to-[var(--background)] rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
         
         <div className="relative bg-[var(--background)]/80 backdrop-blur-2xl rounded-2xl overflow-hidden border border-[var(--border)]">
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
+          <div className="overflow-x-auto w-full">
+            <table className="w-full text-left border-collapse min-w-full">
               <thead>
-                <tr className="bg-zinc-100 dark:bg-zinc-900/50 text-zinc-500 dark:text-zinc-400 uppercase text-[10px] tracking-[0.25em] font-black italic border-b border-zinc-200 dark:border-zinc-800">
-                  <th className="px-8 py-6">{t('rank')}</th>
-                  <th className="px-8 py-6">{t('operative')}</th>
-                  <th className="px-8 py-6 text-right">{t('pointsSecured')}</th>
-                  {previousWeekData && <th className="px-8 py-6 text-right">{t('trajectory')}</th>}
+                <tr className="bg-zinc-100 dark:bg-zinc-900/50 text-zinc-500 dark:text-zinc-400 uppercase text-[8px] sm:text-[10px] tracking-[0.1em] sm:tracking-[0.25em] font-black italic border-b border-zinc-200 dark:border-zinc-800">
+                  <th className="px-2 py-3 sm:px-4 md:px-8 md:py-6 w-12 sm:w-24 md:w-32">{t('rank')}</th>
+                  <th className="px-2 py-3 sm:px-4 md:px-8 md:py-6">{t('operative')}</th>
+                  <th className="px-2 py-3 sm:px-4 md:px-8 md:py-6 text-right">{t('pointsSecured')}</th>
+                  {previousWeekData && <th className="px-2 py-3 sm:px-4 md:px-8 md:py-6 text-right w-16 sm:w-24 md:w-auto">{t('trajectory')}</th>}
                 </tr>
               </thead>
-              <tbody className="divide-y divide-[var(--border)]/30">
+              <tbody className="divide-y divide-[var(--border)]/30 w-full">
                 {currentWeekData?.results.map((player: DuelResult) => {
                    const evo = evolution[player.name];
                    const isTop3 = player.rank <= 3;
                    
                    return (
                     <tr key={player.rank} className="group/row hover:bg-[var(--foreground)]/[0.02] transition-colors relative">
-                      <td className="px-8 py-6 font-mono w-32">
-                         <div className="flex items-center gap-3">
+                      <td className="px-2 py-3 sm:px-4 md:px-8 md:py-6 font-mono align-middle">
+                         <div className="flex items-center gap-1 sm:gap-3">
                             <span className={`
-                              text-2xl font-black italic tracking-tighter
+                              text-base sm:text-xl md:text-2xl font-black italic tracking-tighter
                               ${player.rank === 1 ? 'text-[var(--phenix-orange)] drop-shadow-[0_0_15px_var(--phenix-orange)]' : ''}
                               ${player.rank === 2 ? 'text-[var(--foreground)]/70 drop-shadow-[0_0_10px_var(--foreground)]' : ''}
                               ${player.rank === 3 ? 'text-[var(--phenix-orange)]/80 drop-shadow-[0_0_10px_var(--phenix-orange)]' : 'text-[var(--muted-foreground)] group-hover/row:text-[var(--foreground)]'}
@@ -224,16 +224,16 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                                {player.rank.toString().padStart(2, '0')}
                             </span>
                             {evo && evo.rankDiff !== 999 && evo.rankDiff !== 0 && (
-                                <span className={`flex items-center ${evo.rankDiff > 0 ? 'text-green-500' : 'text-red-500'}`}>
-                                  {evo.rankDiff > 0 ? <ArrowUpIcon className="w-3 h-3" /> : <ArrowDownIcon className="w-3 h-3" />}
+                                <span className={`flex items-center ml-auto md:ml-0 ${evo.rankDiff > 0 ? 'text-green-500' : 'text-red-500'}`}>
+                                  {evo.rankDiff > 0 ? <ArrowUpIcon className="w-2 h-2 md:w-3 md:h-3" /> : <ArrowDownIcon className="w-2 h-2 md:w-3 md:h-3" />}
                                 </span>
                             )}
                          </div>
                       </td>
-                       <td className="px-8 py-6">
-                        <div className="flex items-center gap-4">
+                       <td className="px-2 py-3 sm:px-4 md:px-8 md:py-6 align-middle">
+                        <div className="flex items-center gap-2 sm:gap-4 flex-wrap sm:flex-nowrap">
                            {isTop3 && (
-                             <div className={`w-1 h-8 rounded-full ${
+                             <div className={`hidden sm:block w-1 h-6 md:h-8 rounded-full ${
                                player.rank === 1 ? 'bg-[var(--phenix-orange)]' : 
                                player.rank === 2 ? 'bg-[var(--foreground)]/50' : 'bg-[var(--phenix-orange)]/70'
                              }`} />
@@ -249,59 +249,61 @@ export default function DuelDashboard({ allData }: DuelDashboardProps) {
                              return (
                                <div className="flex items-center gap-1">
                                  <div className={`
-                                   flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-black tracking-wider border uppercase
+                                   flex items-center justify-center px-1 py-0.5 sm:px-2 rounded text-[8px] sm:text-[10px] font-black tracking-wider border uppercase
                                    ${rank.className}
                                  `}>
                                    {rank.label}
                                  </div>
                                  
                                  {tierChange > 0 && (
-                                   <div className="flex items-center text-[10px] font-bold text-green-500 animate-pulse ml-1" title="Promoted">
-                                      <ArrowUpIcon className="w-3 h-3 mr-0.5" />
-                                      Up
+                                   <div className="flex items-center text-[8px] sm:text-[10px] font-bold text-green-500 animate-pulse ml-0.5 sm:ml-1" title="Promoted">
+                                      <ArrowUpIcon className="hidden sm:block w-2 h-2 sm:w-3 sm:h-3 mr-0.5" />
+                                      <span className="hidden sm:inline">Up</span>
                                    </div>
                                  )}
                                  {tierChange < 0 && (
-                                   <div className="flex items-center text-[10px] font-bold text-red-500 ml-1" title="Demoted">
-                                      <ArrowDownIcon className="w-3 h-3 mr-0.5" />
-                                      Down
+                                   <div className="flex items-center text-[8px] sm:text-[10px] font-bold text-red-500 ml-0.5 sm:ml-1" title="Demoted">
+                                      <ArrowDownIcon className="hidden sm:block w-2 h-2 sm:w-3 sm:h-3 mr-0.5" />
+                                      <span className="hidden sm:inline">Down</span>
                                    </div>
                                  )}
                                </div>
                              );
                            })()}
 
-                           <div className="flex flex-col">
-                            <span className={`text-base font-bold tracking-tight ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)] group-hover/row:text-[var(--foreground)]'} transition-colors`}>
+                           <div className="flex flex-col min-w-0 w-full sm:w-auto">
+                            <span className={`text-xs sm:text-sm md:text-base font-bold tracking-tight truncate ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)] group-hover/row:text-[var(--foreground)]'} transition-colors`}>
                               {player.name}
                             </span>
-                            <span className="text-[10px] text-[var(--muted-foreground)]/60 uppercase tracking-widest font-bold">{t('phenixAlliance')}</span>
+                            <span className="text-[8px] sm:text-[10px] text-[var(--muted-foreground)]/60 uppercase tracking-widest font-bold hidden sm:block">{t('phenixAlliance')}</span>
                            </div>
                         </div>
                       </td>
-                      <td className="px-8 py-6 text-right font-mono">
-                        <span className={`text-lg font-bold ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)]'} group-hover/row:text-[var(--foreground)] transition-colors`}>
+                      <td className="px-2 py-3 sm:px-4 md:px-8 md:py-6 text-right font-mono align-middle">
+                        <span className={`text-xs sm:text-sm md:text-lg font-bold whitespace-nowrap ${isTop3 ? 'text-[var(--foreground)]' : 'text-[var(--muted-foreground)]'} group-hover/row:text-[var(--foreground)] transition-colors`}>
                           {player.score.toLocaleString()}
                         </span>
                       </td>
                        {previousWeekData && (
-                          <td className="px-8 py-6 text-right">
+                          <td className="px-2 py-3 sm:px-4 md:px-8 md:py-6 text-right align-middle">
                               {evo ? (
-                                  <div className="flex flex-col items-end gap-1">
+                                  <div className="flex flex-col items-end gap-0.5 sm:gap-1">
                                      {evo.scoreDiff !== 0 ? (
-                                         <span className={`font-mono text-sm font-black italic ${evo.scoreDiff > 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
-                                             {evo.scoreDiff > 0 ? '▲' : '▼'} {Math.abs(evo.scoreDiff).toLocaleString()}
+                                         <span className={`font-mono text-[10px] sm:text-xs md:text-sm font-black italic whitespace-nowrap ${evo.scoreDiff > 0 ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
+                                             <span className="sm:hidden">{evo.scoreDiff > 0 ? '▲' : '▼'}</span>
+                                             <span className="hidden sm:inline">{evo.scoreDiff > 0 ? '▲ ' : '▼ '}</span>
+                                             {Math.abs(evo.scoreDiff).toLocaleString()}
                                          </span>
-                                     ) : <span className="text-[var(--muted-foreground)]/50 text-xs">-</span>}
+                                     ) : <span className="text-[var(--muted-foreground)]/50 text-[10px] sm:text-xs">-</span>}
                                      
                                      {evo.rankDiff !== 999 && evo.rankDiff !== 0 && (
-                                         <span className="text-[9px] uppercase tracking-widest font-black text-[var(--muted-foreground)] italic">
+                                         <span className="text-[8px] sm:text-[9px] uppercase tracking-wider md:tracking-widest font-black text-[var(--muted-foreground)] italic hidden sm:block">
                                               {evo.rankDiff > 0 ? t('ranksAdvanced', { count: Math.abs(evo.rankDiff) }) : t('ranksLost', { count: Math.abs(evo.rankDiff) })}
                                          </span>
                                      )}
-                                     {evo.rankDiff === 999 && <span className="text-[var(--phenix-blue)] text-[9px] uppercase tracking-[0.2em] font-black italic animate-pulse">{t('newEntrant')}</span>}
+                                     {evo.rankDiff === 999 && <span className="text-[var(--phenix-blue)] text-[8px] sm:text-[9px] uppercase tracking-wider md:tracking-[0.2em] font-black italic animate-pulse hidden sm:block">{t('newEntrant')}</span>}
                                   </div>
-                              ) : <span className="text-[var(--muted-foreground)]/40 text-[10px] font-black tracking-widest italic">{t('stable')}</span>}
+                              ) : <span className="text-[var(--muted-foreground)]/40 text-[8px] sm:text-[10px] font-black tracking-widest italic">-</span>}
                           </td>
                        )}
                     </tr>
