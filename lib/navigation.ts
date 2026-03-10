@@ -15,7 +15,13 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       allianceDuel: 'Alliance Duel',
       report: 'Report',
       autoClicker: 'AutoClicker Setup',
-      automationApp: 'Evelyn'
+      automationApp: 'Evelyn',
+      day1: 'Monday',
+      day2: 'Tuesday',
+      day3: 'Wednesday',
+      day4: 'Thursday',
+      day5: 'Friday',
+      day6: 'Saturday'
     },
     fr: {
       gettingStarted: 'Commencer',
@@ -26,7 +32,13 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       allianceDuel: "Duel d'Alliance",
       report: 'Rapport',
       autoClicker: 'Config. AutoClicker',
-      automationApp: 'Evelyn'
+      automationApp: 'Evelyn',
+      day1: 'Lundi',
+      day2: 'Mardi',
+      day3: 'Mercredi',
+      day4: 'Jeudi',
+      day5: 'Vendredi',
+      day6: 'Samedi'
     },
     de: {
       gettingStarted: 'Erste Schritte',
@@ -37,7 +49,13 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       allianceDuel: 'Allianz-Duell',
       report: 'Bericht',
       autoClicker: 'AutoClicker Einr.',
-      automationApp: 'Evelyn'
+      automationApp: 'Evelyn',
+      day1: 'Montag',
+      day2: 'Dienstag',
+      day3: 'Mittwoch',
+      day4: 'Donnerstag',
+      day5: 'Freitag',
+      day6: 'Samstag'
     },
     it: {
       gettingStarted: 'Per Iniziare',
@@ -48,7 +66,13 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       allianceDuel: "Duello dell'Alleanza",
       report: 'Rapporto',
       autoClicker: 'Config. AutoClicker',
-      automationApp: 'Evelyn'
+      automationApp: 'Evelyn',
+      day1: 'Lunedì',
+      day2: 'Martedì',
+      day3: 'Mercoledì',
+      day4: 'Giovedì',
+      day5: 'Venerdì',
+      day6: 'Sabato'
     }
   };
 
@@ -90,6 +114,36 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
   ];
 
   const allianceDuelLinks = isAuthenticated ? [
+    {
+      title: t.day1,
+      slug: 'alliance-duel/day-1',
+      href: `/${locale}/docs/alliance-duel/day-1`
+    },
+    {
+      title: t.day2,
+      slug: 'alliance-duel/day-2',
+      href: `/${locale}/docs/alliance-duel/day-2`
+    },
+    {
+      title: t.day3,
+      slug: 'alliance-duel/day-3',
+      href: `/${locale}/docs/alliance-duel/day-3`
+    },
+    {
+      title: t.day4,
+      slug: 'alliance-duel/day-4',
+      href: `/${locale}/docs/alliance-duel/day-4`
+    },
+    {
+      title: t.day5,
+      slug: 'alliance-duel/day-5',
+      href: `/${locale}/docs/alliance-duel/day-5`
+    },
+    {
+      title: t.day6,
+      slug: 'alliance-duel/day-6',
+      href: `/${locale}/docs/alliance-duel/day-6`
+    },
     {
       title: t.report,
       slug: 'alliance-duel',
