@@ -20,6 +20,8 @@ Die richtige Vorbereitung ist der Schlüssel:
 2. **Sammeln**: Senden Sie Ihre Truppen am Sonntag vor dem Schlafengehen zu den höchststufigen Ressourcenknoten für Z-Münzen. Planen Sie ihre Rückkehr so, dass sie das Sammeln *nach* dem Montags-Reset beenden. Z-Münzen bringen 3x mehr Punkte pro 1000 Einheiten als normale Ressourcen! Wenn du am Montag nicht spielst, lass die Truppen nach Z-Münzen minen.
 3. **Gegenstände horten**: Sparen Sie Ihre Modifizierungs-Baupläne, Goldenen Schraubenschlüssel, Außenmodul-Zufallstruhen und taktischen Plugin-Truhen. Verwenden Sie sie nicht an einem anderen Tag! Wenn du im Event Totale Bewaffnung alle 3 Truhen öffnen willst, benutze im schlimmsten Fall nur ein paar Modifizierungs-Baupläne.
 4. **Treibstoff-Management**: Sparen Sie einige Treibstoffpakete, damit Sie genug haben, um Zombies zu jagen: Schneeleoparden und Frostflüche am Montag.
+5. **Heldin Mia**: Verbessern Sie die Heldin Mia, um mehr kostenlose Modifizierungs-Baupläne zu erhalten.
+6. **Totale Bewaffnung**: Der tägliche Abschluss belohnt Sie mit den Plugins und Außenmodulen, die für die Mod-Fahrzeug-Upgrades benötigt werden.
 
 ---
 

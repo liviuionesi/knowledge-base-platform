@@ -20,6 +20,8 @@ Une bonne préparation est la clé pour marquer un maximum de points dès le dé
 2. **Récolte** : Envoyez vos troupes vers les nœuds de ressources de plus haut niveau pour les Pieces d'or Z le dimanche, avant d'aller dormir. Calculez leur retour pour qu'elles terminent la récolte *après* la réinitialisation du lundi. Les Pieces d'or Z donnent 3 fois plus de points par 1000 unités que les ressources classiques ! Lorsque vous ne jouez pas le lundi, demandez aux troupes de miner des Pieces d'or Z.
 3. **Thésauriser** : Conservez vos Changement de plans, Clés en or, Coffres aléatoires de équipement externe et Coffres de Plugin Tactique. Ne les utilisez aucun autre jour ! Dans le pire des cas, lorsque vous voulez ouvrir les 3 coffres dans Armements globaux, n'utilisez que quelques Changement de plans.
 4. **Gestion du Carburant** : Gardez des packs de carburant pour avoir de quoi chasser les Zombies : Léopards des Neiges et Fléaux de Givre le lundi.
+5. **Héroïne Mia** : améliorez l'héroïne Mia pour obtenir plus de plans de modification gratuits.
+6. **Armements globaux** : le terminer chaque jour vous récompense avec les plugins et les modules extérieurs nécessaires aux améliorations des véhicules modifiés.
 
 ---
 

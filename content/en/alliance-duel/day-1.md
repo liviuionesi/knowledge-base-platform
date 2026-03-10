@@ -20,6 +20,8 @@ Proper preparation is the key to outscoring your opponents right as the Duel sta
 2. **Gathering**: Send your troops to the highest level resource nodes for Zents on Sunday, before going to sleep. Time their return so they finish gathering *after* the Monday reset. Zents give 3x more points per 1000 units than regular resources! When you don't play on Monday have the troops mine for Zent.
 3. **Hoard Items**: Save your Modification Blueprints, Golden Wrenches, Mod Vehicle Exterior Module Chests, and Tactical Plugin Chests. Do not use them in any other day! In the worst case, when you wnat to open all 3 chests in Full Preparedness, use only a few Modification Blueprints.
 4. **Fuel Management**: Save some fuel packages so you have enough to hunt Zombies: Snow Leopards and Frostbanes on Monday.
+5. **Hero Mia**: Upgrade the hero Mia to get more free modification blueprints.
+6. **Full Preparedness**: completing it every day rewards you the plugins and the exterior modules that are needed for the mod vehicle upgrades.
 
 ---
 

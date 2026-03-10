@@ -20,6 +20,8 @@ La giusta preparazione è la chiave per superare i tuoi avversari non appena ini
 2. **Raccolta**: Invia le tue truppe ai nodi di risorse di livello più alto per Moneta Z la domenica, prima di andare a dormire. Calcola il loro ritorno in modo che finiscano di raccogliere *dopo* il ripristino del lunedì. Le monete Z danno 3 volte più punti ogni 1000 unità rispetto alle risorse classiche! Quando non giochi il lunedì, fai in modo che le truppe estraggano Moneta Z.
 3. **Accumulare Oggetti**: Conserva i Disegni di Modifica, le Chiavi d'oro, i Forzieri casuali Moduli Esterni e i Forzieri dei Plugin Tattici. Non usarli in nessun altro giorno! Nel peggiore dei casi, quando vuoi aprire tutte e 3 le casse in Preparazione alla Guerra, usa solo pochi Disegni di Modifica.
 4. **Gestione del Carburante**: Tieni da parte dei pacchetti di carburante per avere abbastanza energia per cacciare gli Zombie: Leopardi delle Nevi e Flagelli del Gelo il lunedì.
+5. **Eroe Mia**: aggiorna l'eroe Mia per ottenere più disegni di modifica gratuiti.
+6. **Preparazione alla Guerra**: completarlo ogni giorno ti ricompensa con i plugin e i moduli esterni necessari per i potenziamenti dei veicoli modificati.
 
 ---
 
