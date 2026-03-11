@@ -45,16 +45,16 @@ Voici comment gagner des points le lundi, selon les tâches du jeu :
 | :--- | :--- |
 | Consommer 1 Changement de plan | 85 points, améliorer l'héroïne Mia donne 300 de plus chaque jour. |
 | Consommer 1 Clé en or | 21,3K points |
-| Ouvrir 1 Coffre de équipement externe | Niv.1 : 1,6K<br>Niv.2 : 4,9K<br>Niv.3 : 14,7K<br>Niv.4 : 44,2K<br>Niv.5 : 132,7K<br>Niv.6 : 398,2K<br>Niv.7 : 1,1M |
-| Ouvrir 1 Coffre de Plugin Tactique | Vert : 9,8K<br>Bleu : 40,9K<br>Violet : 163,9K<br>Orange : 819,5K |
+| Ouvrir 1 Coffre de équipement externe | Niv.1 : 1,6K<br/>Niv.2 : 4,9K<br/>Niv.3 : 14,7K<br/>Niv.4 : 44,2K<br/>Niv.5 : 132,7K<br/>Niv.6 : 398,2K<br/>Niv.7 : 1,1M |
+| Ouvrir 1 Coffre de Plugin Tactique | Vert : 9,8K<br/>Bleu : 40,9K<br/>Violet : 163,9K<br/>Orange : 819,5K |
 
 *Stratégie:* Gardez vos Clés en or et Changement de plans pour l'**Heure Dorée** lorsque les Armements globaux ont la tâche "Amélioration de véhicules modifiés" (généralement à 11h heure locale et 23h heure locale, pour la France). De cette façon, vous marquez pour les deux événements en même temps !
 
 ### 3.3 Chasse aux Zombies (Léopards des Neiges & Fléaux de Givre)
 | Tâche | Points |
 | :--- | :--- |
-| Tuer 1 Zombie (Léopard des Neiges) | Niv.1-10 : 2,1K<br>Niv.11-20 : 2,5K<br>Niv.21-30 : 2,9K<br>Niv.31-40 : 3,4K<br>Niv.41-50 : 4,2K<br>Niv.51-60 : 5,1K |
-| Lancer un ralliement et tuer un Fléau de Givre | Niv.1-10 : 4,2K<br>Niv.11-20 : 5,1K<br>Niv.21-30 : 5,9K<br>Niv.31-40 : 6,8K<br>Niv.41-50 : 8,5K<br>Niv.51-60 : 10,2K |
+| Tuer 1 Zombie (Léopard des Neiges) | Niv.1-10 : 2,1K<br/>Niv.11-20 : 2,5K<br/>Niv.21-30 : 2,9K<br/>Niv.31-40 : 3,4K<br/>Niv.41-50 : 4,2K<br/>Niv.51-60 : 5,1K |
+| Lancer un ralliement et tuer un Fléau de Givre | Niv.1-10 : 4,2K<br/>Niv.11-20 : 5,1K<br/>Niv.21-30 : 5,9K<br/>Niv.31-40 : 6,8K<br/>Niv.41-50 : 8,5K<br/>Niv.51-60 : 10,2K |
 
 *Stratégie:* Les Fléaux de Givre donnent exactement le double de points des zombies normaux pour le même niveau ! Donnez la priorité à la participation et au lancement de ralliements Fléaux de Givre avec les membres de votre alliance. Utilisez le carburant économisé.
 

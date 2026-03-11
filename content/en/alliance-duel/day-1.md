@@ -45,16 +45,16 @@ Here are the ways to earn points on Day 1, based on the in-game tasks:
 | :--- | :--- |
 | Consume 1 Modification Blueprint | 85 points, updating the hero Mia gives 300 more each day. |
 | Consume 1 Golden Wrench | 21.3K points |
-| Open 1 Mod Vehicle Exterior Module Chest | Level 1: 1.6K<br>Level 2: 4.9K<br>Level 3: 14.7K<br>Level 4: 44.2K<br>Level 5: 132.7K<br>Level 6: 398.2K<br>Level 7: 1.1M |
-| Open 1 Tactical Plugin Chest | Green: 9.8K<br>Blue: 40.9K<br>Purple: 163.9K<br>Orange: 819.5K |
+| Open 1 Mod Vehicle Exterior Module Chest | Level 1: 1.6K<br/>Level 2: 4.9K<br/>Level 3: 14.7K<br/>Level 4: 44.2K<br/>Level 5: 132.7K<br/>Level 6: 398.2K<br/>Level 7: 1.1M |
+| Open 1 Tactical Plugin Chest | Green: 9.8K<br/>Blue: 40.9K<br/>Purple: 163.9K<br/>Orange: 819.5K |
 
 *Strategy:* Save your wrenches and Modification Blueprints for the **Golden Hour** when Full Preparedness has the "Mod Vehicle Boost" task (usually at 11 AM local time, and 11 PM local time, for France). This way, you score for both events at the same time!
 
 ### 3.3 Zombie Hunting (Snow Leopards & Frostbanes)
 | Task | Points |
 | :--- | :--- |
-| Kill 1 Zombie (Snow Leopard) | Lv.1-10: 2.1K<br>Lv.11-20: 2.5K<br>Lv.21-30: 2.9K<br>Lv.31-40: 3.4K<br>Lv.41-50: 4.2K<br>Lv.51-60: 5.1K |
-| Start a team-up and kill a Bane Zombie (Frostbane) | Lv.1-10: 4.2K<br>Lv.11-20: 5.1K<br>Lv.21-30: 5.9K<br>Lv.31-40: 6.8K<br>Lv.41-50: 8.5K<br>Lv.51-60: 10.2K |
+| Kill 1 Zombie (Snow Leopard) | Lv.1-10: 2.1K<br/>Lv.11-20: 2.5K<br/>Lv.21-30: 2.9K<br/>Lv.31-40: 3.4K<br/>Lv.41-50: 4.2K<br/>Lv.51-60: 5.1K |
+| Start a team-up and kill a Bane Zombie (Frostbane) | Lv.1-10: 4.2K<br/>Lv.11-20: 5.1K<br/>Lv.21-30: 5.9K<br/>Lv.31-40: 6.8K<br/>Lv.41-50: 8.5K<br/>Lv.51-60: 10.2K |
 
 *Strategy:* Bane Zombies give exactly double the points of normal zombies for the same level! Prioritize joining and starting Bane Zombie rallies with your alliance members. Use your saved fuel.
 

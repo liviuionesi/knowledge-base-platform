@@ -30,7 +30,7 @@ export default function middleware(request: NextRequest) {
   // Rules = daily-guide
   // Alliance Report = alliance-duel
   const isRulesPage = pathname.includes('/docs/daily-guide');
-  const isReportPage = pathname.includes('/alliance-duel');
+  const isReportPage = pathname.includes('/alliance-duel') && !pathname.includes('/day-');
   const isProtectedPage = isRulesPage || isReportPage;
 
   // Logic: 

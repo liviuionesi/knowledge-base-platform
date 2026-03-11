@@ -45,16 +45,16 @@ Ecco i modi per guadagnare punti il lunedì:
 | :--- | :--- |
 | Consuma 1 Disegno di Modifica | 85 punti, aggiornare l'eroe Mia ne dà 300 in più ogni giorno. |
 | Consuma 1 Chiave d'oro | 21,3K punti |
-| Apri 1 Forziere dei Moduli Esterni | Liv.1: 1,6K<br>Liv.2: 4,9K<br>Liv.3: 14,7K<br>Liv.4: 44,2K<br>Liv.5: 132,7K<br>Liv.6: 398,2K<br>Liv.7: 1,1M |
-| Apri 1 Forziere Plugin Tattico | Verde: 9,8K<br>Blu: 40,9K<br>Viola: 163,9K<br>Arancione: 819,5K |
+| Apri 1 Forziere dei Moduli Esterni | Liv.1: 1,6K<br/>Liv.2: 4,9K<br/>Liv.3: 14,7K<br/>Liv.4: 44,2K<br/>Liv.5: 132,7K<br/>Liv.6: 398,2K<br/>Liv.7: 1,1M |
+| Apri 1 Forziere Plugin Tattico | Verde: 9,8K<br/>Blu: 40,9K<br/>Viola: 163,9K<br/>Arancione: 819,5K |
 
 *Strategia:* Conserva Chiavi d'oro e Disegni di Modifica per l'**Ora d'Oro** quando la Preparazione alla Guerra ha il compito "Potenziamento di veicoli modificati" (di solito alle 11:00 ora locale e alle 23:00 ora locale, per la Francia). In questo modo, fai punti per entrambi gli eventi allo stesso tempo!
 
 ### 3.3 Caccia agli Zombie (Leopardi delle Nevi & Flagelli del Gelo)
 | Attività | Punti |
 | :--- | :--- |
-| Uccidi 1 Zombie (Leopardo delle Nevi) | Liv.1-10: 2,1K<br>Liv.11-20: 2,5K<br>Liv.21-30: 2,9K<br>Liv.31-40: 3,4K<br>Liv.41-50: 4,2K<br>Liv.51-60: 5,1K |
-| Inizia un attacco di squadra e uccidi un Flagello del Gelo | Liv.1-10: 4,2K<br>Liv.11-20: 5,1K<br>Liv.21-30: 5,9K<br>Liv.31-40: 6,8K<br>Liv.41-50: 8,5K<br>Liv.51-60: 10,2K |
+| Uccidi 1 Zombie (Leopardo delle Nevi) | Liv.1-10: 2,1K<br/>Liv.11-20: 2,5K<br/>Liv.21-30: 2,9K<br/>Liv.31-40: 3,4K<br/>Liv.41-50: 4,2K<br/>Liv.51-60: 5,1K |
+| Inizia un attacco di squadra e uccidi un Flagello del Gelo | Liv.1-10: 4,2K<br/>Liv.11-20: 5,1K<br/>Liv.21-30: 5,9K<br/>Liv.31-40: 6,8K<br/>Liv.41-50: 8,5K<br/>Liv.51-60: 10,2K |
 
 *Strategia:* I Flagelli del Gelo danno esattamente il doppio dei punti degli zombi normali per lo stesso livello! Dai la priorità all'unione e all'inizio dei raduni Flagello del Gelo con i membri della tua alleanza. Usa il carburante risparmiato.
 

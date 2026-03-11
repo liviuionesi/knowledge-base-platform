@@ -45,16 +45,16 @@ Hier sind die Möglichkeiten, am Montag Punkte zu sammeln:
 | :--- | :--- |
 | 1 Modifizierungs-Bauplan verbrauchen | 85 Punkte, die Verbesserung der Heldin Mia bringt jeden Tag 300 mehr. |
 | 1 Goldenen Schraubenschlüssel verbrauchen | 21,3K Punkte |
-| 1 Außenmodul-Zufallstruhe öffnen | Lvl.1: 1,6K<br>Lvl.2: 4,9K<br>Lvl.3: 14,7K<br>Lvl.4: 44,2K<br>Lvl.5: 132,7K<br>Lvl.6: 398,2K<br>Lvl.7: 1,1M |
-| 1 Taktische Plugin-Truhe öffnen | Grün: 9,8K<br>Blau: 40,9K<br>Lila: 163,9K<br>Orange: 819,5K |
+| 1 Außenmodul-Zufallstruhe öffnen | Lvl.1: 1,6K<br/>Lvl.2: 4,9K<br/>Lvl.3: 14,7K<br/>Lvl.4: 44,2K<br/>Lvl.5: 132,7K<br/>Lvl.6: 398,2K<br/>Lvl.7: 1,1M |
+| 1 Taktische Plugin-Truhe öffnen | Grün: 9,8K<br/>Blau: 40,9K<br/>Lila: 163,9K<br/>Orange: 819,5K |
 
 *Strategie:* Heben Sie Ihre Schraubenschlüssel und Modifizierungs-Baupläne für die **Goldene Stunde** auf, wenn in der Totalen Bewaffnung die Aufgabe "Modifizierungsfahrzeug-Verstärkung" aktiv ist (gewöhnlich um 11 Uhr Lokale Zeit und 23 Uhr Lokale Zeit für Frankreich). Auf diese Weise scort man für beide Events gleichzeitig!
 
 ### 3.3 Zombiejagd (Schneeleoparden & Frostflüche)
 | Aufgabe | Punkte |
 | :--- | :--- |
-| 1 Zombie töten (Schneeleopard) | Lvl.1-10: 2,1K<br>Lvl.11-20: 2,5K<br>Lvl.21-30: 2,9K<br>Lvl.31-40: 3,4K<br>Lvl.41-50: 4,2K<br>Lvl.51-60: 5,1K |
-| Starten Sie einen Team-Angriff und töten Sie einen Frostfluch | Lvl.1-10: 4,2K<br>Lvl.11-20: 5,1K<br>Lvl.21-30: 5,9K<br>Lvl.31-40: 6,8K<br>Lvl.41-50: 8,5K<br>Lvl.51-60: 10,2K |
+| 1 Zombie töten (Schneeleopard) | Lvl.1-10: 2,1K<br/>Lvl.11-20: 2,5K<br/>Lvl.21-30: 2,9K<br/>Lvl.31-40: 3,4K<br/>Lvl.41-50: 4,2K<br/>Lvl.51-60: 5,1K |
+| Starten Sie einen Team-Angriff und töten Sie einen Frostfluch | Lvl.1-10: 4,2K<br/>Lvl.11-20: 5,1K<br/>Lvl.21-30: 5,9K<br/>Lvl.31-40: 6,8K<br/>Lvl.41-50: 8,5K<br/>Lvl.51-60: 10,2K |
 
 *Strategie:* Frostflüche geben genau doppelt so viele Punkte wie normale Zombies für das gleiche Level! Priorisiere den Beitritt und das Starten von Frostfluch-Rallyes mit deinen Allianzmitgliedern. Verwende deinen gespeicherten Treibstoff.
 

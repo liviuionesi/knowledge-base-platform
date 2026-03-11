@@ -3,22 +3,24 @@ title: Willkommen
 description: Willkommen bei der Phenix Allianz!
 ---
 
+![Phenix Allianz Vogel](/login/phenix-flying.png)
 # Willkommen bei der <span className="text-orange">Phenix Allianz!</span>
 Dies ist die offizielle Website der **Phenix Allianz** im Spiel **Last Z: Survival Shooter**.
 
 ## Was ist diese Website?
 
-Diese Website enthält **umfassende Anleitungen**, **Strategien** und Informationen, die neuen und alten Mitgliedern helfen, im Spiel besser zu werden, die **Allianzziele** zu erreichen und vor allem, <span className="text-orange">unsere Regeln zu respektieren</span>.
+Diese Website enthält **umfassende Anleitungen**, **Strategien** und Informationen, die neuen und alten Mitgliedern helfen, im Spiel besser zu werden, die **Allianzziele** zu erreichen und vor allem, **unsere Regeln zu respektieren**.
 
-## Erste Schritte
-
-Navigieren Sie durch die Bereiche über die Seitenleiste links. Jeder Bereich enthält detaillierte Informationen zu verschiedenen Aspekten des Spiels.
-
-### Hauptfunktionen
-
-- **Helden-Datenbank**: Vollständige Informationen über alle Helden
-- **Taktik-Guide**: Strategien für Events wie Hauptstadt-Kampf
-- **Allianz-Tipps**: Best Practices für die Zusammenarbeit
+### Öffentliche Schnelleinsprung-Links
+- [Helden aufwerten](/de/docs/heroes/upgrading-heroes)
+- [Totale Bewaffnung](/de/docs/full-preparedness)
+Greifen Sie ohne Anmeldung auf unsere täglichen Allianz-Duell-Strategien zu:
+- [Tag 1: Montag](/de/docs/alliance-duel/day-1)
+- [Tag 2: Dienstag](/de/docs/alliance-duel/day-2)
+- [Tag 3: Mittwoch](/de/docs/alliance-duel/day-3)
+- [Tag 4: Donnerstag](/de/docs/alliance-duel/day-4)
+- [Tag 5: Freitag](/de/docs/alliance-duel/day-5)
+- [Tag 6: Samstag](/de/docs/alliance-duel/day-6)
 
 ## Brauchen Sie Hilfe? Haben Sie Vorschläge? Wollen Sie mitmachen?
 
