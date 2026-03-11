@@ -104,16 +104,16 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
         title: t.automationApp,
         slug: 'automation-app',
         href: `/${locale}/docs/automation-app`
+      },
+      {
+        title: t.autoClicker,
+        slug: 'autoclicker',
+        href: `/${locale}/docs/autoclicker`
       }
     ] : []),
-    {
-      title: t.autoClicker,
-      slug: 'autoclicker',
-      href: `/${locale}/docs/autoclicker`
-    }
   ];
 
-  const allianceDuelLinks = isAuthenticated ? [
+  const allianceDuelLinks = [
     {
       title: t.day1,
       slug: 'alliance-duel/day-1',
@@ -144,12 +144,14 @@ export function getNavigation(locale: string, isAuthenticated: boolean = false):
       slug: 'alliance-duel/day-6',
       href: `/${locale}/docs/alliance-duel/day-6`
     },
-    {
-      title: t.report,
-      slug: 'alliance-duel',
-      href: `/${locale}/alliance-duel`
-    }
-  ] : [];
+    ...(isAuthenticated ? [
+      {
+        title: t.report,
+        slug: 'alliance-duel',
+        href: `/${locale}/alliance-duel`
+      }
+    ] : [])
+  ];
 
   const navGroups: NavGroup[] = [
     {
