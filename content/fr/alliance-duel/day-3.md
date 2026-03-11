@@ -30,13 +30,17 @@ Une bonne préparation est la clé pour marquer un maximum de points :
 Voici comment gagner des points le mercredi :
 
 ### 3.1 Recherche de la technologie
-- **Augmenter la puissance technologique de 10 points :** 4 points
-- **Utiliser un Accélérateur de Recherche de 1 minute :** 98 points
+| Tâche | Points |
+| :--- | :--- |
+| Augmenter la puissance technologique de 10 points | 4 points |
+| Utiliser un Accélérateur de Recherche de 1 minute | 98 points |
 
 *Stratégie :* N'utilisez vos accélérateurs de recherche qu'après avoir obtenu toutes les aides de l'alliance. Vous obtenez des points à la fois pour les minutes d'accélération consommées et pour la Puissance Technologique réelle gagnée en terminant le nœud de recherche. Essayez d'obtenir le poste de Secrétaire aux Sciences à la capitale avant d'utiliser les accélérateurs. Appliquez plus souvent pendant la journée.
 
 ### 3.2 Écussons
-- **Consommer 1 Écusson :** 131 points
+| Tâche | Points |
+| :--- | :--- |
+| Consommer 1 Écusson | 131 points |
 
 *Stratégie :* Dépensez tous les écussons que vous avez économisés pour terminer la Reconnaissance de l'Alliance, l'Entraînement de Héros, les Troupes d'élite et bien d'autres.
 La Reconnaissance de l'Alliance est utilisée pour gagner plus de points dans le Duel d'Alliance et il est obligatoire de la terminer si vous voulez être au sommet.
@@ -44,12 +48,16 @@ L'Entraînement de Héros améliore la puissance de vos Héros.
 Les Troupes d'élite et tous les autres arbres de recherche qui nécessitent des écussons se concentrent sur les troupes.
 
 ### 3.3 Échanges interurbains
-- **Effectuer 1 [Échanges interurbains] orange :** 245,8K points
+| Tâche | Points |
+| :--- | :--- |
+| Effectuer 1 [Échanges interurbains] orange | 245,8K points |
 
 *Stratégie :* C'est une énorme source de points. Privilégiez toujours l'envoi d'Échanges interurbains Oranges chaque jour de la semaine, particulièrement le mercredi et le samedi.
 
 ### 3.4 Achats en Jeu
-- **Acheter des packs contenant des Diamants [1 Diamant] :** 30 points
+| Tâche | Points |
+| :--- | :--- |
+| Acheter des packs contenant des Diamants [1 Diamant] | 30 points |
 
 ---
 

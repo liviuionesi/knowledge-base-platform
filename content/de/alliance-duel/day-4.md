@@ -28,25 +28,31 @@ Die richtige Vorbereitung ist der Schlüssel zum Sieg am Donnerstag:
 Hier sind die Möglichkeiten, am Donnerstag Punkte zu sammeln:
 
 ### 3.1 Helden-Upgrades & Rekrutierung
-- **1 orangefarbenes Heldenfragment verbrauchen:** 16,3K Punkte
-- **1 lila Heldenfragment verbrauchen:** 5,7K Punkte
-- **1 blaues Heldenfragment verbrauchen:** 1,6K Punkte
-- **1 Premium-Rekrutierung durchführen:** 2,1K Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 orangefarbenes Heldenfragment verbrauchen | 16,3K Punkte |
+| 1 lila Heldenfragment verbrauchen | 5,7K Punkte |
+| 1 blaues Heldenfragment verbrauchen | 1,6K Punkte |
+| 1 Premium-Rekrutierung durchführen | 2,1K Punkte |
 
 *Strategie:* Hier verpulvern Sie Ihre Premium-Rekrutierungstickets. Die Verwendung von Tickets bringt Ihnen natürlich Fragmente, die Sie dann verbrauchen, um Ihre Helden zu verbessern – ein doppelter Punktegewinn. Schauen Sie unbedingt in der Ehrenhalle nach Helden, die ihre eigenen einzigartigen Fragmente haben. Verwenden Sie diese zuerst und kombinieren Sie sie dann mit universellen Fragmenten, um Ihre lila und blauen Helden zu verbessern.
 Versuchen Sie, mindestens einen orangefarbenen Helden auf die nächste Sternenstufe zu bringen, um auch die Fertigkeitsbücher für ihn zu verwenden und so mehr Punkte zu erzielen.
 
 ### 3.2 Ausrüstung & Verstärkungen
-- **1 orangefarbene Ausrüstung als Beförderungsmaterial verbrauchen:** 983,4K Punkte
-- **1 exklusives Ausrüstungsfragment ausgeben:** 16,3K Punkte
-- **1 Leistungs-Kern verbrauchen:** 1,7K Punkte
-- **10 Verstärkungslegierungen verbrauchen:** 9 Punkte
-- **1 orangefarbenes Fertigkeitsbuch verbrauchen:** 32 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 orangefarbene Ausrüstung als Beförderungsmaterial verbrauchen | 983,4K Punkte |
+| 1 exklusives Ausrüstungsfragment ausgeben | 16,3K Punkte |
+| 1 Leistungs-Kern verbrauchen | 1,7K Punkte |
+| 10 Verstärkungslegierungen verbrauchen | 9 Punkte |
+| 1 orangefarbenes Fertigkeitsbuch verbrauchen | 32 Punkte |
 
 *Strategie:* Die Förderung von Ausrüstung mit orangefarbener Ausrüstung als Material bringt absolut massive, fast 1 Million Punkte pro Anwendung. Warten Sie bis Donnerstag, um *all* Ihre Ausrüstungsverstärkungen durchzuführen.
 
 ### 3.3 Premium
-- **Pakete kaufen, die Diamanten enthalten [1 Diamant]:** 30 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Pakete kaufen, die Diamanten enthalten [1 Diamant] | 30 Punkte |
 
 ---
 

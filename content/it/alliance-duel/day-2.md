@@ -30,16 +30,20 @@ La giusta preparazione è la chiave per superare i tuoi avversari:
 Ecco i modi per guadagnare punti il martedì:
 
 ### 3.1 Potenziamento del Rifugio e Costruzione
-- **Aumentare il potere della struttura di 10 punti:** 4 punti
-- **Usa acceleratore di costruzione da 1 minuto:** 131 punti
+| Attività | Punti |
+| :--- | :--- |
+| Aumentare il potere della struttura di 10 punti | 4 punti |
+| Usa acceleratore di costruzione da 1 minuto | 131 punti |
 
 *Strategia:* Aspetta l'Aiuto dell'Alleanza prima di usare *qualsiasi* acceleratore! Una volta ottenuti gli aiuti massimi (o se sei vicino alla scadenza dell'Ora d'Oro), usa i tuoi acceleratori di costruzione. Questa attività ricompensa sia il potere ottenuto finendo un edificio sia i minuti effettivi di acceleratori utilizzati per arrivarci.
 Candidati spesso il martedì per la posizione di Segretario alla Costruzione nella capitale per avere una velocità di costruzione maggiore.
 
 ### 3.2 Reclutamento di Rifugiati
-- **Recluta 1 rifugiato Arancione:** 131,1K punti
-- **Recluta 1 rifugiato Viola:** 32,7K punti
-- **Recluta 1 rifugiato Blu:** 6,5K punti
+| Attività | Punti |
+| :--- | :--- |
+| Recluta 1 rifugiato Arancione | 131,1K punti |
+| Recluta 1 rifugiato Viola | 32,7K punti |
+| Recluta 1 rifugiato Blu | 6,5K punti |
 
 *Strategia:* Usa semplicemente tutti i tuoi ticket rifugiato risparmiati solo oggi! Di solito usiamo l'opzione da 500 Ticket, raramente usiamo i 2000 o 5000 in una volta sola. I rifugiati che portano il maggior numero di benefici nel gioco sono (maggiore importanza per prima):
 1. Istruttori di assalitori, tiratori o cavallerizzi: riducono i tempi di addestramento.
@@ -49,12 +53,16 @@ Candidati spesso il martedì per la posizione di Segretario alla Costruzione nel
 5. Il resto è meno importante.
 
 ### 3.3 Missioni Taglia
-- **Esegui 1 arancione [Missioni Taglia]:** 196,6K punti x 8
+| Attività | Punti |
+| :--- | :--- |
+| Esegui 1 arancione [Missioni Taglia] | 196,6K punti x 8 |
 
 *Strategia:* Concentra i tuoi Ticket di aggiornamento sull'ottenimento di Missioni Taglia Arancioni. Quando ne ottieni una, invia la squadra, quindi usa di nuovo i ticket di aggiornamento. O i diamanti se finisci i ticket. Il sabato questo deve essere fatto di nuovo.
 
 ### 3.4 Opzioni Premium
-- **Acquista pacchetti contenenti Diamanti [1 Diamante]:** 30 punti
+| Attività | Punti |
+| :--- | :--- |
+| Acquista pacchetti contenenti Diamanti [1 Diamante] | 30 punti |
 
 ---
 

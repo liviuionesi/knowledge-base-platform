@@ -30,30 +30,36 @@ Proper preparation is the key to outscoring your opponents:
 Here are the ways to earn points on Friday:
 
 ### 3.1 Troop Training & Promotion
-- **Train and assemble 1 Lv.10 Unit:** 1.0K points
-- **Train and assemble 1 Lv.9 Unit:** 983 points
-- **Train and assemble 1 Lv.8 Unit:** 898 points
-- **Train and assemble 1 Lv.7 Unit:** 787 points
-- **Train and assemble 1 Lv.6 Unit:** 684 points
-- **Train and assemble 1 Lv.5 Unit:** 598 points
-- **Train and assemble 1 Lv.4 Unit:** 496 points
-- **Train and assemble 1 Lv.3 Unit:** 393 points
-- **Train and assemble 1 Lv.2 Unit:** 299 points
-- **Train and assemble 1 Lv.1 Unit:** 196 points
-- **Promote Units:** + corresponding points
+| Task | Points |
+| :--- | :--- |
+| Train and assemble 1 Lv.10 Unit | 1.0K points |
+| Train and assemble 1 Lv.9 Unit | 983 points |
+| Train and assemble 1 Lv.8 Unit | 898 points |
+| Train and assemble 1 Lv.7 Unit | 787 points |
+| Train and assemble 1 Lv.6 Unit | 684 points |
+| Train and assemble 1 Lv.5 Unit | 598 points |
+| Train and assemble 1 Lv.4 Unit | 496 points |
+| Train and assemble 1 Lv.3 Unit | 393 points |
+| Train and assemble 1 Lv.2 Unit | 299 points |
+| Train and assemble 1 Lv.1 Unit | 196 points |
+| Promote Units | + corresponding points |
 
 *Strategy:* Promoting a massive stack of "one-level-below" troops is the most efficient way to hit your point goals. Using **Training Speedups** today is highly recommended as every minute spent counts toward your score.
 
 ### 3.2 Speedups & Resources
-- **Use total of 1 min of Speedups:** 131 points
-- **Increase Structure power by 10 points:** 4 points
-- **Increase Tech Power by 10 Points:** 4 points
-- **Buy packs containing Diamonds [1 Diamonds]:** 30 points
+| Task | Points |
+| :--- | :--- |
+| Use total of 1 min of Speedups | 131 points |
+| Increase Structure power by 10 points | 4 points |
+| Increase Tech Power by 10 Points | 4 points |
+| Buy packs containing Diamonds [1 Diamonds] | 30 points |
 
 *Strategy:* Friday is the best day to use any banked **Universal Speedups**. Whether you are building, researching, or training, the speedup usage itself is a major point source.
 
 ### 3.3 Radar Events
-- **Complete 1 radar events:** 16.3K points
+| Task | Points |
+| :--- | :--- |
+| Complete 1 radar events | 16.3K points |
 
 *Strategy:* Simply clear your radar throughout the day. If you have the hero **Laura** upgraded, those extra 20 events will provide a significant boost without consuming any resources.
 

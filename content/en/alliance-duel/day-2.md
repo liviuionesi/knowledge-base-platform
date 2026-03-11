@@ -30,16 +30,20 @@ Proper preparation is the key to outscoring your opponents:
 Here are the ways to earn points on Tuesday:
 
 ### 3.1 Shelter Upgrades & Construction
-- **Increase Structure power by 10 points:** 4 points
-- **Use 1-min Construction Speedup:** 131 points
+| Task | Points |
+| :--- | :--- |
+| Increase Structure power by 10 points | 4 points |
+| Use 1-min Construction Speedup | 131 points |
 
 *Strategy:* Wait for Alliance Help before using *any* speedups! Once you have max helps (or are close to the Golden Hour deadline), use your construction speedups. This task rewards both the power gained from finishing a building and the actual minutes of speedups used to get there. 
 Apply often on Tuesday for the position of Secretary of Construction at the capital to have faster construction speed.
 
 ### 3.2 Refugee Recruitment
-- **Recruit 1 Orange refugee:** 131.1K points
-- **Recruit 1 Purple refugee:** 32.7K points
-- **Recruit 1 Blue refugee:** 6.5K points
+| Task | Points |
+| :--- | :--- |
+| Recruit 1 Orange refugee | 131.1K points |
+| Recruit 1 Purple refugee | 32.7K points |
+| Recruit 1 Blue refugee | 6.5K points |
 
 *Strategy:* Just use all your saved refugee tickets today only! We usually use the 500 Tickets option, rarely do we use the 2000 or 5000 at once. The refugees that bring the most nebefits in the game are (max importance is first):
 1. Assaulter, Shooter, or Rider Instructors - these reduce the training time.
@@ -49,12 +53,16 @@ Apply often on Tuesday for the position of Secretary of Construction at the capi
 5. The rest are less important. 
 
 ### 3.3 Bounty Missions
-- **Perform 1 orange [Bounty Missions]:** 196.6K points x 8 
+| Task | Points |
+| :--- | :--- |
+| Perform 1 orange [Bounty Missions] | 196.6K points x 8 |
 
 *Strategy:* Focus your refresh Tickets on obtaining Orange Bounty Missions. When you get one, send the team for it, then use refresh tickets again. Or diamonds if you run out of the tickets. On Saturday this must be done again.   
 
 ### 3.4 Premium Options
-- **Buy packs containing Diamonds [1 Diamond]:** 30 points
+| Task | Points |
+| :--- | :--- |
+| Buy packs containing Diamonds [1 Diamond] | 30 points |
 
 ---
 

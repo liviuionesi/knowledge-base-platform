@@ -29,25 +29,31 @@ Proper preparation is the key to winning Thursday:
 Here are the ways to earn points on Thursday:
 
 ### 3.1 Hero Upgrades & Recruitment
-- **Consume 1 Orange Hero Fragments:** 16.3K points
-- **Consume 1 Purple hero fragments:** 5.7K points
-- **Consume 1 Blue hero fragments:** 1.6K points
-- **Perform 1 Prime Recruits:** 2.1K points
+| Task | Points |
+| :--- | :--- |
+| Consume 1 Orange Hero Fragments | 16.3K points |
+| Consume 1 Purple hero fragments | 5.7K points |
+| Consume 1 Blue hero fragments | 1.6K points |
+| Perform 1 Prime Recruits | 2.1K points |
 
 *Strategy:* This is where you blow your Prime Recruitment tickets. Using tickets will naturally give you fragments, which you then consume to upgrade your heroes, double-dipping on points. Make sure to check the Hall of Honor for heroes that have their own unique fragments. Use those first, then combine them with universal fragments to upgrade your purple and blue heroes.
 Try to get at least one Orange hero at the next star level, to use the skill books too on it, for more points.
 
 ### 3.2 Equipment & Enhancements
-- **Consume 1 Orange Equipment as Promotion material:** 983.4K points
-- **Spend 1 Exclusive Equipment Fragments:** 16.3K points
-- **Consume 1 Power Cores:** 1.7K points
-- **Consume 10 Enhancement Alloys:** 9 points
-- **Consume 1 Orange Skill Books:** 32 points
+| Task | Points |
+| :--- | :--- |
+| Consume 1 Orange Equipment as Promotion material | 983.4K points |
+| Spend 1 Exclusive Equipment Fragments | 16.3K points |
+| Consume 1 Power Cores | 1.7K points |
+| Consume 10 Enhancement Alloys | 9 points |
+| Consume 1 Orange Skill Books | 32 points |
 
 *Strategy:* Promoting equipment using Orange Equipment as material drops an absolutely massive near-1-million points per use. Wait for Thursday to do *all* of your gear enhancements.
 
 ### 3.3 Premium Options
-- **Buy packs containing Diamonds [1 Diamond]:** 30 points
+| Task | Points |
+| :--- | :--- |
+| Buy packs containing Diamonds [1 Diamond] | 30 points |
 
 ---
 

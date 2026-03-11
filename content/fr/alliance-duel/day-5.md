@@ -30,30 +30,36 @@ Une bonne préparation est la clé pour surpasser vos adversaires :
 Voici les façons de gagner des points le vendredi :
 
 ### 3.1 Entraînement & Promotion des troupes
-- **Entraîner et assembler 1 unité de Niv.10 :** 1.0K points
-- **Entraîner et assembler 1 unité de Niv.9 :** 983 points
-- **Entraîner et assembler 1 unité de Niv.8 :** 898 points
-- **Entraîner et assembler 1 unité de Niv.7 :** 787 points
-- **Entraîner et assembler 1 unité de Niv.6 :** 684 points
-- **Entraîner et assembler 1 unité de Niv.5 :** 598 points
-- **Entraîner et assembler 1 unité de Niv.4 :** 496 points
-- **Entraîner et assembler 1 unité de Niv.3 :** 393 points
-- **Entraîner et assembler 1 unité de Niv.2 :** 299 points
-- **Entraîner et assembler 1 unité de Niv.1 :** 196 points
-- **Promouvoir des unités :** + points correspondants
+| Tâche | Points |
+| :--- | :--- |
+| Entraîner et assembler 1 unité de Niv.10 | 1.0K points |
+| Entraîner et assembler 1 unité de Niv.9 | 983 points |
+| Entraîner et assembler 1 unité de Niv.8 | 898 points |
+| Entraîner et assembler 1 unité de Niv.7 | 787 points |
+| Entraîner et assembler 1 unité de Niv.6 | 684 points |
+| Entraîner et assembler 1 unité de Niv.5 | 598 points |
+| Entraîner et assembler 1 unité de Niv.4 | 496 points |
+| Entraîner et assembler 1 unité de Niv.3 | 393 points |
+| Entraîner et assembler 1 unité de Niv.2 | 299 points |
+| Entraîner et assembler 1 unité de Niv.1 | 196 points |
+| Promouvoir des unités | + points correspondants |
 
 *Stratégie :* Promouvoir une pile massive de troupes "un niveau en dessous" est le moyen le plus efficace d'atteindre vos objectifs de points. L'utilisation d'**Accélérateurs d'entraînement** aujourd'hui est fortement recommandée car chaque minute passée compte pour votre score.
 
 ### 3.2 Accélérateurs & Ressources
-- **Utiliser un total de 1 min d'accélérateurs :** 131 points
-- **Augmenter la puissance de structure de 10 points :** 4 points
-- **Augmenter la puissance technologique de 10 points :** 4 points
-- **Acheter des packs contenant des Diamants [1 Diamant] :** 30 points
+| Tâche | Points |
+| :--- | :--- |
+| Utiliser un total de 1 min d'accélérateurs | 131 points |
+| Augmenter la puissance de structure de 10 points | 4 points |
+| Augmenter la puissance technologique de 10 points | 4 points |
+| Acheter des packs contenant des Diamants [1 Diamant] | 30 points |
 
 *Stratégie :* Le vendredi est le meilleur jour pour utiliser tous les **Accélérateurs Universels** mis en réserve. Que vous construisiez, recherchiez ou entraîniez, l'utilisation de l'accélérateur en soi est une source majeure de points.
 
 ### 3.3 Événements Radar
-- **Terminer 1 événement radar :** 16,3K points
+| Tâche | Points |
+| :--- | :--- |
+| Terminer 1 événement radar | 16,3K points |
 
 *Stratégie :* Nettoyez simplement votre radar tout au long de la journée. Si vous avez amélioré l'héroïne **Laura**, ces 20 événements supplémentaires vous apporteront un coup de pouce significatif sans consommer de ressources.
 

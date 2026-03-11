@@ -30,13 +30,17 @@ Die richtige Vorbereitung ist der Schlüssel:
 Hier sind die Möglichkeiten, am Mittwoch Punkte zu sammeln:
 
 ### 3.1 Technologie-Forschung
-- **Tech-Kraft um 10 Punkte erhöhen:** 4 Punkte
-- **Einen 1-Minuten-Forschungsbeschleuniger verwenden:** 98 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Tech-Kraft um 10 Punkte erhöhen | 4 Punkte |
+| Einen 1-Minuten-Forschungsbeschleuniger verwenden | 98 Punkte |
 
 *Strategie:* Verwenden Sie Ihre Forschungsbeschleuniger erst, nachdem Sie alle Allianz-Hilfen erhalten haben. Sie erhalten Punkte sowohl für die verbrauchten Beschleunigungsminuten als auch für die tatsächliche Tech-Kraft, die Sie beim Abschluss des Forschungsknotens gewinnen. Versuchen Sie, die Position des Wissenschaftsministers in der Hauptstadt zu bekommen, bevor Sie die Beschleuniger verwenden. Wenden Sie sie öfter am Tag an.
 
 ### 3.2 Abzeichen
-- **1 Abzeichen verbrauchen:** 131 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 Abzeichen verbrauchen | 131 Punkte |
 
 *Strategie:* Geben Sie alle Abzeichen aus, die Sie gespart haben, um die Allianz-Anerkennung, das Helden-Training, Elitetruppen und vieles mehr abzuschließen.
 Die Allianz-Anerkennung dient dazu, im Allianz-Duell mehr Punkte zu sammeln, und es ist ein Muss, sie abzuschließen, wenn man ganz oben mitspielen will.
@@ -44,12 +48,16 @@ Das Helden-Training verbessert die Kraft Ihrer Helden.
 Elitetruppen und alle anderen Forschungsbäume, die Abzeichen erfordern, konzentrieren sich auf die Truppen.
 
 ### 3.3 Intercity-Handel
-- **Führen Sie 1 orangefarbene [Intercity-Handel] aus:** 245,8K Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Führen Sie 1 orangefarbene [Intercity-Handel] aus | 245,8K Punkte |
 
 *Strategie:* Dies ist ein massiver Punktelieferant. Bevorzugen Sie an jedem Tag der Woche das Absenden von orangefarbenem Intercity-Handel, insbesondere am Mittwoch und Samstag.
 
 ### 3.4 Premium
-- **Pakete kaufen, die Diamanten enthalten [1 Diamant]:** 30 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Pakete kaufen, die Diamanten enthalten [1 Diamant] | 30 Punkte |
 
 ---
 

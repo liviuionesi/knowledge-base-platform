@@ -30,13 +30,17 @@ La giusta preparazione è la chiave per superare i tuoi avversari:
 Ecco i modi per guadagnare punti il mercoledì:
 
 ### 3.1 Ricerca Tecnologica
-- **Aumentare il potere tecnologico di 10 punti:** 4 punti
-- **Usa un Acceleratore Ricerca da 1 min:** 98 punti
+| Attività | Punti |
+| :--- | :--- |
+| Aumentare il potere tecnologico di 10 punti | 4 punti |
+| Usa un Acceleratore Ricerca da 1 min | 98 punti |
 
 *Strategia:* Usa i tuoi acceleratori di ricerca solo dopo aver ottenuto tutti gli aiuti dell'alleanza. Ottieni punti sia per i minuti di accelerazione consumati che per l'effettivo Potere Tecnologico ottenuto al completamento del nodo di ricerca. Cerca di ottenere la posizione di Segretario alla Scienza nella capitale prima di usare gli acceleratori. Applicali più spesso durante la giornata.
 
 ### 3.2 Distintivi
-- **Consuma 1 Distintivi:** 131 punti
+| Attività | Punti |
+| :--- | :--- |
+| Consuma 1 Distintivi | 131 punti |
 
 *Strategia:* Spendi tutti i distintivi che hai accumulato per finire il Riconoscimento dell'Alleanza, l'Addestramento Eroi, le Truppe d'Elite e molto altro.
 Il Riconoscimento dell'Alleanza serve per ottenere più punti nel Duello dell'Alleanza ed è fondamentale completarlo se si vuole essere ai vertici.
@@ -44,12 +48,16 @@ L'Addestramento Eroi migliora il potere dei tuoi eroi.
 Le Truppe d'Elite e tutti gli altri alberi di ricerca che richiedono distintivi si concentrano sulle truppe.
 
 ### 3.3 Scambi Interurbani
-- **Esegui 1 scambio arancione [Scambi Interurbani]:** 245,8K punti
+| Attività | Punti |
+| :--- | :--- |
+| Esegui 1 scambio arancione [Scambi Interurbani] | 245,8K punti |
 
 *Strategia:* Questo è un enorme generatore di punti. Dai sempre la priorità all'invio di Scambi Interurbani Arancioni in ogni giorno della settimana, specialmente il mercoledì e il sabato.
 
 ### 3.4 Opzioni Premium
-- **Acquista pacchetti contenenti Diamanti [1 Diamante]:** 30 punti
+| Attività | Punti |
+| :--- | :--- |
+| Acquista pacchetti contenenti Diamanti [1 Diamante] | 30 punti |
 
 ---
 

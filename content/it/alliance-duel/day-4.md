@@ -28,25 +28,31 @@ La giusta preparazione è la chiave per vincere giovedì:
 Ecco i modi per guadagnare punti il giovedì:
 
 ### 3.1 Potenziamenti Eroe e Reclutamento
-- **Consuma 1 Frammenti eroe arancioni:** 16,3K punti
-- **Consuma 1 frammenti di eroi viola:** 5,7K punti
-- **Consuma 1 frammenti eroe blu:** 1,6K punti
-- **Effettua 1 Reclutamento superiore:** 2,1K punti
+| Attività | Punti |
+| :--- | :--- |
+| Consuma 1 Frammenti eroe arancioni | 16,3K punti |
+| Consuma 1 frammenti di eroi viola | 5,7K punti |
+| Consuma 1 frammenti eroe blu | 1,6K punti |
+| Effettua 1 Reclutamento superiore | 2,1K punti |
 
 *Strategia:* Questo è il momento in cui spendi i tuoi biglietti Reclutamento Superiore. Utilizzare i biglietti ti darà naturalmente dei frammenti, che poi consumerai per potenziare i tuoi eroi, duplicando i punti guadagnati. Assicurati di controllare la Sala dell'Onore per gli eroi che hanno i loro frammenti unici. Usa prima quelli, poi combinali con i frammenti universali per potenziare i tuoi eroi viola e blu.
 Cerca di portare almeno un eroe Arancione al livello di stella successivo, per usare anche i libri delle abilità su di esso, per ottenere più punti.
 
 ### 3.2 Equipaggiamento e Potenziamenti
-- **Consuma 1 oggetto di equipaggiamento arancione come materiale per la promozione:** 983,4K punti
-- **Spendi 1 Frammenti equipaggiamento esclusivo:** 16,3K punti
-- **Consuma 1 Nuclei di alimentazione:** 1,7K punti
-- **Consuma 10 Leghe di rafforzamento:** 9 punti
-- **Consuma 1 Libro delle abilità Arancione:** 32 punti
+| Attività | Punti |
+| :--- | :--- |
+| Consuma 1 oggetto di equipaggiamento arancione come materiale per la promozione | 983,4K punti |
+| Spendi 1 Frammenti equipaggiamento esclusivo | 16,3K punti |
+| Consuma 1 Nuclei di alimentazione | 1,7K punti |
+| Consuma 10 Leghe di rafforzamento | 9 punti |
+| Consuma 1 Libro delle abilità Arancione | 32 punti |
 
 *Strategia:* Promuovere l'equipaggiamento usando l'Equipaggiamento Arancione come materiale fornisce un'enorme quantità di punti, quasi un milione per ogni utilizzo. Aspetta fino a giovedì per eseguire *tutti* i potenziamenti del tuo equipaggiamento.
 
 ### 3.3 Opzioni Premium
-- **Acquista pacchetti contenenti Diamanti [1 Diamante]:** 30 punti
+| Attività | Punti |
+| :--- | :--- |
+| Acquista pacchetti contenenti Diamanti [1 Diamante] | 30 punti |
 
 ---
 

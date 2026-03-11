@@ -30,34 +30,38 @@ Die richtige Vorbereitung ist der Schlüssel:
 Hier sind die Möglichkeiten, am Montag Punkte zu sammeln:
 
 ### 3.1 Radar und Sammeln
-- **1 Radar-Event abschließen:** 16,3K Punkte
-- **Truppen senden, um 1000 Z-Münzen abzubauen:** 12 Punkte
-- **1000 Holz sammeln:** 4 Punkte
-- **1000 Strom sammeln:** 4 Punkte
-- **1000 Nahrung sammeln:** 4 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 Radar-Event abschließen | 16,3K Punkte |
+| Truppen senden, um 1000 Z-Münzen abzubauen | 12 Punkte |
+| 1000 Holz sammeln | 4 Punkte |
+| 1000 Strom sammeln | 4 Punkte |
+| 1000 Nahrung sammeln | 4 Punkte |
 
 *Strategie:* Warten Sie auf die Rückkehr Ihrer am Sonntag entsendeten Truppen. Zurückgerufene Truppen geben nur Punkte für das, was sie nach dem Reset gesammelt haben! Sammeln Sie den ganzen Tag über ununterbrochen, falls möglich.
 
 ### 3.2 Mod-Fahrzeug & Plugins
-- **1 Modifizierungs-Bauplan verbrauchen:** 85 Punkte, die Verbesserung der Heldin Mia bringt jeden Tag 300 mehr.
-- **1 Goldenen Schraubenschlüssel verbrauchen:** 21,3K Punkte
-- **1 Außenmodul-Zufallstruhe öffnen:**
-  - Lvl.1: 1,6K | Lvl.2: 4,9K | Lvl.3: 14,7K | Lvl.4: 44,2K | Lvl.5: 132,7K | Lvl.6: 398,2K | Lvl.7: 1,1M
-- **1 Taktische Plugin-Truhe öffnen:**
-  - Grün: 9,8K | Blau: 40,9K | Lila: 163,9K | Orange: 819,5K
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 Modifizierungs-Bauplan verbrauchen | 85 Punkte, die Verbesserung der Heldin Mia bringt jeden Tag 300 mehr. |
+| 1 Goldenen Schraubenschlüssel verbrauchen | 21,3K Punkte |
+| 1 Außenmodul-Zufallstruhe öffnen | Lvl.1: 1,6K<br>Lvl.2: 4,9K<br>Lvl.3: 14,7K<br>Lvl.4: 44,2K<br>Lvl.5: 132,7K<br>Lvl.6: 398,2K<br>Lvl.7: 1,1M |
+| 1 Taktische Plugin-Truhe öffnen | Grün: 9,8K<br>Blau: 40,9K<br>Lila: 163,9K<br>Orange: 819,5K |
 
 *Strategie:* Heben Sie Ihre Schraubenschlüssel und Modifizierungs-Baupläne für die **Goldene Stunde** auf, wenn in der Totalen Bewaffnung die Aufgabe "Modifizierungsfahrzeug-Verstärkung" aktiv ist (gewöhnlich um 11 Uhr Lokale Zeit und 23 Uhr Lokale Zeit für Frankreich). Auf diese Weise scort man für beide Events gleichzeitig!
 
 ### 3.3 Zombiejagd (Schneeleoparden & Frostflüche)
-- **1 Zombie töten (Schneeleopard):**
-  - Lvl.1-10: 2,1K | Lvl.11-20: 2,5K | Lvl.21-30: 2,9K | Lvl.31-40: 3,4K | Lvl.41-50: 4,2K | Lvl.51-60: 5,1K 
-- **Starten Sie einen Team-Angriff und töten Sie einen Frostfluch:**
-  - Lvl.1-10: 4,2K | Lvl.11-20: 5,1K | Lvl.21-30: 5,9K | Lvl.31-40: 6,8K | Lvl.41-50: 8,5K | Lvl.51-60: 10,2K
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 Zombie töten (Schneeleopard) | Lvl.1-10: 2,1K<br>Lvl.11-20: 2,5K<br>Lvl.21-30: 2,9K<br>Lvl.31-40: 3,4K<br>Lvl.41-50: 4,2K<br>Lvl.51-60: 5,1K |
+| Starten Sie einen Team-Angriff und töten Sie einen Frostfluch | Lvl.1-10: 4,2K<br>Lvl.11-20: 5,1K<br>Lvl.21-30: 5,9K<br>Lvl.31-40: 6,8K<br>Lvl.41-50: 8,5K<br>Lvl.51-60: 10,2K |
 
 *Strategie:* Frostflüche geben genau doppelt so viele Punkte wie normale Zombies für das gleiche Level! Priorisiere den Beitritt und das Starten von Frostfluch-Rallyes mit deinen Allianzmitgliedern. Verwende deinen gespeicherten Treibstoff.
 
 ### 3.4 Premium
-- **Pakete kaufen, die Diamanten enthalten [1 Diamant]:** 30 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Pakete kaufen, die Diamanten enthalten [1 Diamant] | 30 Punkte |
 
 ---
 

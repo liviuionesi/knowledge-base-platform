@@ -30,34 +30,38 @@ Proper preparation is the key to outscoring your opponents right as the Duel sta
 Here are the ways to earn points on Day 1, based on the in-game tasks:
 
 ### 3.1 Radar and Gathering
-- **Complete 1 radar event:** 16.3K points
-- **Send Troops to Mine 1000 Zents:** 12 points
-- **Gather 1000 Wood:** 4 points
-- **Gather 1000 Electricity:** 4 points
-- **Gather 1000 Food:** 4 points
+| Task | Points |
+| :--- | :--- |
+| Complete 1 radar event | 16.3K points |
+| Send Troops to Mine 1000 Zents | 12 points |
+| Gather 1000 Wood | 4 points |
+| Gather 1000 Electricity | 4 points |
+| Gather 1000 Food | 4 points |
 
 *Strategy:* Wait for your troops that you sent out on Sunday to return. Recalled troops only give points for what they gathered after the reset! Keep on troop gathering all day, if possible.
 
 ### 3.2 Mod Vehicle & Plugins
-- **Consume 1 Modification Blueprint:** 85 points, updating the hero Mia gives 300 more each day.   
-- **Consume 1 Golden Wrench:** 21.3K points
-- **Open 1 Mod Vehicle Exterior Module Chest:**
-  - Level 1: 1.6K | Level 2: 4.9K | Level 3: 14.7K | Level 4: 44.2K | Level 5: 132.7K | Level 6: 398.2K | Level 7: 1.1M
-- **Open 1 Tactical Plugin Chest:**
-  - Green: 9.8K | Blue: 40.9K | Purple: 163.9K | Orange: 819.5K
+| Task | Points |
+| :--- | :--- |
+| Consume 1 Modification Blueprint | 85 points, updating the hero Mia gives 300 more each day. |
+| Consume 1 Golden Wrench | 21.3K points |
+| Open 1 Mod Vehicle Exterior Module Chest | Level 1: 1.6K<br>Level 2: 4.9K<br>Level 3: 14.7K<br>Level 4: 44.2K<br>Level 5: 132.7K<br>Level 6: 398.2K<br>Level 7: 1.1M |
+| Open 1 Tactical Plugin Chest | Green: 9.8K<br>Blue: 40.9K<br>Purple: 163.9K<br>Orange: 819.5K |
 
 *Strategy:* Save your wrenches and Modification Blueprints for the **Golden Hour** when Full Preparedness has the "Mod Vehicle Boost" task (usually at 11 AM local time, and 11 PM local time, for France). This way, you score for both events at the same time!
 
 ### 3.3 Zombie Hunting (Snow Leopards & Frostbanes)
-- **Kill 1 Zombie (Snow Leopard):**
-  - Lv.1-10: 2.1K | Lv.11-20: 2.5K | Lv.21-30: 2.9K | Lv.31-40: 3.4K | Lv.41-50: 4.2K | Lv.51-60: 5.1K 
-- **Start a team-up and kill a Bane Zombie (Frostbane):**
-  - Lv.1-10: 4.2K | Lv.11-20: 5.1K | Lv.21-30: 5.9K | Lv.31-40: 6.8K | Lv.41-50: 8.5K | Lv.51-60: 10.2K
+| Task | Points |
+| :--- | :--- |
+| Kill 1 Zombie (Snow Leopard) | Lv.1-10: 2.1K<br>Lv.11-20: 2.5K<br>Lv.21-30: 2.9K<br>Lv.31-40: 3.4K<br>Lv.41-50: 4.2K<br>Lv.51-60: 5.1K |
+| Start a team-up and kill a Bane Zombie (Frostbane) | Lv.1-10: 4.2K<br>Lv.11-20: 5.1K<br>Lv.21-30: 5.9K<br>Lv.31-40: 6.8K<br>Lv.41-50: 8.5K<br>Lv.51-60: 10.2K |
 
 *Strategy:* Bane Zombies give exactly double the points of normal zombies for the same level! Prioritize joining and starting Bane Zombie rallies with your alliance members. Use your saved fuel.
 
 ### 3.4 Premium Options
-- **Buy packs containing Diamonds [1 Diamond]:** 30 points
+| Task | Points |
+| :--- | :--- |
+| Buy packs containing Diamonds [1 Diamond] | 30 points |
 
 ---
 

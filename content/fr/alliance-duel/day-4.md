@@ -28,25 +28,31 @@ Une bonne préparation est la clé pour gagner le jeudi :
 Voici comment gagner des points le jeudi :
 
 ### 3.1 Améliorations de Héros & Recrutement
-- **Consommer 1 Fragment de Héros Orange :** 16,3K points
-- **Consommer 1 fragment de héros Violet :** 5,7K points
-- **Consommer 1 fragment de héros Bleu :** 1,6K points
-- **Effectuer 1 Recrutement avancé :** 2,1K points
+| Tâche | Points |
+| :--- | :--- |
+| Consommer 1 Fragment de Héros Orange | 16,3K points |
+| Consommer 1 fragment de héros Violet | 5,7K points |
+| Consommer 1 fragment de héros Bleu | 1,6K points |
+| Effectuer 1 Recrutement avancé | 2,1K points |
 
 *Stratégie :* C'est ici que vous dépensez vos tickets de Recrutement avancé. L'utilisation de tickets vous donnera naturellement des fragments, que vous consommerez ensuite pour améliorer vos héros, faisant coup double sur les points. Assurez-vous de vérifier le Hall d'Honneur pour les héros qui ont leurs propres fragments uniques. Utilisez-les d'abord, puis combinez-les avec des fragments universels pour améliorer vos héros violets et bleus.
 Essayez d'obtenir au moins un héros Orange au niveau d'étoile suivant, pour utiliser les manuels de compétences sur lui également, pour plus de points.
 
 ### 3.2 Équipement & Renforcements
-- **Consommer 1 Équipement Orange comme matériau de promotion :** 983,4K points
-- **Dépenser 1 Fragment d'Équipement Exclusif :** 16,3K points
-- **Consommer 1 Cœur d'alimentation :** 1,7K points
-- **Consommer 10 Alliages de renforcement :** 9 points
-- **Consommer 1 Manuel de compétences Orange :** 32 points
+| Tâche | Points |
+| :--- | :--- |
+| Consommer 1 Équipement Orange comme matériau de promotion | 983,4K points |
+| Dépenser 1 Fragment d'Équipement Exclusif | 16,3K points |
+| Consommer 1 Cœur d'alimentation | 1,7K points |
+| Consommer 10 Alliages de renforcement | 9 points |
+| Consommer 1 Manuel de compétences Orange | 32 points |
 
 *Stratégie :* Promouvoir un équipement en utilisant un Équipement Orange comme matériau rapporte la somme absolument massive de près de 1 million de points par utilisation. Attendez le jeudi pour faire *tous* vos renforcements d'équipement.
 
 ### 3.3 Achats en Jeu
-- **Acheter des packs contenant des Diamants [1 Diamant] :** 30 points
+| Tâche | Points |
+| :--- | :--- |
+| Acheter des packs contenant des Diamants [1 Diamant] | 30 points |
 
 ---
 

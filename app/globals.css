@@ -101,6 +101,22 @@ body {
   color: var(--foreground) !important;
 }
 
+/* Ensure tables are readable in both light and dark mode */
+.prose table, 
+.prose th, 
+.prose td, 
+.prose table * {
+  color: var(--foreground) !important;
+  border-color: var(--border) !important;
+}
+
+/* Force override Tailwind typography table defaults which often use a muted slate/zinc */
+article table *,
+.prose tbody td,
+.prose thead th {
+  color: var(--foreground) !important;
+}
+
 /* Inline code blocks - ensure they are readable in all themes */
 :not(pre) > code {
   background-color: rgba(0, 0, 0, 0.05) !important;

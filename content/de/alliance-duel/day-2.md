@@ -30,16 +30,20 @@ Die richtige Vorbereitung ist der Schlüssel:
 Hier sind die Möglichkeiten, am Dienstag Punkte zu sammeln:
 
 ### 3.1 Zuflucht-Upgrades & Bau
-- **Strukturkraft um 10 Punkte erhöhen:** 4 Punkte
-- **Einen 1-Minuten-Bau-Beschleuniger verwenden:** 131 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Strukturkraft um 10 Punkte erhöhen | 4 Punkte |
+| Einen 1-Minuten-Bau-Beschleuniger verwenden | 131 Punkte |
 
 *Strategie:* Warten Sie auf Allianz-Hilfe, bevor Sie *irgendwelche* Beschleuniger verwenden! Sobald Sie die maximale Anzahl an Hilfen haben (oder sich der Frist für die Goldene Stunde nähern), verwenden Sie Ihre Bau-Beschleuniger. Diese Aufgabe belohnt sowohl die durch die Fertigstellung eines Gebäudes gewonnene Kraft als auch die tatsächlichen Minuten der dafür aufgewendeten Beschleuniger.
 Bewerben Sie sich am Dienstag öfter für die Position des Bauministers in der Hauptstadt, um eine schnellere Baugeschwindigkeit zu erreichen.
 
 ### 3.2 Flüchtlingsrekrutierung
-- **1 orangefarbenen Flüchtling rekrutieren:** 131,1K Punkte
-- **1 lila Flüchtling rekrutieren:** 32,7K Punkte
-- **1 blauen Flüchtling rekrutieren:** 6,5K Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 orangefarbenen Flüchtling rekrutieren | 131,1K Punkte |
+| 1 lila Flüchtling rekrutieren | 32,7K Punkte |
+| 1 blauen Flüchtling rekrutieren | 6,5K Punkte |
 
 *Strategie:* Verbrauchen Sie einfach all Ihre gesparten Flüchtlingstickets nur heute! Wir verwenden normalerweise die 500-Ticket-Option, selten verwenden wir die 2000 oder 5000 auf einmal. Die Flüchtlinge, die die meisten Vorteile im Spiel bringen, sind (höchste Wichtigkeit zuerst):
 1. Sturmtruppen-, Schützen- oder Reiter-Ausbilder - diese reduzieren die Ausbildungszeit.
@@ -49,12 +53,16 @@ Bewerben Sie sich am Dienstag öfter für die Position des Bauministers in der H
 5. Der Rest ist weniger wichtig.
 
 ### 3.3 Kopfgeldmissionen
-- **Führen Sie 1 orangefarbene [Kopfgeldmissionen] aus:** 196,6K Punkte x 8
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Führen Sie 1 orangefarbene [Kopfgeldmissionen] aus | 196,6K Punkte x 8 |
 
 *Strategie:* Konzentrieren Sie Ihre Aktualisierungstickets darauf, orangefarbene Kopfgeldmissionen zu erhalten. Wenn Sie eine bekommen, schicken Sie das Team dafür los und verwenden Sie dann wieder Aktualisierungstickets. Oder Diamanten, wenn Ihnen die Tickets ausgehen. Am Samstag muss dies noch einmal gemacht werden.
 
 ### 3.4 Premium
-- **Pakete kaufen, die Diamanten enthalten [1 Diamant]:** 30 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Pakete kaufen, die Diamanten enthalten [1 Diamant] | 30 Punkte |
 
 ---
 

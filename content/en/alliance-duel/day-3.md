@@ -29,13 +29,17 @@ Proper preparation is the key to outscoring your opponents:
 Here are the ways to earn points on Wednesday:
 
 ### 3.1 Age of Science (Research)
-- **Increase Tech Power by 10 Points:** 4 points
-- **Use 1-min Research Speedup:** 98 points
+| Task | Points |
+| :--- | :--- |
+| Increase Tech Power by 10 Points | 4 points |
+| Use 1-min Research Speedup | 98 points |
 
 *Strategy:* Only use your research speedups after you get all the alliance helps. You get points for both the speedup minutes consumed and the actual Tech Power gained upon completing the research node. Try to get the position of Secretary of Science at the capital before using the speedups. Apply more often during the day. 
 
 ### 3.2 Badges
-- **Consume 1 Badges:** 131 points
+| Task | Points |
+| :--- | :--- |
+| Consume 1 Badges | 131 points |
 
 *Strategy:* Spend all the badges you've been saving up to finish the Alliance Recognition, Hero Training, Elite Troops and many more.
 Alliance Recognition is used to gain more points in the Alliance Duel and it is a must to finish it, if you want to be in the top.
@@ -43,12 +47,16 @@ Hero Training is improvinging your Heros power
 Elite Troops and all the other research trees that require badges focus on the troops.  
 
 ### 3.3 Intercity Trades
-- **Do 1 orange [Intercity Trades]:** 245.8K points
+| Task | Points |
+| :--- | :--- |
+| Do 1 orange [Intercity Trades] | 245.8K points |
 
 *Strategy:* This is a massive point drop. Always prioritize sending out Orange Intercity Trades on each day of the week, especially on Wednesday and Saturday.
 
 ### 3.4 Premium Options
-- **Buy packs containing Diamonds [1 Diamond]:** 30 points
+| Task | Points |
+| :--- | :--- |
+| Buy packs containing Diamonds [1 Diamond] | 30 points |
 
 ---
 

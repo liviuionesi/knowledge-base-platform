@@ -30,30 +30,36 @@ La giusta preparazione è la chiave per superare i tuoi avversari:
 Ecco i modi per guadagnare punti il venerdì:
 
 ### 3.1 Addestramento e Promozione delle truppe
-- **Addestra e assembla 1 unità di Liv.10:** 1.0K punti
-- **Addestra e assembla 1 unità di Liv.9:** 983 punti
-- **Addestra e assembla 1 unità di Liv.8:** 898 punti
-- **Addestra e assembla 1 unità di Liv.7:** 787 punti
-- **Addestra e assembla 1 unità di Liv.6:** 684 punti
-- **Addestra e assembla 1 unità di Liv.5:** 598 punti
-- **Addestra e assembla 1 unità di Liv.4:** 496 punti
-- **Addestra e assembla 1 unità de Liv.3:** 393 punti
-- **Addestra e assembla 1 unità di Liv.2:** 299 punti
-- **Addestra e assembla 1 unità di Liv.1:** 196 punti
-- **Promuovere le unità:** + punti corrispondenti
+| Attività | Punti |
+| :--- | :--- |
+| Addestra e assembla 1 unità di Liv.10 | 1.0K punti |
+| Addestra e assembla 1 unità di Liv.9 | 983 punti |
+| Addestra e assembla 1 unità di Liv.8 | 898 punti |
+| Addestra e assembla 1 unità di Liv.7 | 787 punti |
+| Addestra e assembla 1 unità di Liv.6 | 684 punti |
+| Addestra e assembla 1 unità di Liv.5 | 598 punti |
+| Addestra e assembla 1 unità di Liv.4 | 496 punti |
+| Addestra e assembla 1 unità de Liv.3 | 393 punti |
+| Addestra e assembla 1 unità di Liv.2 | 299 punti |
+| Addestra e assembla 1 unità di Liv.1 | 196 punti |
+| Promuovere le unità | + punti corrispondenti |
 
 *Strategia:* Promuovere una pila massiccia di truppe "un livello sotto" è il modo più efficiente per raggiungere i tuoi obiettivi di punteggio. L'uso degli **Acceleratori di addestramento** oggi è altamente raccomandato poiché ogni minuto speso conta per il tuo punteggio.
 
 ### 3.2 Acceleratori e Risorse
-- **Usa un totale di 1 min di acceleratori:** 131 punti
-- **Aumenta il potere della struttura di 10 punti:** 4 punti
-- **Aumenta il potere tecnologico di 10 punti:** 4 punti
-- **Acquista pacchetti contenenti Diamanti [1 Diamante]:** 30 punti
+| Attività | Punti |
+| :--- | :--- |
+| Usa un totale di 1 min di acceleratori | 131 punti |
+| Aumenta il potere della struttura di 10 punti | 4 punti |
+| Aumenta il potere tecnologico di 10 punti | 4 punti |
+| Acquista pacchetti contenenti Diamanti [1 Diamante] | 30 punti |
 
 *Strategia:* Il venerdì è il giorno migliore per usare tutti gli **Acceleratori Universali** accumulati. Che tu stia costruendo, ricercando o addestrando, l'uso dell'acceleratore in sé è una fonte principale di punti.
 
 ### 3.3 Eventi Radar
-- **Completa 1 evento radar:** 16,3K punti
+| Attività | Punti |
+| :--- | :--- |
+| Completa 1 evento radar | 16,3K punti |
 
 *Strategia:* Semplicemente svuota il tuo radar durante il giorno. Se hai l'eroe **Laura** potenziato, quei 20 eventi extra forniranno una spinta significativa senza consumare risorse.
 

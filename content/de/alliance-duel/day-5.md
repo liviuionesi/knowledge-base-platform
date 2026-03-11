@@ -30,30 +30,36 @@ Die richtige Vorbereitung ist der Schlüssel, um Ihre Gegner zu übertreffen:
 Hier sind die Möglichkeiten, am Freitag Punkte zu sammeln:
 
 ### 3.1 Truppenausbildung & -beförderung
-- **1 Einheit der Stufe 10 ausbilden und sammeln:** 1.0K Punkte
-- **1 Einheit der Stufe 9 ausbilden und sammeln:** 983 Punkte
-- **1 Einheit der Stufe 8 ausbilden und sammeln:** 898 Punkte
-- **1 Einheit der Stufe 7 ausbilden und sammeln:** 787 Punkte
-- **1 Einheit der Stufe 6 ausbilden und sammeln:** 684 Punkte
-- **1 Einheit der Stufe 5 ausbilden und sammeln:** 598 Punkte
-- **1 Einheit der Stufe 4 ausbilden und sammeln:** 496 Punkte
-- **1 Einheit der Stufe 3 ausbilden und sammeln:** 393 Punkte
-- **1 Einheit der Stufe 2 ausbilden und sammeln:** 299 Punkte
-- **1 Einheit der Stufe 1 ausbilden und sammeln:** 196 Punkte
-- **Einheiten befördern:** + entsprechende Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 Einheit der Stufe 10 ausbilden und sammeln | 1.0K Punkte |
+| 1 Einheit der Stufe 9 ausbilden und sammeln | 983 Punkte |
+| 1 Einheit der Stufe 8 ausbilden und sammeln | 898 Punkte |
+| 1 Einheit der Stufe 7 ausbilden und sammeln | 787 Punkte |
+| 1 Einheit der Stufe 6 ausbilden und sammeln | 684 Punkte |
+| 1 Einheit der Stufe 5 ausbilden und sammeln | 598 Punkte |
+| 1 Einheit der Stufe 4 ausbilden und sammeln | 496 Punkte |
+| 1 Einheit der Stufe 3 ausbilden und sammeln | 393 Punkte |
+| 1 Einheit der Stufe 2 ausbilden und sammeln | 299 Punkte |
+| 1 Einheit der Stufe 1 ausbilden und sammeln | 196 Punkte |
+| Einheiten befördern | + entsprechende Punkte |
 
 *Strategie:* Die Beförderung eines massiven Stapels von „Eins-drunter“-Truppen ist der effizienteste Weg, um Ihre Punkteziele zu erreichen. Die Verwendung von **Trainingsbeschleunigern** am heutigen Tag wird dringend empfohlen, da jede verbrauchte Minute für Ihre Punktzahl zählt.
 
 ### 3.2 Beschleuniger & Ressourcen
-- **Insgesamt 1 Minute Beschleuniger verwenden:** 131 Punkte
-- **Strukturkraft um 10 Punkte erhöhen:** 4 Punkte
-- **Tech-Kraft um 10 Punkte erhöhen:** 4 Punkte
-- **Pakete kaufen, die Diamanten enthalten [1 Diamant]:** 30 Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| Insgesamt 1 Minute Beschleuniger verwenden | 131 Punkte |
+| Strukturkraft um 10 Punkte erhöhen | 4 Punkte |
+| Tech-Kraft um 10 Punkte erhöhen | 4 Punkte |
+| Pakete kaufen, die Diamanten enthalten [1 Diamant] | 30 Punkte |
 
 *Strategie:* Freitag ist der beste Tag, um alle gebunkerten **Universalbeschleuniger** zu verwenden. Egal, ob Sie bauen, forschen oder trainieren, der Einsatz von Beschleunigern an sich ist eine wichtige Punktequelle.
 
 ### 3.3 Radar-Events
-- **1 Radar-Event abschließen:** 16,3K Punkte
+| Aufgabe | Punkte |
+| :--- | :--- |
+| 1 Radar-Event abschließen | 16,3K Punkte |
 
 *Strategie:* Räumen Sie einfach den ganzen Tag über Ihr Radar leer. Wenn Sie die Heldin **Laura** verbessert haben, sorgen diese 20 zusätzlichen Events für einen signifikanten Schub, ohne Ressourcen zu verbrauchen.
 
