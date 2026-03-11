@@ -9,11 +9,13 @@ Dies ist die offizielle Website der **Phenix Allianz** im Spiel **Last Z: Surviv
 
 ## Was ist diese Website?
 
-Diese Website enthält **umfassende Anleitungen**, **Strategien** und Informationen, die neuen und alten Mitgliedern helfen, im Spiel besser zu werden, die **Allianzziele** zu erreichen und vor allem, **unsere Regeln zu respektieren**.
+Diese Website enthält **Anleitungen**, **Strategien** und Informationen, die neuen und alten Mitgliedern helfen, im Spiel besser zu werden, die **Allianzziele** zu erreichen und vor allem, **unsere Regeln zu respektieren**.
 
-### Öffentliche Schnelleinsprung-Links
+### Anleitungen
 - [Helden aufwerten](/de/docs/heroes/upgrading-heroes)
 - [Totale Bewaffnung](/de/docs/full-preparedness)
+
+### Allianz-Duell Strategien
 Greifen Sie ohne Anmeldung auf unsere täglichen Allianz-Duell-Strategien zu:
 - [Tag 1: Montag](/de/docs/alliance-duel/day-1)
 - [Tag 2: Dienstag](/de/docs/alliance-duel/day-2)

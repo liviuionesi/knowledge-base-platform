@@ -9,11 +9,13 @@ Ceci est le site officiel de l'**Alliance Phenix** dans le jeu **Last Z: Surviva
 
 ## Qu'est-ce que ce site web ?
 
-Ce site web contient des **guides complets**, des **stratégies** et des informations pour aider les nouveaux comme les anciens membres à mieux jouer, atteindre les **objectifs de l'alliance** et, le plus important, **respecter nos règles**.
+Ce site web contient des **guides**, des **stratégies** et des informations pour aider les nouveaux comme les anciens membres à mieux jouer, atteindre les **objectifs de l'alliance** et, le plus important, **respecter nos règles**.
 
-### Liens Rapides Publics
+### Guides
 - [Amélioration des Héros](/fr/docs/heroes/upgrading-heroes)
 - [Armements globaux](/fr/docs/full-preparedness)
+
+### Stratégies du Duel d'Alliance
 Accédez à nos stratégies quotidiennes du Duel d'Alliance sans vous connecter :
 - [Jour 1 : Lundi](/fr/docs/alliance-duel/day-1)
 - [Jour 2 : Mardi](/fr/docs/alliance-duel/day-2)

@@ -9,11 +9,13 @@ Questo è il sito ufficiale della **Phenix Alliance** nel gioco **Last Z: Surviv
 
 ## Cos'è questo sito?
 
-Questo sito contiene **guide complete**, **strategie** e informazioni per aiutare i membri nuovi e vecchi a giocare meglio, raggiungere gli **obiettivi dell'alleanza** e, cosa più importante, **rispettare le nostre regole**.
+Questo sito contiene **guide**, **strategie** e informazioni per aiutare i membri nuovi e vecchi a giocare meglio, raggiungere gli **obiettivi dell'alleanza** e, cosa più importante, **rispettare le nostre regole**.
 
-### Link Rapidi Pubblici
+### Guide
 - [Potenziamento Eroi](/it/docs/heroes/upgrading-heroes)
 - [Preparazione alla Guerra](/it/docs/full-preparedness)
+
+### Strategie del Duello dell'Alleanza
 Accedi alle nostre strategie giornaliere per il Duello dell'Alleanza senza effettuare l'accesso:
 - [Giorno 1: Lunedì](/it/docs/alliance-duel/day-1)
 - [Giorno 2: Martedì](/it/docs/alliance-duel/day-2)
