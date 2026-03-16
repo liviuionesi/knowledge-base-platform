@@ -2,7 +2,6 @@
 title: Willkommen
 description: Willkommen bei der Phenix Allianz!
 ---
-
 ![Phenix Allianz Vogel](/login/phenix-flying.png)
 # Willkommen bei der <span className="text-orange">Phenix Allianz!</span>
 Dies ist die offizielle Website der **Phenix Allianz** im Spiel **Last Z: Survival Shooter**.

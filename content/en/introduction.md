@@ -2,7 +2,6 @@
 title: Welcome
 description: Welcome to the Phenix Alliance!
 ---
-
 ![Phenix Alliance Bird](/login/phenix-flying.png)
 # Welcome to <span className="text-orange">Phenix Alliance!</span>
 This is to the official website of the **Phenix Alliance** in the game **Last Z: Survival Shooter**.

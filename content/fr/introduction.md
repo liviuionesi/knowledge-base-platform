@@ -2,7 +2,6 @@
 title: Bienvenue
 description: Bienvenue sur l'Alliance Phenix !
 ---
-
 ![Oiseau de l'Alliance Phenix](/login/phenix-flying.png)
 # Bienvenue sur <span className="text-orange">l'Alliance Phenix !</span>
 Ceci est le site officiel de l'**Alliance Phenix** dans le jeu **Last Z: Survival Shooter**.
