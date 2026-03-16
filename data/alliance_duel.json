@@ -1,5 +1,607 @@
 [
   {
+    "id": "2026-03-15",
+    "weekDate": "2026-03-15",
+    "r2Threshold": 6000000,
+    "r3Threshold": 12000000,
+    "results": [
+      {
+        "rank": 1,
+        "name": "ivoryjah30",
+        "score": 140589593,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 2,
+        "name": "Midon92",
+        "score": 76739352,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 3,
+        "name": "Artink",
+        "score": 73351107,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 4,
+        "name": "lucky luca",
+        "score": 70611084,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 5,
+        "name": "MF Power R",
+        "score": 62645456,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 6,
+        "name": "-IronMaiden-",
+        "score": 58432422,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 7,
+        "name": "kanoyt",
+        "score": 57902527,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 8,
+        "name": "Imenerve",
+        "score": 56378424,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 9,
+        "name": "Mazey01",
+        "score": 47617771,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 10,
+        "name": "Zoo Keeper",
+        "score": 44713802,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 11,
+        "name": "MOREN0",
+        "score": 38754430,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 12,
+        "name": "Bududuste",
+        "score": 37464233,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 13,
+        "name": "Fl0rian",
+        "score": 37159189,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 14,
+        "name": "-Artista-",
+        "score": 34994287,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 15,
+        "name": "Faben",
+        "score": 33446904,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 16,
+        "name": "Jongina08",
+        "score": 32362108,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 17,
+        "name": "zoubida",
+        "score": 27972821,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 18,
+        "name": "Dr Mick",
+        "score": 26819093,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 19,
+        "name": "emperor cesar",
+        "score": 26790752,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 20,
+        "name": "RealFacts",
+        "score": 24066437,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 21,
+        "name": "Danomite130817",
+        "score": 22941152,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 22,
+        "name": "Pierrō",
+        "score": 21672720,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 23,
+        "name": "XxShardanaxX",
+        "score": 21564259,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 24,
+        "name": "J3ss2",
+        "score": 21233095,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 25,
+        "name": "Pipelette",
+        "score": 20826137,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 26,
+        "name": "Thor66",
+        "score": 20226290,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 27,
+        "name": "Trap House",
+        "score": 20212953,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 28,
+        "name": "Burzhil",
+        "score": 20090570,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 29,
+        "name": "Neug",
+        "score": 19763616,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 30,
+        "name": "Javinchi",
+        "score": 19279801,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 31,
+        "name": "Matrixsam",
+        "score": 19061964,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 32,
+        "name": "jerem85100",
+        "score": 18357520,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 33,
+        "name": "ZOMBIE01",
+        "score": 18149692,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 34,
+        "name": "weesor",
+        "score": 18044077,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 35,
+        "name": "Soker30z",
+        "score": 17367056,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 36,
+        "name": "Dime2424",
+        "score": 16818073,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 37,
+        "name": "Xenima",
+        "score": 16544155,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 38,
+        "name": "Robyfull",
+        "score": 13892257,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 39,
+        "name": "Mrkillz305",
+        "score": 13303786,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 40,
+        "name": "alexam",
+        "score": 12732973,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 41,
+        "name": "Austin845",
+        "score": 12688682,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 42,
+        "name": "JZ169",
+        "score": 11837523,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 43,
+        "name": "Gladiator AD",
+        "score": 11675187,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 44,
+        "name": "AMK25543",
+        "score": 11626589,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 45,
+        "name": "Gnadlos",
+        "score": 11535453,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 46,
+        "name": "zapped",
+        "score": 11328098,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 47,
+        "name": "bahum",
+        "score": 11145515,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 48,
+        "name": "Jed22",
+        "score": 10771662,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 49,
+        "name": "Nico1217",
+        "score": 10246175,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 50,
+        "name": "Sven141281",
+        "score": 10187343,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 51,
+        "name": "Hooverj1",
+        "score": 10180155,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 52,
+        "name": "chapi039",
+        "score": 10155065,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 53,
+        "name": "MillerHighLife",
+        "score": 9663652,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 54,
+        "name": "olaf le bon",
+        "score": 9617422,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 55,
+        "name": "DreddedSilence",
+        "score": 9220876,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 56,
+        "name": "aqaaqq",
+        "score": 8835896,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 57,
+        "name": "TattooGuy86",
+        "score": 8500391,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 58,
+        "name": "StandDefiant",
+        "score": 8302846,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 59,
+        "name": "MoonShroom",
+        "score": 7902730,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 60,
+        "name": "Nethzel",
+        "score": 7797208,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 61,
+        "name": "Mattia ita",
+        "score": 7640967,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 62,
+        "name": "5150PsychDoc",
+        "score": 6785657,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 63,
+        "name": "KnightOfFlowers",
+        "score": 6427150,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 64,
+        "name": "GENSIN KHAN",
+        "score": 6419386,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 65,
+        "name": "maryo88",
+        "score": 6268266,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 66,
+        "name": "Polly Pocket 77",
+        "score": 5989636,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 67,
+        "name": "Avery150",
+        "score": 5947305,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 68,
+        "name": "salemajstor",
+        "score": 5908582,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 69,
+        "name": "DCTown",
+        "score": 5678150,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 70,
+        "name": "PFC657",
+        "score": 5669211,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 71,
+        "name": "Guerrier Noir",
+        "score": 4879441,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 72,
+        "name": "obydark",
+        "score": 4810005,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 73,
+        "name": "Gustavgraupe",
+        "score": 4406159,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 74,
+        "name": "MBDragonFarm",
+        "score": 4242134,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 75,
+        "name": "sohak13",
+        "score": 3924034,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 76,
+        "name": "KojJack 2",
+        "score": 3837023,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 77,
+        "name": "XXDANI90XX",
+        "score": 3358617,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 78,
+        "name": "Ghigomagy",
+        "score": 3316032,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 79,
+        "name": "Delo1976",
+        "score": 3314802,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 80,
+        "name": "zman79284",
+        "score": 3132717,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 81,
+        "name": "Toniom",
+        "score": 2944292,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 82,
+        "name": "The6ix",
+        "score": 2852102,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 83,
+        "name": "bxjuli",
+        "score": 2776123,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 84,
+        "name": "venturaBL",
+        "score": 2663666,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 85,
+        "name": "MBDragonFarm2",
+        "score": 2654614,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 86,
+        "name": "Aimeeooops",
+        "score": 2421826,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 87,
+        "name": "NiZaicko",
+        "score": 2402214,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 88,
+        "name": "MeAt-AxE",
+        "score": 2104953,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 89,
+        "name": "ChickenDarkman",
+        "score": 1840302,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 90,
+        "name": "Jodorowska",
+        "score": 1734701,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 91,
+        "name": "Queenbrat",
+        "score": 1661127,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 92,
+        "name": "WHITE x BLACK",
+        "score": 1583934,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 93,
+        "name": "JAN7s",
+        "score": 1509807,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 94,
+        "name": "Insensatito05",
+        "score": 654824,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 95,
+        "name": "virani",
+        "score": 559123,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 96,
+        "name": "Woody 2",
+        "score": 352500,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 97,
+        "name": "N0ne Widow farm",
+        "score": 288222,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 98,
+        "name": "aaudrey2",
+        "score": 225916,
+        "alliance": "phenix"
+      },
+      {
+        "rank": 99,
+        "name": "Black Widow 2",
+        "score": 0,
+        "alliance": "phenix"
+      }
+    ]
+  },
+  {
     "id": "2026-03-08",
     "weekDate": "2026-03-08",
     "r2Threshold": 6000000,
