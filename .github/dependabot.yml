@@ -7,7 +7,7 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "09:00"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
     target-branch: "develop"
     labels:
       - "dependencies"
@@ -27,12 +27,16 @@ updates:
           - "tailwindcss"
           - "postcss"
           - "autoprefixer"
+      routine:
+        update-types:
+          - "minor"
+          - "patch"
 
   # Maintain GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
       day: "monday"
       time: "09:00"
     open-pull-requests-limit: 5
@@ -43,3 +47,8 @@ updates:
       - "automated"
     commit-message:
       prefix: "chore(ci)"
+    groups:
+      routine:
+        update-types:
+          - "minor"
+          - "patch"
